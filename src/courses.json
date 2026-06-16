@@ -1,0 +1,197 @@
+{
+    "APPH 1040": {
+        "name": "Scientific Foundations of Health",
+        "prereqs": [],
+        "coreqs": []
+    },
+    "CS 1371": {
+        "name": "Computing for Engineers",
+        "prereqs": [],
+        "coreqs": []
+    },
+    "MATH 1552": {
+        "name": "Integral Calculus",
+        "prereqs": ["MATH 1551"],
+        "coreqs": []
+    },
+    "HIST 2111": {
+        "name": "The United States to 1877",
+        "prereqs": [],
+        "coreqs": []
+    },
+    "HUM": {
+        "name": "Humanities Electives",
+        "prereqs": [],
+        "coreqs": []
+    },
+    "ENGL 1101": {
+        "name": "English Composition I",
+        "prereqs": [],
+        "coreqs": []
+    },
+    "ENGL 1102": {
+        "name": "English Composition II",
+        "prereqs": ["ENGL 1101"],
+        "coreqs": []
+    },
+    "PHYS 2211": {
+        "name": "Principles of Physics I",
+        "prereqs": ["MATH 1552"],
+        "coreqs": []
+    },
+    "PHYS 2212": {
+        "name": "Principles of Physics II",
+        "prereqs": ["PHYS 2211"],
+        "coreqs": []
+    },
+    "MATH 1551": {
+        "name": "Differential Calculus",
+        "prereqs": [],
+        "coreqs": []
+    },
+    "MATH 1553": {
+        "name": "Introduction to Linear Algebra",
+        "prereqs": [],
+        "coreqs": []
+    },
+    "SS": {
+        "name": "Social Studies Elective",
+        "prereqs": [],
+        "coreqs": []
+    },
+    "MATH 2551": {
+        "name": "Multivariable Calculus",
+        "prereqs": ["MATH 1552", "MATH 1553"],
+        "coreqs": []
+    },
+    "MATH 2552": {
+        "name": "Differential Equations",
+        "prereqs": ["MATH 1552", "MATH 1553"],
+        "coreqs": []
+    },
+    "MSE 2001": {
+        "name": "Principles and Applications of Engineering Materials",
+        "prereqs": ["CHEM 1310"],
+        "coreqs": []
+    },
+    "CHEM 1310": {
+        "name": "Principles of General Chemistry for Engineers",
+        "prereqs": [],
+        "coreqs": []
+    },
+    "AE 1601": {
+        "name": "Introduction to Aerospace Engineering",
+        "prereqs": ["MATH 1551"],
+        "coreqs": []
+    },
+    "COE 2001": {
+        "name": "Statics",
+        "prereqs": ["MATH 1552", "PHYS 2211"],
+        "coreqs": []
+    },
+    "AE 2010": {
+        "name": "Thermodynamics & Fluids Fundamentals",
+        "prereqs": ["MATH 2551", "PHYS 2211", "CHEM 1310"],
+        "coreqs": []
+    },
+    "AE 2220": {
+        "name": "Dynamics",
+        "prereqs": ["COE 2001", "MATH 2552"],
+        "coreqs": []
+    },
+    "COE 3001": {
+        "name": "Mechanics of Deformable Bodies",
+        "prereqs": ["MATH 2552", "COE 2001"],
+        "coreqs": []
+    },
+    "AE 2610": {
+        "name": "Introduction to Experimental Methods in Aerospace",
+        "prereqs": [],
+        "coreqs": ["AE 2611"]
+    },
+    "AE 2611": {
+        "name": "Technical Communications for Aerospace Engineers",
+        "prereqs": [],
+        "coreqs": ["AE 2610"]
+    },
+    "AE 3330": {
+        "name": "Introduction to Aerospace Vehicle Performance",
+        "prereqs": ["MATH 2552", "AE 3030"],
+        "coreqs": []
+    },
+    "AE 3030": {
+        "name": "Aerodynamics",
+        "prereqs": ["AE 2010"],
+        "coreqs": []
+    },
+    "AE 3140": {
+        "name": "Structural Analysis",
+        "prereqs": ["COE 3001"],
+        "coreqs": []
+    },
+    "AE 3530": {
+        "name": "System Dynamics and Vibration",
+        "prereqs": ["AE 2220", "MATH 2552"],
+        "coreqs": []
+    },
+    "AE 3531": {
+        "name": "Control System Analysis and Design",
+        "prereqs": ["AE 3530"],
+        "coreqs": []
+    },
+    "AE 3610": {
+        "name": "Experiments in Fluid and Solid Mechanics",
+        "prereqs": ["AE 2610", "AE 2010"],
+        "coreqs": []
+    },
+    "AE 4311": {
+        "name": "Aircraft Design I: Conceptual Design",
+        "prereqs": ["AE 3330"],
+        "coreqs": []
+    },
+    "AE 4312": {
+        "name": "Aircraft Design II: Preliminary Design",
+        "prereqs": ["AE 4311"],
+        "coreqs": []
+    },
+    "AE 4531": {
+        "name": "Aircraft Flight Dynamics",
+        "prereqs": ["AE 3030", "AE 3531"],
+        "coreqs": []
+    },
+    "AE 4451": {
+        "name": "Jet and Rocket Propulsion",
+        "prereqs": ["AE 2010"],
+        "coreqs": []
+    },
+    "AE 4610": {
+        "name": "Dynamics and Control Laboratory",
+        "prereqs": ["AE 2610", "AE 2010", "AE 3531"],
+        "coreqs": []
+    },
+    "ME 1670": {
+        "name": "Introduction to Engineering Graphics and Design",
+        "prereqs": [],
+        "coreqs": []
+    },
+    "ECE 3710": {
+        "name": "Circuits and Electronics",
+        "prereqs": ["PHYS 2212"],
+        "coreqs": []
+    },
+    "ECE 3741": {
+        "name": "Instrumentation and Electronics Lab",
+        "prereqs": ["ECE 3710"],
+        "coreqs": []
+    },
+    "MATH": {
+        "name": "Math Option",
+        "prereqs": [],
+        "coreqs": []
+    },
+    "ELECTIVE": {
+        "name": "Free Electives",
+        "prereqs": [],
+        "coreqs": []
+    }
+}
