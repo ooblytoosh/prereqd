@@ -3,8 +3,21 @@ import {useState} from 'react';
 import './App.css';
 
 function takeCourse(takenCourses, setTakenCourses, courseId) {
-    setTakenCourses(new Set([...takenCourses, courseId]));
-  }
+  setTakenCourses(new Set([...takenCourses, courseId]));
+}
+
+function CourseCard({courseId, status, onClick}) {
+  const course = COURSES[courseId];
+
+  return (
+    <div className={`course-card ${status}`} onClick={onClick}>
+      <p id='courseId'>{courseId}</p>
+      <p id='courseTitle'>{course.name}</p>
+      <p id='status'>Status: {status}</p>
+      <p id='prereqs'>Prereqs: {course.prereqs.length > 0 ? course.prereqs.join(', ') : "None"}</p>
+    </div>
+  )
+}
 
 function App() {
   const [takenCourses, setTakenCourses] = useState(new Set());
@@ -23,25 +36,27 @@ function App() {
     }
   }
 
-  const takenList = [...takenCourses].map(courseId => <li key={courseId}>{courseId}</li>);
-  const availableList = availableCourses.map(courseId => <li key={courseId} onClick={() => takeCourse(takenCourses, setTakenCourses, courseId)}>{courseId}</li>);
-  const lockedList = lockedCourses.map(courseId => <li key={courseId}>{courseId}</li>);
-
   return (
     <div>
-      <h1>Degree Tree</h1>
+      <h1>prereqd</h1>
       <div className="lists">
-        <div>
+        <div className="taken">
           <h2>Taken</h2>
-          <ul>{takenList}</ul>
+          {[...takenCourses].map(courseId => 
+            <CourseCard courseId={courseId} status='taken' />
+          )}
         </div>
         <div>
           <h2>Available</h2>
-          <ul>{availableList}</ul>
+          {[...availableCourses].map(courseId => 
+            <CourseCard courseId={courseId} status='available' onClick={() => takeCourse(takenCourses, setTakenCourses, courseId)}/>
+          )}
         </div>
         <div>
           <h2>Locked</h2>
-          <ul>{lockedList}</ul>
+          {[...lockedCourses].map(courseId => 
+            <CourseCard courseId={courseId} status='locked' />
+          )}
         </div>
       </div>
     </div>
