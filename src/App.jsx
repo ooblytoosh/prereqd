@@ -1,8 +1,10 @@
 import COURSES from './COURSES.json';
+import { useCourseTracker } from './useCourseTracker';
 import {useEffect, useState} from 'react';
 import './App.css';
 
-function CourseCard({courseId, status, onClick}) {
+//course card component
+function CourseCard({courseId, status, onClick}) { 
   const course = COURSES[courseId];
 
   return (
@@ -15,10 +17,11 @@ function CourseCard({courseId, status, onClick}) {
   )
 }
 
+//course column component
 function CourseColumn({title, count, courses, status, onCardClick}) {
   return (
     <div>
-      <h2>Count: {count}</h2>
+      <h2>{title}: {count}</h2>
       {courses.map(courseId => {
         return <CourseCard 
           key={courseId}
@@ -31,75 +34,29 @@ function CourseColumn({title, count, courses, status, onCardClick}) {
   )
 }
 
+//main app function
 function App() {
-  const [takenCourses, setTakenCourses] = useState(() => {
-    const saved = localStorage.getItem('takenCourses');
-    return saved ? new Set(JSON.parse(saved)) : new Set();
-  });
- 
-  useEffect(() => {
-    localStorage.setItem('takenCourses', JSON.stringify([...takenCourses]));
-  }, [takenCourses])
 
-  const availableCourses = [];
-  const lockedCourses = [];
-
-  for (const courseId of Object.keys(COURSES)) {
-    if (takenCourses.has(courseId)) {
-      continue
-    }
-
-    if (COURSES[courseId].prereqs.every(prereq => takenCourses.has(prereq))) {
-      availableCourses.push(courseId);
-    } else {
-      lockedCourses.push(courseId);
-    }
-  }
-
-  const handleAddCourse = (courseId) => {
-    const next = new Set(takenCourses);
-    next.add(courseId);
-    setTakenCourses(next);
-  }
-
-  const handleRemoveCourse = (courseId) => {
-    const next = new Set(takenCourses);
-    const queue = [courseId];
-
-    while (queue.length > 0) {
-      const current = queue.shift();
-
-      if (next.has(current)) {
-        next.delete(current);
-      }
-
-      Object.keys(COURSES).forEach(id => {
-        if (COURSES[id].prereqs.includes(current)) {
-          queue.push(id);
-        }
-      })
-    }
-
-    setTakenCourses(next);
-  }
+  const {takenCourses, availableCourses, lockedCourses, addCourse, removeCourse} = useCourseTracker();
 
   return (
     <div>
       <h1>prereqd</h1>
+      <h1>Major: Aerospace Engineering</h1>
       <div className="lists">
         <CourseColumn 
           title="Taken"
           count={takenCourses.size}
           courses={[...takenCourses]}
           status="taken"
-          onCardClick={handleRemoveCourse}
+          onCardClick={removeCourse}
         />
         <CourseColumn 
           title="Available"
           count={availableCourses.length}
           courses={availableCourses}
           status="available"
-          onCardClick={handleAddCourse}
+          onCardClick={addCourse}
         />
         <CourseColumn 
           title="Locked"
