@@ -15,6 +15,22 @@ function CourseCard({courseId, status, onClick}) {
   )
 }
 
+function CourseColumn({title, count, courses, status, onCardClick}) {
+  return (
+    <div>
+      <h2>Count: {count}</h2>
+      {courses.map(courseId => {
+        return <CourseCard 
+          key={courseId}
+          courseId={courseId}
+          status={status}
+          onClick={() => onCardClick(courseId)}
+        />;
+      })}
+    </div>
+  )
+}
+
 function App() {
   const [takenCourses, setTakenCourses] = useState(() => {
     const saved = localStorage.getItem('takenCourses');
@@ -40,7 +56,13 @@ function App() {
     }
   }
 
-  const handleRemoveCourse = courseId => {
+  const handleAddCourse = (courseId) => {
+    const next = new Set(takenCourses);
+    next.add(courseId);
+    setTakenCourses(next);
+  }
+
+  const handleRemoveCourse = (courseId) => {
     const next = new Set(takenCourses);
     const queue = [courseId];
 
@@ -65,24 +87,26 @@ function App() {
     <div>
       <h1>prereqd</h1>
       <div className="lists">
-        <div className="taken">
-          <h2>Taken: {takenCourses.size}</h2>
-          {[...takenCourses].map(courseId => 
-            <CourseCard key={courseId} courseId={courseId} status='taken' onClick={() => handleRemoveCourse(courseId)}/>
-          )}
-        </div>
-        <div>
-          <h2>Available: {availableCourses.length}</h2>
-          {[...availableCourses].map(courseId => 
-            <CourseCard key={courseId} courseId={courseId} status='available' onClick={() => setTakenCourses(new Set([...takenCourses, courseId]))}/>
-          )}
-        </div>
-        <div>
-          <h2>Locked: {lockedCourses.length}</h2>
-          {[...lockedCourses].map(courseId => 
-            <CourseCard key={courseId} courseId={courseId} status='locked' />
-          )}
-        </div>
+        <CourseColumn 
+          title="Taken"
+          count={takenCourses.size}
+          courses={[...takenCourses]}
+          status="taken"
+          onCardClick={handleRemoveCourse}
+        />
+        <CourseColumn 
+          title="Available"
+          count={availableCourses.length}
+          courses={availableCourses}
+          status="available"
+          onCardClick={handleAddCourse}
+        />
+        <CourseColumn 
+          title="Locked"
+          count={lockedCourses.length}
+          courses={lockedCourses}
+          status="locked"
+        />
       </div>
     </div>
   )
