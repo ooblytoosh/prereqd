@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import COURSES from './COURSES.json';
+import COURSES from './courses.json';
 
 export function useCourseTracker() {
   const [takenCourses, setTakenCourses] = useState(() => {
