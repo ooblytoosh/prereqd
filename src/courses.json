@@ -22,8 +22,6 @@
     "name": "Introduction to AE",
     "prereqs": {
       "or": [
-        "MATH 1501",
-        "MATH 1511",
         "MATH 1551"
       ]
     },
@@ -35,10 +33,9 @@
       "and": [
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         {
@@ -73,10 +70,9 @@
         "COE 2001",
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         }
       ]
@@ -103,14 +99,10 @@
           "null": []
         },
         {
-          "and": [
-            "MATH 2403"
-          ]
+          "null": []
         },
         {
-          "and": [
-            "MATH 2413"
-          ]
+          "null": []
         },
         {
           "null": []
@@ -137,10 +129,9 @@
         },
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         "COE 2001"
@@ -197,10 +188,9 @@
       "and": [
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         },
         "AE 3030"
@@ -220,10 +210,9 @@
         "AE 2220",
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         }
       ]
@@ -253,9 +242,7 @@
   "AE 4040": {
     "name": "Computational Fluid Dyn",
     "prereqs": {
-      "and": [
-        "AE 3021"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -272,9 +259,7 @@
   "AE 4080": {
     "name": "Aerothermodynamics",
     "prereqs": {
-      "and": [
-        "AE 3021"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -290,10 +275,7 @@
   "AE 4220": {
     "name": "Aeroelasticity",
     "prereqs": {
-      "and": [
-        "AE 3125",
-        "AE 3515"
-      ]
+      "and": []
     },
     "coreqs": []
   },
@@ -361,8 +343,7 @@
     "name": "Aircraft Design",
     "prereqs": {
       "and": [
-        "AE 3330",
-        "AE 3340"
+        "AE 3330"
       ]
     },
     "coreqs": []
@@ -371,8 +352,7 @@
     "name": "Space System Design",
     "prereqs": {
       "and": [
-        "AE 3330",
-        "AE 3340"
+        "AE 3330"
       ]
     },
     "coreqs": []
@@ -381,8 +361,7 @@
     "name": "Rotorcraft Design",
     "prereqs": {
       "and": [
-        "AE 3330",
-        "AE 3340"
+        "AE 3330"
       ]
     },
     "coreqs": []
@@ -410,7 +389,6 @@
     "name": "Jet & Rocket Propulsion",
     "prereqs": {
       "or": [
-        "AE 3450",
         "AE 2010"
       ]
     },
@@ -428,9 +406,7 @@
   "AE 4461": {
     "name": "Intro to Combustion",
     "prereqs": {
-      "and": [
-        "AE 3450"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -457,9 +433,7 @@
   "AE 4552": {
     "name": "Intro Humans & Autonomy",
     "prereqs": {
-      "and": [
-        "AE 3515"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -467,7 +441,6 @@
     "name": "Avionics Integration",
     "prereqs": {
       "and": [
-        "AE 3521",
         "ECE 3710"
       ]
     },
@@ -500,10 +473,9 @@
       "and": [
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         "PHYS 2211"
@@ -520,10 +492,9 @@
     "name": "Acoustics& Noise Control",
     "prereqs": {
       "or": [
-        "MATH 2403",
-        "MATH 2413",
         "MATH 2552",
-        "MATH 2562"
+        "MATH 2562",
+        "MATH 2X52"
       ]
     },
     "coreqs": []
@@ -1017,8 +988,7 @@
     "name": "Building Simulation",
     "prereqs": {
       "and": [
-        "ARCH 3231",
-        "ARCH 4226"
+        "ARCH 3231"
       ]
     },
     "coreqs": []
@@ -1061,19 +1031,14 @@
   "ARCH 4508": {
     "name": "Shape Grammars",
     "prereqs": {
-      "and": [
-        "ARCH 2472",
-        "ARCH 2474"
-      ]
+      "and": []
     },
     "coreqs": []
   },
   "ARCH 4510": {
     "name": "Advanced Productions",
     "prereqs": {
-      "and": [
-        "ARCH 4507"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -1090,10 +1055,7 @@
   "ARCH 4702": {
     "name": "Design Scripting",
     "prereqs": {
-      "and": [
-        "ARCH 2472",
-        "ARCH 2474"
-      ]
+      "and": []
     },
     "coreqs": []
   },
@@ -1268,8 +1230,7 @@
     "name": "Real Est&Cnst Fin&Acct",
     "prereqs": {
       "and": [
-        "BC 2620",
-        "BC 2630"
+        "BC 2620"
       ]
     },
     "coreqs": []
@@ -1352,7 +1313,6 @@
     "name": "Construction Marketing",
     "prereqs": {
       "and": [
-        "BC 2630",
         "BC 3600",
         "BC 3610",
         "BC 3620"
@@ -1449,9 +1409,7 @@
             "BIOS 1207",
             "BIOS 1207L"
           ]
-        },
-        "BIOL 1510",
-        "BIOL 1511"
+        }
       ]
     },
     "coreqs": []
@@ -1471,9 +1429,7 @@
             "BIOS 1207",
             "BIOS 1207L"
           ]
-        },
-        "BIOL 1510",
-        "BIOL 1511"
+        }
       ]
     },
     "coreqs": []
@@ -1493,9 +1449,7 @@
             "BIOS 1207",
             "BIOS 1207L"
           ]
-        },
-        "BIOL 1510",
-        "BIOL 1511"
+        }
       ]
     },
     "coreqs": []
@@ -1515,9 +1469,7 @@
             "BIOS 1207",
             "BIOS 1207L"
           ]
-        },
-        "BIOL 1510",
-        "BIOL 1511"
+        }
       ]
     },
     "coreqs": []
@@ -1533,25 +1485,22 @@
                 {
                   "or": [
                     "MATH 1552",
-                    "MATH 1555"
+                    "MATH 1X52"
                   ]
                 },
                 {
                   "or": [
                     "MATH 1553",
+                    "MATH 1X53",
                     "MATH 1554",
-                    "MATH 1564",
-                    "MATH 1522"
+                    "MATH 1X54",
+                    "MATH 1564"
                   ]
                 }
               ]
             },
             {
-              "or": [
-                "MATH 1502",
-                "MATH 1504",
-                "MATH 1512"
-              ]
+              "or": []
             }
           ]
         },
@@ -1572,9 +1521,7 @@
                   ]
                 }
               ]
-            },
-            "BIOL 1510",
-            "BIOL 1511"
+            }
           ]
         }
       ]
@@ -1590,8 +1537,6 @@
     "name": "Genetics",
     "prereqs": {
       "or": [
-        "BIOL 1510",
-        "BIOL 1511",
         {
           "and": [
             {
@@ -1616,8 +1561,6 @@
     "name": "Genetics Laboratory",
     "prereqs": {
       "or": [
-        "BIOL 1510",
-        "BIOL 1511",
         {
           "and": [
             {
@@ -1642,8 +1585,6 @@
     "name": "Integrative Genetics",
     "prereqs": {
       "or": [
-        "BIOL 1510",
-        "BIOL 1511",
         {
           "and": [
             {
@@ -1668,8 +1609,6 @@
     "name": "Integrative Genetics Lab",
     "prereqs": {
       "or": [
-        "BIOL 1510",
-        "BIOL 1511",
         {
           "and": [
             {
@@ -1722,9 +1661,7 @@
                 "BIOS 1207",
                 "BIOS 1207L"
               ]
-            },
-            "BIOL 1510",
-            "BIOL 1511"
+            }
           ]
         },
         "CHEM 1212K"
@@ -1739,8 +1676,6 @@
         "CHEM 1212K",
         {
           "or": [
-            "BIOL 1510",
-            "BIOL 1511",
             {
               "and": [
                 {
@@ -1770,8 +1705,7 @@
       "or": [
         {
           "or": [
-            "MATH 1552",
-            "MATH 1555"
+            "MATH 1552"
           ]
         },
         {
@@ -1780,16 +1714,11 @@
               "or": [
                 "MATH 1553",
                 "MATH 1554",
-                "MATH 1564",
-                "MATH 1522"
+                "MATH 1564"
               ]
             },
             {
-              "or": [
-                "MATH 1502",
-                "MATH 1504",
-                "MATH 1512"
-              ]
+              "or": []
             }
           ]
         },
@@ -1810,10 +1739,7 @@
           ]
         },
         {
-          "or": [
-            "BIOL 1510",
-            "BIOL 1511"
-          ]
+          "or": []
         }
       ]
     },
@@ -1826,10 +1752,7 @@
         {
           "or": [
             {
-              "or": [
-                "BIOL 1510",
-                "BIOL 1511"
-              ]
+              "or": []
             },
             {
               "and": [
@@ -1862,10 +1785,7 @@
         {
           "or": [
             {
-              "or": [
-                "BIOL 1510",
-                "BIOL 1511"
-              ]
+              "or": []
             },
             {
               "and": [
@@ -1896,10 +1816,6 @@
     "name": "Evolutionary Biology",
     "prereqs": {
       "or": [
-        "BIOL 2344",
-        "BIOL 2354",
-        "BIOL 2335",
-        "BIOL 2337",
         "BIOS 2600",
         "BIOS 2610",
         "BIOS 2300",
@@ -1923,9 +1839,7 @@
                     "BIOS 1208",
                     "BIOS 1208L"
                   ]
-                },
-                "BIOL 1520",
-                "BIOL 1521"
+                }
               ]
             },
             {
@@ -1957,9 +1871,7 @@
                 "BIOS 1208",
                 "BIOS 1208L"
               ]
-            },
-            "BIOL 1520",
-            "BIOL 1520"
+            }
           ]
         },
         {
@@ -1993,11 +1905,7 @@
             }
           ]
         },
-        "BIOS 3753",
-        "BIOL 3753",
-        "APPH 3753",
-        "BIOL 1520",
-        "BIOL 1521"
+        "BIOS 3753"
       ]
     },
     "coreqs": []
@@ -2023,10 +1931,6 @@
           ]
         },
         "BIOS 3753",
-        "BIOL 3753",
-        "APPH 3753",
-        "BIOL 1520",
-        "BIOL 1521",
         "BIOS 3755"
       ]
     },
@@ -2046,8 +1950,6 @@
     "name": "Protein Biology",
     "prereqs": {
       "or": [
-        "BIOL 1510",
-        "BIOL 1511",
         {
           "and": [
             "BIOS 1107",
@@ -2082,8 +1984,6 @@
                 "BIOS 1207L"
               ]
             },
-            "BIOL 1510",
-            "BIOL 1511",
             "CHEM 1310"
           ]
         }
@@ -2095,8 +1995,6 @@
     "name": "Exercise Physiology",
     "prereqs": {
       "or": [
-        "APPH 3755",
-        "BIOL 3755",
         "BIOS 3755",
         "BMED 3100"
       ]
@@ -2110,14 +2008,11 @@
         {
           "or": [
             "BIOS 2600",
-            "BIOS 2610",
-            "BIOL 2344",
-            "BIOL 2354"
+            "BIOS 2610"
           ]
         },
         {
           "or": [
-            "CS 1321",
             "CS 1371",
             "CS 1301",
             "CS 1315"
@@ -2165,14 +2060,6 @@
                 }
               ]
             },
-            "BIOL 1510",
-            "BIOL 1511",
-            "BIOL 1520",
-            "BIOL 1521",
-            "BIOL 3751",
-            "APPH 3751",
-            "BIOL 3753",
-            "APPH 3753",
             "BIOS 3753"
           ]
         },
@@ -2202,9 +2089,7 @@
                 "BIOS 1207",
                 "BIOS 1207L"
               ]
-            },
-            "BIOL 1510",
-            "BIOL 1511"
+            }
           ]
         }
       ]
@@ -2217,17 +2102,12 @@
       "and": [
         {
           "or": [
-            "BIOL 2344",
-            "BIOL 2354",
             "BIOS 2600",
             "BIOS 2610"
           ]
         },
         {
           "or": [
-            "BIOL 2400",
-            "BIOL 4150",
-            "BIOL 4401",
             "BIOS 2400",
             "BIOS 4150",
             "BIOS 4401",
@@ -2243,13 +2123,9 @@
     "name": "Ion Channels",
     "prereqs": {
       "or": [
-        "BIOL 3450",
         "BIOS 3450",
-        "APPH 3755",
-        "BIOL 3755",
         "BIOS 3755",
-        "BMED 3100",
-        "NEUR 3100"
+        "BMED 3100"
       ]
     },
     "coreqs": []
@@ -2263,7 +2139,6 @@
     "name": "Medical Microbiology",
     "prereqs": {
       "or": [
-        "BIOL 3380",
         "BIOS 3380"
       ]
     },
@@ -2275,8 +2150,6 @@
       "or": [
         {
           "or": [
-            "BIOL 1520",
-            "BIOL 1521",
             {
               "and": [
                 "BIOS 1108",
@@ -2309,20 +2182,20 @@
         {
           "or": [
             "MATH 1553",
+            "MATH 1X53",
             "MATH 1554",
+            "MATH 1X54",
             "MATH 1564"
           ]
         },
         {
           "or": [
-            "MATH 1555",
-            "MATH 1552"
+            "MATH 1552",
+            "MATH 1X52"
           ]
         },
         {
           "and": [
-            "BIOL 1510",
-            "BIOL 1511",
             {
               "or": [
                 "BIOS 1107",
@@ -2355,9 +2228,7 @@
     "prereqs": {
       "or": [
         "BIOS 2300",
-        "BIOS 2310",
-        "BIOL 2335",
-        "BIOL 2337"
+        "BIOS 2310"
       ]
     },
     "coreqs": []
@@ -2366,7 +2237,6 @@
     "name": "Microbial Physiology",
     "prereqs": {
       "or": [
-        "BIOL 3380",
         "BIOS 3380"
       ]
     },
@@ -2383,10 +2253,7 @@
           ]
         },
         {
-          "or": [
-            "BIOL 2335",
-            "BIOL 2337"
-          ]
+          "or": []
         }
       ]
     },
@@ -2397,9 +2264,7 @@
     "prereqs": {
       "or": [
         "BIOS 2300",
-        "BIOS 2310",
-        "BIOL 2335",
-        "BIOL 2337"
+        "BIOS 2310"
       ]
     },
     "coreqs": []
@@ -2408,9 +2273,7 @@
     "name": "Human Pathology",
     "prereqs": {
       "or": [
-        "BIOS 3753",
-        "APPH 3753",
-        "BIOL 3753"
+        "BIOS 3753"
       ]
     },
     "coreqs": []
@@ -2419,12 +2282,8 @@
     "name": "Comm Biologicl Research",
     "prereqs": {
       "or": [
-        "BIOL 4590",
-        "BIOL 4690",
-        "BIOL 4910",
         "BIOS 4690",
-        "BIOS 4590",
-        "BIOS 4691"
+        "BIOS 4590"
       ]
     },
     "coreqs": []
@@ -2434,9 +2293,7 @@
     "prereqs": {
       "or": [
         "BIOS 2600",
-        "BIOS 2610",
-        "BIOL 2344",
-        "BIOL 2354"
+        "BIOS 2610"
       ]
     },
     "coreqs": []
@@ -2447,8 +2304,6 @@
       "or": [
         {
           "or": [
-            "BIOL 1510",
-            "BIOL 1511",
             {
               "and": [
                 "BIOS 1107",
@@ -2465,8 +2320,6 @@
         },
         {
           "or": [
-            "BIOL 1520",
-            "BIOL 1521",
             {
               "and": [
                 "BIOS 1108",
@@ -2489,8 +2342,7 @@
     "name": "Evolution-Develop Biol",
     "prereqs": {
       "or": [
-        "BIOS 3600",
-        "BIOL 3600"
+        "BIOS 3600"
       ]
     },
     "coreqs": []
@@ -2501,13 +2353,11 @@
       "and": [
         {
           "or": [
-            "BIOL 3450",
             "BIOS 3450"
           ]
         },
         {
           "or": [
-            "BIOL 4150",
             "BIOS 4150"
           ]
         }
@@ -2538,13 +2388,7 @@
   "BIOS 4510": {
     "name": "Epigenetics",
     "prereqs": {
-      "or": [
-        "BIOL 2344",
-        "BIOL 2354",
-        "BIOL 3450",
-        "BIOL 2800",
-        "BIOL 3450"
-      ]
+      "or": []
     },
     "coreqs": []
   },
@@ -2552,8 +2396,6 @@
     "name": "Community Ecology",
     "prereqs": {
       "or": [
-        "BIOS 2335",
-        "BIOL 2337",
         "BIOS 2300",
         "BIOS 2310"
       ]
@@ -2564,8 +2406,6 @@
     "name": "Health Genes Society",
     "prereqs": {
       "or": [
-        "BIOL 1510",
-        "BIOL 1511",
         {
           "and": [
             "BIOS 1107",
@@ -2586,8 +2426,6 @@
     "name": "Human Evol Genomics",
     "prereqs": {
       "or": [
-        "BIOL 1510",
-        "BIOL 1511",
         {
           "and": [
             "BIOS 1107",
@@ -2610,8 +2448,6 @@
       "or": [
         {
           "or": [
-            "BIOL 1520",
-            "BIOL 1521",
             {
               "and": [
                 "BIOS 1108",
@@ -2635,8 +2471,6 @@
     "name": "Human Genetics",
     "prereqs": {
       "or": [
-        "BIOL 2344",
-        "BIOL 2354",
         "BIOS 2600",
         "BIOS 2610"
       ]
@@ -2647,8 +2481,6 @@
     "name": "Origin of Complex Life",
     "prereqs": {
       "or": [
-        "BIOL 1510",
-        "BIOL 1511",
         {
           "and": [
             "BIOS 1107",
@@ -2669,8 +2501,6 @@
     "name": "RNA Biology & Biotech",
     "prereqs": {
       "or": [
-        "BIOL 1510",
-        "BIOL 1511",
         {
           "and": [
             "BIOS 1107",
@@ -2692,9 +2522,7 @@
     "prereqs": {
       "or": [
         "BIOS 2600",
-        "BIOS 2610",
-        "BIOL 2344",
-        "BIOL 2354"
+        "BIOS 2610"
       ]
     },
     "coreqs": []
@@ -2703,11 +2531,8 @@
     "name": "Immunology",
     "prereqs": {
       "or": [
-        "BIOL 2344",
-        "BIOL 2354",
         "BIOS 2600",
         "BIOS 2610",
-        "BIOL 3450",
         "BIOS 3450"
       ]
     },
@@ -2717,8 +2542,6 @@
     "name": "Research Project Lab",
     "prereqs": {
       "or": [
-        "BIOL 1510",
-        "BIOL 1511",
         {
           "and": [
             "BIOS 1107",
@@ -2741,8 +2564,6 @@
       "and": [
         {
           "or": [
-            "BIOL 1510",
-            "BIOL 1511",
             {
               "and": [
                 "BIOS 1107",
@@ -2766,9 +2587,7 @@
     "prereqs": {
       "or": [
         "BIOS 2300",
-        "BIOS 2310",
-        "BIOL 2335",
-        "BIOL 2337"
+        "BIOS 2310"
       ]
     },
     "coreqs": []
@@ -2788,9 +2607,7 @@
             "BIOS 1207",
             "BIOS 1207L"
           ]
-        },
-        "BIOL 1510",
-        "BIOL 1511"
+        }
       ]
     },
     "coreqs": []
@@ -2799,16 +2616,7 @@
     "name": "Independnt Research Proj",
     "prereqs": {
       "or": [
-        "APPH 2698",
-        "APPH 2699",
-        "APPH 4698",
-        "APPH 4699",
-        "BIOL 2698",
-        "BIOL 2699",
-        "BIOL 4698",
-        "BIOL 4699",
         "BIOS 2699",
-        "BIOS 2698",
         "BIOS 4699",
         "BIOS 4698"
       ]
@@ -2872,10 +2680,7 @@
                 "BIOS 1208L"
               ]
             },
-            "BIOL 1520",
-            "BIOL 1521",
             "BIOS 3600",
-            "BIOS 3160",
             "PHYS 2211"
           ]
         }
@@ -2889,8 +2694,6 @@
       "and": [
         {
           "or": [
-            "BIOL 1510",
-            "BIOL 1511",
             {
               "and": [
                 "BIOS 1107",
@@ -2931,9 +2734,7 @@
                   ]
                 }
               ]
-            },
-            "BIOL 1510",
-            "BIOL 1511"
+            }
           ]
         },
         {
@@ -2951,9 +2752,7 @@
                     "BIOS 1108L",
                     "BIOS 1208L"
                   ]
-                },
-                "BIOL 1520",
-                "BIOL 1521"
+                }
               ]
             }
           ]
@@ -3019,18 +2818,12 @@
         "BMED 1000",
         {
           "or": [
-            "CHEM 1211K",
-            "CHEM 1311",
-            "CHEM 1312"
+            "CHEM 1211K"
           ]
         },
         {
           "or": [
-            "MATH 1552",
-            "MATH 1502",
-            "MATH 1504",
-            "MATH 1512",
-            "MATH 1555"
+            "MATH 1552"
           ]
         }
       ]
@@ -3053,7 +2846,6 @@
       "and": [
         {
           "or": [
-            "BMED 2210",
             "BMED 2110"
           ]
         },
@@ -3172,17 +2964,14 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2550",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         {
           "or": [
             "MATH 2552",
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2562"
           ]
         },
@@ -3204,7 +2993,7 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2401"
+            "MATH 2X51"
           ]
         }
       ]
@@ -3217,17 +3006,14 @@
       "and": [
         {
           "or": [
-            "BMED 2300",
             "BMED 2310"
           ]
         },
-        "ECE 2025",
         "ECE 3741",
         {
           "or": [
             "CEE 3770",
             "ISYE 3770",
-            "MATH 3770",
             "BMED 2400"
           ]
         }
@@ -3243,8 +3029,6 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2562"
           ]
         },
@@ -3308,13 +3092,11 @@
     "name": "Bio Networks & Genomics",
     "prereqs": {
       "and": [
-        "ECE 2025",
         "BMED 3600",
         {
           "or": [
             "CEE 3770",
             "ISYE 3770",
-            "MATH 3770",
             "BMED 2400"
           ]
         }
@@ -3329,10 +3111,6 @@
         {
           "or": [
             "MATH 1553",
-            "MATH 1502",
-            "MATH 1504",
-            "MATH 1512",
-            "MATH 1522",
             "MATH 1554",
             "MATH 1564"
           ]
@@ -3408,8 +3186,7 @@
     "name": "Medical Robotics",
     "prereqs": {
       "and": [
-        "BMED 3110",
-        "BMED 3400"
+        "BMED 3110"
       ]
     },
     "coreqs": []
@@ -3418,8 +3195,6 @@
     "name": "Bio-Inspired Design",
     "prereqs": {
       "or": [
-        "BIOL 1520",
-        "BIOL 3600",
         "BMED 3100",
         "BMED 4751",
         "PHYS 2211"
@@ -3449,8 +3224,7 @@
     "name": "Intro Neuroscience",
     "prereqs": {
       "or": [
-        "BMED 3600",
-        "BIOL 3340"
+        "BMED 3600"
       ]
     },
     "coreqs": []
@@ -3466,7 +3240,6 @@
             "BIOS 4401",
             "PSYC 2020",
             "MATH 3215",
-            "MATH 3225",
             "MATH 3670"
           ]
         },
@@ -3514,9 +3287,7 @@
   "BMED 4758": {
     "name": "Biosolid Mechanics",
     "prereqs": {
-      "and": [
-        "BMED 3400"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -3544,7 +3315,6 @@
     "name": "Biomed Instrumentation",
     "prereqs": {
       "or": [
-        "ECE 3050",
         "ECE 3710"
       ]
     },
@@ -3555,9 +3325,7 @@
     "prereqs": {
       "or": [
         "BMED 3500",
-        "CHBE 4400",
-        "ECE 2040",
-        "ME 3015"
+        "ECE 2040"
       ]
     },
     "coreqs": []
@@ -3566,10 +3334,8 @@
     "name": "Intro-Medical Image Proc",
     "prereqs": {
       "or": [
-        "ECE 2025",
         {
           "or": [
-            "MATH 3770",
             "ISYE 3770",
             "CEE 3770"
           ]
@@ -3583,8 +3349,7 @@
     "name": "Engr Electrophysiology",
     "prereqs": {
       "or": [
-        "ECE 3040",
-        "ECE 3510"
+        "ECE 3040"
       ]
     },
     "coreqs": []
@@ -3714,7 +3479,8 @@
         {
           "or": [
             "CHEM 1310",
-            "CHEM 1211K"
+            "CHEM 1211K",
+            "CHEM 12X1"
           ]
         },
         {
@@ -3725,9 +3491,8 @@
         },
         {
           "or": [
-            "MATH 1502",
-            "MATH 1512",
-            "MATH 1552"
+            "MATH 1552",
+            "MATH 1X52"
           ]
         }
       ]
@@ -3763,8 +3528,6 @@
     "name": "Civil Engr Systems",
     "prereqs": {
       "or": [
-        "MATH 1501",
-        "MATH 1511",
         "MATH 1551"
       ]
     },
@@ -3796,10 +3559,9 @@
         },
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         }
       ]
@@ -3848,8 +3610,6 @@
         "CEE 2300",
         {
           "or": [
-            "BIOL 1510",
-            "BIOL 1511",
             {
               "and": [
                 "BIOS 1107",
@@ -3876,10 +3636,9 @@
     "name": "Statistics& Applications",
     "prereqs": {
       "or": [
-        "MATH 2401",
-        "MATH 2411",
         "MATH 2551",
-        "MATH 2561"
+        "MATH 2561",
+        "MATH 2X51"
       ]
     },
     "coreqs": []
@@ -4047,7 +3806,8 @@
         {
           "or": [
             "CHEM 1310",
-            "CHEM 1211K"
+            "CHEM 1211K",
+            "CHEM 12X1"
           ]
         },
         {
@@ -4058,9 +3818,8 @@
         },
         {
           "or": [
-            "MATH 1502",
-            "MATH 1512",
-            "MATH 1552"
+            "MATH 1552",
+            "MATH 1X52"
           ]
         }
       ]
@@ -4109,7 +3868,8 @@
         {
           "or": [
             "CHEM 1310",
-            "CHEM 1211K"
+            "CHEM 1211K",
+            "CHEM 12X1"
           ]
         },
         {
@@ -4149,7 +3909,8 @@
         {
           "or": [
             "CHEM 1310",
-            "CHEM 1211K"
+            "CHEM 1211K",
+            "CHEM 12X1"
           ]
         },
         {
@@ -4160,9 +3921,8 @@
         },
         {
           "or": [
-            "MATH 1502",
-            "MATH 1512",
-            "MATH 1552"
+            "MATH 1552",
+            "MATH 1X52"
           ]
         }
       ]
@@ -4281,8 +4041,7 @@
     "prereqs": {
       "or": [
         "COE 3001",
-        "CEE 3051",
-        "CEE 3052"
+        "CEE 3051"
       ]
     },
     "coreqs": []
@@ -4313,9 +4072,7 @@
       "and": [
         {
           "or": [
-            "CEE 1770",
-            "ME 1770",
-            "AE 1770"
+            "CEE 1770"
           ]
         }
       ]
@@ -4465,12 +4222,11 @@
         },
         {
           "and": [
-            "MATH 1502",
-            "MATH 1512",
             {
               "and": [
                 {
                   "or": [
+                    "MATH 1X52",
                     "MATH 1552"
                   ]
                 }
@@ -4478,7 +4234,6 @@
             },
             {
               "or": [
-                "MATH 1522",
                 "MATH 1553",
                 "MATH 1554",
                 "MATH 1564"
@@ -4507,7 +4262,6 @@
         "CHBE 2100",
         {
           "and": [
-            "BIOL 1510",
             {
               "or": [
                 "BIOS 1107",
@@ -4534,7 +4288,6 @@
         "MATH 2551",
         {
           "or": [
-            "BIOL 1510",
             {
               "and": [
                 {
@@ -4584,24 +4337,21 @@
         "CHBE 2120",
         {
           "or": [
-            "CHBE 2130",
-            "CHBE 2110"
+            "CHBE 2130"
           ]
         },
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         }
       ]
@@ -4614,25 +4364,22 @@
       "and": [
         {
           "or": [
-            "CHBE 2110",
             "CHBE 2130"
           ]
         },
         "CHBE 2120",
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         },
         "PHYS 2211"
@@ -4648,14 +4395,16 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         "PHYS 2211",
         {
           "or": [
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         }
       ]
@@ -4668,7 +4417,6 @@
       "and": [
         {
           "or": [
-            "CHBE 3110",
             "CHBE 3130"
           ]
         },
@@ -4721,7 +4469,8 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         }
       ]
@@ -4750,7 +4499,6 @@
         "CHBE 3200",
         {
           "or": [
-            "CHBE 3110",
             "CHBE 3130"
           ]
         }
@@ -4977,7 +4725,6 @@
             "CHEM 2313"
           ]
         },
-        "CHBE 3120",
         "MSE 2001"
       ]
     },
@@ -5074,9 +4821,7 @@
     "name": "Biofluid Mechanics",
     "prereqs": {
       "or": [
-        "AE 2020",
-        "ME 3340",
-        "BMED 3300"
+        "ME 3340"
       ]
     },
     "coreqs": []
@@ -5182,8 +4927,7 @@
         "CHBE 4775",
         "CHEM 4775",
         "ME 4775",
-        "MSE 4775",
-        "PTFE 4775"
+        "MSE 4775"
       ]
     },
     "coreqs": []
@@ -5193,9 +4937,7 @@
     "prereqs": {
       "or": [
         "BMED 3500",
-        "CHBE 4400",
-        "ECE 2040",
-        "ME 3015"
+        "ECE 2040"
       ]
     },
     "coreqs": []
@@ -5203,9 +4945,7 @@
   "CHBE 4791": {
     "name": "Mech Behavior-Composites",
     "prereqs": {
-      "and": [
-        "ME 3201"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -5273,7 +5013,6 @@
     "name": "Quantitative Analysis",
     "prereqs": {
       "or": [
-        "CHEM 1312",
         "CHEM 1212K"
       ]
     },
@@ -5301,7 +5040,6 @@
     "name": "Organic Chemistry I",
     "prereqs": {
       "or": [
-        "CHEM 1311",
         "CHEM 1212K"
       ]
     },
@@ -5332,8 +5070,6 @@
         {
           "or": [
             "CHEM 1212K",
-            "CHEM 1312",
-            "CHEM 1313",
             "CHEM 2211"
           ]
         },
@@ -5462,7 +5198,6 @@
     "name": "Physical Chemistry I",
     "prereqs": {
       "or": [
-        "CHEM 1311",
         "CHEM 1212K"
       ]
     },
@@ -5474,7 +5209,6 @@
       "and": [
         {
           "or": [
-            "CHEM 1311",
             "CHEM 1212K"
           ]
         },
@@ -5778,10 +5512,9 @@
         "PHYS 2211",
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         {
@@ -5816,8 +5549,7 @@
         },
         {
           "or": [
-            "CHEM 3411",
-            "CHEM 4300"
+            "CHEM 3411"
           ]
         }
       ]
@@ -5885,8 +5617,7 @@
         "CHBE 4775",
         "CHEM 4775",
         "ME 4775",
-        "MSE 4775",
-        "PTFE 4775"
+        "MSE 4775"
       ]
     },
     "coreqs": []
@@ -6125,9 +5856,8 @@
       "and": [
         {
           "or": [
-            "MATH 1502",
-            "MATH 1512",
-            "MATH 1552"
+            "MATH 1552",
+            "MATH 1X52"
           ]
         },
         {
@@ -6156,10 +5886,9 @@
       "and": [
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         },
         "COE 2001"
@@ -6536,7 +6265,6 @@
       "or": [
         "CS 1301",
         "CS 1315",
-        "CS 1321",
         "CS 1371"
       ]
     },
@@ -6546,7 +6274,6 @@
     "name": "Data Struct & Algorithms",
     "prereqs": {
       "or": [
-        "CS 1322",
         "CS 1331"
       ]
     },
@@ -6645,12 +6372,7 @@
     "prereqs": {
       "and": [
         {
-          "or": [
-            "MATH 1502",
-            "MATH 1512",
-            "MATH 1555",
-            "MATH 1504"
-          ]
+          "or": []
         },
         {
           "or": [
@@ -6700,7 +6422,6 @@
     "prereqs": {
       "or": [
         "CS 2200",
-        "ECE 3057",
         "ECE 3058"
       ]
     },
@@ -6713,7 +6434,6 @@
         {
           "or": [
             "CS 2200",
-            "ECE 3057",
             "ECE 3058"
           ]
         },
@@ -6727,7 +6447,6 @@
     "prereqs": {
       "or": [
         "CS 2200",
-        "ECE 3057",
         "ECE 3058"
       ]
     },
@@ -6758,7 +6477,6 @@
     "prereqs": {
       "or": [
         "CS 2200",
-        "ECE 3057",
         "ECE 3058"
       ]
     },
@@ -6808,12 +6526,10 @@
       "and": [
         {
           "or": [
-            "MATH 2605",
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
             "MATH 2550",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         {
@@ -6856,8 +6572,7 @@
         {
           "or": [
             "CS 1332",
-            "MATH 3012",
-            "MATH 3022"
+            "MATH 3012"
           ]
         }
       ]
@@ -6878,8 +6593,7 @@
         {
           "or": [
             "CS 1332",
-            "MATH 3012",
-            "MATH 3022"
+            "MATH 3012"
           ]
         }
       ]
@@ -6976,9 +6690,7 @@
   "CS 4057": {
     "name": "Bus Process Analy&Design",
     "prereqs": {
-      "and": [
-        "MGT 2200"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -7007,7 +6719,6 @@
     "prereqs": {
       "or": [
         "CS 2200",
-        "ECE 3057",
         "ECE 3058"
       ]
     },
@@ -7018,7 +6729,6 @@
     "prereqs": {
       "or": [
         "CS 2200",
-        "ECE 3057",
         "ECE 3058"
       ]
     },
@@ -7090,7 +6800,6 @@
     "prereqs": {
       "or": [
         "CS 2200",
-        "ECE 3057",
         "ECE 3058"
       ]
     },
@@ -7152,7 +6861,6 @@
     "prereqs": {
       "or": [
         "CS 2200",
-        "ECE 3057",
         "ECE 3058"
       ]
     },
@@ -7196,7 +6904,6 @@
         {
           "or": [
             "CS 2200",
-            "ECE 3057",
             "ECE 3058"
           ]
         },
@@ -7299,17 +7006,16 @@
       "and": [
         {
           "or": [
-            "MATH 2605",
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2550",
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         {
           "or": [
             "MATH 1553",
+            "MATH 1X54",
             "MATH 1554",
             "MATH 1564"
           ]
@@ -7361,11 +7067,7 @@
     "prereqs": {
       "and": [
         {
-          "or": [
-            "MATH 2605",
-            "MATH 2401",
-            "MATH 2411"
-          ]
+          "or": []
         },
         {
           "or": [
@@ -7407,16 +7109,13 @@
         },
         {
           "or": [
-            "MATH 3012",
-            "MATH 3022"
+            "MATH 3012"
           ]
         },
         {
           "or": [
             "MATH 3215",
             "MATH 3235",
-            "MATH 3225",
-            "MATH 3770",
             "MATH 3670",
             "CEE 3770",
             "ISYE 3770",
@@ -7449,16 +7148,13 @@
         },
         {
           "or": [
-            "MATH 3012",
-            "MATH 3022"
+            "MATH 3012"
           ]
         },
         {
           "or": [
             "MATH 3215",
             "MATH 3235",
-            "MATH 3225",
-            "MATH 3770",
             "MATH 3670",
             "CEE 3770",
             "ISYE 3770",
@@ -7540,13 +7236,16 @@
         {
           "or": [
             "MATH 1553",
+            "MATH 1X53",
             "MATH 1554",
+            "MATH 1X54",
             "MATH 1564"
           ]
         },
         {
           "or": [
-            "MATH 1551"
+            "MATH 1551",
+            "MATH 1X51"
           ]
         }
       ]
@@ -7559,12 +7258,10 @@
       "and": [
         {
           "or": [
-            "MATH 2605",
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2550",
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         {
@@ -7616,7 +7313,7 @@
             "MATH 2550",
             "MATH 2551",
             "MATH 2561",
-            "MATH 2401"
+            "MATH 2X51"
           ]
         }
       ]
@@ -7651,7 +7348,6 @@
     "prereqs": {
       "or": [
         "CS 2200",
-        "ECE 3057",
         "ECE 3058"
       ]
     },
@@ -7829,16 +7525,10 @@
     "prereqs": {
       "and": [
         {
-          "or": [
-            "MATH 1502",
-            "MATH 1512",
-            "MATH 1555",
-            "MATH 1504"
-          ]
+          "or": []
         },
         {
           "or": [
-            "MATH 1522",
             "MATH 1553",
             "MATH 1554",
             "MATH 1564"
@@ -7846,12 +7536,9 @@
         },
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2550",
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2605"
+            "MATH 2561"
           ]
         }
       ]
@@ -7878,7 +7565,6 @@
     "prereqs": {
       "or": [
         "CS 1331",
-        "CS 1372",
         "CS 2316",
         "CX 4010",
         "ECE 2035",
@@ -7892,7 +7578,6 @@
     "prereqs": {
       "or": [
         "CS 1331",
-        "CS 1372",
         "CS 2316",
         "CX 4010",
         "ECE 2035",
@@ -7908,10 +7593,8 @@
         {
           "or": [
             "MATH 3215",
-            "MATH 3225",
             "MATH 3235",
             "MATH 3670",
-            "MATH 3770",
             "ISYE 3770",
             "CEE 3770",
             "ISYE 2028",
@@ -7923,7 +7606,6 @@
         {
           "or": [
             "CS 1331",
-            "CS 1372",
             "CS 2316",
             "CX 4010",
             "ECE 2035",
@@ -7939,7 +7621,6 @@
     "prereqs": {
       "or": [
         "CS 1331",
-        "CS 1372",
         "CS 2316",
         "CX 4010",
         "ECE 2035",
@@ -7964,21 +7645,17 @@
       "and": [
         {
           "or": [
-            "MATH 2605",
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2550",
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         {
           "or": [
             "MATH 3215",
-            "MATH 3225",
             "MATH 3235",
             "MATH 3670",
-            "MATH 3770",
             "ISYE 3770",
             "CEE 3770",
             "ISYE 2028",
@@ -7990,7 +7667,6 @@
         {
           "or": [
             "CS 1331",
-            "CS 1372",
             "CS 2316",
             "CX 4010",
             "ECE 2035",
@@ -8006,12 +7682,10 @@
     "name": "Numerical Analysis I",
     "prereqs": {
       "or": [
-        "MATH 2403",
-        "MATH 2413",
-        "MATH 2602",
         "MATH 2603",
         "MATH 2552",
-        "MATH 2562"
+        "MATH 2562",
+        "MATH 2X52"
       ]
     },
     "coreqs": []
@@ -8032,13 +7706,10 @@
       "and": [
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
             "MATH 2561",
             "MATH 2550",
-            "MATH 2551",
-            "MATH 2605"
+            "MATH 2551"
           ]
         },
         "MATH 3406"
@@ -8216,8 +7887,6 @@
       "and": [
         {
           "or": [
-            "MATH 1502",
-            "MATH 1512",
             "MATH 1552"
           ]
         },
@@ -8232,8 +7901,6 @@
       "and": [
         {
           "or": [
-            "MATH 1502",
-            "MATH 1512",
             "MATH 1552"
           ]
         },
@@ -8262,8 +7929,6 @@
       "and": [
         {
           "or": [
-            "MATH 1502",
-            "MATH 1512",
             {
               "and": [
                 "MATH 1552",
@@ -8325,10 +7990,9 @@
       "and": [
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         },
         "PHYS 2211"
@@ -8347,8 +8011,6 @@
       "and": [
         {
           "or": [
-            "MATH 1502",
-            "MATH 1512",
             {
               "and": [
                 "MATH 1552",
@@ -8374,10 +8036,9 @@
         "PHYS 2212",
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         }
       ]
@@ -8448,10 +8109,9 @@
         "PHYS 2212",
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         }
       ]
@@ -8462,8 +8122,7 @@
     "name": "Large-Scale Atmos Circ",
     "prereqs": {
       "or": [
-        "EAS 4655",
-        "EAS 6502"
+        "EAS 4655"
       ]
     },
     "coreqs": []
@@ -8497,10 +8156,9 @@
     "name": "Exploration Seismology",
     "prereqs": {
       "or": [
-        "MATH 2403",
-        "MATH 2413",
         "MATH 2552",
-        "MATH 2562"
+        "MATH 2562",
+        "MATH 2X52"
       ]
     },
     "coreqs": []
@@ -8514,7 +8172,6 @@
     "name": "Biogeochemical Cycles",
     "prereqs": {
       "or": [
-        "EAS 3620",
         "EAS 4740"
       ]
     },
@@ -8562,10 +8219,9 @@
       "and": [
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         },
         "PHYS 2212"
@@ -8585,18 +8241,16 @@
         "PHYS 2212",
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         }
       ]
@@ -8664,10 +8318,9 @@
         "PHYS 2211",
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         {
@@ -8762,18 +8415,15 @@
       "and": [
         {
           "or": [
-            "MATH 1502",
             {
               "and": [
                 {
                   "or": [
-                    "MATH 1522",
                     "MATH 1553"
                   ]
                 }
               ]
             },
-            "MATH 1512",
             {
               "and": [
                 "MATH 1552",
@@ -8827,8 +8477,7 @@
     "name": "Engr Software Design",
     "prereqs": {
       "or": [
-        "ECE 2020",
-        "ECE 2030"
+        "ECE 2020"
       ]
     },
     "coreqs": []
@@ -8840,7 +8489,8 @@
         "PHYS 2212",
         {
           "or": [
-            "MATH 2552"
+            "MATH 2552",
+            "MATH 2X52"
           ]
         }
       ]
@@ -8940,25 +8590,21 @@
         },
         {
           "or": [
-            "ECE 2025",
-            "ECE 2026",
-            "NRE 2110"
+            "ECE 2026"
           ]
         },
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         }
       ]
@@ -8971,8 +8617,7 @@
       "and": [
         {
           "or": [
-            "ECE 2020",
-            "ECE 2030"
+            "ECE 2020"
           ]
         },
         "ECE 2040"
@@ -8987,18 +8632,16 @@
         "ECE 2040",
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         }
       ]
@@ -9009,7 +8652,8 @@
     "name": "Circuits&Electronics Lab",
     "prereqs": {
       "or": [
-        "ECE 2031"
+        "ECE 2031",
+        "ECE 20X2"
       ]
     },
     "coreqs": []
@@ -9040,11 +8684,9 @@
       "and": [
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
             "MATH 2561",
-            "MATH 2605"
+            "MATH 2X51"
           ]
         },
         {
@@ -9067,16 +8709,15 @@
             "ECE 2040",
             {
               "and": [
-                "ECE 3710",
-                "MATH 2403",
-                "MATH 2413"
+                "ECE 3710"
               ]
             },
             {
               "or": [
                 "ECE 3710",
                 "MATH 2552",
-                "MATH 2562"
+                "MATH 2562",
+                "MATH 2X52"
               ]
             }
           ]
@@ -9337,8 +8978,6 @@
     "name": "Adv Computer Architecure",
     "prereqs": {
       "or": [
-        "ECE 3056",
-        "ECE 3057",
         "ECE 3058"
       ]
     },
@@ -9349,7 +8988,6 @@
     "prereqs": {
       "or": [
         "ECE 3600",
-        "ECE 4110",
         "CS 3251"
       ]
     },
@@ -9359,7 +8997,6 @@
     "name": "Intro to Comp Security",
     "prereqs": {
       "or": [
-        "ECE 4110",
         "ECE 3600",
         "CS 3251"
       ]
@@ -9391,8 +9028,6 @@
     "name": "Adv VLSI Systems",
     "prereqs": {
       "or": [
-        "ECE 3050",
-        "ECE 3060",
         "ECE 3150",
         "ECE 3400"
       ]
@@ -9479,7 +9114,6 @@
           "or": [
             "ECE 3077",
             "ISYE 3770",
-            "MATH 3770",
             "CEE 3770",
             "MATH 3670"
           ]
@@ -9497,7 +9131,6 @@
           "or": [
             "ECE 3077",
             "ISYE 3770",
-            "MATH 3770",
             "MATH 3670",
             "CEE 3770"
           ]
@@ -9564,7 +9197,6 @@
     "name": "Elec Machinery Analysis",
     "prereqs": {
       "or": [
-        "ECE 3070",
         "ECE 3300"
       ]
     },
@@ -9623,7 +9255,6 @@
         "ECE 3025",
         {
           "or": [
-            "ECE 3050",
             "ECE 3400"
           ]
         }
@@ -9655,7 +9286,6 @@
     "name": "Analog Integra Circuits",
     "prereqs": {
       "or": [
-        "ECE 3050",
         "ECE 3400"
       ]
     },
@@ -9665,7 +9295,6 @@
     "name": "Operational Amp Design",
     "prereqs": {
       "or": [
-        "ECE 3041",
         "ECE 3043"
       ]
     },
@@ -9784,13 +9413,13 @@
       "and": [
         {
           "or": [
-            "ECE 2031"
+            "ECE 2031",
+            "ECE 20X2"
           ]
         },
         {
           "or": [
             "ECE 3550",
-            "ECE 3085",
             "ECE 3084"
           ]
         }
@@ -9803,7 +9432,6 @@
     "prereqs": {
       "or": [
         "ECE 3084",
-        "ECE 3085",
         "ECE 3550"
       ]
     },
@@ -9813,7 +9441,6 @@
     "name": "Modern System Theory",
     "prereqs": {
       "or": [
-        "ECE 3085",
         "ECE 3550"
       ]
     },
@@ -9845,7 +9472,6 @@
       "and": [
         {
           "or": [
-            "ECE 3020",
             "ECE 3084"
           ]
         },
@@ -9853,7 +9479,6 @@
           "or": [
             "CEE 3770",
             "ISYE 3770",
-            "MATH 3770",
             "MATH 3670",
             "ECE 3077"
           ]
@@ -9866,7 +9491,6 @@
     "name": "Topics in Networks",
     "prereqs": {
       "or": [
-        "ECE 3076",
         "ECE 3600"
       ]
     },
@@ -9878,13 +9502,11 @@
       "and": [
         {
           "or": [
-            "ECE 2025",
             "ECE 2026"
           ]
         },
         {
           "or": [
-            "ECE 3020",
             "ECE 3084"
           ]
         },
@@ -9892,7 +9514,6 @@
           "or": [
             "CEE 3770",
             "ISYE 3770",
-            "MATH 3770",
             "MATH 3670",
             "ECE 3077"
           ]
@@ -9905,7 +9526,6 @@
     "name": "Mobile&Wireless Networks",
     "prereqs": {
       "or": [
-        "ECE 3076",
         "ECE 3600"
       ]
     },
@@ -9938,8 +9558,7 @@
         "ECE 3011",
         {
           "or": [
-            "ECE 3005",
-            "ECE 3006"
+            "ECE 3005"
           ]
         },
         {
@@ -9990,7 +9609,8 @@
         {
           "or": [
             "CHEM 1310",
-            "CHEM 1211K"
+            "CHEM 1211K",
+            "CHEM 12X1"
           ]
         },
         "PHYS 2212"
@@ -10013,10 +9633,7 @@
     "name": "Biosystems Analysis",
     "prereqs": {
       "or": [
-        "BMED 3510",
-        "CHBE 4400",
         "ECE 2040",
-        "ME 3015",
         "ME 3017"
       ]
     },
@@ -10028,13 +9645,11 @@
       "and": [
         {
           "or": [
-            "ECE 2025",
             "ECE 2026"
           ]
         },
         {
           "or": [
-            "MATH 3770",
             "ISYE 3770",
             "CEE 3770",
             "ECE 3077",
@@ -10050,8 +9665,7 @@
     "prereqs": {
       "or": [
         "ECE 3030",
-        "ECE 3040",
-        "BMED 3510"
+        "ECE 3040"
       ]
     },
     "coreqs": []
@@ -10301,9 +9915,7 @@
       "or": [
         "MATH 3215",
         "ECON 2250",
-        "MATH 3770",
         "ISYE 3770",
-        "COE 3770",
         "MGT 2250"
       ]
     },
@@ -12351,9 +11963,7 @@
   "ID 3201": {
     "name": "Design and Community",
     "prereqs": {
-      "and": [
-        "ID 2012"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -12375,7 +11985,6 @@
     "name": "Design Methods",
     "prereqs": {
       "and": [
-        "ID 2012",
         "ID 2401",
         "ID 2320"
       ]
@@ -12415,7 +12024,6 @@
     "name": "Advanced Design I",
     "prereqs": {
       "and": [
-        "ID 3012",
         "ID 3302"
       ]
     },
@@ -12541,9 +12149,7 @@
   "ID 4450": {
     "name": "Portfolio Development",
     "prereqs": {
-      "and": [
-        "ID 2012"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -13169,12 +12775,14 @@
         "MATH 2561",
         {
           "and": [
+            "MATH 2X51",
             {
               "or": [
-                "MATH 1522",
                 "MATH 1553",
                 "MATH 1554",
-                "MATH 1564"
+                "MATH 1564",
+                "MATH 1X53",
+                "MATH 1X54"
               ]
             }
           ]
@@ -13293,7 +12901,6 @@
             "ISYE 2027",
             {
               "or": [
-                "MATH 2602",
                 "MATH 2603"
               ]
             },
@@ -13303,7 +12910,6 @@
         {
           "or": [
             "MATH 3215",
-            "MATH 3225",
             "MATH 3235",
             "MATH 3236"
           ]
@@ -13318,7 +12924,6 @@
       "or": [
         "ISYE 2027",
         "MATH 3215",
-        "MATH 3225",
         "MATH 3235",
         "MATH 3236"
       ]
@@ -13333,12 +12938,14 @@
         "MATH 2551",
         {
           "and": [
+            "MATH 2X51",
             {
               "or": [
-                "MATH 1522",
                 "MATH 1553",
                 "MATH 1554",
-                "MATH 1564"
+                "MATH 1564",
+                "MATH 1X53",
+                "MATH 1X54"
               ]
             }
           ]
@@ -13361,8 +12968,7 @@
     "name": "Human Integrated Systems",
     "prereqs": {
       "and": [
-        "ISYE 2028",
-        "CS 1322"
+        "ISYE 2028"
       ]
     },
     "coreqs": []
@@ -13502,7 +13108,6 @@
         "MGT 3076",
         "PHYS 2211",
         "MGT 2255",
-        "MATH 2251",
         "MATH 2550"
       ]
     },
@@ -13557,8 +13162,6 @@
     "name": "Bio-Inspired Design",
     "prereqs": {
       "or": [
-        "BIOL 1520",
-        "BIOL 3600",
         "BMED 3100",
         "PHYS 2211"
       ]
@@ -13904,10 +13507,8 @@
     "name": "Jpn Applied Linguistics",
     "prereqs": {
       "or": [
-        "LING 2001",
         {
           "and": [
-            "LING 2002",
             "JAPN 2001"
           ]
         }
@@ -14064,9 +13665,7 @@
         {
           "or": [
             "CS 1315",
-            "CS 1316",
             "CS 1301",
-            "CS 1321",
             "CS 1371"
           ]
         }
@@ -14785,8 +14384,6 @@
           "or": [
             "CS 1301",
             "CS 1315",
-            "CS 1316",
-            "CS 1321",
             "CS 1371"
           ]
         },
@@ -14808,8 +14405,6 @@
           "or": [
             "CS 1301",
             "CS 1315",
-            "CS 1316",
-            "CS 1321",
             "CS 1371"
           ]
         },
@@ -14951,7 +14546,6 @@
       "and": [
         {
           "or": [
-            "CS 1322",
             "CS 1331"
           ]
         },
@@ -14971,7 +14565,6 @@
       "and": [
         {
           "or": [
-            "CS 1322",
             "CS 1331"
           ]
         },
@@ -14991,7 +14584,6 @@
       "and": [
         {
           "or": [
-            "CS 1322",
             "CS 1331"
           ]
         },
@@ -15084,9 +14676,7 @@
   "MATH 1111": {
     "name": "College Algebra",
     "prereqs": {
-      "or": [
-        "MATH 0099"
-      ]
+      "or": []
     },
     "coreqs": []
   },
@@ -15114,7 +14704,8 @@
       "or": [
         {
           "or": [
-            "MATH 1113"
+            "MATH 1113",
+            "MATH 11X3"
           ]
         }
       ]
@@ -15126,6 +14717,7 @@
     "prereqs": {
       "or": [
         "MATH 1113",
+        "MATH 11X3",
         "MATH 1499"
       ]
     },
@@ -15137,7 +14729,7 @@
       "or": [
         "MATH 1550",
         "MATH 1551",
-        "MATH 1501"
+        "MATH 1X51"
       ]
     },
     "coreqs": []
@@ -15148,9 +14740,11 @@
       "or": [
         {
           "or": [
-            "MATH 1113"
+            "MATH 1113",
+            "MATH 11X3"
           ]
         },
+        "MATH 1X51",
         "MATH 1551"
       ]
     },
@@ -15162,10 +14756,12 @@
       "or": [
         {
           "or": [
-            "MATH 1113"
+            "MATH 1113",
+            "MATH 11X3"
           ]
         },
         "MATH 1552",
+        "MATH 1X52",
         "MATH 1551"
       ]
     },
@@ -15174,7 +14770,7 @@
   "MATH 1564": {
     "name": "LinAlg w Abstract Vec Sp",
     "prereqs": {
-      "and": [
+      "or": [
         "MATH 1552"
       ]
     },
@@ -15186,7 +14782,8 @@
       "or": [
         {
           "or": [
-            "MATH 1113"
+            "MATH 1113",
+            "MATH 11X3"
           ]
         }
       ]
@@ -15199,7 +14796,8 @@
       "or": [
         {
           "or": [
-            "MATH 1113"
+            "MATH 1113",
+            "MATH 11X3"
           ]
         }
       ]
@@ -15215,23 +14813,21 @@
     "name": "Foundations Math Proof",
     "prereqs": {
       "or": [
-        "MATH 1502",
-        "MATH 1512",
-        "MATH 1504",
-        "MATH 1555",
         {
           "and": [
             {
               "or": [
-                "MATH 1552"
+                "MATH 1552",
+                "MATH 1X52"
               ]
             },
             {
               "or": [
                 "MATH 1553",
+                "MATH 1X54",
                 "MATH 1554",
                 "MATH 1564",
-                "MATH 1522"
+                "MATH 1X53"
               ]
             }
           ]
@@ -15244,21 +14840,21 @@
     "name": "Intro Multivariable Calc",
     "prereqs": {
       "or": [
-        "MATH 1502",
-        "MATH 1512",
         {
           "and": [
             {
               "or": [
-                "MATH 1552"
+                "MATH 1552",
+                "MATH 1X52"
               ]
             },
             {
               "or": [
                 "MATH 1553",
+                "MATH 1X54",
                 "MATH 1554",
                 "MATH 1564",
-                "MATH 1522"
+                "MATH 1X53"
               ]
             }
           ]
@@ -15271,23 +14867,21 @@
     "name": "Multivariable Calculus",
     "prereqs": {
       "or": [
-        "MATH 1502",
-        "MATH 1512",
-        "MATH 1504",
-        "MATH 1555",
         {
           "and": [
             {
               "or": [
-                "MATH 1552"
+                "MATH 1552",
+                "MATH 1X52"
               ]
             },
             {
               "or": [
                 "MATH 1553",
+                "MATH 1X54",
                 "MATH 1554",
                 "MATH 1564",
-                "MATH 1522"
+                "MATH 1X53"
               ]
             }
           ]
@@ -15300,23 +14894,21 @@
     "name": "Differential Equations",
     "prereqs": {
       "or": [
-        "MATH 1502",
-        "MATH 1512",
-        "MATH 1504",
-        "MATH 1555",
         {
           "and": [
             {
               "or": [
-                "MATH 1552"
+                "MATH 1552",
+                "MATH 1X52"
               ]
             },
             {
               "or": [
                 "MATH 1553",
+                "MATH 1X54",
                 "MATH 1554",
                 "MATH 1564",
-                "MATH 1522"
+                "MATH 1X53"
               ]
             }
           ]
@@ -15329,23 +14921,21 @@
     "name": "Honors Multivar Calculus",
     "prereqs": {
       "or": [
-        "MATH 1502",
-        "MATH 1512",
-        "MATH 1504",
-        "MATH 1555",
         {
           "and": [
             {
               "or": [
-                "MATH 1552"
+                "MATH 1552",
+                "MATH 1X52"
               ]
             },
             {
               "or": [
                 "MATH 1553",
+                "MATH 1X54",
                 "MATH 1554",
                 "MATH 1564",
-                "MATH 1522"
+                "MATH 1X53"
               ]
             }
           ]
@@ -15358,23 +14948,21 @@
     "name": "Honors Differential Eqs",
     "prereqs": {
       "or": [
-        "MATH 1502",
-        "MATH 1512",
-        "MATH 1504",
-        "MATH 1555",
         {
           "and": [
             {
               "or": [
-                "MATH 1552"
+                "MATH 1552",
+                "MATH 1X52"
               ]
             },
             {
               "or": [
                 "MATH 1553",
+                "MATH 1X54",
                 "MATH 1554",
                 "MATH 1564",
-                "MATH 1522"
+                "MATH 1X53"
               ]
             }
           ]
@@ -15387,11 +14975,8 @@
     "name": "Intro Discrete Math",
     "prereqs": {
       "or": [
-        "MATH 1502",
-        "MATH 1512",
-        "MATH 1504",
-        "MATH 1555",
-        "MATH 1552"
+        "MATH 1552",
+        "MATH 1X52"
       ]
     },
     "coreqs": []
@@ -15411,12 +14996,7 @@
     "prereqs": {
       "and": [
         {
-          "or": [
-            "MATH 1502",
-            "MATH 1512",
-            "MATH 1555",
-            "MATH 1504"
-          ]
+          "or": []
         },
         {
           "or": [
@@ -15439,23 +15019,21 @@
     "name": "Applied Combinatorics",
     "prereqs": {
       "or": [
-        "MATH 1502",
-        "MATH 1512",
-        "MATH 1504",
-        "MATH 1555",
         {
           "and": [
             {
               "or": [
-                "MATH 1552"
+                "MATH 1552",
+                "MATH 1X52"
               ]
             },
             {
               "or": [
                 "MATH 1553",
                 "MATH 1554",
+                "MATH 1X54",
                 "MATH 1564",
-                "MATH 1522"
+                "MATH 1X53"
               ]
             }
           ]
@@ -15468,12 +15046,10 @@
     "name": "Probability & Statistics",
     "prereqs": {
       "or": [
-        "MATH 2401",
-        "MATH 2411",
-        "MATH 2605",
         "MATH 2551",
         "MATH 2561",
-        "MATH 2550"
+        "MATH 2550",
+        "MATH 2X51"
       ]
     },
     "coreqs": []
@@ -15485,10 +15061,8 @@
         {
           "or": [
             "MATH 2551",
+            "MATH 2X51",
             "MATH 2561",
-            "MATH 2401",
-            "MATH 2411",
-            "MATH 2605",
             "MATH 2550"
           ]
         },
@@ -15516,12 +15090,11 @@
     "name": "Second Course Linear Alg",
     "prereqs": {
       "or": [
-        "MATH 1502",
-        "MATH 1512",
-        "MATH 1522",
         "MATH 1553",
+        "MATH 1X54",
         "MATH 1554",
-        "MATH 1564"
+        "MATH 1564",
+        "MATH 1X53"
       ]
     },
     "coreqs": []
@@ -15530,12 +15103,10 @@
     "name": "Statistics and Applns",
     "prereqs": {
       "or": [
-        "MATH 2401",
-        "MATH 2411",
-        "MATH 2605",
         "MATH 2551",
         "MATH 2561",
-        "MATH 2550"
+        "MATH 2550",
+        "MATH 2X51"
       ]
     },
     "coreqs": []
@@ -15545,16 +15116,10 @@
     "prereqs": {
       "and": [
         {
-          "or": [
-            "MATH 1502",
-            "MATH 1512",
-            "MATH 1555",
-            "MATH 1504"
-          ]
+          "or": []
         },
         {
           "or": [
-            "MATH 1522",
             "MATH 1553",
             "MATH 1554",
             "MATH 1564"
@@ -15562,12 +15127,9 @@
         },
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2550",
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2605"
+            "MATH 2561"
           ]
         }
       ]
@@ -15578,15 +15140,12 @@
     "name": "Coding Theory",
     "prereqs": {
       "or": [
-        "MATH 1502",
-        "MATH 1512",
-        "MATH 1504",
-        "MATH 1555",
         {
           "and": [
             {
               "or": [
-                "MATH 1552"
+                "MATH 1552",
+                "MATH 1X52"
               ]
             },
             {
@@ -15594,7 +15153,7 @@
                 "MATH 1553",
                 "MATH 1554",
                 "MATH 1564",
-                "MATH 1522"
+                "MATH 1X53"
               ]
             }
           ]
@@ -15607,8 +15166,7 @@
     "name": "Intro to Graph Theory",
     "prereqs": {
       "or": [
-        "MATH 3012",
-        "MATH 3022"
+        "MATH 3012"
       ]
     },
     "coreqs": []
@@ -15617,8 +15175,7 @@
     "name": "Combinatorial Analysis",
     "prereqs": {
       "or": [
-        "MATH 3012",
-        "MATH 3022"
+        "MATH 3012"
       ]
     },
     "coreqs": []
@@ -15647,7 +15204,6 @@
     "prereqs": {
       "or": [
         "MATH 2106",
-        "MATH 2406",
         "CS 2051",
         "CS 3510",
         "CS 3511"
@@ -15660,7 +15216,6 @@
     "prereqs": {
       "or": [
         "MATH 3215",
-        "MATH 3225",
         "MATH 3235",
         "MATH 3670"
       ]
@@ -15672,10 +15227,8 @@
     "prereqs": {
       "or": [
         "MATH 3215",
-        "MATH 3225",
         "MATH 3235",
         "MATH 3670",
-        "MATH 3770",
         "ISYE 3770",
         "CEE 3770"
       ]
@@ -15696,10 +15249,8 @@
     "prereqs": {
       "or": [
         "MATH 3215",
-        "MATH 3225",
         "MATH 3235",
         "MATH 3670",
-        "MATH 3770",
         "ISYE 3770",
         "CEE 3770"
       ]
@@ -15721,10 +15272,8 @@
     "prereqs": {
       "or": [
         "MATH 3215",
-        "MATH 3225",
         "MATH 3235",
         "MATH 3670",
-        "MATH 3770",
         "ISYE 3770",
         "CEE 3770"
       ]
@@ -15735,15 +15284,12 @@
     "name": "Linear Algebra",
     "prereqs": {
       "or": [
-        "MATH 1502",
-        "MATH 1512",
-        "MATH 1504",
-        "MATH 1555",
         {
           "and": [
             {
               "or": [
-                "MATH 1552"
+                "MATH 1552",
+                "MATH 1X52"
               ]
             },
             {
@@ -15751,7 +15297,7 @@
                 "MATH 1553",
                 "MATH 1554",
                 "MATH 1564",
-                "MATH 1522"
+                "MATH 1X53"
               ]
             }
           ]
@@ -15782,12 +15328,10 @@
     "name": "Complex Analysis",
     "prereqs": {
       "or": [
-        "MATH 2401",
-        "MATH 2411",
-        "MATH 2605",
         "MATH 2551",
         "MATH 2561",
-        "MATH 2550"
+        "MATH 2550",
+        "MATH 2X51"
       ]
     },
     "coreqs": []
@@ -15835,12 +15379,10 @@
     "name": "Differential Geometry",
     "prereqs": {
       "or": [
-        "MATH 2401",
-        "MATH 2411",
-        "MATH 2605",
         "MATH 2551",
         "MATH 2561",
-        "MATH 2550"
+        "MATH 2550",
+        "MATH 2X51"
       ]
     },
     "coreqs": []
@@ -15851,20 +15393,18 @@
       "and": [
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         },
         {
           "or": [
-            "MATH 1522",
             "MATH 1553",
+            "MATH 1X54",
             "MATH 1554",
             "MATH 1564",
-            "MATH 1502",
-            "MATH 1512"
+            "MATH 1X53"
           ]
         }
       ]
@@ -15875,12 +15415,8 @@
     "name": "Linear Programming",
     "prereqs": {
       "or": [
-        "MATH 1502",
-        "MATH 1512",
         {
-          "and": [
-            "MATH 1522"
-          ]
+          "and": []
         }
       ]
     },
@@ -15890,11 +15426,9 @@
     "name": "Math Methods in Engr",
     "prereqs": {
       "or": [
-        "MATH 2403",
-        "MATH 2413",
-        "MATH 2605",
         "MATH 2552",
-        "MATH 2562"
+        "MATH 2562",
+        "MATH 2X52"
       ]
     },
     "coreqs": []
@@ -15903,12 +15437,9 @@
     "name": "Numerical Analysis I",
     "prereqs": {
       "or": [
-        "MATH 2403",
-        "MATH 2413",
-        "MATH 2602",
-        "MATH 2605",
         "MATH 2552",
         "MATH 2562",
+        "MATH 2X52",
         "MATH 2603"
       ]
     },
@@ -15939,13 +15470,10 @@
       "and": [
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
             "MATH 2561",
             "MATH 2550",
-            "MATH 2551",
-            "MATH 2605"
+            "MATH 2551"
           ]
         },
         "MATH 3406"
@@ -15957,23 +15485,19 @@
     "name": "Mathematical Biology",
     "prereqs": {
       "or": [
-        "MATH 1502",
-        "MATH 1512",
-        "MATH 1504",
-        "MATH 1555",
         {
           "and": [
             {
               "or": [
-                "MATH 1552"
+                "MATH 1552",
+                "MATH 1X52"
               ]
             },
             {
               "or": [
                 "MATH 1553",
                 "MATH 1554",
-                "MATH 1546",
-                "MATH 1522"
+                "MATH 1X53"
               ]
             }
           ]
@@ -15986,12 +15510,10 @@
     "name": "Quantum Info&Quant Comp",
     "prereqs": {
       "or": [
-        "MATH 2401",
-        "MATH 2411",
-        "MATH 2605",
         "MATH 2551",
         "MATH 2561",
-        "MATH 2550"
+        "MATH 2550",
+        "MATH 2X51"
       ]
     },
     "coreqs": []
@@ -16041,7 +15563,6 @@
             },
             {
               "and": [
-                "CS 1311",
                 "CS 1171"
               ]
             },
@@ -16070,25 +15591,21 @@
         {
           "or": [
             "MATH 1552",
-            "MATH 1502",
-            "MATH 1512"
+            "MATH 1X52"
           ]
         },
         {
           "or": [
             "MATH 1553",
             "MATH 1564",
-            "MATH 1554",
-            "MATH 1502",
-            "MATH 1512"
+            "MATH 1554"
           ]
         },
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2403",
-            "MATH 2413"
+            "MATH 2X52",
+            "MATH 2562"
           ]
         }
       ]
@@ -16101,9 +15618,7 @@
       "and": [
         {
           "or": [
-            "AE 1770",
-            "ME 1670",
-            "ME 1770"
+            "ME 1670"
           ]
         },
         "COE 2001"
@@ -16168,8 +15683,7 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2403",
-            "MATH 2413",
+            "MATH 2X52",
             "MATH 2562"
           ]
         },
@@ -16200,8 +15714,7 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2401",
-            "MATH 2411",
+            "MATH 2X51",
             "MATH 2561"
           ]
         }
@@ -16218,10 +15731,9 @@
         "ME 3340",
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         }
       ]
@@ -16239,9 +15751,7 @@
       "and": [
         {
           "or": [
-            "AE 1770",
-            "CEE 1770",
-            "ME 1770"
+            "CEE 1770"
           ]
         },
         "ME 2110",
@@ -16273,9 +15783,8 @@
         },
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
+            "MATH 2X52",
             "MATH 2562"
           ]
         }
@@ -16291,10 +15800,8 @@
           "or": [
             "ME 2202",
             "AE 2220",
-            "NRE 2110",
             "NRE 3301",
-            "MSE 3005",
-            "PTFE 2200"
+            "MSE 3005"
           ]
         },
         {
@@ -16306,18 +15813,16 @@
         },
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
+            "MATH 2X51",
             "MATH 2561"
           ]
         },
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         },
         "COE 2001"
@@ -16331,9 +15836,8 @@
       "and": [
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
+            "MATH 2X52",
             "MATH 2562"
           ]
         },
@@ -16373,7 +15877,8 @@
           "or": [
             "CHEM 1310",
             "CHEM 1211K",
-            "CHEM 1212K"
+            "CHEM 1212K",
+            "CHEM 12X1"
           ]
         },
         {
@@ -16384,10 +15889,8 @@
         },
         {
           "or": [
-            "MATH 2403",
-            "MATH 2602",
-            "MATH 2413",
             "MATH 2552",
+            "MATH 2X52",
             "MATH 2562"
           ]
         }
@@ -16423,9 +15926,7 @@
     "name": "Motion Systems",
     "prereqs": {
       "or": [
-        "ME 3015",
-        "ME 3017",
-        "AE 3515"
+        "ME 3017"
       ]
     },
     "coreqs": []
@@ -16467,16 +15968,13 @@
       "and": [
         {
           "or": [
-            "ME 3017",
-            "ME 3015",
-            "AE 3515"
+            "ME 3017"
           ]
         },
         "ME 3057",
         "ME 3345",
         {
           "or": [
-            "MATH 3770",
             "MATH 3670",
             "CEE 3770",
             "ISYE 3770"
@@ -16510,7 +16008,6 @@
         },
         {
           "or": [
-            "MATH 3770",
             "MATH 3670",
             "CEE 3770",
             "ISYE 3770"
@@ -16535,9 +16032,8 @@
         },
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
+            "MATH 2X52",
             "MATH 2562"
           ]
         }
@@ -16586,9 +16082,7 @@
       "and": [
         {
           "or": [
-            "AE 1770",
-            "CEE 1770",
-            "ME 1770"
+            "CEE 1770"
           ]
         },
         "ME 2110",
@@ -16679,9 +16173,7 @@
     "name": "Control Dynamic Systems",
     "prereqs": {
       "or": [
-        "ME 3017",
-        "ME 3015",
-        "AE 3515"
+        "ME 3017"
       ]
     },
     "coreqs": []
@@ -16702,10 +16194,9 @@
       "and": [
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         },
         {
@@ -16742,12 +16233,10 @@
         },
         "ISYE 3770",
         "MATH 3670",
-        "MATH 3770",
         "BMED 2400",
         {
           "or": [
-            "ME 2016",
-            "CS 4640"
+            "ME 2016"
           ]
         }
       ]
@@ -16778,8 +16267,7 @@
           ]
         },
         "ME 3210",
-        "ME 3345",
-        "ME 3670"
+        "ME 3345"
       ]
     },
     "coreqs": []
@@ -16808,8 +16296,6 @@
     "name": "Bio-Inspired Design",
     "prereqs": {
       "or": [
-        "BIOL 1520",
-        "BIOL 3600",
         "BMED 3100",
         "PHYS 2211",
         "PHYS 2231"
@@ -16871,9 +16357,7 @@
     "name": "Biofluid Mechanics",
     "prereqs": {
       "or": [
-        "AE 2020",
         "ME 3340",
-        "BMED 3300",
         "CEE 3040"
       ]
     },
@@ -16883,8 +16367,7 @@
     "name": "Biosolid Mechanics",
     "prereqs": {
       "or": [
-        "COE 3001",
-        "BMED 3400"
+        "COE 3001"
       ]
     },
     "coreqs": []
@@ -16902,10 +16385,9 @@
     "name": "Acoustics& Noise Control",
     "prereqs": {
       "or": [
-        "MATH 2403",
-        "MATH 2413",
         "MATH 2552",
-        "MATH 2562"
+        "MATH 2562",
+        "MATH 2X52"
       ]
     },
     "coreqs": []
@@ -16916,7 +16398,6 @@
       "or": [
         "ME 3322",
         "ME 3720",
-        "AE 3450",
         "PHYS 3141",
         "MSE 3001"
       ]
@@ -16963,8 +16444,7 @@
         "CHBE 4775",
         "CHEM 4775",
         "ME 4775",
-        "MSE 4775",
-        "PTFE 4775"
+        "MSE 4775"
       ]
     },
     "coreqs": []
@@ -16995,9 +16475,7 @@
     "prereqs": {
       "or": [
         "BMED 3500",
-        "CHBE 4400",
         "ECE 2040",
-        "ME 3015",
         "ME 3017"
       ]
     },
@@ -17007,8 +16485,7 @@
     "name": "Materials Select& Design",
     "prereqs": {
       "or": [
-        "COE 3001",
-        "MSE 3003"
+        "COE 3001"
       ]
     },
     "coreqs": []
@@ -17030,7 +16507,8 @@
           "or": [
             "CHEM 1310",
             "CHEM 1211K",
-            "CHEM 1212K"
+            "CHEM 1212K",
+            "CHEM 12X1"
           ]
         },
         {
@@ -17133,7 +16611,7 @@
     "prereqs": {
       "or": [
         "MATH 1712",
-        "MATH 1501",
+        "MATH 17X2",
         "MATH 1550",
         "MATH 1551"
       ]
@@ -18177,9 +17655,8 @@
     "prereqs": {
       "or": [
         "CHEM 1310",
-        "CHEM 1102",
-        "CHEM 1211K",
-        "CHEM 1112"
+        "CHEM 12X1",
+        "CHEM 1211K"
       ]
     },
     "coreqs": []
@@ -18220,10 +17697,8 @@
         "MSE 2001",
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
-            "MATH 2602",
             "MATH 2552",
+            "MATH 2X52",
             "MATH 2562"
           ]
         }
@@ -18277,9 +17752,8 @@
         "CS 1371",
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
+            "MATH 2X52",
             "MATH 2562"
           ]
         },
@@ -18294,17 +17768,15 @@
       "and": [
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
+            "MATH 2X51",
             "MATH 2561"
           ]
         },
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
+            "MATH 2X52",
             "MATH 2562"
           ]
         },
@@ -18354,6 +17826,7 @@
     "prereqs": {
       "or": [
         "CHEM 1310",
+        "CHEM 12X1",
         "CHEM 1211K"
       ]
     },
@@ -18511,14 +17984,12 @@
             },
             "ISYE 3770",
             "MATH 3670",
-            "MATH 3770",
             "BMED 2400"
           ]
         },
         {
           "or": [
             "ME 2016",
-            "CS 4640",
             "MATH 4640",
             "MSE 3025"
           ]
@@ -18566,8 +18037,6 @@
     "name": "Bio-Inspired Design",
     "prereqs": {
       "or": [
-        "BIOL 1520",
-        "BIOL 3600",
         "BMED 3100",
         "PHYS 2211"
       ]
@@ -18599,17 +18068,15 @@
       "and": [
         {
           "or": [
-            "MATH 2401",
-            "MATH 2411",
             "MATH 2551",
+            "MATH 2X51",
             "MATH 2561"
           ]
         },
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
+            "MATH 2X52",
             "MATH 2562"
           ]
         },
@@ -18643,7 +18110,6 @@
       "or": [
         "ME 3322",
         "ME 3720",
-        "AE 3450",
         "PHYS 3141",
         "MSE 3001"
       ]
@@ -18679,8 +18145,7 @@
       "or": [
         "CHBE 4775",
         "CHEM 4775",
-        "ME 4775",
-        "PTFE 4775"
+        "ME 4775"
       ]
     },
     "coreqs": []
@@ -19161,7 +18626,6 @@
         "PSYC 1101",
         {
           "or": [
-            "BIOL 1510",
             {
               "and": [
                 {
@@ -19312,7 +18776,6 @@
             "ISYE 3770",
             "ECE 3077",
             "PSYC 2020",
-            "MATH 3225",
             "MATH 3670"
           ]
         }
@@ -19481,7 +18944,6 @@
             "BIOS 4401",
             "PSYC 2020",
             "MATH 3215",
-            "MATH 3225",
             "MATH 3670"
           ]
         },
@@ -19570,7 +19032,6 @@
     "name": "Radiation Detection",
     "prereqs": {
       "and": [
-        "NRE 2110",
         "NRE 3301"
       ]
     },
@@ -19582,10 +19043,9 @@
       "and": [
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         },
         {
@@ -19605,9 +19065,8 @@
       "and": [
         {
           "or": [
-            "MATH 1502",
-            "MATH 1512",
-            "MATH 1552"
+            "MATH 1552",
+            "MATH 1X52"
           ]
         },
         {
@@ -19627,10 +19086,9 @@
       "and": [
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         },
         "NRE 3301"
@@ -19661,9 +19119,7 @@
   "NRE 4234": {
     "name": "Nuc Criticality Safe Eng",
     "prereqs": {
-      "and": [
-        "NRE 4204"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -20030,7 +19486,7 @@
     "prereqs": {
       "or": [
         "MATH 1552",
-        "MATH 1555"
+        "MATH 1X52"
       ]
     },
     "coreqs": []
@@ -20059,8 +19515,6 @@
     "name": "Honors Physics I",
     "prereqs": {
       "or": [
-        "MATH 1502",
-        "MATH 1512",
         "MATH 1552"
       ]
     },
@@ -20179,17 +19633,16 @@
         },
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         },
         {
           "or": [
-            "MATH 2401",
             "MATH 2551",
-            "MATH 2561"
+            "MATH 2561",
+            "MATH 2X51"
           ]
         }
       ]
@@ -20217,10 +19670,9 @@
         },
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         }
       ]
@@ -20234,10 +19686,9 @@
         "PHYS 2213",
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         }
       ]
@@ -20250,10 +19701,9 @@
       "and": [
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         },
         {
@@ -20278,10 +19728,9 @@
         },
         {
           "or": [
-            "MATH 2403",
-            "MATH 2413",
             "MATH 2552",
-            "MATH 2562"
+            "MATH 2562",
+            "MATH 2X52"
           ]
         }
       ]
@@ -20396,9 +19845,7 @@
   "PHYS 4206": {
     "name": "Electronics II",
     "prereqs": {
-      "and": [
-        "PHYS 3211"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -20515,8 +19962,7 @@
     "name": "Theoretical Astrophysics",
     "prereqs": {
       "or": [
-        "PHYS 2213",
-        "PHYS 3021"
+        "PHYS 2213"
       ]
     },
     "coreqs": []
@@ -20595,11 +20041,9 @@
     "name": "Quantum Info&Quant Comp",
     "prereqs": {
       "or": [
-        "MATH 2401",
-        "MATH 2411",
-        "MATH 2601",
         "MATH 2551",
-        "MATH 2561"
+        "MATH 2561",
+        "MATH 2X51"
       ]
     },
     "coreqs": []
@@ -20718,12 +20162,8 @@
         "PSYC 1101",
         {
           "or": [
-            "MATH 1502",
-            "MATH 1512",
             {
-              "and": [
-                "MATH 1522"
-              ]
+              "and": []
             },
             {
               "and": [
@@ -20733,8 +20173,7 @@
             },
             {
               "and": [
-                "MATH 1551",
-                "MATH 1555"
+                "MATH 1551"
               ]
             }
           ]
@@ -20881,8 +20320,7 @@
     "name": "Biopsychology",
     "prereqs": {
       "and": [
-        "PSYC 1101",
-        "BIOL 1520"
+        "PSYC 1101"
       ]
     },
     "coreqs": []
@@ -20891,7 +20329,6 @@
     "name": "Exper Analys of Behavior",
     "prereqs": {
       "and": [
-        "BIOL 1510",
         "PSYC 2020"
       ]
     },
@@ -20975,7 +20412,6 @@
         {
           "or": [
             "MATH 3215",
-            "MATH 3225",
             "MATH 3670"
           ]
         },
@@ -21007,8 +20443,6 @@
         "PSYC 1101",
         {
           "or": [
-            "BIOL 1520",
-            "BIOL 1521",
             "NEUR 2001",
             {
               "and": [
@@ -21077,7 +20511,6 @@
     "name": "Cognitive Neuroscience",
     "prereqs": {
       "or": [
-        "PSYC 3011",
         "PSYC 3012",
         "PSYC 4011"
       ]
@@ -21091,7 +20524,6 @@
         "PSYC 1101",
         {
           "or": [
-            "BIOL 1520",
             {
               "and": [
                 "BIOS 1108",
@@ -21142,7 +20574,6 @@
         {
           "or": [
             "MATH 3215",
-            "MATH 3225",
             "MATH 3670"
           ]
         }
@@ -21632,8 +21063,7 @@
     "name": "OLA Legal Internship",
     "prereqs": {
       "or": [
-        "PUBP 3610",
-        "PUBP 4811"
+        "PUBP 3610"
       ]
     },
     "coreqs": []
@@ -22038,8 +21468,7 @@
     "name": "Business And Culture",
     "prereqs": {
       "or": [
-        "SPAN 1002",
-        "SPAN 1102"
+        "SPAN 1002"
       ]
     },
     "coreqs": []
@@ -22082,9 +21511,7 @@
   "SPAN 4062": {
     "name": "Science & Technology II",
     "prereqs": {
-      "and": [
-        "SPAN 3062"
-      ]
+      "null": []
     },
     "coreqs": []
   },
