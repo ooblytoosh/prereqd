@@ -99,18 +99,6 @@
           "and": [
             "MATH 2562"
           ]
-        },
-        {
-          "null": []
-        },
-        {
-          "null": []
-        },
-        {
-          "null": []
-        },
-        {
-          "null": []
         }
       ]
     },
@@ -238,6 +226,27 @@
     },
     "coreqs": []
   },
+  "AE 3450": {
+    "name": "Thermodynamics&Comp Flow",
+    "prereqs": {
+      "and": [
+        {
+          "or": [
+            "PHYS 2212",
+            "PHYS 2232"
+          ]
+        },
+        {
+          "or": [
+            "MATH 2551",
+            "MATH 2561",
+            "MATH 2X51"
+          ]
+        }
+      ]
+    },
+    "coreqs": []
+  },
   "AE 3610": {
     "name": "Exper Fluids&Solid Mech",
     "prereqs": {
@@ -257,7 +266,9 @@
   "AE 4040": {
     "name": "Computational Fluid Dyn",
     "prereqs": {
-      "null": []
+      "and": [
+        "AE 3030"
+      ]
     },
     "coreqs": []
   },
@@ -274,7 +285,9 @@
   "AE 4080": {
     "name": "Aerothermodynamics",
     "prereqs": {
-      "null": []
+      "and": [
+        "AE 3030"
+      ]
     },
     "coreqs": []
   },
@@ -421,7 +434,9 @@
   "AE 4461": {
     "name": "Intro to Combustion",
     "prereqs": {
-      "null": []
+      "and": [
+        "AE 3450"
+      ]
     },
     "coreqs": []
   },
@@ -448,7 +463,9 @@
   "AE 4552": {
     "name": "Intro Humans & Autonomy",
     "prereqs": {
-      "null": []
+      "and": [
+        "AE 3531"
+      ]
     },
     "coreqs": []
   },
@@ -1093,17 +1110,20 @@
     "prereqs": {},
     "coreqs": []
   },
+  "ARCH 4507": {
+    "name": "Parametric Design",
+    "prereqs": {
+      "and": [
+        "ARCH 2472",
+        "ARCH 2474"
+      ]
+    },
+    "coreqs": []
+  },
   "ARCH 4508": {
     "name": "Shape Grammars",
     "prereqs": {
       "and": []
-    },
-    "coreqs": []
-  },
-  "ARCH 4510": {
-    "name": "Advanced Productions",
-    "prereqs": {
-      "null": []
     },
     "coreqs": []
   },
@@ -3123,6 +3143,21 @@
     },
     "coreqs": []
   },
+  "BMED 3400": {
+    "name": "Intro to Biomechanics",
+    "prereqs": {
+      "and": [
+        "COE 2001",
+        {
+          "or": [
+            "MATH 2551",
+            "MATH 2X51"
+          ]
+        }
+      ]
+    },
+    "coreqs": []
+  },
   "BMED 3410": {
     "name": "Intro to Biomechanics",
     "prereqs": {
@@ -3430,7 +3465,9 @@
   "BMED 4758": {
     "name": "Biosolid Mechanics",
     "prereqs": {
-      "null": []
+      "and": [
+        "BMED 3400"
+      ]
     },
     "coreqs": []
   },
@@ -5122,13 +5159,6 @@
         "BMED 3500",
         "ECE 2040"
       ]
-    },
-    "coreqs": []
-  },
-  "CHBE 4791": {
-    "name": "Mech Behavior-Composites",
-    "prereqs": {
-      "null": []
     },
     "coreqs": []
   },
@@ -7017,13 +7047,6 @@
   "CS 4010": {
     "name": "Intro to Computer Law",
     "prereqs": {},
-    "coreqs": []
-  },
-  "CS 4057": {
-    "name": "Bus Process Analy&Design",
-    "prereqs": {
-      "null": []
-    },
     "coreqs": []
   },
   "CS 4117": {
@@ -12501,13 +12524,6 @@
     },
     "coreqs": []
   },
-  "ID 3201": {
-    "name": "Design and Community",
-    "prereqs": {
-      "null": []
-    },
-    "coreqs": []
-  },
   "ID 3301": {
     "name": "Materials I",
     "prereqs": {},
@@ -12690,13 +12706,6 @@
   "ID 4418": {
     "name": "Design Sketching",
     "prereqs": {},
-    "coreqs": []
-  },
-  "ID 4450": {
-    "name": "Portfolio Development",
-    "prereqs": {
-      "null": []
-    },
     "coreqs": []
   },
   "ID 4698": {
@@ -20006,13 +20015,6 @@
     },
     "coreqs": []
   },
-  "NRE 4234": {
-    "name": "Nuc Criticality Safe Eng",
-    "prereqs": {
-      "null": []
-    },
-    "coreqs": []
-  },
   "NRE 4266": {
     "name": "Light Water Reactor Tech",
     "prereqs": {
@@ -20739,6 +20741,7 @@
     },
     "coreqs": []
   },
+  
   "PHYS 3232": {
     "name": "Optics I",
     "prereqs": {
@@ -20804,7 +20807,9 @@
   "PHYS 4206": {
     "name": "Electronics II",
     "prereqs": {
-      "null": []
+      "and": [
+        "PHYS 3209"
+      ]
     },
     "coreqs": []
   },
@@ -21549,7 +21554,7 @@
         "BIOS 4401",
         "BMED 2400",
         {
-          "null": [
+          "and": [
             "ISYE 3770",
             "ECE 3077"
           ]
@@ -22570,13 +22575,6 @@
   "SPAN 4061": {
     "name": "Science & Technology I",
     "prereqs": {},
-    "coreqs": []
-  },
-  "SPAN 4062": {
-    "name": "Science & Technology II",
-    "prereqs": {
-      "null": []
-    },
     "coreqs": []
   },
   "SPAN 4102": {
