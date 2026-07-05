@@ -1,16 +1,32 @@
+import { useState } from 'react';
 import { useCourseTracker } from './useCourseTracker';
-import {CourseColumn} from './components/CourseColumn';
+import { CourseColumn } from './components/CourseColumn';
+import MAJORS from './majors.json';
 import './App.css';
 
-//main app function
 function App() {
+  const [selectedMajor, setSelectedMajor] = useState(null);
+  const {takenCourses, availableCourses, lockedCourses, addCourse, removeCourse} = useCourseTracker(selectedMajor);
 
-  const {takenCourses, availableCourses, lockedCourses, addCourse, removeCourse} = useCourseTracker();
+  if (!selectedMajor) {
+    return (
+      <div className="major-selection">
+        <h1>prereqd</h1>
+        <h1>Select your major</h1>
+        <select onChange={(e) => setSelectedMajor(e.target.value)} defaultValue="">
+          <option value="" disabled>Choose a major...</option>
+          {Object.keys(MAJORS).map(major => (
+            <option key={major} value={major}>{major}</option>
+          ))}
+        </select>
+      </div>
+    );
+  }
 
   return (
     <div>
       <h1>prereqd</h1>
-      <h1>Major: Aerospace Engineering</h1>
+      <h1>{selectedMajor}</h1>
       <div className="lists">
         <CourseColumn 
           title="Taken"
@@ -34,7 +50,7 @@ function App() {
         />
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
