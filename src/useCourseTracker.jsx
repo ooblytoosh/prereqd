@@ -1,5 +1,46 @@
 import { useState, useEffect } from 'react';
 import COURSES from './courses.json';
+import MAJORS from './majors.json';
+
+function extractCourseIds(prereqs) {
+  if (typeof prereqs === 'string') {
+    return [prereqs];
+  }
+  if (!prereqs || Object.keys(prereqs).length === 0) {
+    return [];
+  }
+
+  const items = prereqs.and || prereqs.or
+  let ids = [];
+
+  for (const item of items) {
+    if (typeof item === 'string') {
+      ids.push(item);
+    } else {
+      ids = ids.concat(extractCourseIds(item));
+    }
+  }
+  return ids;
+}
+
+function getRelevantCourses(majorCourses) {
+  const relevant = new Set(majorCourses);
+  const queue = [...majorCourses];
+
+  while (queue.length > 0) {
+    const courseId = queue.shift();
+    const course = COURSES[courseId];
+
+    const prereqIds = extractCourseIds(course.prereqs);
+    for (const prereqId of prereqIds) {
+      if (!relevant.has(prereqId)) {
+        relevant.add(prereqId)
+        queue.push(prereqId)
+      }
+    }
+  }
+  return relevant;
+}
 
 function isSatisfied(prereqs, takenCourses) {
   if (Object.keys(prereqs).length === 0) {
@@ -28,7 +69,7 @@ function isSatisfied(prereqs, takenCourses) {
 }
 
 
-export function useCourseTracker() {
+export function useCourseTracker(selectedMajor) {
   const [takenCourses, setTakenCourses] = useState(() => {
     const saved = localStorage.getItem('takenCourses');
     return saved ? new Set(JSON.parse(saved)) : new Set();
@@ -38,10 +79,11 @@ export function useCourseTracker() {
     localStorage.setItem('takenCourses', JSON.stringify([...takenCourses]));
   }, [takenCourses]);
 
+  const relevantCourses = selectedMajor ? getRelevantCourses(MAJORS[selectedMajor].courses) : new Set();
   const availableCourses = [];
   const lockedCourses = [];
 
-  for (const courseId of Object.keys(COURSES)) {
+  for (const courseId of relevantCourses) {
     if (takenCourses.has(courseId)) continue;
 
     if (isSatisfied(COURSES[courseId].prereqs, takenCourses)) {
@@ -65,7 +107,7 @@ export function useCourseTracker() {
       const current = queue.shift();
       if (next.has(current)) {
         next.delete(current);
-        for (const courseId of Object.keys(COURSES)) {
+        for (const courseId of next) {
           if (!isSatisfied(COURSES[courseId].prereqs, next)) {
             queue.push(courseId);
           }
