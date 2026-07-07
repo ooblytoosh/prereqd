@@ -27,11 +27,6 @@
     },
     "coreqs": []
   },
-  "AE 1XXX": {
-    "name": "Aerospace Engr Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "AE 2010": {
     "name": "Thermodyn&Fluids Fundam",
     "prereqs": {
@@ -39,8 +34,7 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         {
@@ -76,8 +70,7 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         }
       ]
@@ -99,6 +92,18 @@
           "and": [
             "MATH 2562"
           ]
+        },
+        {
+          "null": []
+        },
+        {
+          "null": []
+        },
+        {
+          "null": []
+        },
+        {
+          "null": []
         }
       ]
     },
@@ -123,8 +128,7 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         "COE 2001"
@@ -157,11 +161,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "AE 2XXX": {
-    "name": "Aerospace Engr Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "AE 3030": {
     "name": "Aerodynamics",
     "prereqs": {
@@ -187,8 +186,7 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         },
         "AE 3030"
@@ -209,8 +207,7 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         }
       ]
@@ -226,27 +223,6 @@
     },
     "coreqs": []
   },
-  "AE 3450": {
-    "name": "Thermodynamics&Comp Flow",
-    "prereqs": {
-      "and": [
-        {
-          "or": [
-            "PHYS 2212",
-            "PHYS 2232"
-          ]
-        },
-        {
-          "or": [
-            "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
-          ]
-        }
-      ]
-    },
-    "coreqs": []
-  },
   "AE 3610": {
     "name": "Exper Fluids&Solid Mech",
     "prereqs": {
@@ -258,17 +234,10 @@
     },
     "coreqs": []
   },
-  "AE 3XXX": {
-    "name": "Aerospace Engr Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "AE 4040": {
     "name": "Computational Fluid Dyn",
     "prereqs": {
-      "and": [
-        "AE 3030"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -285,9 +254,7 @@
   "AE 4080": {
     "name": "Aerothermodynamics",
     "prereqs": {
-      "and": [
-        "AE 3030"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -302,9 +269,7 @@
   },
   "AE 4220": {
     "name": "Aeroelasticity",
-    "prereqs": {
-      "and": []
-    },
+    "prereqs": {},
     "coreqs": []
   },
   "AE 4311": {
@@ -434,9 +399,7 @@
   "AE 4461": {
     "name": "Intro to Combustion",
     "prereqs": {
-      "and": [
-        "AE 3450"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -463,9 +426,7 @@
   "AE 4552": {
     "name": "Intro Humans & Autonomy",
     "prereqs": {
-      "and": [
-        "AE 3531"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -506,8 +467,7 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         "PHYS 2211"
@@ -525,8 +485,7 @@
     "prereqs": {
       "or": [
         "MATH 2552",
-        "MATH 2562",
-        "MATH 2X52"
+        "MATH 2562"
       ]
     },
     "coreqs": []
@@ -567,11 +526,6 @@
   },
   "AE 4863": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "AE 4XXX": {
-    "name": "Aerospace Engr Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -689,11 +643,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "ARBC 10X1": {
-    "name": "Trans Arabic Elementary I",
-    "prereqs": {},
-    "coreqs": []
-  },
   "ARBC 10X2": {
     "name": "Trans Arabic Elementary II",
     "prereqs": {},
@@ -701,11 +650,6 @@
   },
   "ARBC 1501": {
     "name": "Understand Arab Culture",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "ARBC 1XXX": {
-    "name": "Arabic Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -721,11 +665,6 @@
   },
   "ARBC 2301": {
     "name": "Arts Sci Tech Thru Hist",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "ARBC 2XXX": {
-    "name": "Arabic Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -773,11 +712,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "ARBC 3XXX": {
-    "name": "Arabic Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "ARBC 4695": {
     "name": "Arabic Internship",
     "prereqs": {},
@@ -790,11 +724,6 @@
   },
   "ARBC 4813": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "ARBC 4XXX": {
-    "name": "Arabic Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -829,11 +758,6 @@
   },
   "ARCH 1855": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "ARCH 1XXX": {
-    "name": "Architecture Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -886,11 +810,6 @@
   },
   "ARCH 2854": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "ARCH 2XXX": {
-    "name": "Architecture Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -968,11 +887,6 @@
   },
   "ARCH 3855": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "ARCH 3XXX": {
-    "name": "Architecture Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -1110,20 +1024,15 @@
     "prereqs": {},
     "coreqs": []
   },
-  "ARCH 4507": {
-    "name": "Parametric Design",
-    "prereqs": {
-      "and": [
-        "ARCH 2472",
-        "ARCH 2474"
-      ]
-    },
-    "coreqs": []
-  },
   "ARCH 4508": {
     "name": "Shape Grammars",
+    "prereqs": {},
+    "coreqs": []
+  },
+  "ARCH 4510": {
+    "name": "Advanced Productions",
     "prereqs": {
-      "and": []
+      "null": []
     },
     "coreqs": []
   },
@@ -1139,9 +1048,7 @@
   },
   "ARCH 4702": {
     "name": "Design Scripting",
-    "prereqs": {
-      "and": []
-    },
+    "prereqs": {},
     "coreqs": []
   },
   "ARCH 4801": {
@@ -1209,11 +1116,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "ARCH 4XXX": {
-    "name": "Architecture Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "AS 1000": {
     "name": "Air Force Leadership-Lab",
     "prereqs": {},
@@ -1259,11 +1161,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "BC 1XXX": {
-    "name": "Bldg Construction Elect",
-    "prereqs": {},
-    "coreqs": []
-  },
   "BC 2610": {
     "name": "Construction Tech I",
     "prereqs": {},
@@ -1300,11 +1197,6 @@
   },
   "BC 2698": {
     "name": "Research Assistantship",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "BC 2XXX": {
-    "name": "Bldg Construction Elect",
     "prereqs": {},
     "coreqs": []
   },
@@ -1354,11 +1246,6 @@
         "BC 2620"
       ]
     },
-    "coreqs": []
-  },
-  "BC 3XXX": {
-    "name": "Bldg Construction Elect",
-    "prereqs": {},
     "coreqs": []
   },
   "BC 4050": {
@@ -1474,11 +1361,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "BC 4XXX": {
-    "name": "Bldg Construction Elect",
-    "prereqs": {},
-    "coreqs": []
-  },
   "BIOS 1107": {
     "name": "Principles of Biology I",
     "prereqs": {},
@@ -1521,11 +1403,6 @@
   },
   "BIOS 1220": {
     "name": "Biology of Sex & Death",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "BIOS 1XXX": {
-    "name": "Biological Sciences Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -1619,23 +1496,17 @@
               "and": [
                 {
                   "or": [
-                    "MATH 1552",
-                    "MATH 1X52"
+                    "MATH 1552"
                   ]
                 },
                 {
                   "or": [
                     "MATH 1553",
-                    "MATH 1X53",
                     "MATH 1554",
-                    "MATH 1X54",
                     "MATH 1564"
                   ]
                 }
               ]
-            },
-            {
-              "or": []
             }
           ]
         },
@@ -1779,11 +1650,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "BIOS 2XXX": {
-    "name": "Biological Sciences Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "BIOS 3380": {
     "name": "Microbiology",
     "prereqs": {
@@ -1856,9 +1722,6 @@
                 "MATH 1554",
                 "MATH 1564"
               ]
-            },
-            {
-              "or": []
             }
           ]
         },
@@ -1877,9 +1740,6 @@
               ]
             }
           ]
-        },
-        {
-          "or": []
         }
       ]
     },
@@ -1891,9 +1751,6 @@
       "and": [
         {
           "or": [
-            {
-              "or": []
-            },
             {
               "and": [
                 "BIOS 1107",
@@ -1924,9 +1781,6 @@
       "and": [
         {
           "or": [
-            {
-              "or": []
-            },
             {
               "and": [
                 "BIOS 1107",
@@ -2083,11 +1937,6 @@
   },
   "BIOS 3835": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "BIOS 3XXX": {
-    "name": "Biological Sciences Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -2327,16 +2176,13 @@
         {
           "or": [
             "MATH 1553",
-            "MATH 1X53",
             "MATH 1554",
-            "MATH 1X54",
             "MATH 1564"
           ]
         },
         {
           "or": [
-            "MATH 1552",
-            "MATH 1X52"
+            "MATH 1552"
           ]
         },
         {
@@ -2396,9 +2242,6 @@
             "BIOS 2300",
             "BIOS 2310"
           ]
-        },
-        {
-          "or": []
         }
       ]
     },
@@ -2949,18 +2792,8 @@
     "prereqs": {},
     "coreqs": []
   },
-  "BIOS 4XXX": {
-    "name": "Biological Sciences Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "BMED 1000": {
     "name": "Intro to Biomedical Engr",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "BMED 1XXX": {
-    "name": "Bioengineering Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -3044,11 +2877,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "BMED 2XXX": {
-    "name": "Bioengineering Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "BMED 3100": {
     "name": "Systems Physiology",
     "prereqs": {
@@ -3123,8 +2951,7 @@
           "or": [
             "MATH 2551",
             "MATH 2550",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         {
@@ -3143,21 +2970,6 @@
     },
     "coreqs": []
   },
-  "BMED 3400": {
-    "name": "Intro to Biomechanics",
-    "prereqs": {
-      "and": [
-        "COE 2001",
-        {
-          "or": [
-            "MATH 2551",
-            "MATH 2X51"
-          ]
-        }
-      ]
-    },
-    "coreqs": []
-  },
   "BMED 3410": {
     "name": "Intro to Biomechanics",
     "prereqs": {
@@ -3165,8 +2977,7 @@
         "COE 2001",
         {
           "or": [
-            "MATH 2551",
-            "MATH 2X51"
+            "MATH 2551"
           ]
         }
       ]
@@ -3248,11 +3059,6 @@
   },
   "BMED 3811": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "BMED 3XXX": {
-    "name": "Bioengineering Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -3465,9 +3271,7 @@
   "BMED 4758": {
     "name": "Biosolid Mechanics",
     "prereqs": {
-      "and": [
-        "BMED 3400"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -3618,11 +3422,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "BMED 4XXX": {
-    "name": "Bioengineering Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "CEE 1070": {
     "name": "Eng Graphics for CEE",
     "prereqs": {},
@@ -3635,11 +3434,6 @@
   },
   "CEE 1770": {
     "name": "Intro to Engr Graphics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "CEE 1XXX": {
-    "name": "Civil/Env Engr Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -3669,8 +3463,7 @@
         {
           "or": [
             "CHEM 1310",
-            "CHEM 1211K",
-            "CHEM 12X1"
+            "CHEM 1211K"
           ]
         },
         {
@@ -3681,8 +3474,7 @@
         },
         {
           "or": [
-            "MATH 1552",
-            "MATH 1X52"
+            "MATH 1552"
           ]
         }
       ]
@@ -3711,11 +3503,6 @@
   },
   "CEE 2901": {
     "name": "Special Problems",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "CEE 2XXX": {
-    "name": "Civil/Env Engr Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -3755,8 +3542,7 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         }
       ]
@@ -3832,15 +3618,9 @@
     "prereqs": {
       "or": [
         "MATH 2551",
-        "MATH 2561",
-        "MATH 2X51"
+        "MATH 2561"
       ]
     },
-    "coreqs": []
-  },
-  "CEE 3XXX": {
-    "name": "Civil/Env Engr Elective",
-    "prereqs": {},
     "coreqs": []
   },
   "CEE 4000": {
@@ -4006,8 +3786,7 @@
         {
           "or": [
             "CHEM 1310",
-            "CHEM 1211K",
-            "CHEM 12X1"
+            "CHEM 1211K"
           ]
         },
         {
@@ -4018,8 +3797,7 @@
         },
         {
           "or": [
-            "MATH 1552",
-            "MATH 1X52"
+            "MATH 1552"
           ]
         }
       ]
@@ -4068,8 +3846,7 @@
         {
           "or": [
             "CHEM 1310",
-            "CHEM 1211K",
-            "CHEM 12X1"
+            "CHEM 1211K"
           ]
         },
         {
@@ -4109,8 +3886,7 @@
         {
           "or": [
             "CHEM 1310",
-            "CHEM 1211K",
-            "CHEM 12X1"
+            "CHEM 1211K"
           ]
         },
         {
@@ -4121,8 +3897,7 @@
         },
         {
           "or": [
-            "MATH 1552",
-            "MATH 1X52"
+            "MATH 1552"
           ]
         }
       ]
@@ -4384,11 +4159,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "CEE 4XXX": {
-    "name": "Civil/Env Engr Elective`",
-    "prereqs": {},
-    "coreqs": []
-  },
   "CETL 2000": {
     "name": "Undergraduate  TA  Prep",
     "prereqs": {},
@@ -4414,11 +4184,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "CHBE 1XXX": {
-    "name": "Chem Engr Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "CHBE 2100": {
     "name": "Chem Process Principles",
     "prereqs": {
@@ -4436,7 +4201,6 @@
               "and": [
                 {
                   "or": [
-                    "MATH 1X52",
                     "MATH 1552"
                   ]
                 }
@@ -4540,11 +4304,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "CHBE 2XXX": {
-    "name": "Chem Engr Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "CHBE 3130": {
     "name": "Chem Eng Thermo II",
     "prereqs": {
@@ -4558,15 +4317,13 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         }
       ]
@@ -4586,15 +4343,13 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         },
         "PHYS 2211"
@@ -4610,16 +4365,14 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         "PHYS 2211",
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         }
       ]
@@ -4684,17 +4437,11 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         }
       ]
     },
-    "coreqs": []
-  },
-  "CHBE 3XXX": {
-    "name": "Chem Engr Elective",
-    "prereqs": {},
     "coreqs": []
   },
   "CHBE 4020": {
@@ -5162,6 +4909,13 @@
     },
     "coreqs": []
   },
+  "CHBE 4791": {
+    "name": "Mech Behavior-Composites",
+    "prereqs": {
+      "null": []
+    },
+    "coreqs": []
+  },
   "CHBE 4793": {
     "name": "Composite Mater& Process",
     "prereqs": {
@@ -5207,11 +4961,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "CHBE 4XXX": {
-    "name": "Chem Engr Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "CHEM 1211K": {
     "name": "Principles of Chemistry I",
     "prereqs": {},
@@ -5227,11 +4976,6 @@
     },
     "coreqs": []
   },
-  "CHEM 12X1": {
-    "name": "Transfer General Chem",
-    "prereqs": {},
-    "coreqs": []
-  },
   "CHEM 1310": {
     "name": "Prin of Gen Chem for Engr",
     "prereqs": {},
@@ -5245,11 +4989,6 @@
         "CHEM 1310"
       ]
     },
-    "coreqs": []
-  },
-  "CHEM 1XXX": {
-    "name": "Chemistry Elective",
-    "prereqs": {},
     "coreqs": []
   },
   "CHEM 2211": {
@@ -5389,11 +5128,6 @@
   },
   "CHEM 2832": {
     "name": "Special Topic",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "CHEM 2XXX": {
-    "name": "Chemistry Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -5571,11 +5305,6 @@
         "PHYS 2212"
       ]
     },
-    "coreqs": []
-  },
-  "CHEM 3XXX": {
-    "name": "Chemistry Elective",
-    "prereqs": {},
     "coreqs": []
   },
   "CHEM 4113": {
@@ -5812,8 +5541,7 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         {
@@ -5945,11 +5673,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "CHEM 4XXX": {
-    "name": "Chemistry Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "CHIN 1001": {
     "name": "Elementary Chinese I",
     "prereqs": {},
@@ -5965,11 +5688,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "CHIN 10X1": {
-    "name": "Trans Elementary Chinese I",
-    "prereqs": {},
-    "coreqs": []
-  },
   "CHIN 10X2": {
     "name": "Trans Elementary Chinese II",
     "prereqs": {},
@@ -5977,11 +5695,6 @@
   },
   "CHIN 1501": {
     "name": "Heritage Chinese I",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "CHIN 1XXX": {
-    "name": "Chinese Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -5997,11 +5710,6 @@
   },
   "CHIN 2501": {
     "name": "Heritage Chinese II",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "CHIN 2XXX": {
-    "name": "Chinese Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -6065,11 +5773,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "CHIN 3XXX": {
-    "name": "Chinese Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "CHIN 4003": {
     "name": "Advanced Chinese II",
     "prereqs": {},
@@ -6122,11 +5825,6 @@
   },
   "CHIN 4813": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "CHIN 4XXX": {
-    "name": "Chinese Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -6190,8 +5888,7 @@
       "and": [
         {
           "or": [
-            "MATH 1552",
-            "MATH 1X52"
+            "MATH 1552"
           ]
         },
         {
@@ -6221,8 +5918,7 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         },
         "COE 2001"
@@ -6380,11 +6076,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "CP 1XXX": {
-    "name": "City Planning Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "CP 2010": {
     "name": null,
     "prereqs": {},
@@ -6420,11 +6111,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "CP 2XXX": {
-    "name": "City Planning Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "CP 3024": {
     "name": "Qualitative Analysis",
     "prereqs": {},
@@ -6452,11 +6138,6 @@
   },
   "CP 3801": {
     "name": null,
-    "prereqs": {},
-    "coreqs": []
-  },
-  "CP 3XXX": {
-    "name": "City Planning Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -6583,11 +6264,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "CP 4XXX": {
-    "name": "City Planning Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "CS 1100": {
     "name": "Freshman Leap Seminar",
     "prereqs": {},
@@ -6640,11 +6316,6 @@
   },
   "CS 1803": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "CS 1XXX": {
-    "name": "Computer Sci Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -6729,11 +6400,15 @@
   "CS 2740": {
     "name": "Foundations of Math&Comp",
     "prereqs": {
-      "or": [
-        "MATH 1552",
-        "MATH 1553",
-        "MATH 1554",
-        "MATH 1564"
+      "and": [
+        {
+          "or": [
+            "MATH 1552",
+            "MATH 1553",
+            "MATH 1554",
+            "MATH 1564"
+          ]
+        }
       ]
     },
     "coreqs": []
@@ -6750,11 +6425,6 @@
   },
   "CS 2803": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "CS 2XXX": {
-    "name": "Computer Sci Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -6885,8 +6555,7 @@
           "or": [
             "MATH 2551",
             "MATH 2550",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         {
@@ -7024,11 +6693,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "CS 3XXX": {
-    "name": "Computer Sci",
-    "prereqs": {},
-    "coreqs": []
-  },
   "CS 4001": {
     "name": "Computing & Society",
     "prereqs": {},
@@ -7047,6 +6711,13 @@
   "CS 4010": {
     "name": "Intro to Computer Law",
     "prereqs": {},
+    "coreqs": []
+  },
+  "CS 4057": {
+    "name": "Bus Process Analy&Design",
+    "prereqs": {
+      "null": []
+    },
     "coreqs": []
   },
   "CS 4117": {
@@ -7363,14 +7034,12 @@
           "or": [
             "MATH 2550",
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         {
           "or": [
             "MATH 1553",
-            "MATH 1X54",
             "MATH 1554",
             "MATH 1564"
           ]
@@ -7588,16 +7257,13 @@
         {
           "or": [
             "MATH 1553",
-            "MATH 1X53",
             "MATH 1554",
-            "MATH 1X54",
             "MATH 1564"
           ]
         },
         {
           "or": [
-            "MATH 1551",
-            "MATH 1X51"
+            "MATH 1551"
           ]
         }
       ]
@@ -7612,8 +7278,7 @@
           "or": [
             "MATH 2550",
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         {
@@ -7664,8 +7329,7 @@
           "or": [
             "MATH 2550",
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         }
       ]
@@ -7872,17 +7536,7 @@
     "prereqs": {},
     "coreqs": []
   },
-  "CS 4XXX": {
-    "name": "Computer Sci Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "CX 1XXX": {
-    "name": "CSE Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "CX 2XXX": {
     "name": "CSE Elective",
     "prereqs": {},
     "coreqs": []
@@ -7909,24 +7563,9 @@
     },
     "coreqs": []
   },
-  "CX 3803": {
-    "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
   "CX 3XXX": {
     "name": "CSE Elective",
     "prereqs": {},
-    "coreqs": []
-  },
-  "CX 4010": {
-    "name": "Computational Prob Solv",
-    "prereqs": {
-      "or": [
-        "CS 1371",
-        "CS 1301"
-      ]
-    },
     "coreqs": []
   },
   "CX 4140": {
@@ -7935,20 +7574,6 @@
       "or": [
         "CS 1331",
         "CS 2316",
-        "CX 4010",
-        "ECE 2035",
-        "ECE 2036"
-      ]
-    },
-    "coreqs": []
-  },
-  "CX 4220": {
-    "name": "Intro High Perf Comp",
-    "prereqs": {
-      "or": [
-        "CS 1331",
-        "CS 2316",
-        "CX 4010",
         "ECE 2035",
         "ECE 2036"
       ]
@@ -7976,24 +7601,10 @@
           "or": [
             "CS 1331",
             "CS 2316",
-            "CX 4010",
             "ECE 2035",
             "ECE 2036"
           ]
         }
-      ]
-    },
-    "coreqs": []
-  },
-  "CX 4232": {
-    "name": "SIM & Military Gaming",
-    "prereqs": {
-      "or": [
-        "CS 1331",
-        "CS 2316",
-        "CX 4010",
-        "ECE 2035",
-        "ECE 2036"
       ]
     },
     "coreqs": []
@@ -8008,63 +7619,13 @@
     },
     "coreqs": []
   },
-  "CX 4242": {
-    "name": "Data & Visual Analytics",
-    "prereqs": {
-      "and": [
-        {
-          "or": [
-            "MATH 2550",
-            "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
-          ]
-        },
-        {
-          "or": [
-            "MATH 3215",
-            "MATH 3235",
-            "MATH 3670",
-            "ISYE 3770",
-            "CEE 3770",
-            "ISYE 2028",
-            "ISYE 3030",
-            "BMED 2400",
-            "ECE 3077"
-          ]
-        },
-        {
-          "or": [
-            "CS 1331",
-            "CS 2316",
-            "CX 4010",
-            "ECE 2035",
-            "ECE 2036",
-            "CX 4240"
-          ]
-        }
-      ]
-    },
-    "coreqs": []
-  },
   "CX 4640": {
     "name": "Numerical Analysis I",
     "prereqs": {
       "or": [
         "MATH 2603",
         "MATH 2552",
-        "MATH 2562",
-        "MATH 2X52"
-      ]
-    },
-    "coreqs": []
-  },
-  "CX 4641": {
-    "name": "Numerical Analysis II",
-    "prereqs": {
-      "or": [
-        "CX 4640",
-        "MATH 4640"
+        "MATH 2562"
       ]
     },
     "coreqs": []
@@ -8086,18 +7647,8 @@
     },
     "coreqs": []
   },
-  "CX 4803": {
-    "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
   "CX 4893": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "CX 4XXX": {
-    "name": "CSE Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -8108,11 +7659,6 @@
   },
   "EAS 1601": {
     "name": "Habitable Planet",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "EAS 1XXX": {
-    "name": "Earth&Atmos Sci Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -8181,11 +7727,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "EAS 2XXX": {
-    "name": "Earth&Atmos Sci Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "EAS 3001": {
     "name": "WxChallenge Seminar",
     "prereqs": {
@@ -8238,11 +7779,6 @@
   },
   "EAS 3803": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "EAS 3XXX": {
-    "name": "Earth&Atmos Sci Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -8380,8 +7916,7 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         },
         "PHYS 2211"
@@ -8426,8 +7961,7 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         }
       ]
@@ -8499,8 +8033,7 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         }
       ]
@@ -8546,8 +8079,7 @@
     "prereqs": {
       "or": [
         "MATH 2552",
-        "MATH 2562",
-        "MATH 2X52"
+        "MATH 2562"
       ]
     },
     "coreqs": []
@@ -8609,8 +8141,7 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         },
         "PHYS 2212"
@@ -8631,15 +8162,13 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         }
       ]
@@ -8708,8 +8237,7 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         {
@@ -8767,11 +8295,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "EAS 4XXX": {
-    "name": "Earth&Atmos Sci Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "ECE 1100": {
     "name": "ECE Discovery Studio",
     "prereqs": {},
@@ -8779,11 +8302,6 @@
   },
   "ECE 1871": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "ECE 1XXX": {
-    "name": "Elec/Comp Engr Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -8888,17 +8406,11 @@
         "PHYS 2212",
         {
           "or": [
-            "MATH 2552",
-            "MATH 2X52"
+            "MATH 2552"
           ]
         }
       ]
     },
-    "coreqs": []
-  },
-  "ECE 20X2": {
-    "name": "Transfer-Digital Des Lab",
-    "prereqs": {},
     "coreqs": []
   },
   "ECE 20X3": {
@@ -8961,11 +8473,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "ECE 2XXX": {
-    "name": "Elec/Comp Engr Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "ECE 3005": {
     "name": "ECE Prof/Tech Comm",
     "prereqs": {
@@ -9010,15 +8517,13 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         }
       ]
@@ -9047,15 +8552,13 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         }
       ]
@@ -9066,8 +8569,7 @@
     "name": "Circuits&Electronics Lab",
     "prereqs": {
       "or": [
-        "ECE 2031",
-        "ECE 20X2"
+        "ECE 2031"
       ]
     },
     "coreqs": []
@@ -9099,8 +8601,7 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         {
@@ -9130,8 +8631,7 @@
               "or": [
                 "ECE 3710",
                 "MATH 2552",
-                "MATH 2562",
-                "MATH 2X52"
+                "MATH 2562"
               ]
             }
           ]
@@ -9296,11 +8796,6 @@
         "ECE 3951"
       ]
     },
-    "coreqs": []
-  },
-  "ECE 3XXX": {
-    "name": "Elec/Comp Engr Elective",
-    "prereqs": {},
     "coreqs": []
   },
   "ECE 4013": {
@@ -9832,8 +9327,7 @@
       "and": [
         {
           "or": [
-            "ECE 2031",
-            "ECE 20X2"
+            "ECE 2031"
           ]
         },
         {
@@ -10028,8 +9522,7 @@
         {
           "or": [
             "CHEM 1310",
-            "CHEM 1211K",
-            "CHEM 12X1"
+            "CHEM 1211K"
           ]
         },
         "PHYS 2212"
@@ -10225,11 +9718,6 @@
     },
     "coreqs": []
   },
-  "ECE 4XXX": {
-    "name": "Elec/Comp Engr Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "ECON 1XXX": {
     "name": "Economics Elective",
     "prereqs": {},
@@ -10300,11 +9788,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "ECON 2XXX": {
-    "name": "Economics Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "ECON 3110": {
     "name": "Adv Microeconomic Analys",
     "prereqs": {
@@ -10364,11 +9847,6 @@
         "ECON 2106"
       ]
     },
-    "coreqs": []
-  },
-  "ECON 3XXX": {
-    "name": "Economics Elective",
-    "prereqs": {},
     "coreqs": []
   },
   "ECON 4001": {
@@ -10786,11 +10264,6 @@
     },
     "coreqs": []
   },
-  "ECON 4XXX": {
-    "name": "Economics Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "ENGL 0199": {
     "name": "Support for ENGL 1101",
     "prereqs": {
@@ -10828,17 +10301,7 @@
     },
     "coreqs": []
   },
-  "FREE 1XXX": {
-    "name": null,
-    "prereqs": {},
-    "coreqs": []
-  },
   "FREE 2XXX": {
-    "name": null,
-    "prereqs": {},
-    "coreqs": []
-  },
-  "FREE 3XXX": {
     "name": null,
     "prereqs": {},
     "coreqs": []
@@ -10858,11 +10321,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "FREN 1XXX": {
-    "name": "French Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "FREN 2001": {
     "name": "Intermediate French I",
     "prereqs": {},
@@ -10875,11 +10333,6 @@
   },
   "FREN 2813": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "FREN 2XXX": {
-    "name": "French Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -11018,11 +10471,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "FREN 3XXX": {
-    "name": "French Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "FREN 4005": {
     "name": "Contemporary French Lit",
     "prereqs": {},
@@ -11148,11 +10596,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "FREN 4XXX": {
-    "name": "French Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "FS 4000": {
     "name": "Foreign Studies",
     "prereqs": {},
@@ -11183,11 +10626,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "GRMN 1XXX": {
-    "name": "German Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "GRMN 2001": {
     "name": "Intermediate German I",
     "prereqs": {},
@@ -11195,11 +10633,6 @@
   },
   "GRMN 2002": {
     "name": "Intermediate German II",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "GRMN 2XXX": {
-    "name": "German Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -11260,11 +10693,6 @@
   },
   "GRMN 3813": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "GRMN 3XXX": {
-    "name": "German Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -11350,11 +10778,6 @@
   },
   "GRMN 4813": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "GRMN 4XXX": {
-    "name": "German Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -11531,11 +10954,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "HIN 3XXX": {
-    "name": "Hindi Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "HIST 2111": {
     "name": "Survey of U.S. History I",
     "prereqs": {},
@@ -11568,11 +10986,6 @@
   },
   "HTS 1803": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "HTS 1XXX": {
-    "name": "Hist,Tech & Soc Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -11748,11 +11161,6 @@
   },
   "HTS 2927": {
     "name": "Special Problems",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "HTS 2XXX": {
-    "name": "Hist,Tech & Soc Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -12081,11 +11489,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "HTS 3XXX": {
-    "name": "Hist,Tech & Soc Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "HTS 4001": {
     "name": "Seminar in US History",
     "prereqs": {
@@ -12195,27 +11598,12 @@
     "prereqs": {},
     "coreqs": []
   },
-  "HTS 4XXX": {
-    "name": "Hist,Tech & Soc Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "HUM 1XXX": {
     "name": null,
     "prereqs": {},
     "coreqs": []
   },
-  "HUM 21XX": {
-    "name": null,
-    "prereqs": {},
-    "coreqs": []
-  },
   "HUM 2XXX": {
-    "name": null,
-    "prereqs": {},
-    "coreqs": []
-  },
-  "HUM 3XXX": {
     "name": null,
     "prereqs": {},
     "coreqs": []
@@ -12341,11 +11729,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "ID 1XXX": {
-    "name": "Industrial Dsgn Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "ID 2021": {
     "name": "ID Studio 1",
     "prereqs": {},
@@ -12451,11 +11834,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "ID 2XXX": {
-    "name": "Industrial Dsgn Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "ID 3031": {
     "name": "Health Des Studio 1",
     "prereqs": {
@@ -12524,6 +11902,13 @@
     },
     "coreqs": []
   },
+  "ID 3201": {
+    "name": "Design and Community",
+    "prereqs": {
+      "null": []
+    },
+    "coreqs": []
+  },
   "ID 3301": {
     "name": "Materials I",
     "prereqs": {},
@@ -12574,11 +11959,6 @@
   },
   "ID 3902": {
     "name": "Special Problems",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "ID 3XXX": {
-    "name": "Industrial Dsgn Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -12708,6 +12088,13 @@
     "prereqs": {},
     "coreqs": []
   },
+  "ID 4450": {
+    "name": "Portfolio Development",
+    "prereqs": {
+      "null": []
+    },
+    "coreqs": []
+  },
   "ID 4698": {
     "name": "Research Assistantship",
     "prereqs": {},
@@ -12778,11 +12165,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "ID 4XXX": {
-    "name": "Industrial Dsgn Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "INTA 1050": {
     "name": "The World Today",
     "prereqs": {},
@@ -12795,11 +12177,6 @@
   },
   "INTA 1200": {
     "name": "American Government",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "INTA 1XXX": {
-    "name": "Int'l Affairs Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -12900,11 +12277,6 @@
   },
   "INTA 2903": {
     "name": "Special Problems",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "INTA 2XXX": {
-    "name": "Int'l Affairs Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -13111,11 +12483,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "INTA 3XXX": {
-    "name": "Int'l Affairs Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "INTA 4007": {
     "name": "Intell & Int'l Security",
     "prereqs": {},
@@ -13281,11 +12648,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "INTA 4XXX": {
-    "name": "Int'l Affairs Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "INTN 2000": {
     "name": "Professional Internship",
     "prereqs": {},
@@ -13346,11 +12708,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "ISYE 1XXX": {
-    "name": "Indust&Sys Engr ELective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "ISYE 2027": {
     "name": "Probability With Apps",
     "prereqs": {
@@ -13360,14 +12717,11 @@
         "MATH 2561",
         {
           "and": [
-            "MATH 2X51",
             {
               "or": [
                 "MATH 1553",
                 "MATH 1554",
-                "MATH 1564",
-                "MATH 1X53",
-                "MATH 1X54"
+                "MATH 1564"
               ]
             }
           ]
@@ -13404,11 +12758,6 @@
   },
   "ISYE 2803": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "ISYE 2XXX": {
-    "name": "Indust&Sys Engr Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -13528,14 +12877,11 @@
         "MATH 2551",
         {
           "and": [
-            "MATH 2X51",
             {
               "or": [
                 "MATH 1553",
                 "MATH 1554",
-                "MATH 1564",
-                "MATH 1X53",
-                "MATH 1X54"
+                "MATH 1564"
               ]
             }
           ]
@@ -13551,11 +12897,6 @@
   },
   "ISYE 3803": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "ISYE 3XXX": {
-    "name": "Indust&Sys Engr Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -13783,11 +13124,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "ISYE 4XXX": {
-    "name": "Indust&Sys Engr Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "JAPN 1001": {
     "name": "Elementary Japanese I",
     "prereqs": {},
@@ -13798,18 +13134,8 @@
     "prereqs": {},
     "coreqs": []
   },
-  "JAPN 10X1": {
-    "name": "Trans Elementary Japanese I",
-    "prereqs": {},
-    "coreqs": []
-  },
   "JAPN 10X2": {
     "name": "Trans Elementary Japanese II",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "JAPN 1XXX": {
-    "name": "Japanese Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -13820,11 +13146,6 @@
   },
   "JAPN 2002": {
     "name": "Intermediate Japanese II",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "JAPN 2XXX": {
-    "name": "Japanese Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -13865,11 +13186,6 @@
   },
   "JAPN 3813": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "JAPN 3XXX": {
-    "name": "Japanese Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -13958,11 +13274,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "JAPN 4XXX": {
-    "name": "Japanese Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "KOR 1001": {
     "name": "Elementary Korean I",
     "prereqs": {},
@@ -13973,18 +13284,8 @@
     "prereqs": {},
     "coreqs": []
   },
-  "KOR 10X1": {
-    "name": "Trans Elementary Korean I",
-    "prereqs": {},
-    "coreqs": []
-  },
   "KOR 10X2": {
     "name": "Trans Elementary Korean II",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "KOR 1XXX": {
-    "name": "Korean Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -14005,11 +13306,6 @@
   },
   "KOR 2692": {
     "name": "Intens Intermed Kor II",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "KOR 2XXX": {
-    "name": "Korean Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -14063,11 +13359,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "KOR 3XXX": {
-    "name": "Korean Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "KOR 4001": {
     "name": "Contemporary Korean",
     "prereqs": {},
@@ -14118,18 +13409,8 @@
     "prereqs": {},
     "coreqs": []
   },
-  "KOR 4XXX": {
-    "name": "Korean Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "LATN 2XXX": {
     "name": "Latin Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "LING 1XXX": {
-    "name": "Linguistics Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -14143,11 +13424,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "LING 2XXX": {
-    "name": "Linguistics Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "LING 3100": {
     "name": "Apps of Linguistics",
     "prereqs": {},
@@ -14155,11 +13431,6 @@
   },
   "LING 3813": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "LING 3XXX": {
-    "name": "Linguistics Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -14198,11 +13469,6 @@
   },
   "LING 4813": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "LING 4XXX": {
-    "name": "Linguistics Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -14381,11 +13647,6 @@
         "LMC 2720"
       ]
     },
-    "coreqs": []
-  },
-  "LMC 2XXX": {
-    "name": "Lit,Media,&Comm Elective",
-    "prereqs": {},
     "coreqs": []
   },
   "LMC 3062": {
@@ -15118,11 +14379,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "LMC 3XXX": {
-    "name": "Lit,Media, & Comm Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "LMC 4000": {
     "name": "Senior Seminar in LMC",
     "prereqs": {
@@ -15321,11 +14577,6 @@
     },
     "coreqs": []
   },
-  "LMC 47XX": {
-    "name": "Lit, Media, & Comm Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "LMC 4811": {
     "name": "Special Topics",
     "prereqs": {
@@ -15351,11 +14602,6 @@
         "ENGL 1102"
       ]
     },
-    "coreqs": []
-  },
-  "LMC 4XXX": {
-    "name": "Lit,Media,& Comm Elective",
-    "prereqs": {},
     "coreqs": []
   },
   "LS 0198": {
@@ -15397,11 +14643,6 @@
     },
     "coreqs": []
   },
-  "MATH 11X3": {
-    "name": "Transfer Precalculus",
-    "prereqs": {},
-    "coreqs": []
-  },
   "MATH 1499": {
     "name": "Support for Intro Calc",
     "prereqs": {
@@ -15417,8 +14658,7 @@
       "or": [
         {
           "or": [
-            "MATH 1113",
-            "MATH 11X3"
+            "MATH 1113"
           ]
         }
       ]
@@ -15430,7 +14670,6 @@
     "prereqs": {
       "or": [
         "MATH 1113",
-        "MATH 11X3",
         "MATH 1499"
       ]
     },
@@ -15441,8 +14680,7 @@
     "prereqs": {
       "or": [
         "MATH 1550",
-        "MATH 1551",
-        "MATH 1X51"
+        "MATH 1551"
       ]
     },
     "coreqs": []
@@ -15453,11 +14691,9 @@
       "or": [
         {
           "or": [
-            "MATH 1113",
-            "MATH 11X3"
+            "MATH 1113"
           ]
         },
-        "MATH 1X51",
         "MATH 1551"
       ]
     },
@@ -15469,12 +14705,10 @@
       "or": [
         {
           "or": [
-            "MATH 1113",
-            "MATH 11X3"
+            "MATH 1113"
           ]
         },
         "MATH 1552",
-        "MATH 1X52",
         "MATH 1551"
       ]
     },
@@ -15495,8 +14729,7 @@
       "or": [
         {
           "or": [
-            "MATH 1113",
-            "MATH 11X3"
+            "MATH 1113"
           ]
         }
       ]
@@ -15509,17 +14742,11 @@
       "or": [
         {
           "or": [
-            "MATH 1113",
-            "MATH 11X3"
+            "MATH 1113"
           ]
         }
       ]
     },
-    "coreqs": []
-  },
-  "MATH 17X1": {
-    "name": "Transfer Finite Math",
-    "prereqs": {},
     "coreqs": []
   },
   "MATH 17X2": {
@@ -15532,28 +14759,13 @@
     "prereqs": {},
     "coreqs": []
   },
-  "MATH 1X51": {
-    "name": "Transfer Differential Calc",
-    "prereqs": {},
-    "coreqs": []
-  },
   "MATH 1X52": {
     "name": "Transfer Integral Calculus",
     "prereqs": {},
     "coreqs": []
   },
-  "MATH 1X53": {
-    "name": "Transfer Intro Linear Algebra",
-    "prereqs": {},
-    "coreqs": []
-  },
   "MATH 1X54": {
     "name": "Transfer Linear Algebra",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "MATH 1XXX": {
-    "name": "Mathematics Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -15565,17 +14777,14 @@
           "and": [
             {
               "or": [
-                "MATH 1552",
-                "MATH 1X52"
+                "MATH 1552"
               ]
             },
             {
               "or": [
                 "MATH 1553",
-                "MATH 1X54",
                 "MATH 1554",
-                "MATH 1564",
-                "MATH 1X53"
+                "MATH 1564"
               ]
             }
           ]
@@ -15592,17 +14801,14 @@
           "and": [
             {
               "or": [
-                "MATH 1552",
-                "MATH 1X52"
+                "MATH 1552"
               ]
             },
             {
               "or": [
                 "MATH 1553",
-                "MATH 1X54",
                 "MATH 1554",
-                "MATH 1564",
-                "MATH 1X53"
+                "MATH 1564"
               ]
             }
           ]
@@ -15619,17 +14825,14 @@
           "and": [
             {
               "or": [
-                "MATH 1552",
-                "MATH 1X52"
+                "MATH 1552"
               ]
             },
             {
               "or": [
                 "MATH 1553",
-                "MATH 1X54",
                 "MATH 1554",
-                "MATH 1564",
-                "MATH 1X53"
+                "MATH 1564"
               ]
             }
           ]
@@ -15646,17 +14849,14 @@
           "and": [
             {
               "or": [
-                "MATH 1552",
-                "MATH 1X52"
+                "MATH 1552"
               ]
             },
             {
               "or": [
                 "MATH 1553",
-                "MATH 1X54",
                 "MATH 1554",
-                "MATH 1564",
-                "MATH 1X53"
+                "MATH 1564"
               ]
             }
           ]
@@ -15673,17 +14873,14 @@
           "and": [
             {
               "or": [
-                "MATH 1552",
-                "MATH 1X52"
+                "MATH 1552"
               ]
             },
             {
               "or": [
                 "MATH 1553",
-                "MATH 1X54",
                 "MATH 1554",
-                "MATH 1564",
-                "MATH 1X53"
+                "MATH 1564"
               ]
             }
           ]
@@ -15700,17 +14897,14 @@
           "and": [
             {
               "or": [
-                "MATH 1552",
-                "MATH 1X52"
+                "MATH 1552"
               ]
             },
             {
               "or": [
                 "MATH 1553",
-                "MATH 1X54",
                 "MATH 1554",
-                "MATH 1564",
-                "MATH 1X53"
+                "MATH 1564"
               ]
             }
           ]
@@ -15723,8 +14917,7 @@
     "name": "Intro Discrete Math",
     "prereqs": {
       "or": [
-        "MATH 1552",
-        "MATH 1X52"
+        "MATH 1552"
       ]
     },
     "coreqs": []
@@ -15739,19 +14932,18 @@
     "prereqs": {},
     "coreqs": []
   },
-  "MATH 26X3": {
-    "name": "Transfer Discrete Math",
-    "prereqs": {},
-    "coreqs": []
-  },
   "MATH 2740": {
     "name": "Foundations of Math&Comp",
     "prereqs": {
-      "or": [
-        "MATH 1552",
-        "MATH 1553",
-        "MATH 1554",
-        "MATH 1564"
+      "and": [
+        {
+          "or": [
+            "MATH 1552",
+            "MATH 1553",
+            "MATH 1554",
+            "MATH 1564"
+          ]
+        }
       ]
     },
     "coreqs": []
@@ -15761,18 +14953,8 @@
     "prereqs": {},
     "coreqs": []
   },
-  "MATH 2X51": {
-    "name": "Transfer Multivariable Calc",
-    "prereqs": {},
-    "coreqs": []
-  },
   "MATH 2X52": {
     "name": "Transfer Differential Equation",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "MATH 2XXX": {
-    "name": "Mathematics Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -15784,17 +14966,14 @@
           "and": [
             {
               "or": [
-                "MATH 1552",
-                "MATH 1X52"
+                "MATH 1552"
               ]
             },
             {
               "or": [
                 "MATH 1553",
                 "MATH 1554",
-                "MATH 1X54",
-                "MATH 1564",
-                "MATH 1X53"
+                "MATH 1564"
               ]
             }
           ]
@@ -15809,8 +14988,7 @@
       "or": [
         "MATH 2551",
         "MATH 2561",
-        "MATH 2550",
-        "MATH 2X51"
+        "MATH 2550"
       ]
     },
     "coreqs": []
@@ -15822,7 +15000,6 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2X51",
             "MATH 2561",
             "MATH 2550"
           ]
@@ -15852,10 +15029,8 @@
     "prereqs": {
       "or": [
         "MATH 1553",
-        "MATH 1X54",
         "MATH 1554",
-        "MATH 1564",
-        "MATH 1X53"
+        "MATH 1564"
       ]
     },
     "coreqs": []
@@ -15866,8 +15041,7 @@
       "or": [
         "MATH 2551",
         "MATH 2561",
-        "MATH 2550",
-        "MATH 2X51"
+        "MATH 2550"
       ]
     },
     "coreqs": []
@@ -15894,11 +15068,6 @@
     },
     "coreqs": []
   },
-  "MATH 3XXX": {
-    "name": "Mathematics Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "MATH 4012": {
     "name": "Coding Theory",
     "prereqs": {
@@ -15907,16 +15076,14 @@
           "and": [
             {
               "or": [
-                "MATH 1552",
-                "MATH 1X52"
+                "MATH 1552"
               ]
             },
             {
               "or": [
                 "MATH 1553",
                 "MATH 1554",
-                "MATH 1564",
-                "MATH 1X53"
+                "MATH 1564"
               ]
             }
           ]
@@ -16051,16 +15218,14 @@
           "and": [
             {
               "or": [
-                "MATH 1552",
-                "MATH 1X52"
+                "MATH 1552"
               ]
             },
             {
               "or": [
                 "MATH 1553",
                 "MATH 1554",
-                "MATH 1564",
-                "MATH 1X53"
+                "MATH 1564"
               ]
             }
           ]
@@ -16093,8 +15258,7 @@
       "or": [
         "MATH 2551",
         "MATH 2561",
-        "MATH 2550",
-        "MATH 2X51"
+        "MATH 2550"
       ]
     },
     "coreqs": []
@@ -16144,8 +15308,7 @@
       "or": [
         "MATH 2551",
         "MATH 2561",
-        "MATH 2550",
-        "MATH 2X51"
+        "MATH 2550"
       ]
     },
     "coreqs": []
@@ -16157,17 +15320,14 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         },
         {
           "or": [
             "MATH 1553",
-            "MATH 1X54",
             "MATH 1554",
-            "MATH 1564",
-            "MATH 1X53"
+            "MATH 1564"
           ]
         }
       ]
@@ -16178,9 +15338,7 @@
     "name": "Linear Programming",
     "prereqs": {
       "or": [
-        {
-          "and": []
-        }
+        {}
       ]
     },
     "coreqs": []
@@ -16190,8 +15348,7 @@
     "prereqs": {
       "or": [
         "MATH 2552",
-        "MATH 2562",
-        "MATH 2X52"
+        "MATH 2562"
       ]
     },
     "coreqs": []
@@ -16202,7 +15359,6 @@
       "or": [
         "MATH 2552",
         "MATH 2562",
-        "MATH 2X52",
         "MATH 2603"
       ]
     },
@@ -16252,15 +15408,13 @@
           "and": [
             {
               "or": [
-                "MATH 1552",
-                "MATH 1X52"
+                "MATH 1552"
               ]
             },
             {
               "or": [
                 "MATH 1553",
-                "MATH 1554",
-                "MATH 1X53"
+                "MATH 1554"
               ]
             }
           ]
@@ -16275,8 +15429,7 @@
       "or": [
         "MATH 2551",
         "MATH 2561",
-        "MATH 2550",
-        "MATH 2X51"
+        "MATH 2550"
       ]
     },
     "coreqs": []
@@ -16306,18 +15459,8 @@
     "prereqs": {},
     "coreqs": []
   },
-  "MATH 4XXX": {
-    "name": "Mathematics Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "ME 1670": {
     "name": "Intro to Engr Graphics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "ME 1XXX": {
-    "name": "Mechanical Engr Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -16363,8 +15506,7 @@
         },
         {
           "or": [
-            "MATH 1552",
-            "MATH 1X52"
+            "MATH 1552"
           ]
         },
         {
@@ -16377,7 +15519,6 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2X52",
             "MATH 2562"
           ]
         }
@@ -16449,11 +15590,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "ME 2XXX": {
-    "name": "Mechanical Engr Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "ME 3017": {
     "name": "System Dynamics",
     "prereqs": {
@@ -16461,7 +15597,6 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2X52",
             "MATH 2562"
           ]
         },
@@ -16492,7 +15627,6 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2X51",
             "MATH 2561"
           ]
         }
@@ -16510,8 +15644,7 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         }
       ]
@@ -16562,7 +15695,6 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2X52",
             "MATH 2562"
           ]
         }
@@ -16592,15 +15724,13 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2X51",
             "MATH 2561"
           ]
         },
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         },
         "COE 2001"
@@ -16615,7 +15745,6 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2X52",
             "MATH 2562"
           ]
         },
@@ -16655,8 +15784,7 @@
           "or": [
             "CHEM 1310",
             "CHEM 1211K",
-            "CHEM 1212K",
-            "CHEM 12X1"
+            "CHEM 1212K"
           ]
         },
         {
@@ -16668,7 +15796,6 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2X52",
             "MATH 2562"
           ]
         }
@@ -16688,11 +15815,6 @@
   },
   "ME 3802": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "ME 3XXX": {
-    "name": "Mechanical Engr Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -16816,7 +15938,6 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2X52",
             "MATH 2562"
           ]
         }
@@ -16978,8 +16099,7 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         },
         {
@@ -17169,8 +16289,7 @@
     "prereqs": {
       "or": [
         "MATH 2552",
-        "MATH 2562",
-        "MATH 2X52"
+        "MATH 2562"
       ]
     },
     "coreqs": []
@@ -17290,8 +16409,7 @@
           "or": [
             "CHEM 1310",
             "CHEM 1211K",
-            "CHEM 1212K",
-            "CHEM 12X1"
+            "CHEM 1212K"
           ]
         },
         {
@@ -17374,18 +16492,8 @@
     "prereqs": {},
     "coreqs": []
   },
-  "ME 4XXX": {
-    "name": "Mechanical Engr Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "MGT 1100": {
     "name": "First Year Bus. Seminar",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "MGT 1XXX": {
-    "name": "Management Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -17404,7 +16512,6 @@
     "prereqs": {
       "or": [
         "MATH 1712",
-        "MATH 17X2",
         "MATH 1550",
         "MATH 1551"
       ]
@@ -17432,11 +16539,6 @@
   },
   "MGT 2910": {
     "name": "Special Problems",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "MGT 2XXX": {
-    "name": "Management Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -17725,11 +16827,6 @@
   },
   "MGT 3770": {
     "name": "Bus Sust & Shared Value",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "MGT 3XXX": {
-    "name": "Management Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -18414,11 +17511,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "MGT 4XXX": {
-    "name": "Management Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "ML 2500": {
     "name": "Intro Cross-Cult Studies",
     "prereqs": {},
@@ -18453,18 +17545,8 @@
     },
     "coreqs": []
   },
-  "MP 4XXX": {
-    "name": "Medical Physics Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "MSE 1111": {
     "name": "Introduction to MSE",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "MSE 1XXX": {
-    "name": "Mate Sci Engr Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -18473,7 +17555,6 @@
     "prereqs": {
       "or": [
         "CHEM 1310",
-        "CHEM 12X1",
         "CHEM 1211K"
       ]
     },
@@ -18508,11 +17589,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "MSE 2XXX": {
-    "name": "Mate Sci Engr Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "MSE 3001": {
     "name": "Chemical Thermo-Material",
     "prereqs": {
@@ -18521,7 +17597,6 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2X52",
             "MATH 2562"
           ]
         }
@@ -18576,7 +17651,6 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2X52",
             "MATH 2562"
           ]
         },
@@ -18592,14 +17666,12 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2X51",
             "MATH 2561"
           ]
         },
         {
           "or": [
             "MATH 2552",
-            "MATH 2X52",
             "MATH 2562"
           ]
         },
@@ -18649,7 +17721,6 @@
     "prereqs": {
       "or": [
         "CHEM 1310",
-        "CHEM 12X1",
         "CHEM 1211K"
       ]
     },
@@ -18657,11 +17728,6 @@
   },
   "MSE 3720": {
     "name": "Intro Poly/Fib Enterpris",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "MSE 3XXX": {
-    "name": "Mate Sci Engr Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -18897,14 +17963,12 @@
         {
           "or": [
             "MATH 2551",
-            "MATH 2X51",
             "MATH 2561"
           ]
         },
         {
           "or": [
             "MATH 2552",
-            "MATH 2X52",
             "MATH 2562"
           ]
         },
@@ -19035,11 +18099,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "MSE 4XXX": {
-    "name": "Mate Sci Engr Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "MSL 1001": {
     "name": "Leadership&Personal Dev",
     "prereqs": {},
@@ -19052,11 +18111,6 @@
         "MSL 1001"
       ]
     },
-    "coreqs": []
-  },
-  "MSL 1XXX": {
-    "name": "Military Sci Elective",
-    "prereqs": {},
     "coreqs": []
   },
   "MSL 2001": {
@@ -19077,11 +18131,6 @@
     },
     "coreqs": []
   },
-  "MSL 2XXX": {
-    "name": "Military Sci Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "MSL 3001": {
     "name": "Adapt Tactical Leadrshp",
     "prereqs": {
@@ -19098,11 +18147,6 @@
         "MSL 3001"
       ]
     },
-    "coreqs": []
-  },
-  "MSL 3XXX": {
-    "name": "Military Sci Elective",
-    "prereqs": {},
     "coreqs": []
   },
   "MSL 4001": {
@@ -19150,11 +18194,6 @@
   },
   "MSL 4901": {
     "name": "Special Problems",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "MSL 4XXX": {
-    "name": "Military Sci Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -19457,11 +18496,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "NEUR 1XXX": {
-    "name": "Neuroscience Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "NEUR 2000": {
     "name": "Neur Principles Nonmajor",
     "prereqs": {
@@ -19583,11 +18617,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "NEUR 2XXX": {
-    "name": "Neuroscience Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "NEUR 3001": {
     "name": "Neuro-Cell & Molecular",
     "prereqs": {
@@ -19694,11 +18723,6 @@
   },
   "NEUR 3832": {
     "name": null,
-    "prereqs": {},
-    "coreqs": []
-  },
-  "NEUR 3XXX": {
-    "name": "Neuroscience Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -19892,11 +18916,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "NEUR 4XXX": {
-    "name": "Neuroscience Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "NRE 2120": {
     "name": "Elements of NRE",
     "prereqs": {
@@ -19938,8 +18957,7 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         },
         {
@@ -19959,8 +18977,7 @@
       "and": [
         {
           "or": [
-            "MATH 1552",
-            "MATH 1X52"
+            "MATH 1552"
           ]
         },
         {
@@ -19981,18 +18998,12 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         },
         "NRE 3301"
       ]
     },
-    "coreqs": []
-  },
-  "NRE 3XXX": {
-    "name": "Nuclear&Rad Eng Elective",
-    "prereqs": {},
     "coreqs": []
   },
   "NRE 4210": {
@@ -20012,6 +19023,13 @@
         "ME 3345",
         "NRE 3208"
       ]
+    },
+    "coreqs": []
+  },
+  "NRE 4234": {
+    "name": "Nuc Criticality Safe Eng",
+    "prereqs": {
+      "null": []
     },
     "coreqs": []
   },
@@ -20143,11 +19161,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "NRE 4XXX": {
-    "name": "Nuclear&Rad Eng Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "NS 1000": {
     "name": "NROTC Leadership Lab",
     "prereqs": {},
@@ -20233,11 +19246,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "PERS 3XXX": {
-    "name": "Persian Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "PHIL 1XXX": {
     "name": "Philosophy, Sci& Tech Elec",
     "prereqs": {},
@@ -20260,11 +19268,6 @@
   },
   "PHIL 2699": {
     "name": "Undergraduate Research",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "PHIL 2XXX": {
-    "name": "Philosophy, Sci&Tech Elec",
     "prereqs": {},
     "coreqs": []
   },
@@ -20333,11 +19336,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "PHIL 3XXX": {
-    "name": "Philosophy, Sci&Tech Elec",
-    "prereqs": {},
-    "coreqs": []
-  },
   "PHIL 4110": {
     "name": "Theories of Knowledge",
     "prereqs": {},
@@ -20373,11 +19371,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "PHIL 4XXX": {
-    "name": "Philosophy, Sci&Tech Elec",
-    "prereqs": {},
-    "coreqs": []
-  },
   "PHYS 1111K": {
     "name": "Introductory Physics I",
     "prereqs": {
@@ -20387,18 +19380,8 @@
     },
     "coreqs": []
   },
-  "PHYS 11X1": {
-    "name": "Transfer Non-Calc Phys I",
-    "prereqs": {},
-    "coreqs": []
-  },
   "PHYS 11X2": {
     "name": "Transfer Non-Calc PhysII",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "PHYS 1XXX": {
-    "name": "Physics Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -20431,8 +19414,7 @@
     "name": "Principles of Physics I",
     "prereqs": {
       "or": [
-        "MATH 1552",
-        "MATH 1X52"
+        "MATH 1552"
       ]
     },
     "coreqs": []
@@ -20502,11 +19484,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "PHYS 25X1": {
-    "name": "Transfer Physics I",
-    "prereqs": {},
-    "coreqs": []
-  },
   "PHYS 2698": {
     "name": "Research Assistantship",
     "prereqs": {},
@@ -20539,11 +19516,6 @@
   },
   "PHYS 2902": {
     "name": "Special Problems",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "PHYS 2XXX": {
-    "name": "Physics Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -20590,15 +19562,13 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         },
         {
           "or": [
             "MATH 2551",
-            "MATH 2561",
-            "MATH 2X51"
+            "MATH 2561"
           ]
         }
       ]
@@ -20627,8 +19597,7 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         }
       ]
@@ -20643,8 +19612,7 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         }
       ]
@@ -20658,8 +19626,7 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         },
         {
@@ -20685,8 +19652,7 @@
         {
           "or": [
             "MATH 2552",
-            "MATH 2562",
-            "MATH 2X52"
+            "MATH 2562"
           ]
         }
       ]
@@ -20741,7 +19707,6 @@
     },
     "coreqs": []
   },
-  
   "PHYS 3232": {
     "name": "Optics I",
     "prereqs": {
@@ -20768,11 +19733,6 @@
   },
   "PHYS 3807": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "PHYS 3XXX": {
-    "name": "Physics ELective",
     "prereqs": {},
     "coreqs": []
   },
@@ -20807,9 +19767,7 @@
   "PHYS 4206": {
     "name": "Electronics II",
     "prereqs": {
-      "and": [
-        "PHYS 3209"
-      ]
+      "null": []
     },
     "coreqs": []
   },
@@ -21006,8 +19964,7 @@
     "prereqs": {
       "or": [
         "MATH 2551",
-        "MATH 2561",
-        "MATH 2X51"
+        "MATH 2561"
       ]
     },
     "coreqs": []
@@ -21047,11 +20004,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "PHYS 4XXX": {
-    "name": "Physics Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "POL 1101": {
     "name": "Government of the U.S.",
     "prereqs": {},
@@ -21072,18 +20024,8 @@
     "prereqs": {},
     "coreqs": []
   },
-  "PORT 3XXX": {
-    "name": "Portuguese Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "PSYC 1101": {
     "name": "Intro to Gen Psyc",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "PSYC 1XXX": {
-    "name": "Psychology Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -21141,9 +20083,6 @@
         "PSYC 1101",
         {
           "or": [
-            {
-              "and": []
-            },
             {
               "and": [
                 "MATH 1551",
@@ -21256,11 +20195,6 @@
   },
   "PSYC 2803": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "PSYC 2XXX": {
-    "name": "Psychology Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -21377,11 +20311,6 @@
   },
   "PSYC 3873": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "PSYC 3XXX": {
-    "name": "Psychology Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -21554,7 +20483,7 @@
         "BIOS 4401",
         "BMED 2400",
         {
-          "and": [
+          "null": [
             "ISYE 3770",
             "ECE 3077"
           ]
@@ -21703,18 +20632,8 @@
     },
     "coreqs": []
   },
-  "PSYC 4XXX": {
-    "name": "Psychology Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "PUBP 1142": {
     "name": "Teams and Collaboration",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "PUBP 1XXX": {
-    "name": "Public Policy Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -21770,11 +20689,6 @@
   },
   "PUBP 2699": {
     "name": "Undergraduate Research",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "PUBP 2XXX": {
-    "name": "Public Policy Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -21897,11 +20811,6 @@
   },
   "PUBP 3610": {
     "name": "Pre-Law Seminar",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "PUBP 3XXX": {
-    "name": "Public Policy Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -22161,11 +21070,6 @@
     },
     "coreqs": []
   },
-  "PUBP 4XXX": {
-    "name": "Public Policy Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "RUSS 1001": {
     "name": "Elementary Russian I",
     "prereqs": {},
@@ -22173,11 +21077,6 @@
   },
   "RUSS 1002": {
     "name": "Elementary Russian II",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "RUSS 10X1": {
-    "name": "Trans Elementary Russian I",
     "prereqs": {},
     "coreqs": []
   },
@@ -22198,11 +21097,6 @@
   },
   "RUSS 1821": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "RUSS 1XXX": {
-    "name": "Russian Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -22238,11 +21132,6 @@
   },
   "RUSS 2813": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "RUSS 2XXX": {
-    "name": "Russian Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -22288,11 +21177,6 @@
   },
   "RUSS 3813": {
     "name": "Special Topics",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "RUSS 3XXX": {
-    "name": "Russian Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -22351,17 +21235,7 @@
     "prereqs": {},
     "coreqs": []
   },
-  "RUSS 4XXX": {
-    "name": "Russian Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "SCI 1XXX": {
-    "name": "Science Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "SCI 2XXX": {
     "name": "Science Elective",
     "prereqs": {},
     "coreqs": []
@@ -22391,11 +21265,6 @@
     "prereqs": {},
     "coreqs": []
   },
-  "SPAN 1XXX": {
-    "name": "Spanish Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "SPAN 2001": {
     "name": "Intermediate Spanish I",
     "prereqs": {},
@@ -22403,11 +21272,6 @@
   },
   "SPAN 2002": {
     "name": "Intermediate Spanish II",
-    "prereqs": {},
-    "coreqs": []
-  },
-  "SPAN 2XXX": {
-    "name": "Spanish Elective",
     "prereqs": {},
     "coreqs": []
   },
@@ -22567,14 +21431,16 @@
     "prereqs": {},
     "coreqs": []
   },
-  "SPAN 3XXX": {
-    "name": "Spanish Elecitve",
-    "prereqs": {},
-    "coreqs": []
-  },
   "SPAN 4061": {
     "name": "Science & Technology I",
     "prereqs": {},
+    "coreqs": []
+  },
+  "SPAN 4062": {
+    "name": "Science & Technology II",
+    "prereqs": {
+      "null": []
+    },
     "coreqs": []
   },
   "SPAN 4102": {
@@ -22707,27 +21573,12 @@
     "prereqs": {},
     "coreqs": []
   },
-  "SPAN 4XXX": {
-    "name": "Spanish Elective",
-    "prereqs": {},
-    "coreqs": []
-  },
   "SS 1XXX": {
     "name": null,
     "prereqs": {},
     "coreqs": []
   },
-  "SS 2XXX": {
-    "name": null,
-    "prereqs": {},
-    "coreqs": []
-  },
   "SS 3XXX": {
-    "name": null,
-    "prereqs": {},
-    "coreqs": []
-  },
-  "SS 4XXX": {
     "name": null,
     "prereqs": {},
     "coreqs": []
