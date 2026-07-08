@@ -101,6 +101,10 @@ export function useCourseTracker(selectedMajor) {
   for (const courseId of relevantCourses) {
     if (takenCourses.has(courseId)) continue;
 
+    const course = COURSES[courseId];
+    if (!course) continue;            
+
+
     if (isSatisfied(COURSES[courseId].prereqs, takenCourses)) {
       availableCourses.push(courseId);
     } else {
