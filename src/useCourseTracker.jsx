@@ -75,13 +75,24 @@ function isSatisfied(prereqs, takenCourses) {
 
 export function useCourseTracker(selectedMajor) {
   const [takenCourses, setTakenCourses] = useState(() => {
-    const saved = localStorage.getItem('takenCourses');
+    if (!selectedMajor) return new Set();
+    const saved = localStorage.getItem(`takenCourses:${selectedMajor}`);
     return saved ? new Set(JSON.parse(saved)) : new Set();
   });
 
   useEffect(() => {
-    localStorage.setItem('takenCourses', JSON.stringify([...takenCourses]));
-  }, [takenCourses]);
+    if (!selectedMajor) {
+      setTakenCourses(new Set());
+      return;
+    }
+    const saved = localStorage.getItem(`takenCourses:${selectedMajor}`);
+    setTakenCourses(saved ? new Set(JSON.parse(saved)) : new Set());
+  }, [selectedMajor]);
+
+  useEffect(() => {
+    if (!selectedMajor) return;
+    localStorage.setItem(`takenCourses:${selectedMajor}`, JSON.stringify([...takenCourses]));
+  }, [takenCourses, selectedMajor]);
 
   const relevantCourses = selectedMajor ? getRelevantCourses(MAJORS[selectedMajor].courses) : new Set();
   const availableCourses = [];
@@ -90,12 +101,7 @@ export function useCourseTracker(selectedMajor) {
   for (const courseId of relevantCourses) {
     if (takenCourses.has(courseId)) continue;
 
-    const course = COURSES[courseId];
-    if (!course) {
-      continue
-    }
-
-    if (isSatisfied(course.prereqs, takenCourses)) {
+    if (isSatisfied(COURSES[courseId].prereqs, takenCourses)) {
       availableCourses.push(courseId);
     } else {
       lockedCourses.push(courseId);
