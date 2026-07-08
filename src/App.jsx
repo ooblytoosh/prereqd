@@ -27,6 +27,7 @@ function App() {
     <div>
       <h1>prereqd</h1>
       <h1>{selectedMajor}</h1>
+      <button className="revert-major" onClick={() => setSelectedMajor(null)}>Change Major</button>
       <div className="lists">
         <CourseColumn 
           title="Taken"

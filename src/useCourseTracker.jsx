@@ -30,12 +30,16 @@ function getRelevantCourses(majorCourses) {
   while (queue.length > 0) {
     const courseId = queue.shift();
     const course = COURSES[courseId];
+    if (!course) {
+      console.warn(`Missing course: ${courseId}`);
+      continue;
+    }
 
     const prereqIds = extractCourseIds(course.prereqs);
     for (const prereqId of prereqIds) {
       if (!relevant.has(prereqId)) {
-        relevant.add(prereqId)
-        queue.push(prereqId)
+        relevant.add(prereqId);
+        queue.push(prereqId);
       }
     }
   }
@@ -86,7 +90,12 @@ export function useCourseTracker(selectedMajor) {
   for (const courseId of relevantCourses) {
     if (takenCourses.has(courseId)) continue;
 
-    if (isSatisfied(COURSES[courseId].prereqs, takenCourses)) {
+    const course = COURSES[courseId];
+    if (!course) {
+      continue
+    }
+
+    if (isSatisfied(course.prereqs, takenCourses)) {
       availableCourses.push(courseId);
     } else {
       lockedCourses.push(courseId);
