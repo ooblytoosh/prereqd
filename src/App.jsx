@@ -10,15 +10,23 @@ function App() {
 
   if (!selectedMajor) {
     return (
-      <div className="major-selection">
+      <div className="majors">
         <h1>prereqd</h1>
         <h1>Select your major</h1>
-        <select onChange={(e) => setSelectedMajor(e.target.value)} defaultValue="">
-          <option value="" disabled>Choose a major...</option>
+        <input
+          list="majors"
+          placeholder="Search for your major..."
+          onChange={(e) => {
+            if (MAJORS[e.target.value]) {
+              setSelectedMajor(e.target.value);
+            }
+          }}
+        />
+        <datalist id="majors">
           {Object.keys(MAJORS).map(major => (
-            <option key={major} value={major}>{major}</option>
+            <option key={major} value={major}/>
           ))}
-        </select>
+        </datalist>
       </div>
     );
   }
