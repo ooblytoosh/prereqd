@@ -1,5 +1,5 @@
 {
-  "aerospace engineering": {
+  "Aerospace Engineering": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -49,7 +49,7 @@
       "ECE 3741"
     ]
   },
-  "architecture": {
+  "Architecture": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -85,7 +85,7 @@
       "ARCH 3010"
     ]
   },
-  "arts, entertainment, and creative technologies": {
+  "Arts, Entertainment, and Creative Technologies": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -115,10 +115,181 @@
       "AECT 3400",
       "AECT 3500",
       "AECT 4000",
-      "AECT 4500"
+      "AECT 4500",
+      "ARCH 1060",
+      "ARCH 3010",
+      "ARCH 3007",
+      "ARCH 3008",
+      "ARCH 3009",
+      "ARCH 4143",
+      "ARCH 4833",
+      "FREN 3697",
+      "FREN 4011",
+      "FREN 4160",
+      "FREN 4242",
+      "GRMN 3055",
+      "GRMN 3110",
+      "GRMN 4010",
+      "GRMN 4025",
+      "GRMN 4026",
+      "ID 2241",
+      "ID 2242",
+      "ID 4206",
+      "JAPN 4165",
+      "JAPN 4173",
+      "JAPN 4813",
+      "KOR 3415",
+      "KOR 3813",
+      "JAPN 3813",
+      "LMC 2400",
+      "LMC 2410",
+      "LMC 2450",
+      "LMC 2500",
+      "LMC 2600",
+      "LMC 2720",
+      "LMC 2730",
+      "LMC 3253",
+      "LMC 3254",
+      "LMC 3255",
+      "LMC 3256",
+      "LMC 3257",
+      "LMC 3258",
+      "LMC 3259",
+      "LMC 3262",
+      "LMC 3263",
+      "LMC 3352",
+      "LMC 3405",
+      "LMC 3450",
+      "LMC 3451",
+      "LMC 3705",
+      "LMC 3710",
+      "LMC 4720",
+      "LMC 4725",
+      "LMC 4730",
+      "MUSI 2700",
+      "MUSI 3450",
+      "MUSI 3621",
+      "MUSI 3630",
+      "MUSI 4456",
+      "ARCH 1020",
+      "CS 4455",
+      "CS 4731",
+      "CS 4496",
+      "ID 2101",
+      "ID 2102",
+      "ID 3510",
+      "ID 4062",
+      "LMC 3402",
+      "LMC 3406",
+      "LMC 3407",
+      "LMC 3454",
+      "LMC 4407",
+      "LMC 4710",
+      "LMC 4733",
+      "LMC 4720",
+      "MUSI 2015",
+      "MUSI 3541",
+      "MUSI 3770",
+      "MUSI 4450",
+      "MUSI 4458",
+      "MUSI 4670",
+      "ARCH 4413",
+      "ARCH 4833",
+      "ID 1418",
+      "ID 1419",
+      "ID 4418",
+      "LMC 2661",
+      "LMC 2662",
+      "LMC 3062",
+      "LMC 3236",
+      "LMC 4602",
+      "MUSI 3019",
+      "MUSI 3121",
+      "MUSI 3131",
+      "MUSI 3231",
+      "MUSI 3241",
+      "MUSI 3251",
+      "MUSI 3261",
+      "MUSI 3311",
+      "MUSI 3321",
+      "MUSI 3411",
+      "MUSI 3531",
+      "MUSI 3511",
+      "MUSI 3551",
+      "MUSI 3611",
+      "MGT 4803",
+      "MGT 2106",
+      "PHIL 3101",
+      "MGT 4803",
+      "COE 2701",
+      "CS 2701",
+      "MGT 3101",
+      "MGT 3150",
+      "MGT 4450",
+      "MGT 4670",
+      "CS 2110",
+      "CS 2261",
+      "CS 3600",
+      "CS 4455",
+      "CS 4496",
+      "CS 4625",
+      "CS 4635",
+      "CS 4641",
+      "CS 4644",
+      "CS 4731",
+      "ECE 2026",
+      "ECE 3077",
+      "ECE 3084",
+      "ECE 3251",
+      "ECE 3710",
+      "ECE 4252",
+      "ECE 4258",
+      "ECE 4260",
+      "ECE 4270",
+      "ARCH 3200",
+      "ARCH 4508",
+      "ID 4803",
+      "CS 4803",
+      "CS 2110",
+      "CS 3790",
+      "FREN 3110",
+      "FREN 4013",
+      "FREN 4105",
+      "FREN 4246",
+      "GT 1000",
+      "ID 2325",
+      "ID 2401",
+      "ID 3320",
+      "LMC 3403",
+      "LMC 3451",
+      "MGT 2250",
+      "MGT 3000",
+      "MGT 3103",
+      "MGT 3150",
+      "MGT 3300",
+      "MGT 3607",
+      "MGT 3614",
+      "MGT 3743",
+      "MGT 4311",
+      "MGT 4726",
+      "MGT 4803",
+      "MGT 4803",
+      "MUSI 2525",
+      "MUSI 2526",
+      "MUSI 4459",
+      "MUSI 4630",
+      "MUSI 4670",
+      "MUSI 4677",
+      "PHIL 3101",
+      "PSYC 2280",
+      "PSYC 3750",
+      "PSYC 3790",
+      "PSYC 4010",
+      "PSYC 4011",
+      "PSYC 4090"
     ]
   },
-  "astrophysics": {
+  "Astrophysics": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -160,7 +331,7 @@
       "PHYS 4347"
     ]
   },
-  "atmospheric and oceanic sciences": {
+  "Atmospheric and Oceanic Sciences": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -220,7 +391,7 @@
       "EAS 4814"
     ]
   },
-  "biomedical engineering": {
+  "Biomedical Engineering": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -268,7 +439,7 @@
       "ECE 3741"
     ]
   },
-  "construction science and management": {
+  "Construction Science and Management": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -310,7 +481,7 @@
       "MGT 3101"
     ]
   },
-  "economics": {
+  "Economics": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -338,7 +509,7 @@
       "ECON 4010"
     ]
   },
-  "economics and international affairs": {
+  "Economics and International Affairs": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -413,7 +584,7 @@
       "MGT 4052"
     ]
   },
-  "environmental engineering": {
+  "Environmental Engineering": {
     "courses": [
       "PHYS 2211",
       "MATH 1551",
@@ -422,10 +593,63 @@
       "MATH 1554",
       "MATH 2552",
       "CHEM 1310",
-      "COE 2001"
+      "COE 2001",
+      "APPH 1040",
+      "APPH 1050",
+      "APPH 1060",
+      "CS 1371",
+      "MATH 1552",
+      "HIST 2111",
+      "HIST 2112",
+      "INTA 1200",
+      "POL 1101",
+      "PUBP 3000",
+      "ENGL 1101",
+      "ENGL 1102",
+      "PHYS 2211",
+      "PHYS 2212",
+      "MATH 1551",
+      "MATH 1553",
+      "MATH 1554",
+      "MATH 1564",
+      "COE 2001",
+      "MATH 2551",
+      "MATH 2552",
+      "CHEM 1310",
+      "BIOS 1107",
+      "BIOS 1107L",
+      "CEE 1070",
+      "CEE 1090",
+      "CEE 2040",
+      "CEE 2090",
+      "CEE 2300",
+      "CEE 3040",
+      "CEE 3090",
+      "CEE 3340",
+      "CEE 3770",
+      "ISYE 3770",
+      "CEE 4090",
+      "CEE 4200",
+      "COE 3001",
+      "CHEM 1315",
+      "EAS 2600",
+      "CHBE 2130",
+      "CHEM 3411",
+      "EAS 3603",
+      "ME 3322",
+      "CEE 4210",
+      "CEE 3400",
+      "CEE 4620",
+      "CEE 4795",
+      "CEE 4310",
+      "CEE 4320",
+      "CEE 4330",
+      "CEE 4340",
+      "CEE 4370",
+      "CEE 4395"
     ]
   },
-  "environmental science": {
+  "Environmental Science": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -530,7 +754,7 @@
       "PUBP 4620"
     ]
   },
-  "global economics and modern languages": {
+  "Global Economics and Modern Languages": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -563,7 +787,7 @@
       "SPAN 4500"
     ]
   },
-  "history, technology, and society": {
+  "History, Technology, and Society": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -764,7 +988,7 @@
       "HTS 3088"
     ]
   },
-  "industrial design": {
+  "Industrial Design": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -815,7 +1039,7 @@
       "ID 4206"
     ]
   },
-  "international affairs": {
+  "International Affairs": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -859,10 +1083,14 @@
       "ECON 2100",
       "ECON 2101",
       "ECON 2105",
-      "ECON 2106"
+      "ECON 2106",
+      "INTA 1110",
+      "INTA 3301",
+      "INTA 3203",
+      "INTA 4500"
     ]
   },
-  "international affairs and modern language": {
+  "International Affairs and Modern Language": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -915,7 +1143,7 @@
       "SPAN 4500"
     ]
   },
-  "mathematics and computing": {
+  "Mathematics and Computing": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -939,17 +1167,128 @@
       "MATH 2561",
       "MATH 2552",
       "MATH 2562",
-      "MATH 3740",
-      "CX 2740",
+      "MATH 2740",
+      "CS 2740",
       "CS 3001",
       "CS 1332",
       "MATH 3406",
       "MATH 4317",
       "MATH 3740",
-      "CX 3740"
+      "CX 3740",
+      "MATH 3012",
+      "CS 2050",
+      "CS 2051",
+      "CS 3510",
+      "CS 3511",
+      "CS 4510",
+      "CS 4540",
+      "MATH 4012",
+      "MATH 4022",
+      "MATH 4032",
+      "MATH 4107",
+      "MATH 4108",
+      "MATH 4150",
+      "MATH 4210",
+      "MATH 4221",
+      "MATH 4222",
+      "MATH 4280",
+      "MATH 4318",
+      "MATH 4580",
+      "MATH 4803",
+      "CS 3235",
+      "CS 3600",
+      "CS 3790",
+      "CS 4641",
+      "CS 4644",
+      "CX 4220",
+      "CX 4240",
+      "CX 4640",
+      "MATH 4640",
+      "CX 4640",
+      "MATH 4641",
+      "ECE 3084",
+      "ECE 3251",
+      "ISYE 4133",
+      "MATH 4347",
+      "CX 4220",
+      "CX 4230",
+      "MATH 4640",
+      "CX 4640",
+      "CS 4641",
+      "CX 4240",
+      "MATH 4210",
+      "MATH 3012",
+      "MATH 4022",
+      "MATH 4221",
+      "MATH 4222",
+      "MATH 4280",
+      "MATH 4318",
+      "MATH 4320",
+      "MATH 4441",
+      "MATH 4541",
+      "MATH 4580",
+      "MATH 4755",
+      "MATH 4782",
+      "MATH 4803",
+      "MATH 4803",
+      "CS 4644",
+      "CX 4140",
+      "CX 4232",
+      "CX 4242",
+      "CX 4641",
+      "MATH 4641",
+      "CX 4740",
+      "MATH 4740",
+      "CX 4803",
+      "MATH 4803",
+      "ISYE 4133",
+      "EAS 4610",
+      "EAS 4630",
+      "CS 3600",
+      "CS 3630",
+      "CS 3790",
+      "PSYC 3040",
+      "CS 4641",
+      "CX 4240",
+      "MATH 4210",
+      "CS 3510",
+      "CS 3511",
+      "CX 4140",
+      "MATH 3012",
+      "MATH 4022",
+      "MATH 4107",
+      "MATH 4221",
+      "MATH 4222",
+      "MATH 4280",
+      "MATH 4318",
+      "MATH 4320",
+      "MATH 4347",
+      "MATH 4441",
+      "MATH 4541",
+      "MATH 4580",
+      "MATH 4803",
+      "MATH 4803",
+      "MATH 4803",
+      "MATH 4803",
+      "CS 4476",
+      "CS 4540",
+      "CS 4635",
+      "CS 4644",
+      "CS 4646",
+      "CS 4649",
+      "CS 4650",
+      "CS 4731",
+      "CX 4640",
+      "MATH 4640",
+      "CX 4641",
+      "CX 4803",
+      "MATH 4803",
+      "ECE 4270",
+      "ECE 4271",
+      "ISYE 4133"
     ]
   },
-  "public policy": {
+  "Public Policy": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -974,10 +1313,69 @@
       "PUBP 4010",
       "PUBP 4020",
       "PUBP 2651",
-      "PUBP 4651"
+      "PUBP 4651",
+      "PHIL 4176",
+      "PUBP 3315",
+      "PUBP 3320",
+      "PUBP 3350",
+      "PUBP 3600",
+      "PUBP 4440",
+      "PUBP 4620",
+      "PHIL 3127",
+      "PHIL 3180",
+      "PUBP 3230",
+      "PUBP 3244",
+      "PUBP 3502",
+      "PUBP 4111",
+      "PUBP 4214",
+      "PUBP 4410",
+      "PUBP 4414",
+      "PUBP 4440",
+      "PUBP 4501",
+      "PUBP 4640",
+      "PUBP 4650",
+      "PUBP 4725",
+      "PUBP 4756",
+      "PUBP 3201",
+      "PUBP 3210",
+      "PUBP 3214",
+      "PUBP 4200",
+      "PUBP 4211",
+      "PUBP 3230",
+      "PUBP 4212",
+      "PUBP 4214",
+      "PUBP 4630",
+      "PHIL 2010",
+      "PHIL 3050",
+      "PHIL 3102",
+      "PHIL 3103",
+      "PHIL 3105",
+      "PHIL 3109",
+      "PHIL 3113",
+      "PHIL 3115",
+      "PHIL 3127",
+      "PHIL 3135",
+      "PHIL 3140",
+      "PHIL 3790",
+      "PHIL 4110",
+      "PHIL 4176",
+      "PUBP 4630",
+      "POL 2101",
+      "PHIL 3050",
+      "PUBP 1142",
+      "PUBP 2142",
+      "PUBP 3000",
+      "PUBP 3016",
+      "PUBP 3141",
+      "PUBP 3214",
+      "PUBP 3510",
+      "PUBP 3520",
+      "PUBP 4140",
+      "PUBP 4226",
+      "PUBP 4440"
     ]
   },
-  "solid earth and planetary sciences": {
+  "Solid Earth and Planetary Sciences": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
@@ -1029,7 +1427,7 @@
       "EAS 4803"
     ]
   },
-  "urban planing and spatial analytics": {
+  "Urban Planing and Spatial Analytics": {
     "courses": [
       "APPH 1040",
       "APPH 1050",
