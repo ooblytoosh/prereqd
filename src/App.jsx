@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   const [selectedMajor, setSelectedMajor] = useState(null);
-  const {takenCourses, availableCourses, lockedCourses, addCourse, removeCourse} = useCourseTracker(selectedMajor);
+  const {takenCourses, availableCourses, lockedCourses, choiceGroupInfo, addCourse, removeCourse} = useCourseTracker(selectedMajor);
 
   if (!selectedMajor) {
     return (
@@ -49,6 +49,7 @@ function App() {
           count={availableCourses.length}
           courses={availableCourses}
           status="available"
+          choiceGroupInfo={choiceGroupInfo}
           onCardClick={addCourse}
         />
         <CourseColumn 
@@ -56,6 +57,7 @@ function App() {
           count={lockedCourses.length}
           courses={lockedCourses}
           status="locked"
+          choiceGroupInfo={choiceGroupInfo}
         />
       </div>
     </div>

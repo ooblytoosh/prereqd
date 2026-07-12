@@ -72,6 +72,52 @@ function isSatisfied(prereqs, takenCourses) {
   return true;
 }
 
+function flattenRequirementCourses(requirements) {
+  const ids = [];
+
+  for (const req of requirements) {
+    if (req.type === "single") {
+      ids.push(req.course)
+    } else if (req.type === "choose") {
+      ids.push(...req.options)
+    }
+  }
+
+  return ids;
+}
+
+function getMootCourses(requirements, takenCourses) {
+  const moot = new Set();
+
+  for (const req of requirements) {
+    if (req.type === "choose") {
+      const takenCount = req.options.filter(course => takenCourses.has(course)).length;
+
+      if (takenCount >= req.count) {
+        for (const opt of req.options) {
+          if (!takenCourses.has(opt)) {
+            moot.add(opt);
+          }
+        }
+      }
+    }
+  }
+
+  return moot;
+}
+
+function buildChoiceGroupInfo(requirements) {
+  const info = new Map();
+  for (const req of requirements) {
+    if (req.type === "choose") {
+      for (const opt of req.options) {
+        info.set(opt, {"groupSize": req.options.length})
+      }
+    }
+  }
+
+  return info;
+}
 
 export function useCourseTracker(selectedMajor) {
   const [takenCourses, setTakenCourses] = useState(() => {
@@ -94,12 +140,16 @@ export function useCourseTracker(selectedMajor) {
     localStorage.setItem(`takenCourses:${selectedMajor}`, JSON.stringify([...takenCourses]));
   }, [takenCourses, selectedMajor]);
 
-  const relevantCourses = selectedMajor ? getRelevantCourses(MAJORS[selectedMajor].courses) : new Set();
+  const requirements = selectedMajor ? MAJORS[selectedMajor].requirements : [];
+  const majorCourses = flattenRequirementCourses(requirements);
+  const relevantCourses = selectedMajor ? getRelevantCourses(majorCourses) : new Set(); 
+  const mootCourses = selectedMajor ? getMootCourses(requirements, takenCourses) : new Set();
+  const choiceGroupInfo = selectedMajor ? buildChoiceGroupInfo(requirements) : new Map();
   const availableCourses = [];
   const lockedCourses = [];
 
   for (const courseId of relevantCourses) {
-    if (takenCourses.has(courseId)) continue;
+    if (takenCourses.has(courseId) || mootCourses.has(courseId)) continue;
 
     const course = COURSES[courseId];
     if (!course) continue;            
@@ -137,5 +187,5 @@ export function useCourseTracker(selectedMajor) {
     setTakenCourses(next);
   };
 
-  return {takenCourses, availableCourses, lockedCourses, addCourse, removeCourse};
+  return {takenCourses, availableCourses, lockedCourses, choiceGroupInfo, addCourse, removeCourse};
 }
