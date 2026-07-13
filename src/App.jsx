@@ -1,12 +1,23 @@
 import { useState } from 'react';
 import { useCourseTracker } from './useCourseTracker';
 import { CourseColumn } from './components/CourseColumn';
+import { PoolCard } from './components/PoolCard';
 import MAJORS from './majors.json';
 import './App.css';
 
 function App() {
   const [selectedMajor, setSelectedMajor] = useState(null);
-  const {takenCourses, availableCourses, lockedCourses, choiceGroupInfo, addCourse, removeCourse} = useCourseTracker(selectedMajor);
+  const {
+    takenCourses, 
+    availableCourses, 
+    lockedCourses, 
+    choiceGroupInfo, 
+    poolProgress, 
+    addCourse, 
+    removeCourse
+  } = useCourseTracker(selectedMajor);
+
+  console.log('poolProgress:', poolProgress);
 
   if (!selectedMajor) {
     return (
@@ -59,6 +70,13 @@ function App() {
           status="locked"
           choiceGroupInfo={choiceGroupInfo}
         />
+      </div>
+
+      <div className="pool-section">
+        <h2>Pool Requirements</h2>
+        {poolProgress.map(pool => {
+          return <PoolCard key={pool.name} pool={pool} />
+        })}
       </div>
     </div>
   );

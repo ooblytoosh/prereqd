@@ -80,6 +80,8 @@ function flattenRequirementCourses(requirements) {
       ids.push(req.course)
     } else if (req.type === "choose") {
       ids.push(...req.options)
+    } else if (req.type === "pool") {
+      ids.push(...req.options)
     }
   }
 
@@ -119,6 +121,54 @@ function buildChoiceGroupInfo(requirements) {
   return info;
 }
 
+function getPoolProgress(requirements, takenCourses) {
+  const pools = [];
+
+  for (const req of requirements) {
+    if (req.type === "pool") {
+      const takenInPool = req.options.filter(c => takenCourses.has(c));
+      const hoursCompleted = takenInPool.reduce((sum, courseId) => {
+        const course = COURSES[courseId];
+        return sum + course.hours;
+      }, 0);
+
+      pools.push({
+        "name": req.name,
+        "creditHours": req.creditHours,
+        "hoursCompleted": hoursCompleted,
+        "options": req.options,
+        "takenInPool": takenInPool
+      });
+    }
+  }
+
+  return pools;
+}
+
+function getMootPoolCourses(requirements, takenCourses) {
+  const moot = new Set();
+
+  for (const req of requirements) {
+    if (req.type === "pool") {
+      const takenInPool = req.options.filter(c => takenCourses.has(c));
+      const hoursCompleted = takenInPool.reduce((sum, courseId) => {
+        const course = COURSES[courseId];
+        return sum + (course?.hours || 0);
+      }, 0);
+
+      if (hoursCompleted >= req.creditHours) {
+        for (const opt of req.options) {
+          if (!takenCourses.has(opt)) {
+            moot.add(opt);
+          }
+        }
+      }
+    }
+  }
+
+  return moot;
+}
+
 export function useCourseTracker(selectedMajor) {
   const [takenCourses, setTakenCourses] = useState(() => {
     if (!selectedMajor) return new Set();
@@ -144,12 +194,14 @@ export function useCourseTracker(selectedMajor) {
   const majorCourses = flattenRequirementCourses(requirements);
   const relevantCourses = selectedMajor ? getRelevantCourses(majorCourses) : new Set(); 
   const mootCourses = selectedMajor ? getMootCourses(requirements, takenCourses) : new Set();
+  const mootPoolCourses = selectedMajor ? getMootPoolCourses(requirements, takenCourses) : new Set();
   const choiceGroupInfo = selectedMajor ? buildChoiceGroupInfo(requirements) : new Map();
+  const poolProgress = selectedMajor ? getPoolProgress(requirements, takenCourses) : [];
   const availableCourses = [];
   const lockedCourses = [];
 
   for (const courseId of relevantCourses) {
-    if (takenCourses.has(courseId) || mootCourses.has(courseId)) continue;
+    if (takenCourses.has(courseId) || mootCourses.has(courseId) || mootPoolCourses.has(courseId)) continue;
 
     const course = COURSES[courseId];
     if (!course) continue;            
@@ -176,9 +228,9 @@ export function useCourseTracker(selectedMajor) {
       const current = queue.shift();
       if (next.has(current)) {
         next.delete(current);
-        for (const courseId of next) {
-          if (!isSatisfied(COURSES[courseId].prereqs, next)) {
-            queue.push(courseId);
+        for (const id of next) {
+          if (!isSatisfied(COURSES[id].prereqs, next)) {
+            queue.push(id);
           }
         }
       }
@@ -187,5 +239,5 @@ export function useCourseTracker(selectedMajor) {
     setTakenCourses(next);
   };
 
-  return {takenCourses, availableCourses, lockedCourses, choiceGroupInfo, addCourse, removeCourse};
+  return {takenCourses, availableCourses, lockedCourses, choiceGroupInfo, poolProgress, addCourse, removeCourse};
 }
