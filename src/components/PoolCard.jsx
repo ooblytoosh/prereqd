@@ -12,7 +12,7 @@ export function PoolCard({ pool }) {
           return (
             <li key={courseId} className={isTaken ? "pool-course taken" : "pool-course"}>
               <span className="checkmark">{isTaken ? "✓" : "☐"}</span>
-              {courseId} : {COURSES[courseId].name}
+              {courseId} : {COURSES[courseId].name} ({COURSES[courseId].hours})
             </li>
           );
         })}

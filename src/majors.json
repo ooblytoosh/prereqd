@@ -1,6 +1,6 @@
 {
   "Aerospace Engineering": {
-    "totalCredits": 107,
+    "totalCredits": 110,
     "requirements": [
       {"type": "choose", "count": 1, "options": [
         "APPH 1040",
