@@ -2,9 +2,10 @@ import COURSES from '../courses.json'
 
 export function PoolCard({ pool }) {
   return (
-    <div className="pool-card">
-      <h3>{pool.name}</h3>
-      <p>{pool.hoursCompleted} / {pool.creditHours} hrs</p>
+    <details className="pool-card">
+      <summary>
+        {pool.name} — {pool.hoursCompleted} / {pool.creditHours} hrs
+      </summary>
       <ul>
         {pool.options.map(courseId => {
           const isTaken = pool.takenInPool.includes(courseId);
@@ -16,6 +17,6 @@ export function PoolCard({ pool }) {
           );
         })}
       </ul>
-    </div>
+    </details>
   );
 }

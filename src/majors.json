@@ -31,6 +31,12 @@
       {"type": "single", "course": "CHEM 1310"},
       {"type": "single", "course": "AE 1601"},
       {"type": "single", "course": "COE 2001"},
+      {"type": "pool", "name": "Economics Requirement", "creditHours": 3, "options": [
+        "ECON 2100",
+        "ECON 2101",
+        "ECON 2105",
+        "ECON 2106"
+      ]},
       {"type": "single", "course": "AE 2010"},
       {"type": "single", "course": "AE 2220"},
       {"type": "single", "course": "COE 3001"},
@@ -58,7 +64,7 @@
       ]},
       {"type": "single", "course": "AE 4451"},
       {"type": "single", "course": "AE 4610"},
-      {"type": "choose", "count": 2, "options": [
+      {"type": "pool", "name": "AE Options", "creditHours": 6, "options": [
         "AE 4040",
         "AE 4071",
         "AE 4080",
@@ -78,7 +84,7 @@
       {"type": "single", "course": "ME 1670"},
       {"type": "single", "course": "ECE 3710"},
       {"type": "single", "course": "ECE 3741"},
-      {"type": "choose", "count": 1, "options": [
+      {"type": "pool", "name": "Math Option", "creditHours": 3, "options": [
         "MATH 3215",
         "MATH 3670",
         "MATH 4305",
