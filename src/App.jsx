@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useCourseTracker } from './useCourseTracker';
 import { CourseColumn } from './components/CourseColumn';
 import { PoolCard } from './components/PoolCard';
+import { ProgressBar } from './components/ProgressBar'
 import MAJORS from './majors.json';
 import './App.css';
 
@@ -13,11 +14,12 @@ function App() {
     lockedCourses, 
     choiceGroupInfo, 
     poolProgress, 
+    creditsCompleted, 
+    totalCredits,
     addCourse, 
-    removeCourse
+    removeCourse,
+    resetProgress
   } = useCourseTracker(selectedMajor);
-
-  console.log('poolProgress:', poolProgress);
 
   if (!selectedMajor) {
     return (
@@ -46,6 +48,8 @@ function App() {
     <div>
       <h1>prereqd</h1>
       <h1>{selectedMajor}</h1>
+      <ProgressBar completed={creditsCompleted} total={totalCredits}/>
+      <button className="reset-button" onClick={resetProgress}>Reset Progress</button>
       <button className="revert-major" onClick={() => setSelectedMajor(null)}>Change Major</button>
       <div className="lists">
         <CourseColumn 
@@ -73,7 +77,7 @@ function App() {
       </div>
 
       <div className="pool-section">
-        <h2>Pool Requirements</h2>
+        <h2>Degree Pool Requirements</h2>
         {poolProgress.map(pool => {
           return <PoolCard key={pool.name} pool={pool} />
         })}

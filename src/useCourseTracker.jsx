@@ -169,6 +169,25 @@ function getMootPoolCourses(requirements, takenCourses) {
   return moot;
 }
 
+function getCreditsCompleted(requirements, takenCourses, poolProgress) {
+  let total = 0;
+  for (const req of requirements) {
+    if (req.type === "single" && takenCourses.has(req.course)) {
+      total += COURSES[req.course]?.hours || 0;
+    } else if (req.type === "choose") {
+      const taken = req.options.filter(c => takenCourses.has(c));
+      for (const courseId of taken) {
+        total += COURSES[courseId]?.hours || 0;
+      }
+    }
+  }
+  for (const pool of poolProgress) {
+    total += Math.min(pool.hoursCompleted, pool.creditHours);
+  }
+
+  return total;
+}
+
 export function useCourseTracker(selectedMajor) {
   const [takenCourses, setTakenCourses] = useState(() => {
     if (!selectedMajor) return new Set();
@@ -239,5 +258,15 @@ export function useCourseTracker(selectedMajor) {
     setTakenCourses(next);
   };
 
-  return {takenCourses, availableCourses, lockedCourses, choiceGroupInfo, poolProgress, addCourse, removeCourse};
+  const resetProgress = () => {
+    setTakenCourses(new Set());
+  };
+
+  const creditsCompleted = selectedMajor ? getCreditsCompleted(requirements, takenCourses, poolProgress) : 0;
+  const totalCredits = selectedMajor ? MAJORS[selectedMajor].totalCredits : 0;
+
+  return { 
+    takenCourses, availableCourses, lockedCourses, choiceGroupInfo, 
+    poolProgress, creditsCompleted, totalCredits, addCourse, removeCourse, resetProgress
+  };
 }

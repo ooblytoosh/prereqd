@@ -1,5 +1,6 @@
 {
   "Aerospace Engineering": {
+    "totalCredits": 107,
     "requirements": [
       {"type": "choose", "count": 1, "options": [
         "APPH 1040",
@@ -98,6 +99,7 @@
     ]
   },
   "Arts, Entertainment, and Creative Technologies": {
+    "totalCredits": 98,
     "requirements": [
       {"type": "choose", "count": 1, "options": [
         "APPH 1040",
@@ -132,7 +134,7 @@
       {"type": "single", "course": "AECT 3500"},
       {"type": "single", "course": "AECT 4000"},
       {"type": "single", "course": "AECT 4500"},
-      {"type": "choose", "count": 1, "options": [
+      {"type": "pool", "name": "Arts, History, Theory and Aesthetics Elective Options", "creditHours": 3, "options": [
         "ARCH 1060",
         "ARCH 3010",
         "ARCH 3007",
@@ -534,7 +536,6 @@
         "MGT 3743",
         "MGT 4311",
         "MGT 4726",
-        "MGT 4803",
         "MGT 4803",
         "MUSI 2525",
         "MUSI 2526",
