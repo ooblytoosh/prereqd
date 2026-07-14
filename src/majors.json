@@ -98,6 +98,65 @@
       ]}
     ]
   },
+  "Architecture": {
+    "totalCredits": 97,
+    "requirements": [
+      {"type": "choose", "count": 1, "options": [
+        "APPH 1040",
+        "APPH 1050",
+        "APPH 1060"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CS 1301",
+        "CS 1315"
+      ]},
+      {"type": "single", "course": "MATH 1552"},
+      {"type": "choose", "count": 1, "options": [
+        "HIST 2111",
+        "HIST 2112",
+        "INTA 1200",
+        "POL 1101",
+        "PUBP 3000"
+      ]},
+      {"type": "single", "course": "ENGL 1101"},
+      {"type": "single", "course": "ENGL 1102"},
+      {"type": "pool", "name": "Lab Science", "creditHours": 8, "options": [
+        "CHEM 1211K",
+        "CHEM 1212K",
+        "CHEM 1310",
+        "BIOS 1220",
+        "BIOS 1107",
+        "BIOS 1107L",
+        "BIOS 1108",
+        "BIOS 1108L",
+        "EAS 1600",
+        "EAS 1601",
+        "EAS 2600",
+        "PHYS 1111K",
+        "PHYS 2211",
+        "PHYS 2212"
+      ]},
+      {"type": "single", "course": "MATH 1551"},
+      {"type": "single", "course": "MATH 1553"},
+      {"type": "single", "course": "ARCH 1016"},
+      {"type": "single", "course": "ARCH 1017"},
+      {"type": "single", "course": "ARCH 1020"},
+      {"type": "single", "course": "ARCH 1060"},
+      {"type": "single", "course": "ARCH 2111"},
+      {"type": "single", "course": "ARCH 2016"},
+      {"type": "single", "course": "ARCH 2017"},
+      {"type": "single", "course": "ARCH 2020"},
+      {"type": "single", "course": "ARCH 2112"},
+      {"type": "single", "course": "ARCH 2211"},
+      {"type": "single", "course": "ARCH 3016"},
+      {"type": "single", "course": "ARCH 3017"},
+      {"type": "single", "course": "ARCH 3231"},
+      {"type": "single", "course": "ARCH 4015"},
+      {"type": "single", "course": "ARCH 4016"},
+      {"type": "single", "course": "ARCH 4017"},
+      {"type": "single", "course": "ARCH 3010"}
+    ]
+  },
   "Arts, Entertainment, and Creative Technologies": {
     "totalCredits": 98,
     "requirements": [
