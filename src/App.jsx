@@ -18,7 +18,8 @@ function App() {
     totalCredits,
     addCourse, 
     removeCourse,
-    resetProgress
+    resetProgress,
+    getMissingPrereqsFor
   } = useCourseTracker(selectedMajor);
 
   if (!selectedMajor) {
@@ -73,6 +74,7 @@ function App() {
           courses={lockedCourses}
           status="locked"
           choiceGroupInfo={choiceGroupInfo}
+          getMissingPrereqsFor={getMissingPrereqsFor}
         />
       </div>
 

@@ -1,6 +1,6 @@
 import {CourseCard} from './CourseCard';
 
-export function CourseColumn({title, count, courses, status, choiceGroupInfo, onCardClick = () => {}}) {
+export function CourseColumn({title, count, courses, status, choiceGroupInfo, getMissingPrereqsFor, onCardClick = () => {}}) {
   return (
     <div>
       <h2>{title}: {count}</h2>
@@ -14,6 +14,7 @@ export function CourseColumn({title, count, courses, status, choiceGroupInfo, on
           courseId={courseId}
           status={status}
           choiceGroup={group}
+          missingPrereqs={getMissingPrereqsFor ? getMissingPrereqsFor(courseId) : null}
           onClick={() => onCardClick(courseId)}
         />;
       })}

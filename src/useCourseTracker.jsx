@@ -188,6 +188,37 @@ function getCreditsCompleted(requirements, takenCourses, poolProgress) {
   return total;
 }
 
+function getMissingPrereqs(prereqs, takenCourses) {
+  if (!prereqs || Object.keys(prereqs).length === 0) return [];
+
+  if (prereqs.and) {
+    let missing = [];
+    for (const item of prereqs.and) {
+      if (typeof item === "string") {
+        if (!takenCourses.has(item)) missing.push(item);
+      } else if (!isSatisfied(item, takenCourses)) {
+        missing.push(...getMissingPrereqs(item, takenCourses));
+      }
+    }
+    return missing;
+  }
+
+  if (prereqs.or) {
+    const satisfied = prereqs.or.some(item => 
+      typeof item === "string" ? takenCourses.has(item) : isSatisfied(item, takenCourses)
+    );
+    if (satisfied) return [];
+
+    const options = prereqs.or.map(item => 
+      typeof item === "string" ? item : getMissingPrereqs(item, takenCourses).join(" and ")
+    );
+
+    return [`one of: ${options.join(", ")}`];
+  }
+
+  return [];
+}
+
 export function useCourseTracker(selectedMajor) {
   const [takenCourses, setTakenCourses] = useState(() => {
     if (!selectedMajor) return new Set();
@@ -264,9 +295,16 @@ export function useCourseTracker(selectedMajor) {
 
   const creditsCompleted = selectedMajor ? getCreditsCompleted(requirements, takenCourses, poolProgress) : 0;
   const totalCredits = selectedMajor ? MAJORS[selectedMajor].totalCredits : 0;
+  
+  const getMissingPrereqsFor = (courseId) => {
+    const course = COURSES[courseId];
+    if (!course) return [];
+    return getMissingPrereqs(course.prereqs, takenCourses);
+  };
 
   return { 
     takenCourses, availableCourses, lockedCourses, choiceGroupInfo, 
-    poolProgress, creditsCompleted, totalCredits, addCourse, removeCourse, resetProgress
+    poolProgress, creditsCompleted, totalCredits, addCourse, removeCourse, 
+    resetProgress, getMissingPrereqsFor
   };
 }
