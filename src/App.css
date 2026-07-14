@@ -154,3 +154,21 @@ input {
 .missing-prereqs li {
   padding: 2px 0;
 }
+
+.column-search {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.button-row button {
+   margin: 0;
+}

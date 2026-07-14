@@ -21,6 +21,7 @@ export function CourseCard({ courseId, status, choiceGroup, missingPrereqs, onCl
         <span className="badge">choose 1 of {choiceGroup.groupSize}</span>
       )}
       <p className="creditHours">{course.hours} credits</p>
+      <p>Status: {status}</p>
       {status === "locked" && showMissing && missingPrereqs?.length > 0 && (
         <ul className="missing-prereqs">
           {missingPrereqs.map((item, i) => (
@@ -28,7 +29,6 @@ export function CourseCard({ courseId, status, choiceGroup, missingPrereqs, onCl
           ))}
         </ul>
       )}
-      <p>Status: {status}</p>
     </div>
   );
 }

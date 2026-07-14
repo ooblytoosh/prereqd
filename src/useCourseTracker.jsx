@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import COURSES from './courses.json';
 import MAJORS from './majors.json';
 
-function extractCourseIds(prereqs) {
+// grabs prereq course ids
+function extractCourseIds(prereqs) { 
   if (typeof prereqs === 'string') {
     return [prereqs];
   }
@@ -23,6 +24,7 @@ function extractCourseIds(prereqs) {
   return ids;
 }
 
+// grabs relevant major courses
 function getRelevantCourses(majorCourses) {
   const relevant = new Set(majorCourses);
   const queue = [...majorCourses];
@@ -46,6 +48,7 @@ function getRelevantCourses(majorCourses) {
   return relevant;
 }
 
+// checks if a course prerequisite requirements are satisfied
 function isSatisfied(prereqs, takenCourses) {
   if (Object.keys(prereqs).length === 0) {
     return true
@@ -72,6 +75,7 @@ function isSatisfied(prereqs, takenCourses) {
   return true;
 }
 
+// flattens courses from a given major requirements
 function flattenRequirementCourses(requirements) {
   const ids = [];
 
@@ -88,6 +92,7 @@ function flattenRequirementCourses(requirements) {
   return ids;
 }
 
+// checks courses that are moot due to another course fulfilling its requirement
 function getMootCourses(requirements, takenCourses) {
   const moot = new Set();
 
@@ -107,6 +112,7 @@ function getMootCourses(requirements, takenCourses) {
 
   return moot;
 }
+
 
 function buildChoiceGroupInfo(requirements) {
   const info = new Map();
@@ -213,7 +219,7 @@ function getMissingPrereqs(prereqs, takenCourses) {
       typeof item === "string" ? item : getMissingPrereqs(item, takenCourses).join(" and ")
     );
 
-    return [`one of: ${options.join(", ")}`];
+    return [`(one of: ${options.join(", ")})`];
   }
 
   return [];
