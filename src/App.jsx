@@ -73,7 +73,7 @@ function App() {
       <div className="lists">
         <CourseColumn 
           title="Taken"
-          count={filterCourses([...takenCourses], takenSearch).length}
+          count={takenCourses.size}
           courses={filterCourses([...takenCourses], takenSearch)}
           status="taken"
           onCardClick={removeCourse}
@@ -82,7 +82,7 @@ function App() {
         />
         <CourseColumn 
           title="Available"
-          count={filterCourses(availableCourses, availableSearch).length}
+          count={availableCourses.length}
           courses={filterCourses(availableCourses, availableSearch)}
           status="available"
           choiceGroupInfo={choiceGroupInfo}
@@ -92,7 +92,7 @@ function App() {
         />
         <CourseColumn 
           title="Locked"
-          count={filterCourses(lockedCourses, lockedSearch).length}
+          count={lockedCourses.length}
           courses={filterCourses(lockedCourses, lockedSearch)}
           status="locked"
           choiceGroupInfo={choiceGroupInfo}
