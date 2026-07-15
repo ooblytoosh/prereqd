@@ -781,6 +781,86 @@
         "EAS 4814"
       ]}
     ]
+  },
+  "Biochemistry - General": {
+    "totalCredits": 82,
+    "requirements": [
+      {"type": "choose", "count": 1, "options": [
+        "APPH 1040",
+        "APPH 1050",
+        "APPH 1060"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CS 1301",
+        "CS 1315",
+        "CS 1371"
+      ]},
+      {"type": "single", "course": "MATH 1552"},
+      {"type": "choose", "count": 1, "options": [
+        "HIST 2111",
+        "HIST 2112",
+        "INTA 1200",
+        "POL 1101",
+        "PUBP 3000"
+      ]},
+      {"type": "single", "course": "ENGL 1101"},
+      {"type": "single", "course": "ENGL 1102"},
+      {"type": "single", "course": "MATH 1551"},
+      {"type": "choose", "count": 1, "options": [
+        "MATH 1553",
+        "MATH 1554",
+        "MATH 1564"
+      ]},
+      {"type": "single", "course": "PHYS 2212"},
+      {"type": "single", "course": "CHEM 1212K"},
+      {"type": "single", "course": "CHEM 2380"},
+      {"type": "single", "course": "MATH 2551"},
+      {"type": "single", "course": "BIOS 1107"},
+      {"type": "single", "course": "BIOS 1107L"},
+      {"type": "pool", "name": "Quantitative Chemical Analysis", "creditHours": 3, "options": [
+        "CHEM 2216",
+        "CHEM 2216L",
+        "CHEM 2214"
+      ]},
+      {"type": "single", "course": "CHEM 2311"},
+      {"type": "choose", "count": 1, "options": [
+        "CHEM 2312",
+        "CHEM 2313"
+      ]},
+      {"type": "pool", "name": "Analytical Chemistry", "creditHours": 5, "options": [
+        "CHEM 3216",
+        "CHEM 3216L",
+        "CHEM 3211"
+      ]},
+      {"type": "single", "course": "CHEM 3371"},
+      {"type": "single", "course": "CHEM 3411"},
+      {"type": "choose", "count": 1, "options": [
+        "CHEM 4511",
+        "CHEM 3521"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CHEM 4512",
+        "CHEM 3522"
+      ]},
+      {"type": "single", "course": "CHEM 4521"},
+      {"type": "single", "course": "CHEM 4581"},
+      {"type": "single", "course": "CHEM 4582"},
+      {"type": "single", "course": "CHEM 4601"},
+      {"type": "single", "course": "BIOS 2600"},
+      {"type": "single", "course": "BIOS 3450"},
+      {"type": "choose", "count": 1, "options": [
+        "BIOS 3380",
+        "BIOS 3450",
+        "BIOS 4015",
+        "BIOS 4340",
+        "BIOS 4401",
+        "BIOS 4418",
+        "BIOS 4464",
+        "BIOS 4570",
+        "BIOS 4607",
+        "CHEM 4765"
+      ]}
+    ]
   }
 }
         
