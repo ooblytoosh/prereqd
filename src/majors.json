@@ -627,5 +627,71 @@
         "PSYC 4090"
       ]}
     ]
+  },
+  "Astrophysics": {
+    "totalCredits": 92,
+    "requirements": [
+      {"type": "choose", "count": 1, "options": [
+        "APPH 1040",
+        "APPH 1050",
+        "APPH 1060"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CS 1301",
+        "CS 1371"
+      ]},
+      {"type": "single", "course": "MATH 1552"},
+      {"type": "choose", "count": 1, "options": [
+        "HIST 2111",
+        "HIST 2112",
+        "INTA 1200",
+        "POL 1101",
+        "PUBP 3000"
+      ]},
+      {"type": "single", "course": "ENGL 1101"},
+      {"type": "single", "course": "ENGL 1102"},
+      {"type": "single", "course": "PHYS 2211"},
+      {"type": "single", "course": "PHYS 2212"},
+      {"type": "single", "course": "MATH 1551"},
+      {"type": "choose", "count": 1, "options": [
+        "MATH 1553",
+        "MATH 1554",
+        "MATH 1564"
+      ]},
+      {"type": "single", "course": "MATH 2551"},
+      {"type": "single", "course": "MATH 2552"},
+      {"type": "choose", "count": 1, "options": [
+        "CHEM 1310",
+        "CHEM 1211K"
+      ]},
+      {"type": "single", "course": "PHYS 2304"},
+      {"type": "single", "course": "PHYS 2303"},
+      {"type": "single", "course": "PHYS 2210"},
+      {"type": "single", "course": "PHYS 3201"},
+      {"type": "single", "course": "PHYS 3122"},
+      {"type": "single", "course": "PHYS 3123"},
+      {"type": "single", "course": "PHYS 3141"},
+      {"type": "single", "course": "PHYS 3143"},
+      {"type": "single", "course": "PHYS 4142"},
+      {"type": "single", "course": "PHYS 4143"},
+      {"type": "single", "course": "PHYS 3022"},
+      {"type": "single", "course": "PHYS 3210"},
+      {"type": "single", "course": "PHYS 4147"},
+      {"type": "single", "course": "PHYS 4247"},
+      {"type": "single", "course": "PHYS 4347"},
+      {"type": "pool", "name": "Additional Major Electives", "creditHours": 9, "options": [
+        "PHYS 3120",
+        "PHYS 3151",
+        "PHYS 3202",
+        "PHYS 3232",
+        "PHYS 4261",
+        "PHYS 4263",
+        "PHYS 4604",
+        "PHYS 4605",
+        "PHYS 4699",
+        "PHYS 4760"
+      ]}
+    ]
   }
 }
+        
