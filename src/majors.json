@@ -861,6 +861,157 @@
         "CHEM 4765"
       ]}
     ]
+  },
+  "Biology - General": {
+    "totalCredits": 80,
+    "requirements": [
+      {"type": "choose", "count": 1, "options": [
+        "APPH 1040",
+        "APPH 1050",
+        "APPH 1060"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CS 1301",
+        "CS 1315",
+        "CS 1371"
+      ]},
+      {"type": "single", "course": "MATH 1552"},
+      {"type": "choose", "count": 1, "options": [
+        "HIST 2111",
+        "HIST 2112",
+        "INTA 1200",
+        "POL 1101",
+        "PUBP 3000"
+      ]},
+      {"type": "pool", "name": "Lab Science", "creditHours": 8, "options": [
+        "CHEM 1211K",
+        "CHEM 1212K",
+        "CHEM 1310",
+        "BIOS 1220",
+        "BIOS 1107",
+        "BIOS 1107L",
+        "BIOS 1108",
+        "BIOS 1108L",
+        "EAS 1600",
+        "EAS 1601",
+        "EAS 2600",
+        "PHYS 1111K",
+        "PHYS 2211",
+        "PHYS 2212"
+      ]},
+      {"type": "single", "course": "MATH 1551"},
+      {"type": "single", "course": "MATH 1553"},
+      {"type": "pool", "name": "Biological Principles", "creditHours": 4, "options": [
+        "BIOS 1207",
+        "BIOS 1207L",
+        "BIOS 1107",
+        "BIOS 1107L"
+      ]},
+      {"type": "single", "course": "CHEM 1211K"},
+      {"type": "single", "course": "CHEM 1212K"},
+      {"type": "single", "course": "CHEM 2311"},
+      {"type": "choose", "count": 1, "options": [
+        "CHEM 2312",
+        "CHEM 2313"
+      ]},
+      {"type": "single", "course": "PHYS 2211"},
+      {"type": "single", "course": "PHYS 2212"},
+      {"type": "pool", "name": "Biological Principles", "creditHours": 4, "options": [
+        "BIOS 1208",
+        "BIOS 1208L",
+        "BIOS 1108",
+        "BIOS 1108L"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "BIOS 2300",
+        "BIOS 2310",
+        "BIOS 3450"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "BIOS 2600",
+        "BIOS 2610",
+        "BIOS 3600",
+        "BIOS 4460"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "BIOS 4590",
+        "BIOS 4690"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CHEM 2380",
+        "CHEM 2380U"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "BIOS 3400",
+        "BIOS 4150",
+        "BIOS 4401"
+      ]},
+      {"type": "pool", "name": "Biology Electives", "creditHours": 21, "options": [
+        "BIOS 3380",
+        "BIOS 3381",
+        "BIOS 3400",
+        "BIOS 3450",
+        "BIOS 3451",
+        "BIOS 3600",
+        "BIOS 3753",
+        "BIOS 3754",
+        "BIOS 3755",
+        "BIOS 3756",
+        "BIOS 3801",
+        "BIOS 3835",
+        "BIOS 4012",
+        "BIOS 4015",
+        "BIOS 4100",
+        "BIOS 4150",
+        "BIOS 4200",
+        "BIOS 4221",
+        "BIOS 4225",
+        "BIOS 4238",
+        "BIOS 4340",
+        "BIOS 4400",
+        "BIOS 4401",
+        "BIOS 4410",
+        "BIOS 4417",
+        "BIOS 4418",
+        "BIOS 4428",
+        "BIOS 4432",
+        "BIOS 4440",
+        "BIOS 4460",
+        "BIOS 4464",
+        "BIOS 4471",
+        "BIOS 4480",
+        "BIOS 4500",
+        "BIOS 4505",
+        "BIOS 4510",
+        "BIOS 4515",
+        "BIOS 4520",
+        "BIOS 4530",
+        "BIOS 4540",
+        "BIOS 4545",
+        "BIOS 4550",
+        "BIOS 4560",
+        "BIOS 4565",
+        "BIOS 4570",
+        "BIOS 4590",
+        "BIOS 4607",
+        "BIOS 4620",
+        "BIOS 4651",
+        "BIOS 4690",
+        "BIOS 4710",
+        "BIOS 4740",
+        "BIOS 4744",
+        "BIOS 4746",
+        "BIOS 4801",
+        "BIOS 4802",
+        "BIOS 4803",
+        "BIOS 4813",
+        "BIOS 4814",
+        "BIOS 4835",
+        "BIOS 4901",
+        "BIOS 4902",
+        "BIOS 4903"
+      ]}
+    ]
   }
 }
         
