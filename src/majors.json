@@ -692,6 +692,95 @@
         "PHYS 4760"
       ]}
     ]
+  },
+  "Atmospheric and Oceanic Sciences": {
+    "totalCredits": 82,
+    "requirements": [
+      {"type": "choose", "count": 1, "options": [
+        "APPH 1040",
+        "APPH 1050",
+        "APPH 1060"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CS 1301",
+        "CS 1315"
+      ]},
+      {"type": "single", "course": "MATH 1552"},
+      {"type": "choose", "count": 1, "options": [
+        "HIST 2111",
+        "HIST 2112",
+        "INTA 1200",
+        "POL 1101",
+        "PUBP 3000"
+      ]},
+      {"type": "single", "course": "ENGL 1101"},
+      {"type": "single", "course": "ENGL 1102"},
+      {"type": "pool", "name": "Lab Science", "creditHours": 8, "options": [
+        "CHEM 1211K",
+        "CHEM 1212K",
+        "CHEM 1310",
+        "BIOS 1220",
+        "BIOS 1107",
+        "BIOS 1107L",
+        "BIOS 1108",
+        "BIOS 1108L",
+        "EAS 1600",
+        "EAS 1601",
+        "EAS 2600",
+        "PHYS 1111K",
+        "PHYS 2211",
+        "PHYS 2212"
+      ]},
+      {"type": "single", "course": "MATH 1551"},
+      {"type": "single", "course": "MATH 1553"},
+      {"type": "single", "course": "PHYS 2212"},
+      {"type": "single", "course": "MATH 2551"},
+      {"type": "single", "course": "MATH 2552"},
+      {"type": "single", "course": "EAS 1600"},
+      {"type": "single", "course": "EAS 2551"},
+      {"type": "single", "course": "EAS 2655"},
+      {"type": "single", "course": "EAS 2750"},
+      {"type": "single", "course": "EAS 3603"},
+      {"type": "single", "course": "EAS 4655"},
+      {"type": "single", "course": "EAS 4656"},
+      {"type": "choose", "count": 1, "options": [
+        "EAS 4740",
+        "EAS 4670",
+        "EAS 4305"
+      ]},
+      {"type": "single", "course": "EAS 4801"},
+      {"type": "pool", "name": "AE Field Electives", "creditHours": 7, "options": [
+        "EAS 4420",
+        "EAS 4814",
+        "EAS 4610"
+      ]},
+      {"type": "pool", "name": "AOS Technical Electives", "creditHours": 15, "options": [
+        "CHEM 1212K",
+        "CHEM 1211K",
+        "CS 1301",
+        "CS 1371",
+        "EAS 3110",
+        "EAS 4300",
+        "EAS 4305",
+        "EAS 4410",
+        "EAS 4450",
+        "EAS 4525",
+        "EAS 4470",
+        "EAS 4740",
+        "EAS 4420",
+        "EAS 4480",
+        "EAS 4610",
+        "EAS 4651",
+        "EAS 4670",
+        "EAS 4695",
+        "EAS 4698",
+        "EAS 4699",
+        "EAS 4803",
+        "EAS 4803",
+        "EAS 4813",
+        "EAS 4814"
+      ]}
+    ]
   }
 }
         
