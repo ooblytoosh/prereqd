@@ -70,6 +70,12 @@ function App() {
         <button className="reset-button" onClick={resetProgress}>Reset Progress</button>
         <button className="revert-major" onClick={() => setSelectedMajor(null)}>Change Major</button>
       </div>
+      <h2>Degree Pool Requirements</h2>
+      <div className="pool-section">
+        {poolProgress.map(pool => {
+          return <PoolCard key={pool.name} pool={pool} />
+        })}
+      </div>
       <div className="lists">
         <CourseColumn 
           title="Taken"
@@ -100,13 +106,6 @@ function App() {
           searchTerm={lockedSearch}
           onSearchChange={setLockedSearch}
         />
-      </div>
-
-      <div className="pool-section">
-        <h2>Degree Pool Requirements</h2>
-        {poolProgress.map(pool => {
-          return <PoolCard key={pool.name} pool={pool} />
-        })}
       </div>
     </div>
   );
