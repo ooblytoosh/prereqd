@@ -19269,6 +19269,14 @@
     },
     "hours": 3
   },
+  "PHYS 2304": {
+    "name": "Modern Physics",
+    "prereqs": {
+      "and": [
+        "PHYS 2303"
+      ]
+    }
+  },
   "PHYS 2698": {
     "name": "Research Assistantship",
     "prereqs": {},

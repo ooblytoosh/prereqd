@@ -14,7 +14,7 @@ function filterCourses(courseIds, searchTerm) {
   return courseIds.filter(courseId => {
     const course = COURSES[courseId];
     const idMatch = courseId.toLowerCase().includes(lower);
-    const titleMatch = course?.title?.toLowerCase().includes(lower);
+    const titleMatch = course?.name?.toLowerCase().includes(lower);
     return idMatch || titleMatch;
   });
 }
