@@ -3978,6 +3978,603 @@
       {"type": "single", "course": "ECE 3710"},
       {"type": "single", "course": "ECE 3741"}
     ]
+  },
+  "Business Administration - Accounting": {
+    "totalCredits": 89,
+    "requirements": [
+      {"type": "choose", "count": 1, "options": [
+        "APPH 1040",
+        "APPH 1050",
+        "APPH 1060"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CS 1301",
+        "CS 1315"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "MATH 1552",
+        "MATH 1712"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "HIST 2111",
+        "HIST 2112",
+        "INTA 1200",
+        "POL 1101",
+        "PUBP 3000"
+      ]},
+      {"type": "single", "course": "ENGL 1101"},
+      {"type": "single", "course": "ENGL 1102"},
+      {"type": "pool", "name": "Core IMPACT Math Requirement", "creditHours": 4, "options": [
+        "MATH 1551",
+        "MATH 1553",
+        "MATH 1711"
+      ]},
+      {"type": "single", "course": "ACCT 2101"},
+      {"type": "single", "course": "ACCT 2102"},
+      {"type": "single", "course": "MGT 2106"},
+      {"type": "single", "course": "ECON 2105"},
+      {"type": "single", "course": "ECON 2106"},
+      {"type": "single", "course": "MGT 2210"},
+      {"type": "single", "course": "LMC 3403"},
+      {"type": "single", "course": "MGT 2250"},
+      {"type": "single", "course": "MGT 2255"},
+      {"type": "single", "course": "MGT 3062"},
+      {"type": "single", "course": "MGT 3101"},
+      {"type": "single", "course": "MGT 3102"},
+      {"type": "single", "course": "MGT 3300"},
+      {"type": "single", "course": "MGT 3501"},
+      {"type": "single", "course": "MGT 3599"},
+      {"type": "single", "course": "MGT 3660"},
+      {"type": "single", "course": "MGT 3659"},
+      {"type": "pool", "name": "Group A Elective", "creditHours": 12, "options": [
+        "MGT 4010",
+        "MGT 4026",
+        "MGT 4027",
+        "MGT 4041",
+        "MGT 4029",
+        "MGT 4046"
+      ]},
+      {"type": "pool", "name": "Group B Elective", "creditHours": 6, "options": [
+        "MGT 4015",
+        "MGT 4030",
+        "MGT 4043",
+        "MGT 4045",
+        "MGT 4047",
+        "MGT 4803"
+      ]}
+    ]
+  },
+  "Business Administration - Finance": {
+    "totalCredits": 89,
+    "requirements": [
+      {"type": "choose", "count": 1, "options": [
+        "APPH 1040",
+        "APPH 1050",
+        "APPH 1060"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CS 1301",
+        "CS 1315"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "MATH 1552",
+        "MATH 1712"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "HIST 2111",
+        "HIST 2112",
+        "INTA 1200",
+        "POL 1101",
+        "PUBP 3000"
+      ]},
+      {"type": "single", "course": "ENGL 1101"},
+      {"type": "single", "course": "ENGL 1102"},
+      {"type": "pool", "name": "Core IMPACT Math Requirement", "creditHours": 4, "options": [
+        "MATH 1551",
+        "MATH 1553",
+        "MATH 1711"
+      ]},
+      {"type": "single", "course": "ACCT 2101"},
+      {"type": "single", "course": "ACCT 2102"},
+      {"type": "single", "course": "MGT 2106"},
+      {"type": "single", "course": "ECON 2105"},
+      {"type": "single", "course": "ECON 2106"},
+      {"type": "single", "course": "MGT 2210"},
+      {"type": "single", "course": "LMC 3403"},
+      {"type": "single", "course": "MGT 2250"},
+      {"type": "single", "course": "MGT 2255"},
+      {"type": "single", "course": "MGT 3062"},
+      {"type": "single", "course": "MGT 3101"},
+      {"type": "single", "course": "MGT 3102"},
+      {"type": "single", "course": "MGT 3300"},
+      {"type": "single", "course": "MGT 3501"},
+      {"type": "single", "course": "MGT 3599"},
+      {"type": "single", "course": "MGT 3660"},
+      {"type": "single", "course": "MGT 3659"},
+      {"type": "single", "course": "MGT 3076"},
+      {"type": "single", "course": "MGT 3079"},
+      {"type": "single", "course": "MGT 4070"},
+      {"type": "pool", "name": "Finance Concentration Electives", "creditHours": 9, "options": [
+        "MGT 3075",
+        "MGT 3082",
+        "MGT 3084",
+        "MGT 4026",
+        "MGT 4066",
+        "MGT 4067",
+        "MGT 4068",
+        "MGT 4072",
+        "MGT 4073",
+        "MGT 4074"
+      ]}
+    ]
+  },
+  "Business Administration - General Management": {
+    "totalCredits": 89,
+    "requirements": [
+      {"type": "choose", "count": 1, "options": [
+        "APPH 1040",
+        "APPH 1050",
+        "APPH 1060"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CS 1301",
+        "CS 1315"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "MATH 1552",
+        "MATH 1712"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "HIST 2111",
+        "HIST 2112",
+        "INTA 1200",
+        "POL 1101",
+        "PUBP 3000"
+      ]},
+      {"type": "single", "course": "ENGL 1101"},
+      {"type": "single", "course": "ENGL 1102"},
+      {"type": "pool", "name": "Core IMPACT Math Requirement", "creditHours": 4, "options": [
+        "MATH 1551",
+        "MATH 1553",
+        "MATH 1711"
+      ]},
+      {"type": "single", "course": "ACCT 2101"},
+      {"type": "single", "course": "ACCT 2102"},
+      {"type": "single", "course": "MGT 2106"},
+      {"type": "single", "course": "ECON 2105"},
+      {"type": "single", "course": "ECON 2106"},
+      {"type": "single", "course": "MGT 2210"},
+      {"type": "single", "course": "LMC 3403"},
+      {"type": "single", "course": "MGT 2250"},
+      {"type": "single", "course": "MGT 2255"},
+      {"type": "single", "course": "MGT 3062"},
+      {"type": "single", "course": "MGT 3101"},
+      {"type": "single", "course": "MGT 3102"},
+      {"type": "single", "course": "MGT 3300"},
+      {"type": "single", "course": "MGT 3501"},
+      {"type": "single", "course": "MGT 3599"},
+      {"type": "single", "course": "MGT 3660"},
+      {"type": "single", "course": "MGT 3659"},
+      {"type": "pool", "name": "General Management Electives", "creditHours": 18, "options": [
+        "MGT 3075",
+        "MGT 3076",
+        "MGT 3079",
+        "MGT 3082",
+        "MGT 3084",
+        "MGT 3103",
+        "MGT 3310",
+        "MGT 3510",
+        "MGT 3605",
+        "MGT 3606",
+        "MGT 3607",
+        "MGT 3608",
+        "MGT 3609",
+        "MGT 3661",
+        "MGT 3662",
+        "MGT 3663",
+        "MGT 3743",
+        "MGT 3744",
+        "MGT 4010",
+        "MGT 4015",
+        "MGT 4026",
+        "MGT 4027",
+        "MGT 4030",
+        "MGT 4041",
+        "MGT 4043",
+        "MGT 4045",
+        "MGT 4047",
+        "MGT 4052",
+        "MGT 4053",
+        "MGT 4056",
+        "MGT 4057",
+        "MGT 4058",
+        "MGT 4066",
+        "MGT 4067",
+        "MGT 4068",
+        "MGT 4070",
+        "MGT 4072",
+        "MGT 4102",
+        "MGT 4116",
+        "MGT 4191",
+        "MGT 4192",
+        "MGT 4193",
+        "MGT 4194",
+        "MGT 4303",
+        "MGT 4304",
+        "MGT 4308",
+        "MGT 4309",
+        "MGT 4311",
+        "MGT 4331",
+        "MGT 4332",
+        "MGT 4335",
+        "MGT 4352",
+        "MGT 4353",
+        "MGT 4360",
+        "MGT 4366",
+        "MGT 4401",
+        "MGT 4670",
+        "MGT 4803",
+        "MGT 4910"
+      ]}
+    ]
+  },
+  "Business Administration - IT Management": {
+    "totalCredits": 89,
+    "requirements": [
+      {"type": "choose", "count": 1, "options": [
+        "APPH 1040",
+        "APPH 1050",
+        "APPH 1060"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CS 1301",
+        "CS 1315"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "MATH 1552",
+        "MATH 1712"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "HIST 2111",
+        "HIST 2112",
+        "INTA 1200",
+        "POL 1101",
+        "PUBP 3000"
+      ]},
+      {"type": "single", "course": "ENGL 1101"},
+      {"type": "single", "course": "ENGL 1102"},
+      {"type": "pool", "name": "Core IMPACT Math Requirement", "creditHours": 4, "options": [
+        "MATH 1551",
+        "MATH 1553",
+        "MATH 1711"
+      ]},
+      {"type": "single", "course": "ACCT 2101"},
+      {"type": "single", "course": "ACCT 2102"},
+      {"type": "single", "course": "MGT 2106"},
+      {"type": "single", "course": "ECON 2105"},
+      {"type": "single", "course": "ECON 2106"},
+      {"type": "single", "course": "MGT 2210"},
+      {"type": "single", "course": "LMC 3403"},
+      {"type": "single", "course": "MGT 2250"},
+      {"type": "single", "course": "MGT 2255"},
+      {"type": "single", "course": "MGT 3062"},
+      {"type": "single", "course": "MGT 3101"},
+      {"type": "single", "course": "MGT 3102"},
+      {"type": "single", "course": "MGT 3300"},
+      {"type": "single", "course": "MGT 3501"},
+      {"type": "single", "course": "MGT 3599"},
+      {"type": "single", "course": "MGT 3660"},
+      {"type": "single", "course": "MGT 3659"},
+      {"type": "pool", "name": "IT Management Electives I", "creditHours": 9, "options": [
+        "MGT 3745",
+        "MGT 4052",
+        "MGT 4058",
+        "MGT 4450"
+      ]},
+      {"type": "pool", "name": "IT Management Electives II", "creditHours": 9, "options": [
+        "MGT 3103",
+        "MGT 3310",
+        "MGT 3663",
+        "MGT 3743",
+        "MGT 3744",
+        "MGT 4041",
+        "MGT 4050",
+        "MGT 4056",
+        "MGT 4057",
+        "MGT 4102",
+        "MGT 4119",
+        "MGT 4193",
+        "MGT 4311",
+        "MGT 4341",
+        "MGT 4360",
+        "MGT 4366",
+        "MGT 4452",
+        "MGT 4655",
+        "MGT 4670",
+        "MGT 4725",
+        "MGT 4726",
+        "MGT 4803",
+        "CS 3251",
+        "CS 4235",
+        "VIP 2601",
+        "VIP 3601",
+        "VIP 3602",
+        "VIP 4601",
+        "VIP 4602"
+      ]}
+    ]
+  },
+  "Business Administration - Leadership and Organizational Change": {
+    "totalCredits": 89,
+    "requirements": [
+      {"type": "choose", "count": 1, "options": [
+        "APPH 1040",
+        "APPH 1050",
+        "APPH 1060"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CS 1301",
+        "CS 1315"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "MATH 1552",
+        "MATH 1712"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "HIST 2111",
+        "HIST 2112",
+        "INTA 1200",
+        "POL 1101",
+        "PUBP 3000"
+      ]},
+      {"type": "single", "course": "ENGL 1101"},
+      {"type": "single", "course": "ENGL 1102"},
+      {"type": "pool", "name": "Core IMPACT Math Requirement", "creditHours": 4, "options": [
+        "MATH 1551",
+        "MATH 1553",
+        "MATH 1711"
+      ]},
+      {"type": "single", "course": "ACCT 2101"},
+      {"type": "single", "course": "ACCT 2102"},
+      {"type": "single", "course": "MGT 2106"},
+      {"type": "single", "course": "ECON 2105"},
+      {"type": "single", "course": "ECON 2106"},
+      {"type": "single", "course": "MGT 2210"},
+      {"type": "single", "course": "LMC 3403"},
+      {"type": "single", "course": "MGT 2250"},
+      {"type": "single", "course": "MGT 2255"},
+      {"type": "single", "course": "MGT 3062"},
+      {"type": "single", "course": "MGT 3101"},
+      {"type": "single", "course": "MGT 3102"},
+      {"type": "single", "course": "MGT 3300"},
+      {"type": "single", "course": "MGT 3501"},
+      {"type": "single", "course": "MGT 3599"},
+      {"type": "single", "course": "MGT 3660"},
+      {"type": "single", "course": "MGT 3659"},
+      {"type": "pool", "name": "Leadership and Organizational Change Electives I", "creditHours": 12, "options": [
+        "MGT 3103",
+        "MGT 3118",
+        "MGT 3607",
+        "MGT 4102",
+        "MGT 4117",
+        "MGT 4119",
+        "MGT 4182"
+      ]},
+      {"type": "pool", "name": "Leadership and Organizational Change Electives II", "creditHours": 6, "options": [
+        "MGT 3744",
+        "MGT 4116",
+        "MGT 4192",
+        "MGT 4193",
+        "MGT 4194",
+        "MGT 4670"
+      ]}
+    ]
+  },
+  "Business Administration - Marketing": {
+    "totalCredits": 89,
+    "requirements": [
+      {"type": "choose", "count": 1, "options": [
+        "APPH 1040",
+        "APPH 1050",
+        "APPH 1060"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CS 1301",
+        "CS 1315"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "MATH 1552",
+        "MATH 1712"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "HIST 2111",
+        "HIST 2112",
+        "INTA 1200",
+        "POL 1101",
+        "PUBP 3000"
+      ]},
+      {"type": "single", "course": "ENGL 1101"},
+      {"type": "single", "course": "ENGL 1102"},
+      {"type": "pool", "name": "Core IMPACT Math Requirement", "creditHours": 4, "options": [
+        "MATH 1551",
+        "MATH 1553",
+        "MATH 1711"
+      ]},
+      {"type": "single", "course": "ACCT 2101"},
+      {"type": "single", "course": "ACCT 2102"},
+      {"type": "single", "course": "MGT 2106"},
+      {"type": "single", "course": "ECON 2105"},
+      {"type": "single", "course": "ECON 2106"},
+      {"type": "single", "course": "MGT 2210"},
+      {"type": "single", "course": "LMC 3403"},
+      {"type": "single", "course": "MGT 2250"},
+      {"type": "single", "course": "MGT 2255"},
+      {"type": "single", "course": "MGT 3062"},
+      {"type": "single", "course": "MGT 3101"},
+      {"type": "single", "course": "MGT 3102"},
+      {"type": "single", "course": "MGT 3300"},
+      {"type": "single", "course": "MGT 3501"},
+      {"type": "single", "course": "MGT 3599"},
+      {"type": "single", "course": "MGT 3660"},
+      {"type": "single", "course": "MGT 3659"},
+      {"type": "pool", "name": "Group A", "creditHours": 9, "options": [
+        "MGT 3310",
+        "MGT 4311",
+        "MGT 4312",
+        "MGT 4345"
+      ]},
+      {"type": "pool", "name": "Group B/C (max 3 credits from Group C)", "creditHours": 9, "options": [
+        "MGT 3312",
+        "MGT 3313",
+        "MGT 3325",
+        "MGT 4303",
+        "MGT 4304",
+        "MGT 4308",
+        "MGT 4309",
+        "MGT 4314",
+        "MGT 4331",
+        "MGT 4332",
+        "MGT 4335",
+        "MGT 4803",
+        "MGT 3744",
+        "MGT 4050",
+        "MGT 4367"
+      ]}
+    ]
+  },
+  "Business Administration - Operations and Supply Chain Management": {
+    "totalCredits": 89,
+    "requirements": [
+      {"type": "choose", "count": 1, "options": [
+        "APPH 1040",
+        "APPH 1050",
+        "APPH 1060"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CS 1301",
+        "CS 1315"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "MATH 1552",
+        "MATH 1712"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "HIST 2111",
+        "HIST 2112",
+        "INTA 1200",
+        "POL 1101",
+        "PUBP 3000"
+      ]},
+      {"type": "single", "course": "ENGL 1101"},
+      {"type": "single", "course": "ENGL 1102"},
+      {"type": "pool", "name": "Core IMPACT Math Requirement", "creditHours": 4, "options": [
+        "MATH 1551",
+        "MATH 1553",
+        "MATH 1711"
+      ]},
+      {"type": "single", "course": "ACCT 2101"},
+      {"type": "single", "course": "ACCT 2102"},
+      {"type": "single", "course": "MGT 2106"},
+      {"type": "single", "course": "ECON 2105"},
+      {"type": "single", "course": "ECON 2106"},
+      {"type": "single", "course": "MGT 2210"},
+      {"type": "single", "course": "LMC 3403"},
+      {"type": "single", "course": "MGT 2250"},
+      {"type": "single", "course": "MGT 2255"},
+      {"type": "single", "course": "MGT 3062"},
+      {"type": "single", "course": "MGT 3101"},
+      {"type": "single", "course": "MGT 3102"},
+      {"type": "single", "course": "MGT 3300"},
+      {"type": "single", "course": "MGT 3501"},
+      {"type": "single", "course": "MGT 3599"},
+      {"type": "single", "course": "MGT 3660"},
+      {"type": "single", "course": "MGT 3659"},
+      {"type": "pool", "name": "Operations and Supply Management Elective I", "creditHours": 12, "options": [
+        "MGT 3510",
+        "MGT 3744",
+        "MGT 4352",
+        "MGT 4353",
+        "MGT 4360",
+        "MGT 4366",
+        "MGT 4401"
+      ]},
+      {"type": "pool", "name": "Operations and Supply Management Elective II", "creditHours": 6, "options": [
+        "MGT 3743",
+        "MGT 4056",
+        "MGT 4057",
+        "MGT 4193",
+        "MGT 4309",
+        "MGT 4670",
+        "MGT 4803"
+      ]}
+    ]
+  },
+  "Business Administration - Strategy and Innovation": {
+    "totalCredits": 89,
+    "requirements": [
+      {"type": "choose", "count": 1, "options": [
+        "APPH 1040",
+        "APPH 1050",
+        "APPH 1060"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CS 1301",
+        "CS 1315"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "MATH 1552",
+        "MATH 1712"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "HIST 2111",
+        "HIST 2112",
+        "INTA 1200",
+        "POL 1101",
+        "PUBP 3000"
+      ]},
+      {"type": "single", "course": "ENGL 1101"},
+      {"type": "single", "course": "ENGL 1102"},
+      {"type": "pool", "name": "Core IMPACT Math Requirement", "creditHours": 4, "options": [
+        "MATH 1551",
+        "MATH 1553",
+        "MATH 1711"
+      ]},
+      {"type": "single", "course": "ACCT 2101"},
+      {"type": "single", "course": "ACCT 2102"},
+      {"type": "single", "course": "MGT 2106"},
+      {"type": "single", "course": "ECON 2105"},
+      {"type": "single", "course": "ECON 2106"},
+      {"type": "single", "course": "MGT 2210"},
+      {"type": "single", "course": "LMC 3403"},
+      {"type": "single", "course": "MGT 2250"},
+      {"type": "single", "course": "MGT 2255"},
+      {"type": "single", "course": "MGT 3062"},
+      {"type": "single", "course": "MGT 3101"},
+      {"type": "single", "course": "MGT 3102"},
+      {"type": "single", "course": "MGT 3300"},
+      {"type": "single", "course": "MGT 3501"},
+      {"type": "single", "course": "MGT 3599"},
+      {"type": "single", "course": "MGT 3660"},
+      {"type": "single", "course": "MGT 3659"},
+      {"type": "single", "course": "MGT 3664"},
+      {"type": "single", "course": "MGT 4196"},
+      {"type": "single", "course": "MGT 4220"},
+      {"type": "pool", "name": "Group B/C (max 3 credits from Group C)", "creditHours": 9, "options": [
+        "MGT 3661",
+        "MGT 3662",
+        "MGT 3663",
+        "MGT 4667",
+        "MGT 4803",
+        "MGT 3510",
+        "MGT 3743",
+        "MGT 3744",
+        "MGT 4050",
+        "MGT 4072",
+        "MGT 4341",
+        "MGT 4369",
+        "MGT 4670"
+      ]}
+    ]
   }
 }
         
