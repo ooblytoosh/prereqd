@@ -16950,6 +16950,15 @@
     "prereqs": {},
     "hours": 3
   },
+  "MGT 4190": {
+    "name": "Strategic Quality Mgt",
+    "prereqs": {
+      "and": [
+        "MGT 3150"
+      ]
+    },
+    "hours": 3
+  },
   "MGT 4191": {
     "name": "Entrepreneurship Forum",
     "prereqs": {},
@@ -17215,6 +17224,11 @@
   },
   "MGT 4599": {
     "name": "Internship&Independent Study",
+    "prereqs": {},
+    "hours": 3
+  },
+  "MGT 4610": {
+    "name": "Law, Mgt, & Economics",
     "prereqs": {},
     "hours": 3
   },
