@@ -3917,6 +3917,67 @@
         "MGT 4670"
       ]}
     ]
+  },
+  "Biomedical Engineering": {
+    "totalCredits": 89,
+    "requirements": [
+      {"type": "choose", "count": 1, "options": [
+        "APPH 1040",
+        "APPH 1050",
+        "APPH 1060"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CS 1371",
+        "CS 1301"
+      ]},
+      {"type": "single", "course": "MATH 1552"},
+      {"type": "choose", "count": 1, "options": [
+        "HIST 2111",
+        "HIST 2112",
+        "INTA 1200",
+        "POL 1101",
+        "PUBP 3000"
+      ]},
+      {"type": "single", "course": "ENGL 1101"},
+      {"type": "single", "course": "ENGL 1102"},
+      {"type": "single", "course": "PHYS 2211"},
+      {"type": "single", "course": "PHYS 2212"},
+      {"type": "single", "course": "MATH 1551"},
+      {"type": "choose", "count": 1, "options": [
+        "MATH 1553",
+        "MATH 1554",
+        "MATH 1564"
+      ]},
+      {"type": "single", "course": "BMED 1000"},
+      {"type": "single", "course": "BMED 2110"},
+      {"type": "single", "course": "COE 2001"},
+      {"type": "single", "course": "MATH 2551"},
+      {"type": "single", "course": "MATH 2552"},
+      {"type": "single", "course": "CHEM 1211K"},
+      {"type": "single", "course": "BMED 2250"},
+      {"type": "single", "course": "BMED 2310"},
+      {"type": "single", "course": "BMED 3100"},
+      {"type": "single", "course": "BMED 3110"},
+      {"type": "single", "course": "BMED 3310"},
+      {"type": "single", "course": "BMED 3410"},
+      {"type": "single", "course": "BMED 3520"},
+      {"type": "single", "course": "BMED 3600"},
+      {"type": "single", "course": "BMED 3610"},
+      {"type": "single", "course": "BMED 4000"},
+      {"type": "choose", "count": 1, "options": [
+        "BMED 4602",
+        "BMED 4723"
+      ]},
+      {"type": "single", "course": "CHEM 1315"},
+      {"type": "choose", "count": 1, "options": [
+        "BMED 2400",
+        "ISYE 3770",
+        "CEE 3770"
+      ]},
+      {"type": "single", "course": "MSE 2001"},
+      {"type": "single", "course": "ECE 3710"},
+      {"type": "single", "course": "ECE 3741"}
+    ]
   }
 }
         
