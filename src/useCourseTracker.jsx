@@ -33,7 +33,6 @@ function getRelevantCourses(majorCourses) {
     const courseId = queue.shift();
     const course = COURSES[courseId];
     if (!course) {
-      console.warn(`Missing course: ${courseId}`);
       continue;
     }
 

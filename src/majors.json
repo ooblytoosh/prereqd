@@ -2563,7 +2563,6 @@
         "NRE 3301",
         "NRE 4610",
         "NRE 2120",
-        "NRE 3301",
         "NRE 3208",
         "NRE 3316",
         "NRE 3112",
@@ -2695,7 +2694,6 @@
         "NRE 3301",
         "NRE 4610",
         "NRE 2120",
-        "NRE 3301",
         "NRE 3208",
         "NRE 3316",
         "NRE 3112",
@@ -3384,6 +3382,219 @@
         "BIOS 4464",
         "BIOS 4570",
         "BIOS 4607",
+        "CHEM 4765"
+      ]}
+    ]
+  },
+  "Biochemistry - Business Option": {
+    "totalCredits": 97,
+    "requirements": [
+      {"type": "choose", "count": 1, "options": [
+        "APPH 1040",
+        "APPH 1050",
+        "APPH 1060"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CS 1301",
+        "CS 1315",
+        "CS 1371"
+      ]},
+      {"type": "single", "course": "MATH 1552"},
+      {"type": "choose", "count": 1, "options": [
+        "HIST 2111",
+        "HIST 2112",
+        "INTA 1200",
+        "POL 1101",
+        "PUBP 3000"
+      ]},
+      {"type": "single", "course": "ENGL 1101"},
+      {"type": "single", "course": "ENGL 1102"},
+      {"type": "single", "course": "MATH 1551"},
+      {"type": "choose", "count": 1, "options": [
+        "MATH 1553",
+        "MATH 1554",
+        "MATH 1564"
+      ]},
+      {"type": "single", "course": "PHYS 2212"},
+      {"type": "single", "course": "CHEM 1212K"},
+      {"type": "single", "course": "CHEM 2380"},
+      {"type": "single", "course": "MATH 2551"},
+      {"type": "single", "course": "BIOS 1107"},
+      {"type": "single", "course": "BIOS 1107L"},
+      {"type": "pool", "name": "Quantitative Chemical Analysis", "creditHours": 3, "options": [
+        "CHEM 2216",
+        "CHEM 2216L",
+        "CHEM 2214"
+      ]},
+      {"type": "single", "course": "CHEM 2311"},
+      {"type": "choose", "count": 1, "options": [
+        "CHEM 2312",
+        "CHEM 2313"
+      ]},
+      {"type": "pool", "name": "Analytical Chemistry", "creditHours": 5, "options": [
+        "CHEM 3216",
+        "CHEM 3216L",
+        "CHEM 3211"
+      ]},
+      {"type": "single", "course": "CHEM 3371"},
+      {"type": "single", "course": "CHEM 3411"},
+      {"type": "choose", "count": 1, "options": [
+        "CHEM 4511",
+        "CHEM 3521"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CHEM 4512",
+        "CHEM 3522"
+      ]},
+      {"type": "single", "course": "CHEM 4521"},
+      {"type": "single", "course": "CHEM 4581"},
+      {"type": "single", "course": "CHEM 4582"},
+      {"type": "single", "course": "CHEM 4601"},
+      {"type": "single", "course": "BIOS 2600"},
+      {"type": "single", "course": "BIOS 3450"},
+      {"type": "choose", "count": 1, "options": [
+        "BIOS 3380",
+        "BIOS 3450",
+        "BIOS 4015",
+        "BIOS 4340",
+        "BIOS 4401",
+        "BIOS 4418",
+        "BIOS 4464",
+        "BIOS 4570",
+        "BIOS 4607",
+        "CHEM 4765"
+      ]},
+      {"type": "single", "course": "ECON 2106"},
+      {"type": "choose", "count": 1, "options": [
+        "ACCT 2101",
+        "MGT 3000"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "MGT 3101",
+        "MGT 3150",
+        "PSYC 2220"
+      ]},
+      {"type": "pool", "name": "Management Elective", "creditHours": 6, "options": [
+        "MGT 3062",
+        "MGT 3078",
+        "MGT 3300",
+        "MGT 3660",
+        "MGT 4015",
+        "MGT 4026",
+        "MGT 4030",
+        "MGT 4190",
+        "MGT 4191",
+        "MGT 4192",
+        "MGT 4193",
+        "MGT 4194",
+        "MGT 4303",
+        "MGT 4304",
+        "MGT 4307",
+        "MGT 4335",
+        "MGT 4610",
+        "MGT 4670"
+      ]}
+    ]
+  },
+  "Biochemistry - Pre-Health": {
+    "totalCredits": 85,
+    "requirements": [
+      {"type": "choose", "count": 1, "options": [
+        "APPH 1040",
+        "APPH 1050",
+        "APPH 1060"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CS 1301",
+        "CS 1315",
+        "CS 1371"
+      ]},
+      {"type": "single", "course": "MATH 1552"},
+      {"type": "choose", "count": 1, "options": [
+        "HIST 2111",
+        "HIST 2112",
+        "INTA 1200",
+        "POL 1101",
+        "PUBP 3000"
+      ]},
+      {"type": "single", "course": "ENGL 1101"},
+      {"type": "single", "course": "ENGL 1102"},
+      {"type": "single", "course": "MATH 1551"},
+      {"type": "choose", "count": 1, "options": [
+        "MATH 1553",
+        "MATH 1554",
+        "MATH 1564"
+      ]},
+      {"type": "single", "course": "PHYS 2212"},
+      {"type": "single", "course": "CHEM 1212K"},
+      {"type": "single", "course": "CHEM 2380"},
+      {"type": "single", "course": "MATH 2551"},
+      {"type": "single", "course": "BIOS 1107"},
+      {"type": "single", "course": "BIOS 1107L"},
+      {"type": "pool", "name": "Quantitative Chemical Analysis", "creditHours": 3, "options": [
+        "CHEM 2216",
+        "CHEM 2216L",
+        "CHEM 2214"
+      ]},
+      {"type": "single", "course": "CHEM 2311"},
+      {"type": "choose", "count": 1, "options": [
+        "CHEM 2312",
+        "CHEM 2313"
+      ]},
+      {"type": "pool", "name": "Analytical Chemistry", "creditHours": 5, "options": [
+        "CHEM 3216",
+        "CHEM 3216L",
+        "CHEM 3211"
+      ]},
+      {"type": "single", "course": "CHEM 3371"},
+      {"type": "single", "course": "CHEM 3411"},
+      {"type": "choose", "count": 1, "options": [
+        "CHEM 4511",
+        "CHEM 3521"
+      ]},
+      {"type": "choose", "count": 1, "options": [
+        "CHEM 4512",
+        "CHEM 3522"
+      ]},
+      {"type": "single", "course": "CHEM 4521"},
+      {"type": "single", "course": "CHEM 4581"},
+      {"type": "single", "course": "CHEM 4582"},
+      {"type": "single", "course": "CHEM 4601"},
+      {"type": "pool", "name": "Pre-Health Electives", "creditHours": 12, "options": [
+        "BIOS 2600",
+        "BIOS 2601",
+        "BIOS 2610",
+        "BIOS 2611",
+        "BIOS 3380",
+        "BIOS 3381",
+        "BIOS 3450",
+        "BIOS 3451",
+        "BIOS 3753",
+        "BIOS 3754",
+        "BIOS 3755",
+        "BIOS 3756",
+        "BIOS 4012",
+        "BIOS 4015",
+        "BIOS 4150",
+        "BIOS 4200",
+        "BIOS 4340",
+        "BIOS 4400",
+        "BIOS 4401",
+        "BIOS 4440",
+        "BIOS 4464",
+        "BIOS 4471",
+        "BIOS 4500",
+        "BIOS 4510",
+        "BIOS 4520",
+        "BIOS 4530",
+        "BIOS 4545",
+        "BIOS 4560",
+        "BIOS 4570",
+        "BIOS 4744",
+        "BIOS 4607",
+        "BMED 3100",
+        "BMED 3600",
+        "CHEM 4521",
         "CHEM 4765"
       ]}
     ]
