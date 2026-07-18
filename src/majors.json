@@ -2005,5 +2005,291 @@
         ]
       }
     ]
+  },
+  "Chemical and Biomolecular Engineering": {
+    "totalCredits": 111,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CS 1371"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2211"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2212"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1553"
+      },
+      {
+        "type": "single",
+        "course": "BIOS 1107"
+      },
+      {
+        "type": "single",
+        "course": "BIOS 1107L"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1310"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CHEM 2380"
+      },
+      {
+        "type": "single",
+        "course": "MATH 2551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 2552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ECON 2100",
+          "ECON 2101",
+          "ECON 2105",
+          "ECON 2106"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CHBE 2100"
+      },
+      {
+        "type": "single",
+        "course": "CHBE 2140"
+      },
+      {
+        "type": "single",
+        "course": "CHBE 3205"
+      },
+      {
+        "type": "single",
+        "course": "CHBE 3215"
+      },
+      {
+        "type": "single",
+        "course": "CHBE 3225"
+      },
+      {
+        "type": "single",
+        "course": "CHBE 3300"
+      },
+      {
+        "type": "single",
+        "course": "CHBE 4200"
+      },
+      {
+        "type": "single",
+        "course": "CHBE 4320"
+      },
+      {
+        "type": "single",
+        "course": "CHBE 4411"
+      },
+      {
+        "type": "single",
+        "course": "CHBE 4412"
+      },
+      {
+        "type": "single",
+        "course": "CHBE 4510"
+      },
+      {
+        "type": "single",
+        "course": "CHBE 4515"
+      },
+      {
+        "type": "single",
+        "course": "CHBE 4520"
+      },
+      {
+        "type": "pool",
+        "name": "CHBE Electives",
+        "creditHours": 6,
+        "options": [
+          "CHBE 4020",
+          "CHBE 4030",
+          "CHBE 4050",
+          "CHBE 4310",
+          "CHBE 4535",
+          "CHBE 4610",
+          "CHBE 4710",
+          "CHBE 4720",
+          "CHBE 4730",
+          "CHBE 4743",
+          "CHBE 4745",
+          "CHBE 4746",
+          "CHBE 4757",
+          "CHBE 4759",
+          "CHBE 4760",
+          "CHBE 4762",
+          "CHBE 4765",
+          "CHBE 4775",
+          "CHBE 4776",
+          "CHBE 4782",
+          "CHBE 4791",
+          "CHBE 4793"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Engineering Electives",
+        "creditHours": 6,
+        "options": [
+          "AE 4699",
+          "BMED 2400",
+          "BMED 3520",
+          "BMED 4699",
+          "BMED 4751",
+          "CEE 2040",
+          "CEE 2300",
+          "CEE 4330",
+          "CEE 4620",
+          "CEE 4699",
+          "CHBE 2699",
+          "CHBE 4020",
+          "CHBE 4030",
+          "CHBE 4050",
+          "CHBE 4310",
+          "CHBE 4535",
+          "CHBE 4601",
+          "CHBE 4610",
+          "CHBE 4699",
+          "CHBE 4710",
+          "CHBE 4720",
+          "CHBE 4730",
+          "CHBE 4743",
+          "CHBE 4745",
+          "CHBE 4746",
+          "CHBE 4757",
+          "CHBE 4759",
+          "CHBE 4760",
+          "CHBE 4762",
+          "CHBE 4765",
+          "CHBE 4767",
+          "CHBE 4775",
+          "CHBE 4776",
+          "CHBE 4782",
+          "CHBE 4791",
+          "CHBE 4793",
+          "CHBE 6120",
+          "CHBE 6794",
+          "COE 2001",
+          "COE 3001",
+          "COE 3002",
+          "ECE 2020",
+          "ECE 2026",
+          "ECE 3025",
+          "ECE 3040",
+          "ECE 3043",
+          "ECE 3072",
+          "ECE 3710",
+          "ECE 3741",
+          "ECE 4350",
+          "ECE 4699",
+          "ISYE 2027",
+          "ISYE 2028",
+          "ISYE 3025",
+          "ISYE 3039",
+          "ISYE 3232",
+          "ME 2202",
+          "ME 3210",
+          "ME 4699",
+          "MSE 2021",
+          "MSE 3005",
+          "MSE 3720",
+          "MSE 4140",
+          "MSE 4751",
+          "MSE 4330",
+          "MSE 4740",
+          "MSE 4699",
+          "NRE 3301",
+          "NRE 4610",
+          "NRE 4699"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CHEM 1212K"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 2311"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 2312",
+          "CHEM 2313"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MSE 2001"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 3111",
+          "CHEM 3412",
+          "CHEM 3511",
+          "CHEM 3521",
+          "CHEM 3522",
+          "CHEM 4311",
+          "CHEM 4341"
+        ]
+      }
+    ]
   }
 }
