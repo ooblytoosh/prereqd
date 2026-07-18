@@ -1788,5 +1788,222 @@
         "course": "ECE 3741"
       }
     ]
+  },
+  "Chemistry": {
+    "totalCredits": 89,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1301",
+          "CS 1371"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1553",
+          "MATH 1554",
+          "MATH 1564"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2212"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 1212K"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 2380"
+      },
+      {
+        "type": "single",
+        "course": "MATH 2551"
+      },
+      {
+        "type": "single",
+        "course": "BIOS 1107"
+      },
+      {
+        "type": "single",
+        "course": "BIOS 1107L"
+      },
+      {
+        "type": "pool",
+        "name": "Quantitative Chemical Analysis Requirement",
+        "creditHours": 4,
+        "options": [
+          "CHEM 2216",
+          "CHEM 2216L",
+          "CHEM 2214"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CHEM 2311"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 2312",
+          "CHEM 2313"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CHEM 2601"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 3111"
+      },
+      {
+        "type": "pool",
+        "name": "Analytical Chemistry Requirement",
+        "creditHours": 5,
+        "options": [
+          "CHEM 3216",
+          "CHEM 3216L",
+          "CHEM 3211"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CHEM 3380"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 3411"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 3412"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 3481"
+      },
+      {
+        "type": "pool",
+        "name": "Research Experience",
+        "creditHours": 2,
+        "options": [
+          "CHEM 4695",
+          "CHEM 4699"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 3511",
+          "CHEM 4511",
+          "CHEM 4512",
+          "CHEM 3521",
+          "CHEM 3522"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Upper Level Chemistry Elective",
+        "creditHours": 6,
+        "options": [
+          "CHEM 3700",
+          "CHEM 4113",
+          "CHEM 4311",
+          "CHEM 4341",
+          "CHEM 4401",
+          "CHEM 4414",
+          "CHEM 4452",
+          "CHEM 4485",
+          "CHEM 4511",
+          "CHEM 4512",
+          "CHEM 4521",
+          "CHEM 4532",
+          "CHEM 4581",
+          "CHEM 4582",
+          "CHEM 4601",
+          "CHEM 4684",
+          "CHEM 4694",
+          "CHEM 4696",
+          "CHEM 4698",
+          "CHEM 4740",
+          "CHEM 4759",
+          "CHEM 4760",
+          "CHEM 4762",
+          "CHEM 4765",
+          "CHEM 4770",
+          "CHEM 4775",
+          "CHEM 4776",
+          "CHEM 4785",
+          "CHEM 4801",
+          "CHEM 4802",
+          "CHEM 4803"
+        ]
+      }
+    ]
   }
 }
