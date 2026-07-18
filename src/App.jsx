@@ -7,6 +7,8 @@ import COURSES from './courses.json'
 import MAJORS from './majors.json';
 import './App.css';
 
+console.log(Object.keys(MAJORS));
+
 function filterCourses(courseIds, searchTerm) {
   if (!searchTerm.trim()) return courseIds;
   const lower = searchTerm.toLowerCase();
