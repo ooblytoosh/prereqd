@@ -4643,6 +4643,15 @@
     },
     "hours": 3
   },
+  "CHBE 4601": {
+    "name": "Technical Leadership",
+    "prereqs": {
+      "and": [
+        "CHBE 3215"
+      ]
+    },
+    "hours": 3
+  },
   "CHBE 4610": {
     "name": "Complex Fluids",
     "prereqs": {
@@ -19209,7 +19218,12 @@
             "PHYS 2232"
           ]
         },
-        "PHYS 2213"
+        {
+          "or": [
+            "PHYS 2213",
+            "PHYS 2304"
+          ]
+        }
       ]
     },
     "hours": 3
@@ -19289,7 +19303,8 @@
       "and": [
         "PHYS 2303"
       ]
-    }
+    },
+    "hours": 3
   },
   "PHYS 2698": {
     "name": "Research Assistantship",
@@ -19415,7 +19430,12 @@
     "name": "Quantum Mechanics I",
     "prereqs": {
       "and": [
-        "PHYS 2213",
+        {
+          "or": [
+            "PHYS 2213",
+            "PHYS 2304"
+          ]
+        },
         {
           "or": [
             "MATH 2552",
@@ -19688,10 +19708,11 @@
   "PHYS 4347": {
     "name": "Theoretical Astrophysics",
     "prereqs": {
-      "and": [
-        "PHYS 2213"
-      ]
-    },
+      "or": [
+            "PHYS 2213",
+            "PHYS 2304"
+          ]
+        },
     "hours": 3
   },
   "PHYS 4421": {

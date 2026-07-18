@@ -9,10 +9,7 @@ export function PoolCard({ pool }) {
       <ul>
         {pool.options.map(courseId => {
           const course = COURSES[courseId];
-          if (!course) {
-            console.warn(`Missing course in pool "${pool.name}": ${courseId}`);
-            return null;
-          }
+          if (!course) return null;
           const isTaken = pool.takenInPool.includes(courseId);
           return (
             <li key={courseId} className={isTaken ? "pool-course taken" : "pool-course"}>

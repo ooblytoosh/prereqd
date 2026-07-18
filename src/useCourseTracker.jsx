@@ -2,8 +2,7 @@ import { useState, useEffect } from 'react';
 import COURSES from './courses.json';
 import MAJORS from './majors.json';
 
-// grabs prereq course ids
-function extractCourseIds(prereqs) { 
+function extractCourseIds(prereqs) {
   if (typeof prereqs === 'string') {
     return [prereqs];
   }
@@ -24,7 +23,6 @@ function extractCourseIds(prereqs) {
   return ids;
 }
 
-// grabs relevant major courses
 function getRelevantCourses(majorCourses) {
   const relevant = new Set(majorCourses);
   const queue = [...majorCourses];
@@ -33,6 +31,7 @@ function getRelevantCourses(majorCourses) {
     const courseId = queue.shift();
     const course = COURSES[courseId];
     if (!course) {
+      console.warn(`Missing course: ${courseId}`);
       continue;
     }
 
@@ -47,7 +46,6 @@ function getRelevantCourses(majorCourses) {
   return relevant;
 }
 
-// checks if a course prerequisite requirements are satisfied
 function isSatisfied(prereqs, takenCourses) {
   if (Object.keys(prereqs).length === 0) {
     return true
@@ -74,7 +72,6 @@ function isSatisfied(prereqs, takenCourses) {
   return true;
 }
 
-// flattens courses from a given major requirements
 function flattenRequirementCourses(requirements) {
   const ids = [];
 
@@ -91,34 +88,49 @@ function flattenRequirementCourses(requirements) {
   return ids;
 }
 
-// checks courses that are moot due to another course fulfilling its requirement
 function getMootCourses(requirements, takenCourses) {
-  const moot = new Set();
+  const singleCourses = new Set(
+    requirements.filter(r => r.type === "single").map(r => r.course)
+  );
+
+  const satisfiedIn = new Map();
 
   for (const req of requirements) {
     if (req.type === "choose") {
-      const takenCount = req.options.filter(course => takenCourses.has(course)).length;
-
-      if (takenCount >= req.count) {
-        for (const opt of req.options) {
-          if (!takenCourses.has(opt)) {
-            moot.add(opt);
-          }
-        }
+      const takenCount = req.options.filter(c => takenCourses.has(c)).length;
+      const satisfied = takenCount >= req.count;
+      for (const opt of req.options) {
+        if (!satisfiedIn.has(opt)) satisfiedIn.set(opt, []);
+        satisfiedIn.get(opt).push(satisfied);
+      }
+    } else if (req.type === "pool") {
+      const takenInPool = req.options.filter(c => takenCourses.has(c));
+      const hoursCompleted = takenInPool.reduce((sum, id) => {
+        return sum + (COURSES[id]?.hours || 0);
+      }, 0);
+      const satisfied = hoursCompleted >= req.creditHours;
+      for (const opt of req.options) {
+        if (!satisfiedIn.has(opt)) satisfiedIn.set(opt, []);
+        satisfiedIn.get(opt).push(satisfied);
       }
     }
   }
 
+  const moot = new Set();
+  for (const [courseId, flags] of satisfiedIn) {
+    if (takenCourses.has(courseId)) continue;
+    if (singleCourses.has(courseId)) continue;
+    if (flags.every(Boolean)) moot.add(courseId);
+  }
   return moot;
 }
-
 
 function buildChoiceGroupInfo(requirements) {
   const info = new Map();
   for (const req of requirements) {
     if (req.type === "choose") {
       for (const opt of req.options) {
-        info.set(opt, {"groupSize": req.options.length})
+        info.set(opt, { "groupSize": req.options.length, "count": req.count })
       }
     }
   }
@@ -134,7 +146,7 @@ function getPoolProgress(requirements, takenCourses) {
       const takenInPool = req.options.filter(c => takenCourses.has(c));
       const hoursCompleted = takenInPool.reduce((sum, courseId) => {
         const course = COURSES[courseId];
-        return sum + course.hours;
+        return sum + (course?.hours || 0);
       }, 0);
 
       pools.push({
@@ -150,30 +162,6 @@ function getPoolProgress(requirements, takenCourses) {
   return pools;
 }
 
-function getMootPoolCourses(requirements, takenCourses) {
-  const moot = new Set();
-
-  for (const req of requirements) {
-    if (req.type === "pool") {
-      const takenInPool = req.options.filter(c => takenCourses.has(c));
-      const hoursCompleted = takenInPool.reduce((sum, courseId) => {
-        const course = COURSES[courseId];
-        return sum + (course?.hours || 0);
-      }, 0);
-
-      if (hoursCompleted >= req.creditHours) {
-        for (const opt of req.options) {
-          if (!takenCourses.has(opt)) {
-            moot.add(opt);
-          }
-        }
-      }
-    }
-  }
-
-  return moot;
-}
-
 function getCreditsCompleted(requirements, takenCourses, poolProgress) {
   let total = 0;
   for (const req of requirements) {
@@ -181,7 +169,8 @@ function getCreditsCompleted(requirements, takenCourses, poolProgress) {
       total += COURSES[req.course]?.hours || 0;
     } else if (req.type === "choose") {
       const taken = req.options.filter(c => takenCourses.has(c));
-      for (const courseId of taken) {
+      const capped = taken.slice(0, req.count);
+      for (const courseId of capped) {
         total += COURSES[courseId]?.hours || 0;
       }
     }
@@ -209,12 +198,12 @@ function getMissingPrereqs(prereqs, takenCourses) {
   }
 
   if (prereqs.or) {
-    const satisfied = prereqs.or.some(item => 
+    const satisfied = prereqs.or.some(item =>
       typeof item === "string" ? takenCourses.has(item) : isSatisfied(item, takenCourses)
     );
     if (satisfied) return [];
 
-    const options = prereqs.or.map(item => 
+    const options = prereqs.or.map(item =>
       typeof item === "string" ? item : getMissingPrereqs(item, takenCourses).join(" and ")
     );
 
@@ -247,20 +236,18 @@ export function useCourseTracker(selectedMajor) {
 
   const requirements = selectedMajor ? MAJORS[selectedMajor].requirements : [];
   const majorCourses = flattenRequirementCourses(requirements);
-  const relevantCourses = selectedMajor ? getRelevantCourses(majorCourses) : new Set(); 
+  const relevantCourses = selectedMajor ? getRelevantCourses(majorCourses) : new Set();
   const mootCourses = selectedMajor ? getMootCourses(requirements, takenCourses) : new Set();
-  const mootPoolCourses = selectedMajor ? getMootPoolCourses(requirements, takenCourses) : new Set();
   const choiceGroupInfo = selectedMajor ? buildChoiceGroupInfo(requirements) : new Map();
   const poolProgress = selectedMajor ? getPoolProgress(requirements, takenCourses) : [];
   const availableCourses = [];
   const lockedCourses = [];
 
   for (const courseId of relevantCourses) {
-    if (takenCourses.has(courseId) || mootCourses.has(courseId) || mootPoolCourses.has(courseId)) continue;
+    if (takenCourses.has(courseId) || mootCourses.has(courseId)) continue;
 
     const course = COURSES[courseId];
-    if (!course) continue;            
-
+    if (!course) continue;
 
     if (isSatisfied(COURSES[courseId].prereqs, takenCourses)) {
       availableCourses.push(courseId);
@@ -300,16 +287,16 @@ export function useCourseTracker(selectedMajor) {
 
   const creditsCompleted = selectedMajor ? getCreditsCompleted(requirements, takenCourses, poolProgress) : 0;
   const totalCredits = selectedMajor ? MAJORS[selectedMajor].totalCredits : 0;
-  
+
   const getMissingPrereqsFor = (courseId) => {
     const course = COURSES[courseId];
     if (!course) return [];
     return getMissingPrereqs(course.prereqs, takenCourses);
   };
 
-  return { 
-    takenCourses, availableCourses, lockedCourses, choiceGroupInfo, 
-    poolProgress, creditsCompleted, totalCredits, addCourse, removeCourse, 
+  return {
+    takenCourses, availableCourses, lockedCourses, choiceGroupInfo,
+    poolProgress, creditsCompleted, totalCredits, addCourse, removeCourse,
     resetProgress, getMissingPrereqsFor
   };
 }

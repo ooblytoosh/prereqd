@@ -1,1608 +1,1629 @@
 {
   "Aerospace Engineering": {
-    "totalCredits": 110,
+    "totalCredits": 104,
     "requirements": [
-      {"type": "choose", "count": 1, "options": [
-        "APPH 1040",
-        "APPH 1050",
-        "APPH 1060"
-      ]},
-      {"type": "single", "course": "CS 1371"},
-      {"type": "single", "course": "MATH 1552"},
-      {"type": "choose", "count": 1, "options": [
-        "HIST 2111",
-        "HIST 2112",
-        "INTA 1200",
-        "POL 1101",
-        "PUBP 3000"
-      ]},
-      {"type": "single", "course": "ENGL 1101"},
-      {"type": "single", "course": "ENGL 1102"},
-      {"type": "single", "course": "PHYS 2211"},
-      {"type": "single", "course": "PHYS 2212"},
-      {"type": "single", "course": "MATH 1551"},
-      {"type": "choose", "count": 1, "options": [
-        "MATH 1553",
-        "MATH 1554",
-        "MATH 1564"
-      ]},
-      {"type": "single", "course": "MATH 2551"},
-      {"type": "single", "course": "MATH 2552"},
-      {"type": "single", "course": "MSE 2001"},
-      {"type": "single", "course": "CHEM 1310"},
-      {"type": "single", "course": "AE 1601"},
-      {"type": "single", "course": "COE 2001"},
-      {"type": "pool", "name": "Economics Requirement", "creditHours": 3, "options": [
-        "ECON 2100",
-        "ECON 2101",
-        "ECON 2105",
-        "ECON 2106"
-      ]},
-      {"type": "single", "course": "AE 2010"},
-      {"type": "single", "course": "AE 2220"},
-      {"type": "single", "course": "COE 3001"},
-      {"type": "single", "course": "AE 2610"},
-      {"type": "single", "course": "AE 2611"},
-      {"type": "single", "course": "AE 3330"},
-      {"type": "single", "course": "AE 3030"},
-      {"type": "single", "course": "AE 3140"},
-      {"type": "single", "course": "AE 3530"},
-      {"type": "single", "course": "AE 3531"},
-      {"type": "single", "course": "AE 3610"},
-      {"type": "choose", "count": 1, "options": [
-        "AE 4311",
-        "AE 4321",
-        "AE 4331"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "AE 4312",
-        "AE 4322",
-        "AE 4332"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "AE 4531",
-        "AE 4532"
-      ]},
-      {"type": "single", "course": "AE 4451"},
-      {"type": "single", "course": "AE 4610"},
-      {"type": "pool", "name": "AE Options", "creditHours": 6, "options": [
-        "AE 4040",
-        "AE 4071",
-        "AE 4080",
-        "AE 4132",
-        "AE 4220",
-        "AE 4361",
-        "AE 4552",
-        "AE 4580",
-        "AE 4701",
-        "ME 4701",
-        "AE 4760",
-        "AE 4791",
-        "ME 4791",
-        "AE 4793",
-        "ME 4793"
-      ]},
-      {"type": "single", "course": "ME 1670"},
-      {"type": "single", "course": "ECE 3710"},
-      {"type": "single", "course": "ECE 3741"},
-      {"type": "pool", "name": "Math Option", "creditHours": 3, "options": [
-        "MATH 3215",
-        "MATH 3670",
-        "MATH 4305",
-        "MATH 4317",
-        "MATH 4320",
-        "MATH 4347",
-        "MATH 4541",
-        "MATH 4581",
-        "MATH 4640"
-      ]}
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CS 1371"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2211"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2212"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1553",
+          "MATH 1554",
+          "MATH 1564"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 2551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 2552"
+      },
+      {
+        "type": "single",
+        "course": "MSE 2001"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 1310"
+      },
+      {
+        "type": "single",
+        "course": "AE 1601"
+      },
+      {
+        "type": "single",
+        "course": "COE 2001"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ECON 2100",
+          "ECON 2101",
+          "ECON 2105",
+          "ECON 2106"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "AE 2010"
+      },
+      {
+        "type": "single",
+        "course": "AE 2220"
+      },
+      {
+        "type": "single",
+        "course": "COE 3001"
+      },
+      {
+        "type": "single",
+        "course": "AE 2610"
+      },
+      {
+        "type": "single",
+        "course": "AE 2611"
+      },
+      {
+        "type": "single",
+        "course": "AE 3330"
+      },
+      {
+        "type": "single",
+        "course": "AE 3030"
+      },
+      {
+        "type": "single",
+        "course": "AE 3140"
+      },
+      {
+        "type": "single",
+        "course": "AE 3530"
+      },
+      {
+        "type": "single",
+        "course": "AE 3531"
+      },
+      {
+        "type": "single",
+        "course": "AE 3610"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "AE 4311",
+          "AE 4321",
+          "AE 4331"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "AE 4312",
+          "AE 4322",
+          "AE 4332"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "AE 4531",
+          "AE 4532"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "AE 4451"
+      },
+      {
+        "type": "single",
+        "course": "AE 4610"
+      },
+      {
+        "type": "single",
+        "course": "ME 1670"
+      },
+      {
+        "type": "single",
+        "course": "ECE 3710"
+      },
+      {
+        "type": "single",
+        "course": "ECE 3741"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 3215",
+          "MATH 3670",
+          "MATH 4305",
+          "MATH 4317",
+          "MATH 4320",
+          "MATH 4347",
+          "MATH 4541",
+          "MATH 4581",
+          "MATH 4640"
+        ]
+      }
     ]
   },
-  
-  "Applied Languages & Intercultural Studies - Spanish": {
-    "totalCredits": 55,
+  "Applied Physics": {
+    "totalCredits": 88,
     "requirements": [
-      {"type": "choose", "count": 1, "options": [
-        "APPH 1040",
-        "APPH 1050",
-        "APPH 1060"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "CS 1301",
-        "CS 1315",
-        "CS 1371"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "MATH 1712",
-        "MATH 1552"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "HIST 2111",
-        "HIST 2112",
-        "INTA 1200",
-        "POL 1101",
-        "PUBP 3000"
-      ]},
-      {"type": "single", "course": "ENGL 1101"},
-      {"type": "single", "course": "ENGL 1102"},
-      {"type": "pool", "name": "Lab Science", "creditHours": 8, "options": [
-        "CHEM 1211K",
-        "CHEM 1212K",
-        "CHEM 1310",
-        "BIOS 1220",
-        "BIOS 1107",
-        "BIOS 1107L",
-        "BIOS 1108",
-        "BIOS 1108L",
-        "EAS 1600",
-        "EAS 1601",
-        "EAS 2600",
-        "PHYS 1111K",
-        "PHYS 2211",
-        "PHYS 2212"
-      ]},
-      {"type": "pool", "name": "Math Option", "creditHours": 4, "options": [
-        "MATH 1711",
-        "MATH 1551",
-        "MATH 1553"
-      ]},
-      {"type": "single", "course": "SPAN 2001"},
-      {"type": "single", "course": "SPAN 2002"},
-      {"type": "single", "course": "SPAN 4500"},
-      {"type": "pool", "name": "Spanish Depth Requirement", "creditHours": 18, "options": [
-        "SPAN 3040",
-        "SPAN 3050",
-        "SPAN 3061",
-        "SPAN 3064",
-        "SPAN 3070",
-        "SPAN 3101",
-        "SPAN 3111",
-        "SPAN 3122",
-        "SPAN 3151",
-        "SPAN 3200",
-        "SPAN 3211",
-        "SPAN 3235",
-        "SPAN 3242",
-        "SPAN 3250",
-        "SPAN 3260",
-        "SPAN 3300",
-        "SPAN 3500",
-        "SPAN 3590",
-        "SPAN 3591",
-        "SPAN 3592",
-        "SPAN 3690",
-        "SPAN 3692",
-        "SPAN 3693",
-        "SPAN 3694",
-        "SPAN 3697",
-        "SPAN 3698",
-        "SPAN 3700",
-        "SPAN 3813",
-        "SPAN 4061",
-        "SPAN 4062",
-        "SPAN 4102",
-        "SPAN 4150",
-        "SPAN 4156",
-        "SPAN 4157",
-        "SPAN 4158",
-        "SPAN 4160",
-        "SPAN 4165",
-        "SPAN 4170",
-        "SPAN 4220",
-        "SPAN 4237",
-        "SPAN 4244",
-        "SPAN 4251",
-        "SPAN 4270",
-        "SPAN 4350",
-        "SPAN 4360",
-        "SPAN 4401",
-        "SPAN 4405",
-        "SPAN 4410",
-        "SPAN 4454",
-        "SPAN 4460",
-        "SPAN 4500",
-        "SPAN 4690",
-        "SPAN 4693",
-        "SPAN 4695",
-        "SPAN 4699",
-        "SPAN 4813"
-      ]}
-    ]
-  },
-  "Applied Physics - General": {
-    "totalCredits": 90,
-    "requirements": [
-      {"type": "choose", "count": 1, "options": [
-        "APPH 1040",
-        "APPH 1050",
-        "APPH 1060"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "CS 1301",
-        "CS 1371"
-      ]},
-      {"type": "single", "course": "MATH 1552"},
-      {"type": "choose", "count": 1, "options": [
-        "HIST 2111",
-        "HIST 2112",
-        "INTA 1200",
-        "POL 1101",
-        "PUBP 3000"
-      ]},
-      {"type": "single", "course": "ENGL 1101"},
-      {"type": "single", "course": "ENGL 1102"},
-      {"type": "single", "course": "PHYS 2211"},
-      {"type": "single", "course": "PHYS 2212"},
-      {"type": "single", "course": "MATH 1551"},
-      {"type": "choose", "count": 1, "options": [
-        "MATH 1553",
-        "MATH 1554",
-        "MATH 1564"
-      ]},
-      {"type": "single", "course": "MATH 2551"},
-      {"type": "single", "course": "MATH 2552"},
-      {"type": "choose", "count": 1, "options": [
-        "CHEM 1310",
-        "CHEM 1211K"
-      ]},
-      {"type": "single", "course": "PHYS 2303"},
-      {"type": "single", "course": "PHYS 2304"},
-      {"type": "single", "course": "PHYS 3120"},
-      {"type": "single", "course": "PHYS 3122"},
-      {"type": "single", "course": "PHYS 3123"},
-      {"type": "single", "course": "PHYS 3141"},
-      {"type": "single", "course": "PHYS 3143"},
-      {"type": "single", "course": "PHYS 3201"},
-      {"type": "single", "course": "PHYS 3208"},
-      {"type": "single", "course": "PHYS 3209"},
-      {"type": "single", "course": "PHYS 4321"},
-      {"type": "single", "course": "PHYS 4604"},
-      {"type": "single", "course": "PHYS 4605"},
-      {"type": "pool", "name": "Applied Electives", "creditHours": 15, "options": [
-        "PHYS 1111K",
-        "PHYS 2021",
-        "PHYS 2022",
-        "PHYS 2210",
-        "PHYS 2213",
-        "PHYS 2231",
-        "PHYS 2232",
-        "PHYS 2698",
-        "PHYS 2699",
-        "PHYS 2750",
-        "PHYS 2802",
-        "PHYS 2803",
-        "PHYS 2901",
-        "PHYS 2902",
-        "PHYS 3022",
-        "PHYS 3151",
-        "PHYS 3202",
-        "PHYS 3207",
-        "PHYS 3210",
-        "PHYS 3232",
-        "PHYS 3250",
-        "PHYS 3806",
-        "PHYS 3807",
-        "PHYS 4142",
-        "PHYS 4143",
-        "PHYS 4147",
-        "PHYS 4206",
-        "PHYS 4247",
-        "PHYS 4250",
-        "PHYS 4251",
-        "PHYS 4260",
-        "PHYS 4261",
-        "PHYS 4262",
-        "PHYS 4263",
-        "PHYS 4267",
-        "PHYS 4301",
-        "PHYS 4322",
-        "PHYS 4347",
-        "PHYS 4421",
-        "PHYS 4698",
-        "PHYS 4740",
-        "PHYS 4745",
-        "PHYS 4751",
-        "PHYS 4760",
-        "PHYS 4782",
-        "PHYS 4801",
-        "PHYS 4802",
-        "PHYS 4803",
-        "PHYS 4813",
-        "PHYS 4823",
-        "PHYS 4833",
-        "PHYS 4854",
-        "CHEM 3411",
-        "EAS 2750",
-        "MATH 2106",
-        "NRE 3301",
-        "NRE 4610",
-        "NRE 2120",
-        "NRE 3208",
-        "NRE 3316",
-        "NRE 3112",
-        "ECE 3040",
-        "ECE 3400",
-        "ECE 3450",
-        "ECE 4350",
-        "ECE 4470",
-        "ECE 4500",
-        "ECE 4751",
-        "ECE 4460",
-        "ECE 4754",
-        "ECE 4755",
-        "ECE 4415",
-        "ECE 4430",
-        "ECE 4502",
-        "ECE 4370",
-        "ECE 4391",
-        "ECE 4452",
-        "ECE 4723"
-      ]}
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1301",
+          "CS 1371"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2211"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2212"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1553",
+          "MATH 1554",
+          "MATH 1564"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 2551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 2552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 1310",
+          "CHEM 1211K"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2303"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2304"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3120"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3122"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3123"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3141"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3143"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3201"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3208"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3209"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 4321"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 4604"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 4605"
+      },
+      {
+        "type": "pool",
+        "name": "Applied Electives",
+        "creditHours": 15,
+        "options": [
+          "PHYS 1111K",
+          "PHYS 11X2",
+          "PHYS 2021",
+          "PHYS 2022",
+          "PHYS 2210",
+          "PHYS 2211",
+          "PHYS 2212",
+          "PHYS 2213",
+          "PHYS 2231",
+          "PHYS 2232",
+          "PHYS 2303",
+          "PHYS 2698",
+          "PHYS 2699",
+          "PHYS 2750",
+          "PHYS 2802",
+          "PHYS 2803",
+          "PHYS 2901",
+          "PHYS 2902",
+          "PHYS 3022",
+          "PHYS 3120",
+          "PHYS 3122",
+          "PHYS 3123",
+          "PHYS 3141",
+          "PHYS 3143",
+          "PHYS 3151",
+          "PHYS 3201",
+          "PHYS 3202",
+          "PHYS 3207",
+          "PHYS 3208",
+          "PHYS 3209",
+          "PHYS 3210",
+          "PHYS 3232",
+          "PHYS 3250",
+          "PHYS 3806",
+          "PHYS 3807",
+          "PHYS 4142",
+          "PHYS 4143",
+          "PHYS 4147",
+          "PHYS 4206",
+          "PHYS 4247",
+          "PHYS 4250",
+          "PHYS 4251",
+          "PHYS 4260",
+          "PHYS 4261",
+          "PHYS 4262",
+          "PHYS 4263",
+          "PHYS 4267",
+          "PHYS 4301",
+          "PHYS 4321",
+          "PHYS 4322",
+          "PHYS 4347",
+          "PHYS 4421",
+          "PHYS 4604",
+          "PHYS 4605",
+          "PHYS 4698",
+          "PHYS 4699",
+          "PHYS 4740",
+          "PHYS 4745",
+          "PHYS 4751",
+          "PHYS 4760",
+          "PHYS 4782",
+          "PHYS 4801",
+          "PHYS 4802",
+          "PHYS 4803",
+          "PHYS 4813",
+          "PHYS 4823",
+          "PHYS 4833",
+          "PHYS 4854",
+          "CHEM 3411",
+          "CHEM 3412",
+          "CHEM 3511",
+          "EAS 2750",
+          "EAS 4300",
+          "EAS 4430",
+          "MATH 2106",
+          "MATH 3215",
+          "MATH 3235",
+          "MATH 4320",
+          "MATH 4347",
+          "MATH 4581",
+          "NRE 3301",
+          "NRE 4610",
+          "NRE 2120",
+          "NRE 3208",
+          "NRE 3316",
+          "NRE 3112",
+          "ECE 3040",
+          "ECE 3400",
+          "ECE 3450",
+          "ECE 4350",
+          "ECE 4470",
+          "ECE 4500",
+          "ECE 4751",
+          "ECE 4460",
+          "ECE 4754",
+          "ECE 4755",
+          "ECE 4415",
+          "ECE 4430",
+          "ECE 4502",
+          "ECE 4370",
+          "ECE 4391",
+          "ECE 4452",
+          "ECE 4723"
+        ]
+      }
     ]
   },
   "Architecture": {
-    "totalCredits": 97,
+    "totalCredits": 89,
     "requirements": [
-      {"type": "choose", "count": 1, "options": [
-        "APPH 1040",
-        "APPH 1050",
-        "APPH 1060"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "CS 1301",
-        "CS 1315"
-      ]},
-      {"type": "single", "course": "MATH 1552"},
-      {"type": "choose", "count": 1, "options": [
-        "HIST 2111",
-        "HIST 2112",
-        "INTA 1200",
-        "POL 1101",
-        "PUBP 3000"
-      ]},
-      {"type": "single", "course": "ENGL 1101"},
-      {"type": "single", "course": "ENGL 1102"},
-      {"type": "pool", "name": "Lab Science", "creditHours": 8, "options": [
-        "CHEM 1211K",
-        "CHEM 1212K",
-        "CHEM 1310",
-        "BIOS 1220",
-        "BIOS 1107",
-        "BIOS 1107L",
-        "BIOS 1108",
-        "BIOS 1108L",
-        "EAS 1600",
-        "EAS 1601",
-        "EAS 2600",
-        "PHYS 1111K",
-        "PHYS 2211",
-        "PHYS 2212"
-      ]},
-      {"type": "single", "course": "MATH 1551"},
-      {"type": "single", "course": "MATH 1553"},
-      {"type": "single", "course": "ARCH 1016"},
-      {"type": "single", "course": "ARCH 1017"},
-      {"type": "single", "course": "ARCH 1020"},
-      {"type": "single", "course": "ARCH 1060"},
-      {"type": "single", "course": "ARCH 2111"},
-      {"type": "single", "course": "ARCH 2016"},
-      {"type": "single", "course": "ARCH 2017"},
-      {"type": "single", "course": "ARCH 2020"},
-      {"type": "single", "course": "ARCH 2112"},
-      {"type": "single", "course": "ARCH 2211"},
-      {"type": "single", "course": "ARCH 3016"},
-      {"type": "single", "course": "ARCH 3017"},
-      {"type": "single", "course": "ARCH 3231"},
-      {"type": "single", "course": "ARCH 4015"},
-      {"type": "single", "course": "ARCH 4016"},
-      {"type": "single", "course": "ARCH 4017"},
-      {"type": "single", "course": "ARCH 3010"}
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1301",
+          "CS 1315"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1553"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 1016"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 1017"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 1020"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 1060"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 2111"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 2016"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 2017"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 2020"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 2112"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 2211"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 3016"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 3017"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 3231"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 4015"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 4016"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 4017"
+      },
+      {
+        "type": "single",
+        "course": "ARCH 3010"
+      }
     ]
   },
   "Arts, Entertainment, and Creative Technologies": {
     "totalCredits": 98,
     "requirements": [
-      {"type": "choose", "count": 1, "options": [
-        "APPH 1040",
-        "APPH 1050",
-        "APPH 1060"
-      ]},
-      {"type": "single", "course": "CS 1315"},
-      {"type": "single", "course": "MATH 1552"},
-      {"type": "choose", "count": 1, "options": [
-        "HIST 2111",
-        "HIST 2112",
-        "INTA 1200",
-        "POL 1101",
-        "PUBP 3000"
-      ]},
-      {"type": "single", "course": "ENGL 1101"},
-      {"type": "single", "course": "ENGL 1102"},
-      {"type": "pool", "name": "Lab Science", "creditHours": 8, "options": [
-        "CHEM 1211K",
-        "CHEM 1212K",
-        "CHEM 1310",
-        "BIOS 1220",
-        "BIOS 1107",
-        "BIOS 1107L",
-        "BIOS 1108",
-        "BIOS 1108L",
-        "EAS 1600",
-        "EAS 1601",
-        "EAS 2600",
-        "PHYS 1111K",
-        "PHYS 2211",
-        "PHYS 2212"
-      ]},
-      {"type": "single", "course": "MATH 1551"},
-      {"type": "single", "course": "MATH 1553"},
-      {"type": "single", "course": "AECT 1000"},
-      {"type": "single", "course": "AECT 1500"},
-      {"type": "single", "course": "AECT 2030"},
-      {"type": "single", "course": "ECE 2806"},
-      {"type": "single", "course": "CS 1331"},
-      {"type": "single", "course": "ECE 2026"},
-      {"type": "single", "course": "CS 1332"},
-      {"type": "single", "course": "AECT 2000"},
-      {"type": "single", "course": "AECT 3000"},
-      {"type": "single", "course": "AECT 3100"},
-      {"type": "single", "course": "AECT 3200"},
-      {"type": "single", "course": "AECT 3400"},
-      {"type": "single", "course": "AECT 3500"},
-      {"type": "single", "course": "AECT 4000"},
-      {"type": "single", "course": "AECT 4500"},
-      {"type": "pool", "name": "Arts, History, Theory and Aesthetics Elective Options", "creditHours": 3, "options": [
-        "ARCH 1060",
-        "ARCH 3010",
-        "ARCH 3007",
-        "ARCH 3008",
-        "ARCH 3009",
-        "ARCH 4143",
-        "ARCH 4833",
-        "FREN 3697",
-        "FREN 4011",
-        "FREN 4160",
-        "FREN 4242",
-        "GRMN 3055",
-        "GRMN 3110",
-        "GRMN 4010",
-        "GRMN 4025",
-        "GRMN 4026",
-        "ID 2241",
-        "ID 2242",
-        "ID 4206",
-        "JAPN 4165",
-        "JAPN 4173",
-        "JAPN 4813",
-        "KOR 3415",
-        "KOR 3813",
-        "JAPN 3813",
-        "LMC 2400",
-        "LMC 2410",
-        "LMC 2450",
-        "LMC 2500",
-        "LMC 2600",
-        "LMC 2720",
-        "LMC 2730",
-        "LMC 3253",
-        "LMC 3254",
-        "LMC 3255",
-        "LMC 3256",
-        "LMC 3257",
-        "LMC 3258",
-        "LMC 3259",
-        "LMC 3262",
-        "LMC 3263",
-        "LMC 3352",
-        "LMC 3405",
-        "LMC 3450",
-        "LMC 3451",
-        "LMC 3705",
-        "LMC 3710",
-        "LMC 4720",
-        "LMC 4725",
-        "LMC 4730",
-        "MUSI 2700",
-        "MUSI 3450",
-        "MUSI 3621",
-        "MUSI 3630",
-        "MUSI 4456"
-      ]},
-      {"type": "pool", "name": "Arts Practice Elective Options", "creditHours": 9, "options": [
-        "ARCH 1020",
-        "CS 4455",
-        "CS 4731",
-        "CS 4496",
-        "ID 2101",
-        "ID 2102",
-        "ID 3510",
-        "ID 4062",
-        "LMC 3402",
-        "LMC 3406",
-        "LMC 3407",
-        "LMC 3454",
-        "LMC 4407",
-        "LMC 4710",
-        "LMC 4733",
-        "LMC 4720",
-        "MUSI 2015",
-        "MUSI 3541",
-        "MUSI 3770",
-        "MUSI 4450",
-        "MUSI 4458",
-        "MUSI 4670",
-        "ARCH 4413",
-        "ARCH 4833",
-        "ID 1418",
-        "ID 1419",
-        "ID 4418",
-        "LMC 2661",
-        "LMC 2662",
-        "LMC 3062",
-        "LMC 3236",
-        "LMC 4602",
-        "MUSI 3019",
-        "MUSI 3121",
-        "MUSI 3131",
-        "MUSI 3231",
-        "MUSI 3241",
-        "MUSI 3251",
-        "MUSI 3261",
-        "MUSI 3311",
-        "MUSI 3321",
-        "MUSI 3411",
-        "MUSI 3531",
-        "MUSI 3511",
-        "MUSI 3551",
-        "MUSI 3611"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "MGT 4803",
-        "MGT 2106",
-        "PHIL 3101"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "MGT 4803",
-        "COE 2701",
-        "CS 2701",
-        "MGT 3101",
-        "MGT 3150",
-        "MGT 4450",
-        "MGT 4670"
-      ]},
-      {"type": "pool", "name": "Technology Major Elective", "creditHours": 3, "options": [
-        "CS 2110",
-        "CS 2261",
-        "CS 3600",
-        "CS 4455",
-        "CS 4496",
-        "CS 4625",
-        "CS 4635",
-        "CS 4641",
-        "CS 4644",
-        "CS 4731",
-        "ECE 2026",
-        "ECE 3077",
-        "ECE 3084",
-        "ECE 3251",
-        "ECE 3710",
-        "ECE 4252",
-        "ECE 4258",
-        "ECE 4260",
-        "ECE 4270"
-      ]},
-      {"type": "pool", "name": "Additional Major Electives", "creditHours": 9, "options": [
-        "ARCH 3200",
-        "ARCH 4508",
-        "ID 4803",
-        "CS 4803",
-        "CS 2110",
-        "CS 3790",
-        "FREN 3110",
-        "FREN 4013",
-        "FREN 4105",
-        "FREN 4246",
-        "GT 1000",
-        "ID 2325",
-        "ID 2401",
-        "ID 3320",
-        "LMC 3403",
-        "LMC 3451",
-        "MGT 2250",
-        "MGT 3000",
-        "MGT 3103",
-        "MGT 3150",
-        "MGT 3300",
-        "MGT 3607",
-        "MGT 3614",
-        "MGT 3743",
-        "MGT 4311",
-        "MGT 4726",
-        "MGT 4803",
-        "MUSI 2525",
-        "MUSI 2526",
-        "MUSI 4459",
-        "MUSI 4630",
-        "MUSI 4670",
-        "MUSI 4677",
-        "PHIL 3101",
-        "PSYC 2280",
-        "PSYC 3750",
-        "PSYC 3790",
-        "PSYC 4010",
-        "PSYC 4011",
-        "PSYC 4090"
-      ]}
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1315",
+          "CS 1301",
+          "CS 1371"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1553"
+      },
+      {
+        "type": "single",
+        "course": "AECT 1000"
+      },
+      {
+        "type": "single",
+        "course": "AECT 1500"
+      },
+      {
+        "type": "single",
+        "course": "AECT 2030"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ECE 2806",
+          "CS 1331"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ECE 2026",
+          "CS 1332"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "AECT 2000"
+      },
+      {
+        "type": "single",
+        "course": "AECT 3000"
+      },
+      {
+        "type": "single",
+        "course": "AECT 3100"
+      },
+      {
+        "type": "single",
+        "course": "AECT 3200"
+      },
+      {
+        "type": "single",
+        "course": "AECT 3400"
+      },
+      {
+        "type": "single",
+        "course": "AECT 3500"
+      },
+      {
+        "type": "single",
+        "course": "AECT 4000"
+      },
+      {
+        "type": "single",
+        "course": "AECT 4500"
+      },
+      {
+        "type": "pool",
+        "name": "Arts, History, Theory, and Aesthetics Elective",
+        "creditHours": 3,
+        "options": [
+          "ARCH 1060",
+          "ARCH 3010",
+          "ARCH 3007",
+          "ARCH 3008",
+          "ARCH 3009",
+          "ARCH 4143",
+          "ARCH 4833",
+          "FREN 3697",
+          "FREN 4011",
+          "FREN 4160",
+          "FREN 4242",
+          "GRMN 3055",
+          "GRMN 3110",
+          "GRMN 4010",
+          "GRMN 4025",
+          "GRMN 4026",
+          "ID 2241",
+          "ID 2242",
+          "ID 4206",
+          "JAPN 4165",
+          "JAPN 4173",
+          "JAPN 4813",
+          "KOR 3415",
+          "KOR 3813",
+          "JAPN 3813",
+          "LMC 2400",
+          "LMC 2410",
+          "LMC 2450",
+          "LMC 2500",
+          "LMC 2600",
+          "LMC 2720",
+          "LMC 2730",
+          "LMC 3253",
+          "LMC 3254",
+          "LMC 3255",
+          "LMC 3256",
+          "LMC 3257",
+          "LMC 3258",
+          "LMC 3259",
+          "LMC 3262",
+          "LMC 3263",
+          "LMC 3352",
+          "LMC 3405",
+          "LMC 3450",
+          "LMC 3451",
+          "LMC 3705",
+          "LMC 3710",
+          "LMC 4720",
+          "LMC 4725",
+          "LMC 4730",
+          "MUSI 2700",
+          "MUSI 3450",
+          "MUSI 3621",
+          "MUSI 3630",
+          "MUSI 4456"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Arts Practice Electives",
+        "creditHours": 9,
+        "options": [
+          "ARCH 1020",
+          "CS 4455",
+          "CS 4731",
+          "CS 4496",
+          "ID 2101",
+          "ID 2102",
+          "ID 3510",
+          "ID 4062",
+          "LMC 3402",
+          "LMC 3406",
+          "LMC 3407",
+          "LMC 3454",
+          "LMC 4407",
+          "LMC 4710",
+          "LMC 4733",
+          "LMC 4720",
+          "MUSI 2015",
+          "MUSI 3541",
+          "MUSI 3770",
+          "MUSI 4450",
+          "MUSI 4458",
+          "MUSI 4670",
+          "ARCH 4413",
+          "ARCH 4833",
+          "ID 1418",
+          "ID 1419",
+          "ID 4418",
+          "LMC 2661",
+          "LMC 2662",
+          "LMC 3062",
+          "LMC 3236",
+          "LMC 4602",
+          "MUSI 3019",
+          "MUSI 3121",
+          "MUSI 3131",
+          "MUSI 3231",
+          "MUSI 3241",
+          "MUSI 3251",
+          "MUSI 3261",
+          "MUSI 3311",
+          "MUSI 3321",
+          "MUSI 3411",
+          "MUSI 3531",
+          "MUSI 3511",
+          "MUSI 3551",
+          "MUSI 3611"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Arts + Tech Ethics/Law Course",
+        "creditHours": 3,
+        "options": [
+          "MGT 4803",
+          "MGT 2106",
+          "PHIL 3101"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Entrepreneurship and Business Elective",
+        "creditHours": 3,
+        "options": [
+          "MGT 4803",
+          "COE 2701",
+          "CS 2701",
+          "MGT 3101",
+          "MGT 3150",
+          "MGT 4450",
+          "MGT 4670"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Technology Major Electives",
+        "creditHours": 3,
+        "options": [
+          "CS 2110",
+          "CS 2261",
+          "CS 3600",
+          "CS 4455",
+          "CS 4496",
+          "CS 4625",
+          "CS 4635",
+          "CS 4641",
+          "CS 4644",
+          "CS 4731",
+          "ECE 2026",
+          "ECE 3077",
+          "ECE 3084",
+          "ECE 3251",
+          "ECE 3710",
+          "ECE 4252",
+          "ECE 4258",
+          "ECE 4260",
+          "ECE 4270"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Additional Major Electives",
+        "creditHours": 9,
+        "options": [
+          "ARCH 3200",
+          "ARCH 4508",
+          "CS 2110",
+          "CS 3790",
+          "FREN 3110",
+          "FREN 4013",
+          "FREN 4105",
+          "FREN 4246",
+          "GT 1000",
+          "ID 2325",
+          "ID 2401",
+          "ID 3320",
+          "LMC 3403",
+          "LMC 3451",
+          "MGT 2250",
+          "MGT 3000",
+          "MGT 3103",
+          "MGT 3150",
+          "MGT 3300",
+          "MGT 3607",
+          "MGT 3614",
+          "MGT 3743",
+          "MGT 4311",
+          "MGT 4726",
+          "MGT 4803",
+          "MUSI 2525",
+          "MUSI 2526",
+          "MUSI 4459",
+          "MUSI 4630",
+          "MUSI 4670",
+          "MUSI 4677",
+          "PHIL 3101",
+          "PSYC 2280",
+          "PSYC 3750",
+          "PSYC 3790",
+          "PSYC 4010",
+          "PSYC 4011",
+          "PSYC 4090"
+        ]
+      }
     ]
   },
   "Astrophysics": {
-    "totalCredits": 92,
+    "totalCredits": 95,
     "requirements": [
-      {"type": "choose", "count": 1, "options": [
-        "APPH 1040",
-        "APPH 1050",
-        "APPH 1060"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "CS 1301",
-        "CS 1371"
-      ]},
-      {"type": "single", "course": "MATH 1552"},
-      {"type": "choose", "count": 1, "options": [
-        "HIST 2111",
-        "HIST 2112",
-        "INTA 1200",
-        "POL 1101",
-        "PUBP 3000"
-      ]},
-      {"type": "single", "course": "ENGL 1101"},
-      {"type": "single", "course": "ENGL 1102"},
-      {"type": "single", "course": "PHYS 2211"},
-      {"type": "single", "course": "PHYS 2212"},
-      {"type": "single", "course": "MATH 1551"},
-      {"type": "choose", "count": 1, "options": [
-        "MATH 1553",
-        "MATH 1554",
-        "MATH 1564"
-      ]},
-      {"type": "single", "course": "MATH 2551"},
-      {"type": "single", "course": "MATH 2552"},
-      {"type": "choose", "count": 1, "options": [
-        "CHEM 1310",
-        "CHEM 1211K"
-      ]},
-      {"type": "single", "course": "PHYS 2304"},
-      {"type": "single", "course": "PHYS 2303"},
-      {"type": "single", "course": "PHYS 2210"},
-      {"type": "single", "course": "PHYS 3201"},
-      {"type": "single", "course": "PHYS 3122"},
-      {"type": "single", "course": "PHYS 3123"},
-      {"type": "single", "course": "PHYS 3141"},
-      {"type": "single", "course": "PHYS 3143"},
-      {"type": "single", "course": "PHYS 4142"},
-      {"type": "single", "course": "PHYS 4143"},
-      {"type": "single", "course": "PHYS 3022"},
-      {"type": "single", "course": "PHYS 3210"},
-      {"type": "single", "course": "PHYS 4147"},
-      {"type": "single", "course": "PHYS 4247"},
-      {"type": "single", "course": "PHYS 4347"},
-      {"type": "pool", "name": "Additional Major Electives", "creditHours": 9, "options": [
-        "PHYS 3120",
-        "PHYS 3151",
-        "PHYS 3202",
-        "PHYS 3232",
-        "PHYS 4261",
-        "PHYS 4263",
-        "PHYS 4604",
-        "PHYS 4605",
-        "PHYS 4760"
-      ]}
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1301",
+          "CS 1371"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2211"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2212"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1553",
+          "MATH 1554",
+          "MATH 1564"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 2551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 2552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 1310",
+          "CHEM 1211K"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2304"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2303"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2210"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3201"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3122"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3123"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3141"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3143"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 4142"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 4143"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3022"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3210"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 4147"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 4247"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 4347"
+      },
+      {
+        "type": "pool",
+        "name": "Physics Electives",
+        "creditHours": 9,
+        "options": [
+          "PHYS 3120",
+          "PHYS 3151",
+          "PHYS 3202",
+          "PHYS 3232",
+          "PHYS 4261",
+          "PHYS 4263",
+          "PHYS 4604",
+          "PHYS 4605",
+          "PHYS 4699",
+          "PHYS 4760"
+        ]
+      }
     ]
   },
   "Atmospheric and Oceanic Sciences": {
-    "totalCredits": 82,
+    "totalCredits": 86,
     "requirements": [
-      {"type": "choose", "count": 1, "options": [
-        "APPH 1040",
-        "APPH 1050",
-        "APPH 1060"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "CS 1301",
-        "CS 1315"
-      ]},
-      {"type": "single", "course": "MATH 1552"},
-      {"type": "choose", "count": 1, "options": [
-        "HIST 2111",
-        "HIST 2112",
-        "INTA 1200",
-        "POL 1101",
-        "PUBP 3000"
-      ]},
-      {"type": "single", "course": "ENGL 1101"},
-      {"type": "single", "course": "ENGL 1102"},
-      {"type": "single", "course": "MATH 1551"},
-      {"type": "single", "course": "MATH 1553"},
-      {"type": "single", "course": "PHYS 2212"},
-      {"type": "single", "course": "MATH 2551"},
-      {"type": "single", "course": "MATH 2552"},
-      {"type": "single", "course": "EAS 1600"},
-      {"type": "single", "course": "EAS 2551"},
-      {"type": "single", "course": "EAS 2655"},
-      {"type": "single", "course": "EAS 2750"},
-      {"type": "single", "course": "EAS 3603"},
-      {"type": "single", "course": "EAS 4655"},
-      {"type": "single", "course": "EAS 4656"},
-      {"type": "choose", "count": 1, "options": [
-        "EAS 4740",
-        "EAS 4670",
-        "EAS 4305"
-      ]},
-      {"type": "single", "course": "EAS 4801"},
-      {"type": "pool", "name": "AE Field Electives", "creditHours": 7, "options": [
-        "EAS 4420",
-        "EAS 4814",
-        "EAS 4610"
-      ]},
-      {"type": "pool", "name": "AOS Technical Electives", "creditHours": 15, "options": [
-        "CHEM 1212K",
-        "CHEM 1211K",
-        "CS 1301",
-        "CS 1371",
-        "EAS 3110",
-        "EAS 4300",
-        "EAS 4305",
-        "EAS 4410",
-        "EAS 4450",
-        "EAS 4525",
-        "EAS 4470",
-        "EAS 4740",
-        "EAS 4420",
-        "EAS 4480",
-        "EAS 4610",
-        "EAS 4651",
-        "EAS 4670",
-        "EAS 4695",
-        "EAS 4698",
-        "EAS 4699",
-        "EAS 4803",
-        "EAS 4803",
-        "EAS 4813",
-        "EAS 4814"
-      ]}
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1301",
+          "CS 1371"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1553"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2212"
+      },
+      {
+        "type": "single",
+        "course": "MATH 2551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 2552"
+      },
+      {
+        "type": "single",
+        "course": "EAS 1600"
+      },
+      {
+        "type": "single",
+        "course": "EAS 2551"
+      },
+      {
+        "type": "single",
+        "course": "EAS 2655"
+      },
+      {
+        "type": "single",
+        "course": "EAS 2750"
+      },
+      {
+        "type": "single",
+        "course": "EAS 3603"
+      },
+      {
+        "type": "single",
+        "course": "EAS 4655"
+      },
+      {
+        "type": "single",
+        "course": "EAS 4656"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "EAS 4740",
+          "EAS 4670",
+          "EAS 4305"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "EAS 4801"
+      },
+      {
+        "type": "pool",
+        "name": "Field/Research Methods Electives",
+        "creditHours": 7,
+        "options": [
+          "EAS 4420",
+          "EAS 4814",
+          "EAS 4610"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "AOS Technical Electives",
+        "creditHours": 15,
+        "options": [
+          "CHEM 1212K",
+          "CHEM 1211K",
+          "CS 1301",
+          "CS 1371",
+          "EAS 3110",
+          "EAS 4300",
+          "EAS 4305",
+          "EAS 4410",
+          "EAS 4450",
+          "EAS 4525",
+          "EAS 4470",
+          "EAS 4740",
+          "EAS 4420",
+          "EAS 4480",
+          "EAS 4610",
+          "EAS 4651",
+          "EAS 4670",
+          "EAS 4695",
+          "EAS 4698",
+          "EAS 4699",
+          "EAS 4803",
+          "EAS 4813",
+          "EAS 4814"
+        ]
+      }
     ]
   },
-  "Biochemistry - General": {
-    "totalCredits": 82,
+  "Biochemistry": {
+    "totalCredits": 94,
     "requirements": [
-      {"type": "choose", "count": 1, "options": [
-        "APPH 1040",
-        "APPH 1050",
-        "APPH 1060"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "CS 1301",
-        "CS 1315",
-        "CS 1371"
-      ]},
-      {"type": "single", "course": "MATH 1552"},
-      {"type": "choose", "count": 1, "options": [
-        "HIST 2111",
-        "HIST 2112",
-        "INTA 1200",
-        "POL 1101",
-        "PUBP 3000"
-      ]},
-      {"type": "single", "course": "ENGL 1101"},
-      {"type": "single", "course": "ENGL 1102"},
-      {"type": "single", "course": "MATH 1551"},
-      {"type": "choose", "count": 1, "options": [
-        "MATH 1553",
-        "MATH 1554",
-        "MATH 1564"
-      ]},
-      {"type": "single", "course": "PHYS 2212"},
-      {"type": "single", "course": "CHEM 1212K"},
-      {"type": "single", "course": "CHEM 2380"},
-      {"type": "single", "course": "MATH 2551"},
-      {"type": "single", "course": "BIOS 1107"},
-      {"type": "single", "course": "BIOS 1107L"},
-      {"type": "pool", "name": "Quantitative Chemical Analysis", "creditHours": 4, "options": [
-        "CHEM 2216",
-        "CHEM 2216L",
-        "CHEM 2214"
-      ]},
-      {"type": "single", "course": "CHEM 2311"},
-      {"type": "choose", "count": 1, "options": [
-        "CHEM 2312",
-        "CHEM 2313"
-      ]},
-      {"type": "pool", "name": "Analytical Chemistry", "creditHours": 5, "options": [
-        "CHEM 3216",
-        "CHEM 3216L",
-        "CHEM 3211"
-      ]},
-      {"type": "single", "course": "CHEM 3371"},
-      {"type": "single", "course": "CHEM 3411"},
-      {"type": "choose", "count": 1, "options": [
-        "CHEM 4511",
-        "CHEM 3521"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "CHEM 4512",
-        "CHEM 3522"
-      ]},
-      {"type": "single", "course": "CHEM 4521"},
-      {"type": "single", "course": "CHEM 4581"},
-      {"type": "single", "course": "CHEM 4582"},
-      {"type": "single", "course": "CHEM 4601"},
-      {"type": "single", "course": "BIOS 2600"},
-      {"type": "single", "course": "BIOS 3450"},
-      {"type": "choose", "count": 1, "options": [
-        "BIOS 3380",
-        "BIOS 3450",
-        "BIOS 4015",
-        "BIOS 4340",
-        "BIOS 4401",
-        "BIOS 4418",
-        "BIOS 4464",
-        "BIOS 4570",
-        "BIOS 4607",
-        "CHEM 4765"
-      ]}
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1301",
+          "CS 1315",
+          "CS 1371"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1553",
+          "MATH 1554",
+          "MATH 1564"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2212"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 1212K"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 2380"
+      },
+      {
+        "type": "single",
+        "course": "MATH 2551"
+      },
+      {
+        "type": "single",
+        "course": "BIOS 1107"
+      },
+      {
+        "type": "single",
+        "course": "BIOS 1107L"
+      },
+      {
+        "type": "pool",
+        "name": "Quantitative Chemical Requirement",
+        "creditHours": 4,
+        "options": [
+          "CHEM 2216",
+          "CHEM 2216L",
+          "CHEM 2214"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CHEM 2311"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 2312",
+          "CHEM 2313"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Analytical Chemistry Requirement",
+        "creditHours": 5,
+        "options": [
+          "CHEM 3216",
+          "CHEM 3216L",
+          "CHEM 3211"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CHEM 3371"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 3411"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 4511",
+          "CHEM 3521"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 4512",
+          "CHEM 3522"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CHEM 4521"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 4581"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 4582"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 4601"
+      },
+      {
+        "type": "single",
+        "course": "BIOS 2600"
+      },
+      {
+        "type": "single",
+        "course": "BIOS 3450"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "BIOS 3380",
+          "BIOS 3450",
+          "BIOS 4015",
+          "BIOS 4340",
+          "BIOS 4401",
+          "BIOS 4418",
+          "BIOS 4464",
+          "BIOS 4570",
+          "BIOS 4607",
+          "CHEM 4765"
+        ]
+      }
     ]
   },
-  "Biology - General": {
-    "totalCredits": 80,
-    "requirements": [
-      {"type": "choose", "count": 1, "options": [
-        "APPH 1040",
-        "APPH 1050",
-        "APPH 1060"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "CS 1301",
-        "CS 1315",
-        "CS 1371"
-      ]},
-      {"type": "single", "course": "MATH 1552"},
-      {"type": "choose", "count": 1, "options": [
-        "HIST 2111",
-        "HIST 2112",
-        "INTA 1200",
-        "POL 1101",
-        "PUBP 3000"
-      ]},
-      {"type": "single", "course": "ENGL 1101"},
-      {"type": "single", "course": "ENGL 1102"},
-      {"type": "single", "course": "MATH 1551"},
-      {"type": "single", "course": "MATH 1553"},
-      {"type": "pool", "name": "Biological Principles", "creditHours": 4, "options": [
-        "BIOS 1207",
-        "BIOS 1207L",
-        "BIOS 1107",
-        "BIOS 1107L"
-      ]},
-      {"type": "single", "course": "CHEM 1211K"},
-      {"type": "single", "course": "CHEM 1212K"},
-      {"type": "single", "course": "CHEM 2311"},
-      {"type": "choose", "count": 1, "options": [
-        "CHEM 2312",
-        "CHEM 2313"
-      ]},
-      {"type": "single", "course": "PHYS 2211"},
-      {"type": "single", "course": "PHYS 2212"},
-      {"type": "pool", "name": "Organismal Biology", "creditHours": 4, "options": [
-        "BIOS 1208",
-        "BIOS 1208L",
-        "BIOS 1108",
-        "BIOS 1108L"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "BIOS 2300",
-        "BIOS 2310"
-      ]},
-      {"type": "single", "course": "BIOS 3450"},
-      {"type": "choose", "count": 1, "options": [
-        "BIOS 2600",
-        "BIOS 2610"
-      ]},
-      {"type": "pool", "name": "Biology Lab", "creditHours": 2, "options": [
-        "BIOS 2301",
-        "BIOS 2311",
-        "BIOS 2601",
-        "BIOS 2611",
-        "BIOS 3451"
-      ]},
-      {"type": "single", "course": "BIOS 3600"},
-      {"type": "single", "course": "BIOS 4460"},
-      {"type": "choose", "count": 1, "options": [
-        "BIOS 4590",
-        "BIOS 4690"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "CHEM 2380",
-        "CHEM 2380U"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "BIOS 3400",
-        "BIOS 4150",
-        "BIOS 4401"
-      ]},
-      {"type": "pool", "name": "Biology Electives", "creditHours": 21, "options": [
-        "BIOS 3380",
-        "BIOS 3381",
-        "BIOS 3400",
-        "BIOS 3450",
-        "BIOS 3451",
-        "BIOS 3600",
-        "BIOS 3753",
-        "BIOS 3754",
-        "BIOS 3755",
-        "BIOS 3756",
-        "BIOS 3801",
-        "BIOS 3835",
-        "BIOS 4012",
-        "BIOS 4015",
-        "BIOS 4100",
-        "BIOS 4150",
-        "BIOS 4200",
-        "BIOS 4221",
-        "BIOS 4225",
-        "BIOS 4238",
-        "BIOS 4340",
-        "BIOS 4400",
-        "BIOS 4401",
-        "BIOS 4410",
-        "BIOS 4417",
-        "BIOS 4418",
-        "BIOS 4428",
-        "BIOS 4432",
-        "BIOS 4440",
-        "BIOS 4460",
-        "BIOS 4464",
-        "BIOS 4471",
-        "BIOS 4480",
-        "BIOS 4500",
-        "BIOS 4505",
-        "BIOS 4510",
-        "BIOS 4515",
-        "BIOS 4520",
-        "BIOS 4530",
-        "BIOS 4540",
-        "BIOS 4545",
-        "BIOS 4550",
-        "BIOS 4560",
-        "BIOS 4565",
-        "BIOS 4570",
-        "BIOS 4590",
-        "BIOS 4607",
-        "BIOS 4620",
-        "BIOS 4651",
-        "BIOS 4690",
-        "BIOS 4710",
-        "BIOS 4740",
-        "BIOS 4744",
-        "BIOS 4746",
-        "BIOS 4801",
-        "BIOS 4802",
-        "BIOS 4803",
-        "BIOS 4813",
-        "BIOS 4814",
-        "BIOS 4835",
-        "BIOS 4901",
-        "BIOS 4902",
-        "BIOS 4903"
-      ]}
-    ]
-  },
-  "Biomedical Engineering": {
-    "totalCredits": 89,
-    "requirements": [
-      {"type": "choose", "count": 1, "options": [
-        "APPH 1040",
-        "APPH 1050",
-        "APPH 1060"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "CS 1371",
-        "CS 1301"
-      ]},
-      {"type": "single", "course": "MATH 1552"},
-      {"type": "choose", "count": 1, "options": [
-        "HIST 2111",
-        "HIST 2112",
-        "INTA 1200",
-        "POL 1101",
-        "PUBP 3000"
-      ]},
-      {"type": "single", "course": "ENGL 1101"},
-      {"type": "single", "course": "ENGL 1102"},
-      {"type": "single", "course": "PHYS 2211"},
-      {"type": "single", "course": "PHYS 2212"},
-      {"type": "single", "course": "MATH 1551"},
-      {"type": "choose", "count": 1, "options": [
-        "MATH 1553",
-        "MATH 1554",
-        "MATH 1564"
-      ]},
-      {"type": "single", "course": "BMED 1000"},
-      {"type": "single", "course": "BMED 2110"},
-      {"type": "single", "course": "COE 2001"},
-      {"type": "single", "course": "MATH 2551"},
-      {"type": "single", "course": "MATH 2552"},
-      {"type": "single", "course": "CHEM 1211K"},
-      {"type": "single", "course": "BMED 2250"},
-      {"type": "single", "course": "BMED 2310"},
-      {"type": "single", "course": "BMED 3100"},
-      {"type": "single", "course": "BMED 3110"},
-      {"type": "single", "course": "BMED 3310"},
-      {"type": "single", "course": "BMED 3410"},
-      {"type": "single", "course": "BMED 3520"},
-      {"type": "single", "course": "BMED 3600"},
-      {"type": "single", "course": "BMED 3610"},
-      {"type": "single", "course": "BMED 4000"},
-      {"type": "choose", "count": 1, "options": [
-        "BMED 4602",
-        "BMED 4723"
-      ]},
-      {"type": "single", "course": "CHEM 1315"},
-      {"type": "choose", "count": 1, "options": [
-        "BMED 2400",
-        "ISYE 3770",
-        "CEE 3770"
-      ]},
-      {"type": "single", "course": "MSE 2001"},
-      {"type": "single", "course": "ECE 3710"},
-      {"type": "single", "course": "ECE 3741"}
-    ]
-  },
-  "Business Administration - General Management": {
-    "totalCredits": 89,
-    "requirements": [
-      {"type": "choose", "count": 1, "options": [
-        "APPH 1040",
-        "APPH 1050",
-        "APPH 1060"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "CS 1301",
-        "CS 1315"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "MATH 1552",
-        "MATH 1712"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "HIST 2111",
-        "HIST 2112",
-        "INTA 1200",
-        "POL 1101",
-        "PUBP 3000"
-      ]},
-      {"type": "single", "course": "ENGL 1101"},
-      {"type": "single", "course": "ENGL 1102"},
-      {"type": "pool", "name": "Core IMPACT Math Requirement", "creditHours": 4, "options": [
-        "MATH 1551",
-        "MATH 1553",
-        "MATH 1711"
-      ]},
-      {"type": "single", "course": "ACCT 2101"},
-      {"type": "single", "course": "ACCT 2102"},
-      {"type": "single", "course": "MGT 2106"},
-      {"type": "single", "course": "ECON 2105"},
-      {"type": "single", "course": "ECON 2106"},
-      {"type": "single", "course": "MGT 2210"},
-      {"type": "single", "course": "LMC 3403"},
-      {"type": "single", "course": "MGT 2250"},
-      {"type": "single", "course": "MGT 2255"},
-      {"type": "single", "course": "MGT 3062"},
-      {"type": "single", "course": "MGT 3101"},
-      {"type": "single", "course": "MGT 3102"},
-      {"type": "single", "course": "MGT 3300"},
-      {"type": "single", "course": "MGT 3501"},
-      {"type": "single", "course": "MGT 3599"},
-      {"type": "single", "course": "MGT 3660"},
-      {"type": "single", "course": "MGT 3659"},
-      {"type": "pool", "name": "General Management Electives", "creditHours": 18, "options": [
-        "MGT 3075",
-        "MGT 3076",
-        "MGT 3079",
-        "MGT 3082",
-        "MGT 3084",
-        "MGT 3103",
-        "MGT 3310",
-        "MGT 3510",
-        "MGT 3605",
-        "MGT 3606",
-        "MGT 3607",
-        "MGT 3608",
-        "MGT 3609",
-        "MGT 3661",
-        "MGT 3662",
-        "MGT 3663",
-        "MGT 3743",
-        "MGT 3744",
-        "MGT 4010",
-        "MGT 4015",
-        "MGT 4026",
-        "MGT 4027",
-        "MGT 4030",
-        "MGT 4041",
-        "MGT 4043",
-        "MGT 4045",
-        "MGT 4047",
-        "MGT 4052",
-        "MGT 4053",
-        "MGT 4056",
-        "MGT 4057",
-        "MGT 4058",
-        "MGT 4066",
-        "MGT 4067",
-        "MGT 4068",
-        "MGT 4070",
-        "MGT 4072",
-        "MGT 4102",
-        "MGT 4116",
-        "MGT 4191",
-        "MGT 4192",
-        "MGT 4193",
-        "MGT 4194",
-        "MGT 4303",
-        "MGT 4304",
-        "MGT 4308",
-        "MGT 4309",
-        "MGT 4311",
-        "MGT 4331",
-        "MGT 4332",
-        "MGT 4335",
-        "MGT 4352",
-        "MGT 4353",
-        "MGT 4360",
-        "MGT 4366",
-        "MGT 4401",
-        "MGT 4670",
-        "MGT 4803",
-        "MGT 4910"
-      ]}
-    ]
-  },
-  "Chemistry - General": {
+  "Biology": {
     "totalCredits": 83,
     "requirements": [
-      {"type": "choose", "count": 1, "options": [
-        "APPH 1040",
-        "APPH 1050",
-        "APPH 1060"
-      ]},
-      {"type": "single", "course": "CS 1301"},
-      {"type": "single", "course": "MATH 1552"},
-      {"type": "choose", "count": 1, "options": [
-        "HIST 2111",
-        "HIST 2112",
-        "INTA 1200",
-        "POL 1101",
-        "PUBP 3000"
-      ]},
-      {"type": "single", "course": "ENGL 1101"},
-      {"type": "single", "course": "ENGL 1102"},
-      {"type": "single", "course": "MATH 1551"},
-      {"type": "choose", "count": 1, "options": [
-        "MATH 1553",
-        "MATH 1554",
-        "MATH 1564"
-      ]},
-      {"type": "single", "course": "PHYS 2212"},
-      {"type": "single", "course": "CHEM 1212K"},
-      {"type": "single", "course": "CHEM 2380"},
-      {"type": "single", "course": "MATH 2551"},
-      {"type": "single", "course": "BIOS 1107"},
-      {"type": "single", "course": "BIOS 1107L"},
-      {"type": "pool", "name": "Quantitative Chemical Analysis", "creditHours": 4, "options": [
-        "CHEM 2216",
-        "CHEM 2216L",
-        "CHEM 2214"
-      ]},
-      {"type": "single", "course": "CHEM 2311"},
-      {"type": "choose", "count": 1, "options": [
-        "CHEM 2312",
-        "CHEM 2313"
-      ]},
-      {"type": "single", "course": "CHEM 2601"},
-      {"type": "single", "course": "CHEM 3111"},
-      {"type": "pool", "name": "Analytical Chemistry", "creditHours": 5, "options": [
-        "CHEM 3216",
-        "CHEM 3216L",
-        "CHEM 3211"
-      ]},
-      {"type": "single", "course": "CHEM 3380"},
-      {"type": "single", "course": "CHEM 3411"},
-      {"type": "single", "course": "CHEM 3412"},
-      {"type": "single", "course": "CHEM 3481"},
-      {"type": "choose", "count": 1, "options": [
-        "CHEM 4695",
-        "CHEM 4699"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "CHEM 3511",
-        "CHEM 4511",
-        "CHEM 4512",
-        "CHEM 3521",
-        "CHEM 3522"
-      ]},
-      {"type": "pool", "name": "Upper Level Chemistry Electives", "creditHours": 9, "options": [
-        "CHEM 3700",
-        "CHEM 4113",
-        "CHEM 4311",
-        "CHEM 4341",
-        "CHEM 4401",
-        "CHEM 4414",
-        "CHEM 4452",
-        "CHEM 4485",
-        "CHEM 4511",
-        "CHEM 4512",
-        "CHEM 4521",
-        "CHEM 4532",
-        "CHEM 4581",
-        "CHEM 4582",
-        "CHEM 4601",
-        "CHEM 4684",
-        "CHEM 4694",
-        "CHEM 4696",
-        "CHEM 4698",
-        "CHEM 4740",
-        "CHEM 4759",
-        "CHEM 4760",
-        "CHEM 4762",
-        "CHEM 4765",
-        "CHEM 4770",
-        "CHEM 4775",
-        "CHEM 4776",
-        "CHEM 4785",
-        "CHEM 4801",
-        "CHEM 4802",
-        "CHEM 4803"
-      ]}
-    ]
-  },
-  "Chemical and Biomolecular Engineering - Standard Option": {
-    "totalCredits": 111,
-    "requirements": [
-      {"type": "choose", "count": 1, "options": [
-        "APPH 1040",
-        "APPH 1050",
-        "APPH 1060"
-      ]},
-      {"type": "single", "course": "CS 1371"},
-      {"type": "single", "course": "MATH 1552"},
-      {"type": "choose", "count": 1, "options": [
-        "HIST 2111",
-        "HIST 2112",
-        "INTA 1200",
-        "POL 1101",
-        "PUBP 3000"
-      ]},
-      {"type": "single", "course": "ENGL 1101"},
-      {"type": "single", "course": "ENGL 1102"},
-      {"type": "single", "course": "PHYS 2211"},
-      {"type": "single", "course": "PHYS 2212"},
-      {"type": "single", "course": "MATH 1551"},
-      {"type": "single", "course": "MATH 1553"},
-      {"type": "single", "course": "BIOS 1107"},
-      {"type": "single", "course": "BIOS 1107L"},
-      {"type": "choose", "count": 1, "options": [
-        "CHEM 1211K",
-        "CHEM 1310"
-      ]},
-      {"type": "pool", "name": "Economics Requirement", "creditHours": 3, "options": [
-        "ECON 2100",
-        "ECON 2101",
-        "ECON 2105",
-        "ECON 2106"
-      ]},
-      {"type": "single", "course": "CHEM 2380"},
-      {"type": "single", "course": "MATH 2551"},
-      {"type": "single", "course": "MATH 2552"},
-      {"type": "single", "course": "CHBE 2100"},
-      {"type": "single", "course": "CHBE 2140"},
-      {"type": "single", "course": "CHBE 3205"},
-      {"type": "single", "course": "CHBE 3215"},
-      {"type": "single", "course": "CHBE 3225"},
-      {"type": "single", "course": "CHBE 3300"},
-      {"type": "single", "course": "CHBE 4200"},
-      {"type": "single", "course": "CHBE 4320"},
-      {"type": "single", "course": "CHBE 4411"},
-      {"type": "single", "course": "CHBE 4412"},
-      {"type": "single", "course": "CHBE 4510"},
-      {"type": "single", "course": "CHBE 4515"},
-      {"type": "single", "course": "CHBE 4520"},
-      {"type": "pool", "name": "CHBE Electives", "creditHours": 6, "options": [
-        "CHBE 4020",
-        "CHBE 4030",
-        "CHBE 4050",
-        "CHBE 4310",
-        "CHBE 4535",
-        "CHBE 4610",
-        "CHBE 4710",
-        "CHBE 4720",
-        "CHBE 4730",
-        "CHBE 4743",
-        "CHBE 4745",
-        "CHBE 4746",
-        "CHBE 4757",
-        "CHBE 4759",
-        "CHBE 4760",
-        "CHBE 4762",
-        "CHBE 4765",
-        "CHBE 4775",
-        "CHBE 4776",
-        "CHBE 4782",
-        "CHBE 4791",
-        "CHBE 4793"
-      ]},
-      {"type": "pool", "name": "Engineering Electives (min. 1 course at 3000-level or higher)", "creditHours": 6, "options": [
-        "AE 4699",
-        "BMED 2400",
-        "BMED 3520",
-        "BMED 4699",
-        "BMED 4751",
-        "CEE 2040",
-        "CEE 2300",
-        "CEE 4330",
-        "CEE 4620",
-        "CEE 4699",
-        "CHBE 2699",
-        "CHBE 4020",
-        "CHBE 4030",
-        "CHBE 4050",
-        "CHBE 4310",
-        "CHBE 4535",
-        "CHBE 4601",
-        "CHBE 4610",
-        "CHBE 4699",
-        "CHBE 4710",
-        "CHBE 4720",
-        "CHBE 4730",
-        "CHBE 4743",
-        "CHBE 4745",
-        "CHBE 4746",
-        "CHBE 4757",
-        "CHBE 4759",
-        "CHBE 4760",
-        "CHBE 4762",
-        "CHBE 4765",
-        "CHBE 4767",
-        "CHBE 4775",
-        "CHBE 4776",
-        "CHBE 4782",
-        "CHBE 4791",
-        "CHBE 4793",
-        "COE 2001",
-        "COE 3001",
-        "COE 3002",
-        "ECE 2020",
-        "ECE 2026",
-        "ECE 3025",
-        "ECE 3040",
-        "ECE 3043",
-        "ECE 3072",
-        "ECE 3710",
-        "ECE 3741",
-        "ECE 4350",
-        "ECE 4699",
-        "ISYE 2027",
-        "ISYE 2028",
-        "ISYE 3025",
-        "ISYE 3039",
-        "ISYE 3232",
-        "ME 2202",
-        "ME 3210",
-        "ME 4699",
-        "MSE 2021",
-        "MSE 3005",
-        "MSE 3720",
-        "MSE 4140",
-        "MSE 4751",
-        "MSE 4330",
-        "MSE 4740",
-        "MSE 4699",
-        "NRE 3301",
-        "NRE 4610",
-        "NRE 4699"
-      ]},
-      {"type": "single", "course": "CHEM 1212K"},
-      {"type": "single", "course": "CHEM 2311"},
-      {"type": "choose", "count": 1, "options": [
-        "CHEM 2312",
-        "CHEM 2313"
-      ]},
-      {"type": "single", "course": "MSE 2001"},
-      {"type": "choose", "count": 1, "options": [
-        "CHEM 3111",
-        "CHEM 3412",
-        "CHEM 3511",
-        "CHEM 3521",
-        "CHEM 3522",
-        "CHEM 4311",
-        "CHEM 4341"
-      ]}
-    ]
-  },
-  "Civil Engineering - Standard Option": {
-    "totalCredits": 96,
-    "requirements": [
-      {"type": "choose", "count": 1, "options": [
-        "APPH 1040",
-        "APPH 1050",
-        "APPH 1060"
-      ]},
-      {"type": "single", "course": "CS 1371"},
-      {"type": "single", "course": "MATH 1552"},
-      {"type": "choose", "count": 1, "options": [
-        "HIST 2111",
-        "HIST 2112",
-        "INTA 1200",
-        "POL 1101",
-        "PUBP 3000"
-      ]},
-      {"type": "single", "course": "ENGL 1101"},
-      {"type": "single", "course": "ENGL 1102"},
-      {"type": "single", "course": "PHYS 2211"},
-      {"type": "single", "course": "PHYS 2212"},
-      {"type": "single", "course": "MATH 1551"},
-      {"type": "choose", "count": 1, "options": [
-        "MATH 1553",
-        "MATH 1554",
-        "MATH 1564"
-      ]},
-      {"type": "single", "course": "COE 2001"},
-      {"type": "single", "course": "MATH 2551"},
-      {"type": "single", "course": "MATH 2552"},
-      {"type": "single", "course": "CHEM 1310"},
-      {"type": "pool", "name": "Biology Option", "creditHours": 4, "options": [
-        "BIOS 1107",
-        "BIOS 1107L",
-        "BIOS 1108",
-        "BIOS 1108L",
-        "EAS 2600"
-      ]},
-      {"type": "pool", "name": "Ethics Requirement", "creditHours": 1, "options": [
-        "BIOS 4651",
-        "CHBE 4515",
-        "CS 4001",
-        "CS 4726",
-        "HTS 1081",
-        "HTS 2061",
-        "HTS 2084",
-        "HTS 2100",
-        "HTS 3032",
-        "INTA 2030",
-        "LMC 3102",
-        "LMC 3112",
-        "LMC 3219",
-        "LMC 3304",
-        "LMC 3308",
-        "LMC 3318",
-        "MGT 3608",
-        "MGT 4047",
-        "MGT 4726",
-        "NS 4322",
-        "PHIL 3105",
-        "PHIL 3109",
-        "PHIL 3127",
-        "PHIL 3140",
-        "PHIL 3180",
-        "PHIL 4176",
-        "PSYC 1101",
-        "PSYC 2015",
-        "PSYC 2210",
-        "PSYC 2220",
-        "PSYC 2230",
-        "PSYC 2240",
-        "PSYC 2270",
-        "PSYC 3031",
-        "PSYC 4050",
-        "PSYC 4270",
-        "PUBP 3244",
-        "PUBP 3600",
-        "PUBP 4630",
-        "PUBP 4726"
-      ]},
-      {"type": "pool", "name": "Economics Requirement", "creditHours": 3, "options": [
-        "ECON 2100",
-        "ECON 2101",
-        "ECON 2105",
-        "ECON 2106"
-      ]},
-      {"type": "single", "course": "CEE 1070"},
-      {"type": "single", "course": "CEE 1090"},
-      {"type": "single", "course": "CEE 2040"},
-      {"type": "single", "course": "CEE 2090"},
-      {"type": "single", "course": "CEE 2300"},
-      {"type": "single", "course": "CEE 3020"},
-      {"type": "single", "course": "CEE 3040"},
-      {"type": "single", "course": "CEE 3090"},
-      {"type": "choose", "count": 1, "options": [
-        "CEE 3770",
-        "ISYE 3770",
-        "MATH 3670"
-      ]},
-      {"type": "single", "course": "CEE 4090"},
-      {"type": "single", "course": "COE 3001"},
-      {"type": "pool", "name": "CE Breadth Electives", "creditHours": 9, "options": [
-        "CEE 3051",
-        "CEE 4100",
-        "CEE 4200",
-        "CEE 4300",
-        "CEE 3400",
-        "CEE 4600"
-      ]},
-      {"type": "choose", "count": 1, "options": [
-        "CEE 4200",
-        "CEE 3400"
-      ]},
-      {"type": "pool", "name": "CE Electives (Only one non-CEE course allowed)", "creditHours": 18, "options": [
-        "CEE 3000",
-        "CEE 3010",
-        "CEE 3020",
-        "CEE 3040",
-        "CEE 3055",
-        "CEE 3090",
-        "CEE 3340",
-        "CEE 3770",
-        "CEE 4000",
-        "CEE 4005",
-        "CEE 4050",
-        "CEE 4090",
-        "CEE 4101",
-        "CEE 4110",
-        "CEE 4120",
-        "CEE 4130",
-        "CEE 4140",
-        "CEE 4150",
-        "CEE 4160",
-        "CEE 4161",
-        "CEE 4170",
-        "CEE 4180",
-        "CEE 4210",
-        "CEE 4211",
-        "CEE 4225",
-        "CEE 4310",
-        "CEE 4320",
-        "CEE 4330",
-        "CEE 4340",
-        "CEE 4350",
-        "CEE 4360",
-        "CEE 4370",
-        "CEE 4395",
-        "CEE 4405",
-        "CEE 4406",
-        "CEE 4450",
-        "CEE 4460",
-        "CEE 4510",
-        "CEE 4520",
-        "CEE 4530",
-        "CEE 4540",
-        "CEE 4550",
-        "CEE 4551",
-        "CEE 4552",
-        "CEE 4560",
-        "CEE 4610",
-        "CEE 4620",
-        "CEE 4640",
-        "CEE 4660",
-        "CEE 4670",
-        "CEE 4698",
-        "CEE 4699",
-        "CEE 4791",
-        "CEE 4793",
-        "CEE 4795",
-        "CEE 4801",
-        "CEE 4803",
-        "CEE 4900",
-        "CEE 4901"
-      ]} 
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1301",
+          "CS 1315",
+          "CS 1371"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1553"
+      },
+      {
+        "type": "pool",
+        "name": "Biological Principles Requirement",
+        "creditHours": 4,
+        "options": [
+          "BIOS 1207",
+          "BIOS 1207L",
+          "BIOS 1107",
+          "BIOS 1107L"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CHEM 1211K"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 1212K"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 2311"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 2312",
+          "CHEM 2313"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2211"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2212"
+      },
+      {
+        "type": "pool",
+        "name": "Organismal Biology Requirement",
+        "creditHours": 4,
+        "options": [
+          "BIOS 1208",
+          "BIOS 1208L",
+          "BIOS 1108",
+          "BIOS 1108L"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "BIOS 2300",
+          "BIOS 2310"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "BIOS 3450"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "BIOS 2600",
+          "BIOS 2610"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Biology Lab (complete 2 of 3 categories)",
+        "creditHours": 2,
+        "options": [
+          "BIOS 2301",
+          "BIOS 2311",
+          "BIOS 2601",
+          "BIOS 2611",
+          "BIOS 3451"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "BIOS 3600"
+      },
+      {
+        "type": "single",
+        "course": "BIOS 4460"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "BIOS 4590",
+          "BIOS 4690"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 2380",
+          "CHEM 2380U"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "BIOS 3400",
+          "BIOS 4150",
+          "BIOS 4401"
+        ]
+      }
     ]
   }
 }
-        
