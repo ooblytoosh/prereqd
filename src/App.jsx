@@ -5,6 +5,7 @@ import { PoolCard } from './components/PoolCard';
 import { ProgressBar } from './components/ProgressBar'
 import COURSES from './courses.json'
 import MAJORS from './majors.json';
+import THREADS from './threads.json';
 import './App.css';
 
 function filterCourses(courseIds, searchTerm) {
@@ -19,24 +20,44 @@ function filterCourses(courseIds, searchTerm) {
   });
 }
 
+function getAvailableThreadsForSlot(threadSlots, selectedThreads, slotIndex, majorThreads) {
+  const chosenElsewhere = selectedThreads.filter((t, i) => i !== slotIndex && t);
+
+  return threadSlots.options.filter(thread => {
+    if (chosenElsewhere.includes(thread)) return false;
+
+    return chosenElsewhere.every(chosen => {
+      const chosenIncompat = majorThreads[chosen]?.incompatibleWith || [];
+      const threadIncompat = majorThreads[thread]?.incompatibleWith || [];
+      return !chosenIncompat.includes(thread) && !threadIncompat.includes(chosen);
+    });
+  });
+}
+
 function App() {
   const [selectedMajor, setSelectedMajor] = useState(null);
+  const [selectedThreads, setSelectedThreads] = useState([]);
   const [takenSearch, setTakenSearch] = useState("");
   const [availableSearch, setAvailableSearch] = useState("");
   const [lockedSearch, setLockedSearch] = useState("");
+
+  const majorData = selectedMajor ? MAJORS[selectedMajor] : null;
+  const threadSlots = majorData?.threadSlots;
+  const majorThreads = selectedMajor ? (THREADS[selectedMajor] || {}) : {};
+
   const {
-    takenCourses, 
-    availableCourses, 
-    lockedCourses, 
-    choiceGroupInfo, 
-    poolProgress, 
-    creditsCompleted, 
+    takenCourses,
+    availableCourses,
+    lockedCourses,
+    choiceGroupInfo,
+    poolProgress,
+    creditsCompleted,
     totalCredits,
-    addCourse, 
+    addCourse,
     removeCourse,
     resetProgress,
     getMissingPrereqsFor
-  } = useCourseTracker(selectedMajor);
+  } = useCourseTracker(selectedMajor, selectedThreads);
 
   if (!selectedMajor) {
     return (
@@ -49,6 +70,8 @@ function App() {
           onChange={(e) => {
             if (MAJORS[e.target.value]) {
               setSelectedMajor(e.target.value);
+              const slots = MAJORS[e.target.value].threadSlots;
+              setSelectedThreads(slots ? Array(slots.count).fill(null) : []);
             }
           }}
         />
@@ -60,6 +83,8 @@ function App() {
       </div>
     );
   }
+  
+  const allThreadsPicked = selectedThreads.every(Boolean);
 
   return (
     <div>
@@ -68,45 +93,79 @@ function App() {
       <ProgressBar completed={creditsCompleted} total={totalCredits}/>
       <div className="button-row">
         <button className="reset-button" onClick={resetProgress}>Reset Progress</button>
-        <button className="revert-major" onClick={() => setSelectedMajor(null)}>Change Major</button>
+        <button
+          className="revert-major"
+          onClick={() => {
+            setSelectedMajor(null);
+            setSelectedThreads([]);
+          }}
+        >
+          Change Major
+        </button>
       </div>
-      <h2>Degree Pool Requirements</h2>
-      <div className="pool-section">
-        {poolProgress.map(pool => {
-          return <PoolCard key={pool.name} pool={pool} />
-        })}
-      </div>
-      <div className="lists">
-        <CourseColumn 
-          title="Taken"
-          count={takenCourses.size}
-          courses={filterCourses([...takenCourses], takenSearch)}
-          status="taken"
-          onCardClick={removeCourse}
-          searchTerm={takenSearch}
-          onSearchChange={setTakenSearch}
-        />
-        <CourseColumn 
-          title="Available"
-          count={availableCourses.length}
-          courses={filterCourses(availableCourses, availableSearch)}
-          status="available"
-          choiceGroupInfo={choiceGroupInfo}
-          onCardClick={addCourse}
-          searchTerm={availableSearch}
-          onSearchChange={setAvailableSearch}
-        />
-        <CourseColumn 
-          title="Locked"
-          count={lockedCourses.length}
-          courses={filterCourses(lockedCourses, lockedSearch)}
-          status="locked"
-          choiceGroupInfo={choiceGroupInfo}
-          getMissingPrereqsFor={getMissingPrereqsFor}
-          searchTerm={lockedSearch}
-          onSearchChange={setLockedSearch}
-        />
-      </div>
+
+      {threadSlots && (
+        <div className="thread-selection">
+          {selectedThreads.map((thread, i) => (
+            <select
+              key={i}
+              value={thread || ""}
+              onChange={(e) => {
+                const next = [...selectedThreads];
+                next[i] = e.target.value || null;
+                setSelectedThreads(next);
+              }}
+            >
+              <option value="">Select thread {i + 1}...</option>
+              {getAvailableThreadsForSlot(threadSlots, selectedThreads, i, majorThreads).map(t => (
+                <option key={t} value={t}>{t}</option>
+              ))}
+            </select>
+          ))}
+        </div>
+      )}
+
+      {allThreadsPicked && (
+        <>
+          <h2>Degree Pool Requirements</h2>
+          <div className="pool-section">
+            {poolProgress.map(pool => {
+              return <PoolCard key={pool.name} pool={pool} />
+            })}
+          </div>
+          <div className="lists">
+            <CourseColumn
+              title="Taken"
+              count={takenCourses.size}
+              courses={filterCourses([...takenCourses], takenSearch)}
+              status="taken"
+              onCardClick={removeCourse}
+              searchTerm={takenSearch}
+              onSearchChange={setTakenSearch}
+            />
+            <CourseColumn
+              title="Available"
+              count={availableCourses.length}
+              courses={filterCourses(availableCourses, availableSearch)}
+              status="available"
+              choiceGroupInfo={choiceGroupInfo}
+              onCardClick={addCourse}
+              searchTerm={availableSearch}
+              onSearchChange={setAvailableSearch}
+            />
+            <CourseColumn
+              title="Locked"
+              count={lockedCourses.length}
+              courses={filterCourses(lockedCourses, lockedSearch)}
+              status="locked"
+              choiceGroupInfo={choiceGroupInfo}
+              getMissingPrereqsFor={getMissingPrereqsFor}
+              searchTerm={lockedSearch}
+              onSearchChange={setLockedSearch}
+            />
+          </div>
+        </>
+      )}
     </div>
   );
 }

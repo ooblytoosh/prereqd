@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import COURSES from './courses.json';
 import MAJORS from './majors.json';
+import THREADS from './threads.json';
 
 function extractCourseIds(prereqs) {
   if (typeof prereqs === 'string') {
@@ -213,7 +214,7 @@ function getMissingPrereqs(prereqs, takenCourses) {
   return [];
 }
 
-export function useCourseTracker(selectedMajor) {
+export function useCourseTracker(selectedMajor, selectedThreads = []) {
   const [takenCourses, setTakenCourses] = useState(() => {
     if (!selectedMajor) return new Set();
     const saved = localStorage.getItem(`takenCourses:${selectedMajor}`);
@@ -234,7 +235,14 @@ export function useCourseTracker(selectedMajor) {
     localStorage.setItem(`takenCourses:${selectedMajor}`, JSON.stringify([...takenCourses]));
   }, [takenCourses, selectedMajor]);
 
-  const requirements = selectedMajor ? MAJORS[selectedMajor].requirements : [];
+  const majorData = selectedMajor ? MAJORS[selectedMajor] : null;
+  const baseRequirements = majorData ? majorData.requirements : [];
+  const threadRequirements = selectedThreads
+    .filter(Boolean)
+    .flatMap(threadName => THREADS[selectedMajor]?.[threadName]?.requirements || []);
+
+  const requirements = [...baseRequirements, ...threadRequirements];
+
   const majorCourses = flattenRequirementCourses(requirements);
   const relevantCourses = selectedMajor ? getRelevantCourses(majorCourses) : new Set();
   const mootCourses = selectedMajor ? getMootCourses(requirements, takenCourses) : new Set();
@@ -286,7 +294,8 @@ export function useCourseTracker(selectedMajor) {
   };
 
   const creditsCompleted = selectedMajor ? getCreditsCompleted(requirements, takenCourses, poolProgress) : 0;
-  const totalCredits = selectedMajor ? MAJORS[selectedMajor].totalCredits : 0;
+  const threadTotalCredits = selectedThreads.filter(Boolean).reduce((sum, t) => sum + (THREADS[selectedMajor]?.[t]?.totalCredits || 0), 0);
+  const totalCredits = selectedMajor ? majorData.totalCredits + threadTotalCredits : 0;
 
   const getMissingPrereqsFor = (courseId) => {
     const course = COURSES[courseId];

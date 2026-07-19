@@ -91,9 +91,25 @@ button:hover {
   transform: scale(1.1);
 }
 
-input {
+input{
   display: block;
   margin: 0 auto;
+  width: 500px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 2px solid #3498db;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.thread-selection {
+  display: flex;
+  justify-content: center;
+}
+
+select {
   width: 500px;
   padding: 8px 12px;
   font-size: 16px;

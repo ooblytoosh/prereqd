@@ -2567,5 +2567,129 @@
         ]
       }
     ]
+  },
+  "Computational Media": {
+    "totalCredits": 52,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1301",
+          "CS 1315"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1554",
+          "MATH 1564"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CS 1331"
+      },
+      {
+        "type": "single",
+        "course": "CS 1332"
+      },
+      {
+        "type": "single",
+        "course": "CS 2050"
+      },
+      {
+        "type": "single",
+        "course": "CS 2340"
+      },
+      {
+        "type": "single",
+        "course": "LMC 2700"
+      },
+      {
+        "type": "single",
+        "course": "MATH 2550"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 4001",
+          "CS 3001",
+          "CS 4726",
+          "SLS 3110"
+        ]
+      }
+    ],
+    "threadSlots": {
+      "count": 2,
+      "options": [
+        "Media",
+        "People",
+        "Intelligence",
+        "Interaction Design",
+        "Film and Media Studies",
+        "Games",
+        "Music Technology"
+      ]
+    }
   }
 }
