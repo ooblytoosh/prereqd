@@ -1,295 +1,145 @@
-
 {
   "Computational Media": {
     "Intelligence": {
       "totalCredits": 22,
       "requirements": [
-        {
-          "type": "single",
-          "course": "CS 2110"
-        },
-        {
-          "type": "single",
-          "course": "CS 3510"
-        },
-        {
-          "type": "single",
-          "course": "CS 3600"
-        },
+        { "type": "single", "course": "CS 2110" },
+        { "type": "single", "course": "CS 3510" },
+        { "type": "single", "course": "CS 3600" },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "CS 3630",
-            "CS 3790",
-            "PSYC 3040"
-          ]
+          "options": ["CS 3630", "CS 3790", "PSYC 3040"]
         },
         {
           "type": "pool",
           "name": "Approaches to Intelligence",
           "creditHours": 9,
-          "options": [
-            "CS 4476",
-            "CS 4510",
-            "CS 4635",
-            "CS 4641",
-            "CS 4649",
-            "CS 4650",
-            "CS 4731"
-          ]
+          "options": ["CS 4476", "CS 4510", "CS 4635", "CS 4641", "CS 4649", "CS 4650", "CS 4731"]
         }
       ]
     },
     "Media": {
       "totalCredits": 13,
       "requirements": [
-        {
-          "type": "single",
-          "course": "CS 2261"
-        },
+        { "type": "single", "course": "CS 2261" },
         {
           "type": "pool",
           "name": "Media Technology",
           "creditHours": 9,
-          "options": [
-            "CS 3451",
-            "CS 4455",
-            "CS 4460",
-            "CS 4464",
-            "CS 4475",
-            "CS 4488",
-            "CS 4496",
-            "CS 4590"
-          ]
+          "options": ["CS 3451", "CS 4455", "CS 4460", "CS 4464", "CS 4475", "CS 4488", "CS 4496", "CS 4590"]
         }
       ]
     },
     "People": {
       "totalCredits": 19,
       "requirements": [
+        { "type": "single", "course": "CS 2261" },
+        { "type": "single", "course": "PSYC 2012" },
         {
-          "type": "single",
-          "course": "CS 2261"
-        },
-        {
-          "type": "single",
-          "course": "PSYC 2012"
+          "type": "choose",
+          "count": 1,
+          "options": ["CS 3750", "CS 3751"]
         },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "CS 3750",
-            "CS 3751"
-          ]
-        },
-        {
-          "type": "choose",
-          "count": 1,
-          "options": [
-            "PSYC 2210",
-            "PSYC 2760",
-            "PSYC 3040"
-          ]
+          "options": ["PSYC 2210", "PSYC 2760", "PSYC 3040"]
         },
         {
           "type": "pool",
           "name": "Human-Centered Technology",
           "creditHours": 6,
-          "options": [
-            "CS 3790",
-            "CS 4660",
-            "CS 4470",
-            "CS 4472",
-            "CS 4605",
-            "CS 4745"
-          ]
+          "options": ["CS 3790", "CS 4660", "CS 4470", "CS 4472", "CS 4605", "CS 4745"]
         }
       ]
     },
     "Interaction Design": {
       "totalCredits": 27,
       "requirements": [
-        {
-          "type": "single",
-          "course": "LMC 3710"
-        },
-        {
-          "type": "single",
-          "course": "LMC 4813"
-        },
+        { "type": "single", "course": "LMC 3710" },
+        { "type": "single", "course": "LMC 4813" },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "LMC 2720",
-            "LMC 3705",
-            "LMC 4730"
-          ]
+          "options": ["LMC 2720", "LMC 3705", "LMC 4730"]
         },
         {
           "type": "pool",
           "name": "Design and Culture",
           "creditHours": 9,
-          "options": [
-            "LMC 2730",
-            "LMC 3206",
-            "LMC 3314",
-            "LMC 3705",
-            "LMC 4730"
-          ]
+          "options": ["LMC 2730", "LMC 3206", "LMC 3314", "LMC 3705", "LMC 4730"]
         },
         {
           "type": "pool",
           "name": "CM or Media Courses",
           "creditHours": 9,
-          "options": [
-            "LMC 2400",
-            "LMC 2500",
-            "LMC 3206",
-            "LMC 3314",
-            "LMC 3406",
-            "LMC 3402"
-          ]
+          "options": ["LMC 2400", "LMC 2500", "LMC 3206", "LMC 3314", "LMC 3406", "LMC 3402"]
         }
       ]
     },
     "Film and Media Studies": {
       "totalCredits": 18,
       "requirements": [
-        {
-          "type": "single",
-          "course": "LMC 2400"
-        },
-        {
-          "type": "single",
-          "course": "LMC 4813"
-        },
+        { "type": "single", "course": "LMC 2400" },
+        { "type": "single", "course": "LMC 4813" },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "LMC 4720"
-          ]
+          "options": ["LMC 4720"]
         },
         {
           "type": "pool",
           "name": "Film and Media Studies Courses",
           "creditHours": 9,
-          "options": [
-            "LMC 2400",
-            "LMC 2500",
-            "LMC 2600",
-            "LMC 3206",
-            "LMC 3314",
-            "LMC 3352",
-            "LMC 3402",
-            "LMC 3406"
-          ]
+          "options": ["LMC 2400", "LMC 2500", "LMC 2600", "LMC 3206", "LMC 3314", "LMC 3352", "LMC 3402", "LMC 3406"]
         }
       ]
     },
     "Games": {
       "totalCredits": 30,
       "requirements": [
-        {
-          "type": "single",
-          "course": "LMC 2410"
-        },
-        {
-          "type": "single",
-          "course": "LMC 4710"
-        },
-        {
-          "type": "single",
-          "course": "CS 3600"
-        },
+        { "type": "single", "course": "LMC 2410" },
+        { "type": "single", "course": "LMC 4710" },
+        { "type": "single", "course": "CS 3600" },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "LMC 2730",
-            "LMC 3710"
-          ]
+          "options": ["LMC 2730", "LMC 3710"]
         },
         {
           "type": "pool",
           "name": "Game Design Courses",
           "creditHours": 9,
-          "options": [
-            "LMC 4720",
-            "LMC 4725",
-            "LMC 4730",
-            "LMC 4731"
-          ]
+          "options": ["LMC 4720", "LMC 4725", "LMC 4730", "LMC 4731"]
         },
         {
           "type": "pool",
           "name": "CM or Media Courses",
           "creditHours": 9,
-          "options": [
-            "LMC 2400",
-            "LMC 2500",
-            "LMC 3206",
-            "LMC 3314",
-            "LMC 3406",
-            "LMC 3402"
-          ]
+          "options": ["LMC 2400", "LMC 2500", "LMC 3206", "LMC 3314", "LMC 3406", "LMC 3402"]
         }
       ]
     },
     "Music Technology": {
       "totalCredits": 28,
       "requirements": [
-        {
-          "type": "single",
-          "course": "MUSI 2010"
-        },
-        {
-          "type": "single",
-          "course": "MUSI 2011"
-        },
-        {
-          "type": "single",
-          "course": "MUSI 2525"
-        },
-        {
-          "type": "single",
-          "course": "MUSI 2526"
-        },
-        {
-          "type": "single",
-          "course": "MUSI 3770"
-        },
+        { "type": "single", "course": "MUSI 2010" },
+        { "type": "single", "course": "MUSI 2011" },
+        { "type": "single", "course": "MUSI 2525" },
+        { "type": "single", "course": "MUSI 2526" },
+        { "type": "single", "course": "MUSI 3770" },
         {
           "type": "pool",
           "name": "Music Thread Electives",
           "creditHours": 9,
-          "options": [
-            "MUSI 4450",
-            "MUSI 4456",
-            "MUSI 4457",
-            "MUSI 4458",
-            "MUSI 4459",
-            "MUSI 4630",
-            "MUSI 4670",
-            "MUSI 4677"
-          ]
+          "options": ["MUSI 4450", "MUSI 4456", "MUSI 4457", "MUSI 4458", "MUSI 4459", "MUSI 4630", "MUSI 4670", "MUSI 4677"]
         },
         {
           "type": "pool",
           "name": "Probability and Statistics",
           "creditHours": 3,
-          "options": [
-            "PSYC 2020",
-            "MATH 3215",
-            "MATH 3670",
-            "CEE 3770",
-            "ISYE 3770",
-            "ISYE 2027",
-            "ISYE 3030"
-          ]
+          "options": ["PSYC 2020", "MATH 3215", "MATH 3670", "CEE 3770", "ISYE 3770", "ISYE 2027", "ISYE 3030"]
         }
       ]
     }
@@ -298,96 +148,52 @@
     "Computing Hardware & Emerging Architectures": {
       "totalCredits": 15,
       "requirements": [
-        {
-          "type": "single",
-          "course": "ECE 3150"
-        },
-        {
-          "type": "single",
-          "course": "ECE 3030"
-        },
+        { "type": "single", "course": "ECE 3150" },
+        { "type": "single", "course": "ECE 3030" },
         {
           "type": "pool",
           "name": "Computing Hardware & Emerging Architectures Electives",
           "creditHours": 9,
-          "options": [
-            "CS 4220",
-            "ECE 4180",
-            "ECE 4130",
-            "ECE 4452",
-            "ECE 4420",
-            "ECE 4460",
-            "ECE 4100",
-            "ECE 4150"
-          ]
+          "options": ["CS 4220", "ECE 4180", "ECE 4130", "ECE 4452", "ECE 4420", "ECE 4460", "ECE 4100", "ECE 4150"]
         }
       ]
     },
     "CyberSecurity": {
       "totalCredits": 13,
       "requirements": [
-        {
-          "type": "single",
-          "course": "ECE 4115"
-        },
+        { "type": "single", "course": "ECE 4115" },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "CS 3251",
-            "ECE 3600"
-          ]
+          "options": ["CS 3251", "ECE 3600"]
         },
         {
           "type": "pool",
           "name": "Cybersecurity Topics",
           "creditHours": 6,
-          "options": [
-            "ECE 3170",
-            "ECE 4112",
-            "ECE 4117",
-            "ECE 4147",
-            "ECE 4156"
-          ]
+          "options": ["ECE 3170", "ECE 4112", "ECE 4117", "ECE 4147", "ECE 4156"]
         }
       ]
     },
     "Devices": {
       "totalCredits": 16,
       "requirements": [
+        { "type": "single", "course": "CS 2340" },
+        { "type": "single", "course": "CS 3251" },
         {
-          "type": "single",
-          "course": "CS 2340"
-        },
-        {
-          "type": "single",
-          "course": "CS 3251"
+          "type": "choose",
+          "count": 1,
+          "options": ["CS 3510", "CS 3511"]
         },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "CS 3510",
-            "CS 3511"
-          ]
+          "options": ["CS 3651", "ECE 4180"]
         },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "CS 3651",
-            "ECE 4180"
-          ]
-        },
-        {
-          "type": "choose",
-          "count": 1,
-          "options": [
-            "CS 3630",
-            "CS 4261",
-            "CS 4476",
-            "CS 4605"
-          ]
+          "options": ["CS 3630", "CS 4261", "CS 4476", "CS 4605"]
         }
       ]
     },
@@ -397,210 +203,296 @@
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "CS 3251",
-            "ECE 3600"
-          ]
+          "options": ["CS 3251", "ECE 3600"]
         },
         {
           "type": "pool",
           "name": "DSSD Topics",
           "creditHours": 6,
-          "options": [
-            "CS 4220",
-            "ECE 4122",
-            "ECE 4795",
-            "ECE 4150",
-            "ECE 4180",
-            "CS 4605",
-            "CS 3651"
-          ]
+          "options": ["CS 4220", "ECE 4122", "ECE 4795", "ECE 4150", "ECE 4180", "CS 4605", "CS 3651"]
         }
       ]
     },
     "Information Internetworks": {
       "totalCredits": 15,
       "requirements": [
-        {
-          "type": "single",
-          "course": "CS 2340"
-        },
+        { "type": "single", "course": "CS 2340" },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "CS 3510",
-            "CS 3511"
-          ]
+          "options": ["CS 3510", "CS 3511"]
         },
         {
           "type": "pool",
           "name": "Introduction to Information Management",
           "creditHours": 6,
-          "options": [
-            "CS 3235",
-            "CS 3251",
-            "CS 4400"
-          ]
+          "options": ["CS 3235", "CS 3251", "CS 4400"]
         },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "CS 4251",
-            "CS 4255",
-            "CS 4261",
-            "CS 4262",
-            "CS 4270",
-            "CS 4365",
-            "CS 4420",
-            "CS 4440",
-            "CS 4675"
-          ]
+          "options": ["CS 4251", "CS 4255", "CS 4261", "CS 4262", "CS 4270", "CS 4365", "CS 4420", "CS 4440", "CS 4675"]
         }
       ]
     },
     "Robotics and Autonomous Systems": {
       "totalCredits": 13,
       "requirements": [
-        {
-          "type": "single",
-          "course": "ECE 2026"
-        },
-        {
-          "type": "single",
-          "course": "ECE 3550"
-        },
-        {
-          "type": "single",
-          "course": "ECE 4550"
-        },
+        { "type": "single", "course": "ECE 2026" },
+        { "type": "single", "course": "ECE 3550" },
+        { "type": "single", "course": "ECE 4550" },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "ECE 3084",
-            "ECE 3251",
-            "ECE 4252",
-            "ECE 4560",
-            "ECE 4580",
-            "ECE 4570",
-            "ECE 4575"
-          ]
+          "options": ["ECE 3084", "ECE 3251", "ECE 4252", "ECE 4560", "ECE 4580", "ECE 4570", "ECE 4575"]
         }
       ]
     },
     "Signal Processing and AI": {
       "totalCredits": 12,
       "requirements": [
-        {
-          "type": "single",
-          "course": "ECE 2026"
-        },
+        { "type": "single", "course": "ECE 2026" },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "ECE 4270",
-            "ECE 4252",
-            "ECE 3251"
-          ]
+          "options": ["ECE 4270", "ECE 4252", "ECE 3251"]
         },
         {
           "type": "pool",
           "name": "Signal Processing and AI Electives",
           "creditHours": 6,
-          "options": [
-            "ECE 3084",
-            "ECE 4271",
-            "ECE 4260",
-            "ECE 4122",
-            "ECE 4783",
-            "ECE 4258",
-            "ECE 4180"
-          ]
+          "options": ["ECE 3084", "ECE 4271", "ECE 4260", "ECE 4122", "ECE 4783", "ECE 4258", "ECE 4180"]
         }
       ]
     },
     "Systems & Architecture": {
       "totalCredits": 18,
       "requirements": [
+        { "type": "single", "course": "CS 2340" },
+        { "type": "single", "course": "CS 3210" },
+        { "type": "single", "course": "CS 3220" },
         {
-          "type": "single",
-          "course": "CS 2340"
-        },
-        {
-          "type": "single",
-          "course": "CS 3210"
-        },
-        {
-          "type": "single",
-          "course": "CS 3220"
+          "type": "choose",
+          "count": 1,
+          "options": ["CS 3510", "CS 3511"]
         },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "CS 3510",
-            "CS 3511"
-          ]
+          "options": ["CS 3300", "CS 4240"]
         },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "CS 3300",
-            "CS 4240"
-          ]
-        },
-        {
-          "type": "choose",
-          "count": 1,
-          "options": [
-            "CS 4210",
-            "CS 4220",
-            "ECE 4100"
-          ]
+          "options": ["CS 4210", "CS 4220", "ECE 4100"]
         }
       ]
     },
     "Telecommunications": {
       "totalCredits": 12,
       "requirements": [
+        { "type": "single", "course": "ECE 2026" },
         {
-          "type": "single",
-          "course": "ECE 2026"
+          "type": "choose",
+          "count": 1,
+          "options": ["ECE 3600", "CS 3251"]
         },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "ECE 3600",
-            "CS 3251"
-          ]
+          "options": ["ECE 4601", "ECE 4606"]
         },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "ECE 4601",
-            "ECE 4606"
-          ]
+          "options": ["ECE 3084", "ECE 4350", "ECE 4370", "ECE 4500", "ECE 4601", "ECE 4606", "ECE 4607", "ECE 4502", "ECE 4612"]
+        }
+      ]
+    }
+  },
+  "Computer Science": {
+    "Devices": {
+      "totalCredits": 23,
+      "requirements": [
+        { "type": "single", "course": "CS 2110" },
+        { "type": "single", "course": "CS 2200" },
+        { "type": "single", "course": "CS 3251" },
+        { "type": "single", "course": "ECE 2031" },
+        {
+          "type": "choose",
+          "count": 1,
+          "options": ["CS 3240", "CS 3510", "CS 3511"]
         },
         {
           "type": "choose",
           "count": 1,
-          "options": [
-            "ECE 3084",
-            "ECE 4350",
-            "ECE 4370",
-            "ECE 4500",
-            "ECE 4601",
-            "ECE 4606",
-            "ECE 4607",
-            "ECE 4502",
-            "ECE 4612"
-          ]
+          "options": ["CS 3651", "ECE 4180"]
+        },
+        {
+          "type": "choose",
+          "count": 1,
+          "options": ["CS 3630", "CS 4261", "CS 4476", "CS 4605"]
+        }
+      ]
+    },
+    "Cybersecurity and Privacy": {
+      "totalCredits": 15,
+      "requirements": [
+        { "type": "single", "course": "CS 3235" },
+        { "type": "single", "course": "CS 3237" },
+        {
+          "type": "pool",
+          "name": "Society and Systems",
+          "creditHours": 9,
+          "options": ["CS 4117", "CS 4238", "CS 4239", "CS 4243", "CS 4262", "CS 4263", "CS 4265", "CS 4267", "CS 4725", "CS 4726"]
+        }
+      ]
+    },
+    "Information Internetworks": {
+      "totalCredits": 20,
+      "requirements": [
+        { "type": "single", "course": "CS 2110" },
+        { "type": "single", "course": "CS 2200" },
+        {
+          "type": "choose",
+          "count": 1,
+          "options": ["CS 3510", "CS 3511"]
+        },
+        {
+          "type": "pool",
+          "name": "Introduction to Information Management",
+          "creditHours": 6,
+          "options": ["CS 3251", "CS 3235", "CS 4400"]
+        },
+        {
+          "type": "choose",
+          "count": 1,
+          "options": ["CS 4251", "CS 4255", "CS 4261", "CS 4262", "CS 4270", "CS 4365", "CS 4420", "CS 4440", "CS 4675"]
+        }
+      ]
+    },
+    "Artificial Intelligence": {
+      "totalCredits": 22,
+      "requirements": [
+        { "type": "single", "course": "CS 2110" },
+        {
+          "type": "choose",
+          "count": 1,
+          "options": ["CS 3510", "CS 3511"]
+        },
+        { "type": "single", "course": "CS 3600" },
+        {
+          "type": "choose",
+          "count": 1,
+          "options": ["CS 3630", "CS 3790", "PSYC 3040"]
+        },
+        {
+          "type": "pool",
+          "name": "Approaches to Intelligence",
+          "creditHours": 9,
+          "options": ["CS 4476", "CS 4510", "CS 4635", "CS 4641", "CS 4644", "CS 4646", "CS 4649", "CS 4650", "CS 4731"]
+        }
+      ]
+    },
+    "Media": {
+      "totalCredits": 13,
+      "requirements": [
+        { "type": "single", "course": "CS 2261" },
+        {
+          "type": "pool",
+          "name": "Media Technologies",
+          "creditHours": 9,
+          "options": ["CS 3451", "CS 4455", "CS 4460", "CS 4464", "CS 4475", "CS 4488", "CS 4496", "CS 4590"]
+        }
+      ]
+    },
+    "Modeling and Simulation": {
+      "totalCredits": 21,
+      "requirements": [
+        { "type": "single", "course": "CS 2110" },
+        { "type": "single", "course": "CS 2200" },
+        {
+          "type": "choose",
+          "count": 1,
+          "options": ["CS 3510", "CS 3511"]
+        },
+        {
+          "type": "choose",
+          "count": 1,
+          "options": ["MATH 2552", "MATH 2562"]
+        },
+        {
+          "type": "pool",
+          "name": "Computational Science and Engineering",
+          "creditHours": 6,
+          "options": ["CX 4140", "CX 4220", "CX 4230", "CX 4640", "CS 4641"]
+        }
+      ]
+    },
+    "People": {
+      "totalCredits": 19,
+      "requirements": [
+        {
+          "type": "choose",
+          "count": 1,
+          "options": ["CS 3750", "CS 3751"]
+        },
+        { "type": "single", "course": "PSYC 1101" },
+        { "type": "single", "course": "PSYC 2015" },
+        {
+          "type": "choose",
+          "count": 1,
+          "options": ["PSYC 2210", "PSYC 2760", "PSYC 3040"]
+        },
+        {
+          "type": "pool",
+          "name": "Human-Centered Technology",
+          "creditHours": 6,
+          "options": ["CS 3790", "CS 4460", "CS 4470", "CS 4472", "CS 4605", "CS 4660", "CS 4745"]
+        }
+      ]
+    },
+    "Systems and Architecture": {
+      "totalCredits": 25,
+      "requirements": [
+        { "type": "single", "course": "CS 2110" },
+        { "type": "single", "course": "CS 2200" },
+        { "type": "single", "course": "CS 3210" },
+        { "type": "single", "course": "CS 3220" },
+        { "type": "single", "course": "ECE 2031" },
+        {
+          "type": "choose",
+          "count": 1,
+          "options": ["CS 3510", "CS 3511"]
+        },
+        {
+          "type": "choose",
+          "count": 1,
+          "options": ["CS 4210", "CS 4220", "CS 4290"]
+        },
+        {
+          "type": "choose",
+          "count": 1,
+          "options": ["CS 3300", "CS 4240"]
+        }
+      ]
+    },
+    "Theory": {
+      "totalCredits": 19,
+      "requirements": [
+        { "type": "single", "course": "CS 2110" },
+        {
+          "type": "choose",
+          "count": 1,
+          "options": ["CS 3510", "CS 3511"]
+        },
+        { "type": "single", "course": "CS 4510" },
+        { "type": "single", "course": "CS 4540" },
+        { "type": "single", "course": "MATH 3406" },
+        {
+          "type": "choose",
+          "count": 1,
+          "options": ["MATH 4022", "MATH 4032", "MATH 4150"]
         }
       ]
     }

@@ -2889,5 +2889,154 @@
         "Telecommunications"
       ]
     }
+  },
+  "Computer Science": {
+    "totalCredits": 60,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CS 1301"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1554",
+          "MATH 1564"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2211"
+      },
+      {
+        "type": "single",
+        "course": "CS 1100"
+      },
+      {
+        "type": "single",
+        "course": "CS 1331"
+      },
+      {
+        "type": "single",
+        "course": "CS 1332"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 2050",
+          "CS 2051"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 2550"
+      },
+      {
+        "type": "single",
+        "course": "CS 2340"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 3001",
+          "CS 4001",
+          "CS 4002",
+          "CS 4003",
+          "CS 4726",
+          "SLS 3110"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 3012"
+      },
+      {
+        "type": "pool",
+        "name": "Probability and Statistics",
+        "creditHours": 3,
+        "options": [
+          "MATH 3215",
+          "MATH 3670",
+          "CEE 3770",
+          "ISYE 3770",
+          "ISYE 2027",
+          "ISYE 3030"
+        ]
+      }
+    ],
+    "threadSlots": {
+      "count": 2,
+      "options": [
+        "Devices",
+        "Cybersecurity and Privacy",
+        "Information Internetworks",
+        "Artificial Intelligence",
+        "Media",
+        "Modeling and Simulation",
+        "People",
+        "Systems and Architecture",
+        "Theory"
+      ]
+    }
   }
 }
