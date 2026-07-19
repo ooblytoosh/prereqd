@@ -20,17 +20,11 @@ function filterCourses(courseIds, searchTerm) {
   });
 }
 
-function getAvailableThreadsForSlot(threadSlots, selectedThreads, slotIndex, majorThreads) {
+function getAvailableThreadsForSlot(threadSlots, selectedThreads, slotIndex) {
   const chosenElsewhere = selectedThreads.filter((t, i) => i !== slotIndex && t);
 
   return threadSlots.options.filter(thread => {
-    if (chosenElsewhere.includes(thread)) return false;
-
-    return chosenElsewhere.every(chosen => {
-      const chosenIncompat = majorThreads[chosen]?.incompatibleWith || [];
-      const threadIncompat = majorThreads[thread]?.incompatibleWith || [];
-      return !chosenIncompat.includes(thread) && !threadIncompat.includes(chosen);
-    });
+    return !chosenElsewhere.includes(thread);
   });
 }
 
@@ -43,7 +37,6 @@ function App() {
 
   const majorData = selectedMajor ? MAJORS[selectedMajor] : null;
   const threadSlots = majorData?.threadSlots;
-  const majorThreads = selectedMajor ? (THREADS[selectedMajor] || {}) : {};
 
   const {
     takenCourses,
@@ -117,7 +110,7 @@ function App() {
               }}
             >
               <option value="">Select thread {i + 1}...</option>
-              {getAvailableThreadsForSlot(threadSlots, selectedThreads, i, majorThreads).map(t => (
+              {getAvailableThreadsForSlot(threadSlots, selectedThreads, i).map(t => (
                 <option key={t} value={t}>{t}</option>
               ))}
             </select>
