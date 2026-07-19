@@ -83,20 +83,6 @@ function App() {
     <div>
       <h1>prereqd</h1>
       <h1>{selectedMajor}</h1>
-      <ProgressBar completed={creditsCompleted} total={totalCredits}/>
-      <div className="button-row">
-        <button className="reset-button" onClick={resetProgress}>Reset Progress</button>
-        <button
-          className="revert-major"
-          onClick={() => {
-            setSelectedMajor(null);
-            setSelectedThreads([]);
-          }}
-        >
-          Change Major
-        </button>
-      </div>
-
       {threadSlots && (
         <div className="thread-selection">
           {selectedThreads.map((thread, i) => (
@@ -117,6 +103,19 @@ function App() {
           ))}
         </div>
       )}
+      <ProgressBar completed={creditsCompleted} total={totalCredits}/>
+      <div className="button-row">
+        <button className="reset-button" onClick={resetProgress}>Reset Progress</button>
+        <button
+          className="revert-major"
+          onClick={() => {
+            setSelectedMajor(null);
+            setSelectedThreads([]);
+          }}
+        >
+          Change Major
+        </button>
+      </div>
 
       {allThreadsPicked && (
         <>
