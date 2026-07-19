@@ -3204,5 +3204,170 @@
         "course": "MGT 3101"
       }
     ]
+  },
+  "Economics": {
+    "totalCredits": 73,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1315",
+          "CS 1301"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1712",
+          "MATH 1552"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Finite Math Requirement",
+        "creditHours": 4,
+        "options": [
+          "MATH 1711",
+          "MATH 1551",
+          "MATH 1553"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ECON 2105"
+      },
+      {
+        "type": "single",
+        "course": "ECON 2106"
+      },
+      {
+        "type": "single",
+        "course": "ECON 2250"
+      },
+      {
+        "type": "single",
+        "course": "ECON 3110"
+      },
+      {
+        "type": "single",
+        "course": "ECON 3120"
+      },
+      {
+        "type": "single",
+        "course": "ECON 3161"
+      },
+      {
+        "type": "single",
+        "course": "ECON 4010"
+      },
+      {
+        "type": "pool",
+        "name": "ECON Electives",
+        "creditHours": 24,
+        "options": [
+          "ECON 2010",
+          "ECON 2020",
+          "ECON 2030",
+          "ECON 2040",
+          "ECON 2050",
+          "ECON 2060",
+          "ECON 2100",
+          "ECON 2101",
+          "ECON 2699",
+          "ECON 2803",
+          "ECON 3150",
+          "ECON 3300",
+          "ECON 4001",
+          "ECON 4002",
+          "ECON 4003",
+          "ECON 4060",
+          "ECON 4160",
+          "ECON 4161",
+          "ECON 4170",
+          "ECON 4180",
+          "ECON 4190",
+          "ECON 4210",
+          "ECON 4232",
+          "ECON 4311",
+          "ECON 4321",
+          "ECON 4340",
+          "ECON 4350",
+          "ECON 4351",
+          "ECON 4352",
+          "ECON 4357",
+          "ECON 4360",
+          "ECON 4370",
+          "ECON 4401",
+          "ECON 4411",
+          "ECON 4412",
+          "ECON 4415",
+          "ECON 4440",
+          "ECON 4460",
+          "ECON 4510",
+          "ECON 4520",
+          "ECON 4610",
+          "ECON 4698",
+          "ECON 4699",
+          "ECON 4740",
+          "ECON 4741",
+          "ECON 4803",
+          "ECON 4811",
+          "ECON 4901",
+          "ECON 4910",
+          "ECON 4990"
+        ]
+      }
+    ]
   }
 }
