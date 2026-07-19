@@ -2291,5 +2291,281 @@
         ]
       }
     ]
+  },
+  "Civil Engineering": {
+    "totalCredits": 110,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CS 1371"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2211"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2212"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1553",
+          "MATH 1554",
+          "MATH 1564"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ECON 2100",
+          "ECON 2101",
+          "ECON 2105",
+          "ECON 2106"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Ethics Requirement",
+        "creditHours": 3,
+        "options": [
+          "BIOS 4651",
+          "CHBE 4515",
+          "CS 4001",
+          "CS 4726",
+          "HTS 1081",
+          "HTS 2061",
+          "HTS 2084",
+          "HTS 2100",
+          "HTS 3032",
+          "INTA 2030",
+          "LMC 3102",
+          "LMC 3112",
+          "LMC 3219",
+          "LMC 3304",
+          "LMC 3308",
+          "LMC 3318",
+          "MGT 3608",
+          "MGT 4047",
+          "MGT 4726",
+          "NS 4322",
+          "PHIL 3105",
+          "PHIL 3109",
+          "PHIL 3127",
+          "PHIL 3140",
+          "PHIL 3180",
+          "PHIL 4176",
+          "PSYC 1101",
+          "PSYC 2015",
+          "PSYC 2210",
+          "PSYC 2220",
+          "PSYC 2230",
+          "PSYC 2240",
+          "PSYC 2270",
+          "PSYC 3031",
+          "PSYC 4050",
+          "PSYC 4270",
+          "PUBP 3244",
+          "PUBP 3600",
+          "PUBP 4630",
+          "PUBP 4726"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "COE 2001"
+      },
+      {
+        "type": "single",
+        "course": "MATH 2551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 2552"
+      },
+      {
+        "type": "single",
+        "course": "CHEM 1310"
+      },
+      {
+        "type": "pool",
+        "name": "Biology/Earth Science Requirement",
+        "creditHours": 4,
+        "options": [
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 2600"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CEE 1070"
+      },
+      {
+        "type": "single",
+        "course": "CEE 1090"
+      },
+      {
+        "type": "single",
+        "course": "CEE 2040"
+      },
+      {
+        "type": "single",
+        "course": "CEE 2090"
+      },
+      {
+        "type": "single",
+        "course": "CEE 2300"
+      },
+      {
+        "type": "single",
+        "course": "CEE 3020"
+      },
+      {
+        "type": "single",
+        "course": "CEE 3040"
+      },
+      {
+        "type": "single",
+        "course": "CEE 3090"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CEE 3770",
+          "ISYE 3770",
+          "MATH 3670"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CEE 4090"
+      },
+      {
+        "type": "single",
+        "course": "COE 3001"
+      },
+      {
+        "type": "pool",
+        "name": "CE Breadth Electives",
+        "creditHours": 9,
+        "options": [
+          "CEE 3051",
+          "CEE 4100",
+          "CEE 4200",
+          "CEE 4300",
+          "CEE 3400",
+          "CEE 4600"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "CE Technical Electives",
+        "creditHours": 18,
+        "options": [
+          "CEE 3000",
+          "CEE 3010",
+          "CEE 3051",
+          "CEE 3055",
+          "CEE 3340",
+          "CEE 3400",
+          "CEE 3770",
+          "CEE 4000",
+          "CEE 4005",
+          "CEE 4050",
+          "CEE 4100",
+          "CEE 4101",
+          "CEE 4110",
+          "CEE 4120",
+          "CEE 4130",
+          "CEE 4140",
+          "CEE 4150",
+          "CEE 4160",
+          "CEE 4161",
+          "CEE 4170",
+          "CEE 4180",
+          "CEE 4200",
+          "CEE 4210",
+          "CEE 4211",
+          "CEE 4225",
+          "CEE 4300",
+          "CEE 4310",
+          "CEE 4320",
+          "CEE 4330",
+          "CEE 4340",
+          "CEE 4350",
+          "CEE 4360",
+          "CEE 4370",
+          "CEE 4395",
+          "CEE 4405",
+          "CEE 4406",
+          "CEE 4450",
+          "CEE 4460",
+          "CEE 4510",
+          "CEE 4520",
+          "CEE 4530",
+          "CEE 4540",
+          "CEE 4550",
+          "CEE 4551",
+          "CEE 4552",
+          "CEE 4560",
+          "CEE 4600",
+          "CEE 4610",
+          "CEE 4620",
+          "CEE 4640",
+          "CEE 4660",
+          "CEE 4670",
+          "CEE 4698",
+          "CEE 4699",
+          "CEE 4791",
+          "CEE 4793",
+          "CEE 4795",
+          "CEE 4803",
+          "CEE 4900",
+          "CEE 4901"
+        ]
+      }
+    ]
   }
 }
