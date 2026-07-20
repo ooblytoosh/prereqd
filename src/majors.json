@@ -4316,5 +4316,228 @@
         ]
       }
     ]
+  },
+  "Environmental Science": {
+    "totalCredits": 79,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1301",
+          "CS 1315",
+          "CS 1371"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "INTA 1200",
+          "POL 1101",
+          "HIST 2111",
+          "HIST 2112",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1553"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 1212K",
+          "CHEM 1315"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "EAS 1600"
+      },
+      {
+        "type": "single",
+        "course": "EAS 2600"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "BIOS 1207",
+          "BIOS 1107"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "BIOS 2300",
+          "BIOS 2310"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "BIOS 1107L",
+          "BIOS 1207L"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "BIOS 2301"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "EAS 4480",
+          "BIOS 4401"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "PUBP 4530",
+          "CP 4510",
+          "EAS 4380"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "PUBP 3315"
+      },
+      {
+        "type": "single",
+        "course": "EAS 4410"
+      },
+      {
+        "type": "single",
+        "course": "EAS 4420"
+      },
+      {
+        "type": "pool",
+        "name": "Microbiology or Environmental Geochemistry Requirement",
+        "creditHours": 4,
+        "options": [
+          "BIOS 3380",
+          "BIOS 3381",
+          "EAS 4220",
+          "EAS 4221"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Environmental Science Electives",
+        "creditHours": 9,
+        "options": [
+          "BIOS 3380",
+          "BIOS 3600",
+          "BIOS 4221",
+          "BIOS 4340",
+          "BIOS 4401",
+          "BIOS 4417",
+          "BIOS 4418",
+          "BIOS 4428",
+          "BIOS 4515",
+          "BIOS 4607",
+          "BIOS 4620",
+          "BIOS 4651",
+          "BIOS 4690",
+          "BIOS 4699",
+          "BIOS 4803",
+          "BIOS 4813",
+          "CEE 4300",
+          "CEE 4330",
+          "CEE 4350",
+          "CEE 4360",
+          "CHEM 3700",
+          "CP 4052",
+          "CP 4105",
+          "CP 4190",
+          "CP 4210",
+          "EAS 3110",
+          "EAS 3603",
+          "EAS 3803",
+          "EAS 4205",
+          "EAS 4220",
+          "EAS 4221",
+          "EAS 4224",
+          "EAS 4300",
+          "EAS 4305",
+          "EAS 4350",
+          "EAS 4375",
+          "EAS 4380",
+          "EAS 4430",
+          "EAS 4525",
+          "EAS 4602",
+          "EAS 4699",
+          "EAS 4740",
+          "EAS 4803",
+          "EAS 4813",
+          "ECON 3300",
+          "ECON 4440",
+          "HTS 3005",
+          "HTS 3081",
+          "INTA 3040",
+          "INTA 4040",
+          "PHIL 4176",
+          "PUBP 3320",
+          "PUBP 3350",
+          "PUBP 3600",
+          "PUBP 4440",
+          "PUBP 4530",
+          "PUBP 4620"
+        ]
+      }
+    ]
   }
 }
