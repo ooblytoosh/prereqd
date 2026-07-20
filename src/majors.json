@@ -5142,5 +5142,426 @@
         "course": "ID 4206"
       }
     ]
+  },
+  "Industrial Engineering": {
+    "totalCredits": 117,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CS 1301"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2211"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2212"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1553"
+      },
+      {
+        "type": "single",
+        "course": "CS 2316"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 2551",
+          "MATH 2550",
+          "MATH 2561"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ACCT 2101",
+          "MGT 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ISYE 2027"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science (Field of Study)",
+        "creditHours": 4,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ECON 2100",
+          "ECON 2101",
+          "ECON 2105",
+          "ECON 2106"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Ethics Requirement",
+        "creditHours": 3,
+        "options": [
+          "BIOS 4651",
+          "CHBE 4515",
+          "CS 4001",
+          "CS 4726",
+          "HTS 1081",
+          "HTS 2061",
+          "HTS 2084",
+          "HTS 2100",
+          "HTS 3032",
+          "INTA 2030",
+          "LMC 3102",
+          "LMC 3112",
+          "LMC 3219",
+          "LMC 3304",
+          "LMC 3308",
+          "LMC 3318",
+          "MGT 3608",
+          "MGT 4047",
+          "MGT 4726",
+          "NS 4322",
+          "PHIL 3105",
+          "PHIL 3109",
+          "PHIL 3127",
+          "PHIL 3140",
+          "PHIL 3180",
+          "PHIL 4176",
+          "PSYC 1101",
+          "PSYC 2015",
+          "PSYC 2210",
+          "PSYC 2220",
+          "PSYC 2230",
+          "PSYC 2240",
+          "PSYC 2270",
+          "PSYC 3031",
+          "PSYC 4050",
+          "PSYC 4270",
+          "PUBP 3244",
+          "PUBP 3600",
+          "PUBP 4630",
+          "PUBP 4726"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Environmental Requirement",
+        "creditHours": 3,
+        "options": [
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 2300",
+          "CEE 2300",
+          "CEE 4300",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "EAS 2750",
+          "EAS 3110",
+          "EAS 4480",
+          "ECON 4440",
+          "ISYE 4803",
+          "SLS 3120",
+          "PHYS 2750"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Human Factors Requirement",
+        "creditHours": 3,
+        "options": [
+          "ISYE 4803",
+          "ISYE 4009",
+          "CS 3751",
+          "PSYC 3751",
+          "CS 3790",
+          "PSYC 3790",
+          "ISYE 3790",
+          "ID 2320",
+          "PSYC 2220",
+          "PSYC 2270"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "System Design Requirement",
+        "creditHours": 3,
+        "options": [
+          "ISYE 3039",
+          "ISYE 3103",
+          "ISYE 3106",
+          "ISYE 4009",
+          "ISYE 4111",
+          "ISYE 4112",
+          "ISYE 4113",
+          "ISYE 4301",
+          "ISYE 4311",
+          "ISYE 4501",
+          "ISYE 4510",
+          "ISYE 4515",
+          "ISYE 4803"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CS 4400"
+      },
+      {
+        "type": "single",
+        "course": "ISYE 3030"
+      },
+      {
+        "type": "single",
+        "course": "ISYE 3025"
+      },
+      {
+        "type": "single",
+        "course": "ISYE 3133"
+      },
+      {
+        "type": "single",
+        "course": "ISYE 3232"
+      },
+      {
+        "type": "single",
+        "course": "ISYE 3044"
+      },
+      {
+        "type": "single",
+        "course": "ISYE 4031"
+      },
+      {
+        "type": "single",
+        "course": "ISYE 4106"
+      },
+      {
+        "type": "pool",
+        "name": "Engineering Elective - Core Selection",
+        "creditHours": 3,
+        "options": [
+          "ECE 2020",
+          "ECE 2026",
+          "ECE 3710",
+          "ECE 3741"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Engineering Electives - Group 1 and 2",
+        "creditHours": 6,
+        "options": [
+          "AE 2220",
+          "BMED 3100",
+          "CHBE 2100",
+          "COE 2001",
+          "COE 3001",
+          "CEE 2040",
+          "CEE 2300",
+          "CEE 3010",
+          "CEE 4100",
+          "CEE 4300",
+          "CEE 4600",
+          "CS 2110",
+          "CS 4641",
+          "CX 4010",
+          "CX 4240",
+          "CX 4242",
+          "ECE 2040",
+          "ECE 4606",
+          "ME 2202",
+          "ME 3322",
+          "ME 3720",
+          "MSE 2001",
+          "MSE 3015",
+          "NRE 3301",
+          "AE 4701",
+          "AE 4793",
+          "ARCH 6271",
+          "BIOS 2400",
+          "BIOS 4740",
+          "BMED 4751",
+          "CHBE 4793",
+          "COE 3002",
+          "CEE 4225",
+          "CEE 4330",
+          "CEE 4793",
+          "CP 4310",
+          "CP 4510",
+          "ECE 2031",
+          "ECE 4755",
+          "ISYE 4740",
+          "MATH 4755",
+          "ME 2110",
+          "ME 3057",
+          "ME 4740",
+          "ME 4793",
+          "MSE 2021",
+          "MSE 3720",
+          "MSE 4751",
+          "MSE 4755",
+          "MSE 4793"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 2603"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science (General Concentration)",
+        "creditHours": 4,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "General Concentration - Select Three",
+        "creditHours": 9,
+        "options": [
+          "CS 4641",
+          "CX 4240",
+          "CX 4242",
+          "ECON 3150",
+          "ECON 4340",
+          "ECON 4350",
+          "ISYE 3039",
+          "ISYE 3103",
+          "ISYE 3104",
+          "ISYE 3106",
+          "ISYE 4034",
+          "ISYE 4045",
+          "ISYE 4111",
+          "ISYE 4112",
+          "ISYE 4133",
+          "ISYE 4232",
+          "ISYE 4301",
+          "ISYE 4311",
+          "ISYE 4134",
+          "ISYE 4501",
+          "ISYE 4803",
+          "ISYE 6661",
+          "ISYE 6662",
+          "ISYE 6663",
+          "ISYE 6664",
+          "ISYE 6761",
+          "ISYE 6412",
+          "ISYE 8803",
+          "MATH 4262",
+          "MATH 4317",
+          "MGT 3078"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "General Concentration - Select Two",
+        "creditHours": 6,
+        "options": [
+          "CS 4641",
+          "CX 4240",
+          "CX 4242",
+          "ECON 3150",
+          "ECON 4340",
+          "ECON 4350",
+          "ISYE 3039",
+          "ISYE 3103",
+          "ISYE 3104",
+          "ISYE 3106",
+          "ISYE 4034",
+          "ISYE 4045",
+          "ISYE 4111",
+          "ISYE 4112",
+          "ISYE 4133",
+          "ISYE 4232",
+          "ISYE 4301",
+          "ISYE 4311",
+          "ISYE 4134",
+          "ISYE 4501",
+          "ISYE 4803",
+          "ISYE 6661",
+          "ISYE 6662",
+          "ISYE 6663",
+          "ISYE 6664",
+          "ISYE 6761",
+          "ISYE 6412",
+          "ISYE 8803",
+          "MATH 4262",
+          "MATH 4317",
+          "MGT 3078",
+          "ISYE 4510"
+        ]
+      }
+    ]
   }
 }
