@@ -4981,5 +4981,166 @@
         ]
       }
     ]
+  },
+  "Industrial Design": {
+    "totalCredits": 84,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CS 1315"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1553"
+      },
+      {
+        "type": "single",
+        "course": "ID 1011"
+      },
+      {
+        "type": "single",
+        "course": "ID 1012"
+      },
+      {
+        "type": "single",
+        "course": "ID 1401"
+      },
+      {
+        "type": "single",
+        "course": "ID 1402"
+      },
+      {
+        "type": "single",
+        "course": "ID 1418"
+      },
+      {
+        "type": "single",
+        "course": "ID 2023"
+      },
+      {
+        "type": "single",
+        "course": "ID 2024"
+      },
+      {
+        "type": "single",
+        "course": "ID 2242"
+      },
+      {
+        "type": "single",
+        "course": "ID 1419"
+      },
+      {
+        "type": "single",
+        "course": "ID 2101"
+      },
+      {
+        "type": "single",
+        "course": "ID 2102"
+      },
+      {
+        "type": "single",
+        "course": "ID 2202"
+      },
+      {
+        "type": "single",
+        "course": "ID 2320"
+      },
+      {
+        "type": "single",
+        "course": "ID 2325"
+      },
+      {
+        "type": "single",
+        "course": "ID 2510"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ID 3031",
+          "ID 3041",
+          "ID 3051"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ID 3032",
+          "ID 3042",
+          "ID 3052"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ID 3301"
+      },
+      {
+        "type": "single",
+        "course": "ID 3302"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ID 4061",
+          "ID 4071",
+          "ID 4081"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ID 4062",
+          "ID 4072",
+          "ID 4082"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ID 3320"
+      },
+      {
+        "type": "single",
+        "course": "ID 4206"
+      }
+    ]
   }
 }
