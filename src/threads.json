@@ -623,5 +623,115 @@
         }
       ]
     }
+  },
+  "Literature, Media, and Communication": {
+    "Literature": {
+      "totalCredits": 18,
+      "requirements": [
+        { "type": "single", "course": "LMC 2060" },
+        {
+          "type": "pool",
+          "name": "Literature Foundations",
+          "creditHours": 6,
+          "options": ["LMC 3202", "LMC 3226", "LMC 3502", "LMC 3504", "LMC 3506", "LMC 3511", "LMC 3512", "LMC 3514", "LMC 3516", "LMC 3518"]
+        },
+        {
+          "type": "pool",
+          "name": "Literature Specialty",
+          "creditHours": 9,
+          "options": ["LMC 3102", "LMC 3112", "LMC 3204", "LMC 3208", "LMC 3210", "LMC 3212", "LMC 3214", "LMC 3219", "LMC 3228", "LMC 3234", "LMC 3236", "LMC 3316", "LMC 3520", "LMC 3813", "LMC 4204"]
+        }
+      ]
+    },
+    "Media": {
+      "totalCredits": 18,
+      "requirements": [
+        { "type": "single", "course": "LMC 2400" },
+        {
+          "type": "pool",
+          "name": "Media Foundations",
+          "creditHours": 6,
+          "options": ["LMC 2410", "LMC 2500", "LMC 2600", "LMC 2700", "LMC 2720", "LMC 2730", "LMC 3206", "LMC 3314", "LMC 3404", "LMC 3405"]
+        },
+        {
+          "type": "pool",
+          "name": "Media Specialty",
+          "creditHours": 9,
+          "options": ["LMC 3252", "LMC 3253", "LMC 3254", "LMC 3255", "LMC 3256", "LMC 3257", "LMC 3258", "LMC 3259", "LMC 3263", "LMC 3352", "LMC 3402", "LMC 3406", "LMC 3407", "LMC 3813", "LMC 4730", "LMC 4733"]
+        }
+      ]
+    },
+    "Design": {
+      "totalCredits": 18,
+      "requirements": [
+        { "type": "single", "course": "LMC 2720" },
+        {
+          "type": "pool",
+          "name": "Design Foundations",
+          "creditHours": 6,
+          "options": ["LMC 2400", "LMC 2410", "LMC 2700", "LMC 2730", "LMC 3314", "LMC 3705", "LMC 3710", "LMC 4725", "LMC 4733"]
+        },
+        {
+          "type": "pool",
+          "name": "Design Specialty",
+          "creditHours": 9,
+          "options": ["LMC 3106", "LMC 3206", "LMC 3306", "LMC 3308", "LMC 3318", "LMC 3403", "LMC 3404", "LMC 3406", "LMC 3407", "LMC 3408", "LMC 3411", "LMC 3412", "LMC 3813", "LMC 4720", "LMC 4730"]
+        }
+      ]
+    },
+    "Communication": {
+      "totalCredits": 18,
+      "requirements": [
+        { "type": "single", "course": "LMC 3403" },
+        {
+          "type": "pool",
+          "name": "Communication Foundations",
+          "creditHours": 6,
+          "options": ["LMC 2400", "LMC 2720", "LMC 3206", "LMC 3310", "LMC 3402", "LMC 3404", "LMC 3405", "LMC 3406", "LMC 3408", "LMC 3411", "LMC 3412"]
+        },
+        {
+          "type": "pool",
+          "name": "Communication Specialty",
+          "creditHours": 9,
+          "options": ["LMC 3214", "LMC 3215", "LMC 3225", "LMC 3236", "LMC 3252", "LMC 3302", "LMC 3314", "LMC 3318", "LMC 3402", "LMC 3520", "LMC 3705", "LMC 3710", "LMC 3813", "LMC 4406", "LMC 4720"]
+        }
+      ]
+    },
+    "Science, Technology, and Culture": {
+      "totalCredits": 18,
+      "requirements": [
+        { "type": "single", "course": "LMC 2100" },
+        {
+          "type": "pool",
+          "name": "Science, Technology, and Culture Foundations",
+          "creditHours": 6,
+          "options": ["LMC 3104", "LMC 3106", "LMC 3112", "LMC 3214", "LMC 3215", "LMC 3310", "LMC 3318", "LMC 3302", "LMC 3304", "LMC 3306"]
+        },
+        {
+          "type": "pool",
+          "name": "Science, Technology, and Culture Specialty",
+          "creditHours": 9,
+          "options": ["LMC 3206", "LMC 3219", "LMC 3225", "LMC 3257", "LMC 3308", "LMC 3314", "LMC 3352", "LMC 3403", "LMC 3404", "LMC 3405", "LMC 3411", "LMC 3813", "LMC 4725", "LMC 4730", "LMC 4733"]
+        }
+      ]
+    },
+    "Social Justice": {
+      "totalCredits": 18,
+      "requirements": [
+        { "type": "single", "course": "LMC 2350" },
+        {
+          "type": "pool",
+          "name": "Social Justice Foundations",
+          "creditHours": 6,
+          "options": ["LMC 2200", "LMC 3208", "LMC 3210", "LMC 3212", "LMC 3219", "LMC 3225", "LMC 3302", "LMC 3304", "LMC 3306", "LMC 3318"]
+        },
+        {
+          "type": "pool",
+          "name": "Social Justice Specialty",
+          "creditHours": 9,
+          "options": ["LMC 3104", "LMC 3106", "LMC 3112", "LMC 3202", "LMC 3214", "LMC 3257", "LMC 3258", "LMC 3263", "LMC 3308", "LMC 3316", "LMC 3404", "LMC 3405", "LMC 3511", "LMC 3520", "LMC 3813"]
+        }
+      ]
+    }
   }
 }

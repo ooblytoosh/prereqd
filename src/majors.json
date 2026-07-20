@@ -6192,5 +6192,175 @@
         ]
       }
     ]
+  },
+  "Literature, Media, and Communication": {
+    "totalCredits": 45,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1301",
+          "CS 1315"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1712",
+          "MATH 1552"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Finite Math Requirement",
+        "creditHours": 4,
+        "options": [
+          "MATH 1711",
+          "MATH 1551",
+          "MATH 1553",
+          "MATH 1554",
+          "MATH 1564",
+          "MATH 1550"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Ethics Requirement",
+        "creditHours": 3,
+        "options": [
+          "BIOS 4651",
+          "CHBE 4515",
+          "CS 4001",
+          "CS 4726",
+          "HTS 1081",
+          "HTS 2061",
+          "HTS 2084",
+          "HTS 2100",
+          "HTS 3032",
+          "INTA 2030",
+          "LMC 3102",
+          "LMC 3112",
+          "LMC 3219",
+          "LMC 3304",
+          "LMC 3308",
+          "LMC 3318",
+          "MGT 3608",
+          "MGT 4047",
+          "MGT 4726",
+          "NS 4322",
+          "PHIL 3105",
+          "PHIL 3109",
+          "PHIL 3127",
+          "PHIL 3140",
+          "PHIL 3180",
+          "PHIL 4176",
+          "PSYC 1101",
+          "PSYC 2015",
+          "PSYC 2210",
+          "PSYC 2220",
+          "PSYC 2230",
+          "PSYC 2240",
+          "PSYC 2270",
+          "PSYC 3031",
+          "PSYC 4050",
+          "PSYC 4270",
+          "PUBP 3244",
+          "PUBP 3600",
+          "PUBP 4630",
+          "PUBP 4726"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "LMC 2000"
+      },
+      {
+        "type": "pool",
+        "name": "LMC Introductory Selections",
+        "creditHours": 6,
+        "options": [
+          "LMC 2050",
+          "LMC 2060",
+          "LMC 2100",
+          "LMC 2200",
+          "LMC 2350",
+          "LMC 2400",
+          "LMC 2450",
+          "LMC 2500",
+          "LMC 2600"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "LMC 4000",
+          "LMC 4500",
+          "LMC 4102"
+        ]
+      }
+    ],
+    "threadSlots": {
+      "count": 2,
+      "options": [
+        "Literature",
+        "Media",
+        "Design",
+        "Communication",
+        "Science, Technology, and Culture",
+        "Social Justice"
+      ]
+    }
   }
 }
