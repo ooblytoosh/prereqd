@@ -4721,5 +4721,265 @@
         ]
       }
     ]
+  },
+  "History, Technology, and Society": {
+    "totalCredits": 71,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1301",
+          "CS 1315"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1712",
+          "MATH 1552"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Finite Math Requirement",
+        "creditHours": 4,
+        "options": [
+          "MATH 1711",
+          "MATH 1551",
+          "MATH 1553"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "HTS 2101"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "SOC 1101"
+      },
+      {
+        "type": "pool",
+        "name": "HTS Electives",
+        "creditHours": 6,
+        "options": [
+          "HTS 1031",
+          "HTS 2036",
+          "HTS 2037",
+          "HTS 2040",
+          "HTS 2041",
+          "HTS 2053",
+          "HTS 2061",
+          "HTS 2062",
+          "HTS 3028",
+          "HTS 3029",
+          "HTS 3030",
+          "HTS 3031",
+          "HTS 3032",
+          "HTS 3033",
+          "HTS 3035",
+          "HTS 3036",
+          "HTS 3038",
+          "HTS 3039",
+          "HTS 3041",
+          "HTS 3046",
+          "HTS 3048",
+          "HTS 3051",
+          "HTS 3055",
+          "HTS 3061",
+          "HTS 3062",
+          "HTS 3064",
+          "HTS 3065"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "HTS 3102"
+      },
+      {
+        "type": "pool",
+        "name": "Science, Technology, and Society Selections",
+        "creditHours": 6,
+        "options": [
+          "HTS 1081",
+          "HTS 2080",
+          "HTS 2081",
+          "HTS 2082",
+          "HTS 2084",
+          "HTS 2100",
+          "HTS 3007",
+          "HTS 3020",
+          "HTS 3021",
+          "HTS 3046",
+          "HTS 3080",
+          "HTS 3081",
+          "HTS 3084",
+          "HTS 3086",
+          "HTS 3087",
+          "HTS 3088",
+          "HTS 3089"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "HTS Seminars",
+        "creditHours": 8,
+        "options": [
+          "HTS 4001",
+          "HTS 4011",
+          "HTS 4031",
+          "HTS 4081",
+          "HTS 4086",
+          "HTS 4091"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "HTS Specialization Electives",
+        "creditHours": 9,
+        "options": [
+          "HTS 1031",
+          "HTS 1081",
+          "HTS 2001",
+          "HTS 2002",
+          "HTS 2006",
+          "HTS 2007",
+          "HTS 2013",
+          "HTS 2015",
+          "HTS 2016",
+          "HTS 2017",
+          "HTS 2018",
+          "HTS 2036",
+          "HTS 2037",
+          "HTS 2040",
+          "HTS 2041",
+          "HTS 2051",
+          "HTS 2052",
+          "HTS 2053",
+          "HTS 2061",
+          "HTS 2062",
+          "HTS 2080",
+          "HTS 2081",
+          "HTS 2082",
+          "HTS 2084",
+          "HTS 2085",
+          "HTS 2086",
+          "HTS 2100",
+          "HTS 3002",
+          "HTS 3005",
+          "HTS 3006",
+          "HTS 3007",
+          "HTS 3008",
+          "HTS 3009",
+          "HTS 3011",
+          "HTS 3012",
+          "HTS 3015",
+          "HTS 3016",
+          "HTS 3017",
+          "HTS 3018",
+          "HTS 3019",
+          "HTS 3020",
+          "HTS 3021",
+          "HTS 3022",
+          "HTS 3023",
+          "HTS 3024",
+          "HTS 3025",
+          "HTS 3026",
+          "HTS 3027",
+          "HTS 3028",
+          "HTS 3029",
+          "HTS 3030",
+          "HTS 3031",
+          "HTS 3032",
+          "HTS 3033",
+          "HTS 3035",
+          "HTS 3036",
+          "HTS 3038",
+          "HTS 3039",
+          "HTS 3041",
+          "HTS 3046",
+          "HTS 3048",
+          "HTS 3051",
+          "HTS 3055",
+          "HTS 3061",
+          "HTS 3062",
+          "HTS 3064",
+          "HTS 3065",
+          "HTS 3067",
+          "HTS 3068",
+          "HTS 3070",
+          "HTS 3071",
+          "HTS 3072",
+          "HTS 3073",
+          "HTS 3080",
+          "HTS 3081",
+          "HTS 3082",
+          "HTS 3084",
+          "HTS 3086",
+          "HTS 3087",
+          "HTS 3088",
+          "HTS 3089",
+          "HTS 3100"
+        ]
+      }
+    ]
   }
 }
