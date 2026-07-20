@@ -6222,6 +6222,15 @@
     "prereqs": {},
     "hours": 3
   },
+  "CS 1316": {
+    "name": "Rep Structure & Behavior",
+    "prereqs": {
+      "and": [
+        "CS 1331"
+      ]
+    },
+    "hours": 3
+  },
   "CS 1331": {
     "name": "Intro-Object Orient Prog",
     "prereqs": {
@@ -16338,6 +16347,11 @@
     "prereqs": {},
     "hours": 3
   },
+  "MGT 2200": {
+    "name": "Information Technology",
+    "prereqs": {},
+    "hours": 3
+  },
   "MGT 2210": {
     "name": "Info Sys & Dig Transform",
     "prereqs": {},
@@ -16787,6 +16801,15 @@
     "prereqs": {
       "and": [
         "MGT 2250"
+      ]
+    },
+    "hours": 3
+  },
+  "MGT 4051": {
+    "name": "",
+    "prereqs": {
+      "and": [
+        "MGT 2200"
       ]
     },
     "hours": 3
