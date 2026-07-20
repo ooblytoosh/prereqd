@@ -3821,5 +3821,202 @@
         ]
       }
     ]
+  },
+  "Electrical Engineering": {
+    "totalCredits": 79,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CS 1301"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Ethics Requirement",
+        "creditHours": 3,
+        "options": [
+          "BIOS 4651",
+          "CHBE 4515",
+          "CS 4001",
+          "CS 4726",
+          "HTS 1081",
+          "HTS 2061",
+          "HTS 2084",
+          "HTS 2100",
+          "HTS 3032",
+          "INTA 2030",
+          "LMC 3102",
+          "LMC 3112",
+          "LMC 3219",
+          "LMC 3304",
+          "LMC 3308",
+          "LMC 3318",
+          "MGT 3608",
+          "MGT 4047",
+          "MGT 4726",
+          "NS 4322",
+          "PHIL 3105",
+          "PHIL 3109",
+          "PHIL 3127",
+          "PHIL 3140",
+          "PHIL 3180",
+          "PHIL 4176",
+          "PSYC 1101",
+          "PSYC 2015",
+          "PSYC 2210",
+          "PSYC 2220",
+          "PSYC 2230",
+          "PSYC 2240",
+          "PSYC 2270",
+          "PSYC 3031",
+          "PSYC 4050",
+          "PSYC 4270",
+          "PUBP 3244",
+          "PUBP 3600",
+          "PUBP 4630",
+          "PUBP 4726"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2211"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2212"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1554"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ECON 2100",
+          "ECON 2101",
+          "ECON 2105",
+          "ECON 2106"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 2551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 2552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 1310",
+          "CHEM 1211K"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ECE 2020"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CEE 3770",
+          "ISYE 3770",
+          "MATH 3670",
+          "ECE 3077"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ECE 1100"
+      },
+      {
+        "type": "single",
+        "course": "ECE 2026"
+      },
+      {
+        "type": "single",
+        "course": "ECE 2031"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ECE 2035",
+          "ECE 2036"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ECE 2040"
+      },
+      {
+        "type": "single",
+        "course": "ECE 3005"
+      },
+      {
+        "type": "single",
+        "course": "ECE 3025"
+      },
+      {
+        "type": "single",
+        "course": "ECE 3040"
+      },
+      {
+        "type": "single",
+        "course": "ECE 3043"
+      }
+    ],
+    "threadSlots": {
+      "count": 2,
+      "options": [
+        "Bioengineering",
+        "Circuit Technology",
+        "Sensing & Exploration",
+        "Electric Energy Systems",
+        "Electronic Devices",
+        "Signal & Information Processing",
+        "Robotics and Autonomous Systems",
+        "Telecommunications"
+      ]
+    }
   }
 }
