@@ -5871,5 +5871,326 @@
         ]
       }
     ]
+  },
+  "International Affairs and Modern Languages": {
+    "totalCredits": 82,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1315",
+          "CS 1301"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1712",
+          "MATH 1552"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Finite Math Requirement",
+        "creditHours": 4,
+        "options": [
+          "MATH 1711",
+          "MATH 1551",
+          "MATH 1553"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "INTA 2010"
+      },
+      {
+        "type": "single",
+        "course": "INTA 2040"
+      },
+      {
+        "type": "pool",
+        "name": "Any INTA",
+        "creditHours": 9,
+        "options": [
+          "INTA 1050",
+          "INTA 1200",
+          "INTA 2030",
+          "INTA 2042",
+          "INTA 2050",
+          "INTA 2100",
+          "INTA 2120",
+          "INTA 2210",
+          "INTA 2220",
+          "INTA 2221",
+          "INTA 2230",
+          "INTA 2241",
+          "INTA 2260",
+          "INTA 2695",
+          "INTA 2698",
+          "INTA 2699",
+          "INTA 2803",
+          "INTA 2901",
+          "INTA 2903",
+          "INTA 3010",
+          "INTA 3012",
+          "INTA 3020",
+          "INTA 3031",
+          "INTA 3040",
+          "INTA 3042",
+          "INTA 3043",
+          "INTA 3044",
+          "INTA 3050",
+          "INTA 3101",
+          "INTA 3102",
+          "INTA 3103",
+          "INTA 3104",
+          "INTA 3111",
+          "INTA 3120",
+          "INTA 3121",
+          "INTA 3130",
+          "INTA 3131",
+          "INTA 3220",
+          "INTA 3221",
+          "INTA 3223",
+          "INTA 3230",
+          "INTA 3231",
+          "INTA 3232",
+          "INTA 3240",
+          "INTA 3241",
+          "INTA 3242",
+          "INTA 3243",
+          "INTA 3260",
+          "INTA 3303",
+          "INTA 3304",
+          "INTA 3321",
+          "INTA 3330",
+          "INTA 3331",
+          "INTA 3773",
+          "INTA 3803",
+          "INTA 4007",
+          "INTA 4011",
+          "INTA 4014",
+          "INTA 4016",
+          "INTA 4040",
+          "INTA 4050",
+          "INTA 4060",
+          "INTA 4101",
+          "INTA 4121",
+          "INTA 4230",
+          "INTA 4240",
+          "INTA 4241",
+          "INTA 4331",
+          "INTA 4332",
+          "INTA 4333",
+          "INTA 4340",
+          "INTA 4694",
+          "INTA 4695",
+          "INTA 4698",
+          "INTA 4699",
+          "INTA 4740",
+          "INTA 4742",
+          "INTA 4744",
+          "INTA 4745",
+          "INTA 4803",
+          "INTA 4811",
+          "INTA 4901",
+          "INTA 4902",
+          "INTA 4903"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "BMED 2400",
+          "CP 4510",
+          "CS 1301",
+          "CS 1315",
+          "CS 1316",
+          "CS 1331",
+          "CS 2316",
+          "EAS 3110",
+          "EAS 4480",
+          "ECE 2020",
+          "ID 3103",
+          "LMC 3402",
+          "LMC 3410",
+          "ME 2016",
+          "MGT 2210",
+          "MGT 4051",
+          "MGT 4052"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "INTA 1110"
+      },
+      {
+        "type": "single",
+        "course": "INTA 2001"
+      },
+      {
+        "type": "single",
+        "course": "INTA 3110"
+      },
+      {
+        "type": "single",
+        "course": "INTA 3203"
+      },
+      {
+        "type": "single",
+        "course": "INTA 3301"
+      },
+      {
+        "type": "single",
+        "course": "INTA 4500"
+      },
+      {
+        "type": "pool",
+        "name": "INTA 3000/4000-level Electives",
+        "creditHours": 12,
+        "options": [
+          "INTA 3010",
+          "INTA 3012",
+          "INTA 3020",
+          "INTA 3031",
+          "INTA 3040",
+          "INTA 3042",
+          "INTA 3043",
+          "INTA 3044",
+          "INTA 3050",
+          "INTA 3101",
+          "INTA 3102",
+          "INTA 3103",
+          "INTA 3104",
+          "INTA 3111",
+          "INTA 3120",
+          "INTA 3121",
+          "INTA 3130",
+          "INTA 3131",
+          "INTA 3220",
+          "INTA 3221",
+          "INTA 3223",
+          "INTA 3230",
+          "INTA 3231",
+          "INTA 3232",
+          "INTA 3240",
+          "INTA 3241",
+          "INTA 3242",
+          "INTA 3243",
+          "INTA 3260",
+          "INTA 3303",
+          "INTA 3304",
+          "INTA 3321",
+          "INTA 3330",
+          "INTA 3331",
+          "INTA 3773",
+          "INTA 3803",
+          "INTA 4007",
+          "INTA 4011",
+          "INTA 4014",
+          "INTA 4016",
+          "INTA 4040",
+          "INTA 4050",
+          "INTA 4060",
+          "INTA 4101",
+          "INTA 4121",
+          "INTA 4230",
+          "INTA 4240",
+          "INTA 4241",
+          "INTA 4331",
+          "INTA 4332",
+          "INTA 4333",
+          "INTA 4340",
+          "INTA 4694",
+          "INTA 4695",
+          "INTA 4698",
+          "INTA 4699",
+          "INTA 4740",
+          "INTA 4742",
+          "INTA 4744",
+          "INTA 4745",
+          "INTA 4803",
+          "INTA 4811",
+          "INTA 4901",
+          "INTA 4902",
+          "INTA 4903"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHIN 4500",
+          "FREN 4500",
+          "GRMN 4500",
+          "JAPN 4500",
+          "KOR 4500",
+          "RUSS 4500",
+          "SPAN 4500"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ECON 2100",
+          "ECON 2101",
+          "ECON 2105",
+          "ECON 2106"
+        ]
+      }
+    ]
   }
 }
