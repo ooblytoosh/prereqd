@@ -7570,6 +7570,15 @@
     },
     "hours": 3
   },
+  "CX 4641": {
+    "name": "Numerical Analysis II",
+    "prereqs": {
+      "and": [
+        "MATH 4640"
+      ]
+    },
+    "hours": 3
+  },
   "CX 4740": {
     "name": "Comp Meth for Simul & ML",
     "prereqs": {
@@ -7585,6 +7594,11 @@
         "MATH 3406"
       ]
     },
+    "hours": 3
+  },
+  "CX 4803": {
+    "name": "Special Topics",
+    "prereqs": {},
     "hours": 3
   },
   "CX 4893": {

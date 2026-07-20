@@ -6568,5 +6568,147 @@
         ]
       }
     ]
+  },
+  "Mathematics and Computing": {
+    "totalCredits": 65,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CS 1301"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1551",
+          "MATH 1550"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1554",
+          "MATH 1564"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CS 1331"
+      },
+      {
+        "type": "single",
+        "course": "CS 2110"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 2551",
+          "MATH 2561"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 2552",
+          "MATH 2562"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 2740",
+          "CS 2740"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CS 3001"
+      },
+      {
+        "type": "single",
+        "course": "CS 1332"
+      },
+      {
+        "type": "single",
+        "course": "MATH 3406"
+      },
+      {
+        "type": "single",
+        "course": "MATH 4317"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 3740",
+          "CS 3740"
+        ]
+      }
+    ],
+    "threadSlots": {
+      "count": 1,
+      "options": [
+        "Theoretical Computer Science and Discrete Math",
+        "Modeling, Simulation, Data and Applied Math",
+        "Mathematical Intelligence and Data Science"
+      ]
+    }
   }
 }
