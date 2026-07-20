@@ -6362,5 +6362,211 @@
         "Social Justice"
       ]
     }
+  },
+  "Mathematics": {
+    "totalCredits": 87,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CS 1301"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1551",
+          "MATH 1550"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1553",
+          "MATH 1554",
+          "MATH 1564"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CS 1331"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2212"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 2551",
+          "MATH 2561"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 2552",
+          "MATH 2562"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 2106"
+      },
+      {
+        "type": "single",
+        "course": "MATH 3012"
+      },
+      {
+        "type": "single",
+        "course": "MATH 3235"
+      },
+      {
+        "type": "single",
+        "course": "MATH 3406"
+      },
+      {
+        "type": "single",
+        "course": "MATH 4107"
+      },
+      {
+        "type": "single",
+        "course": "MATH 4317"
+      },
+      {
+        "type": "single",
+        "course": "MATH 4320"
+      },
+      {
+        "type": "pool",
+        "name": "General Mathematics - Group A",
+        "creditHours": 12,
+        "options": [
+          "MATH 3236",
+          "MATH 4022",
+          "MATH 4032",
+          "MATH 4108",
+          "MATH 4150",
+          "MATH 4210",
+          "MATH 4221",
+          "MATH 4261",
+          "MATH 4318",
+          "MATH 4347",
+          "MATH 4431",
+          "MATH 4432",
+          "MATH 4441",
+          "MATH 4541",
+          "MATH 4640"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "General Mathematics - Additional Selection",
+        "creditHours": 9,
+        "options": [
+          "MATH 3236",
+          "MATH 4022",
+          "MATH 4032",
+          "MATH 4108",
+          "MATH 4150",
+          "MATH 4210",
+          "MATH 4221",
+          "MATH 4261",
+          "MATH 4318",
+          "MATH 4347",
+          "MATH 4431",
+          "MATH 4432",
+          "MATH 4441",
+          "MATH 4541",
+          "MATH 4640",
+          "MATH 4012",
+          "MATH 4080",
+          "MATH 4090",
+          "MATH 4222",
+          "MATH 4255",
+          "MATH 4262",
+          "MATH 4280",
+          "MATH 4348",
+          "MATH 4542",
+          "MATH 4580",
+          "MATH 4581",
+          "MATH 4641",
+          "MATH 4699",
+          "MATH 4755",
+          "MATH 4777",
+          "MATH 4782",
+          "MATH 4801",
+          "MATH 4802",
+          "CS 3510",
+          "CS 3511",
+          "CS 4510",
+          "CS 4540",
+          "CS 4641",
+          "CX 4140",
+          "CX 4240",
+          "CS 4530",
+          "ECON 3161",
+          "ECON 4180",
+          "ISYE 3133",
+          "ISYE 4031",
+          "ISYE 4133"
+        ]
+      }
+    ]
   }
 }
