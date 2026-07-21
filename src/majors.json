@@ -7519,5 +7519,182 @@
         ]
       }
     ]
+  },
+   "Psychology": {
+    "totalCredits": 79,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1301",
+          "CS 1315",
+          "CS 1371"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Any Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1553",
+          "MATH 1554",
+          "MATH 1564"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "BIOS 1107"
+      },
+      {
+        "type": "single",
+        "course": "BIOS 1107L"
+      },
+      {
+        "type": "single",
+        "course": "BIOS 1108"
+      },
+      {
+        "type": "single",
+        "course": "BIOS 1108L"
+      },
+      {
+        "type": "single",
+        "course": "PSYC 1101"
+      },
+      {
+        "type": "single",
+        "course": "PSYC 2020"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "PSYC 2103",
+          "PSYC 2210",
+          "PSYC 2230",
+          "PSYC 2240"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "PSYC 2015"
+      },
+      {
+        "type": "pool",
+        "name": "Cognitive/Biopsychology Selection",
+        "creditHours": 8,
+        "options": [
+          "PSYC 4011",
+          "PSYC 4020",
+          "PSYC 4025",
+          "PSYC 4041"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "PSYC 4031",
+          "PSYC 4601"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "PSYC Electives",
+        "creditHours": 15,
+        "options": [
+          "PSYC 2005",
+          "PSYC 2130",
+          "PSYC 2220",
+          "PSYC 2270",
+          "PSYC 2280",
+          "PSYC 2695",
+          "PSYC 2699",
+          "PSYC 2760",
+          "PSYC 2803",
+          "PSYC 3000",
+          "PSYC 3005",
+          "PSYC 3009",
+          "PSYC 3031",
+          "PSYC 3100",
+          "PSYC 3750",
+          "PSYC 3790",
+          "PSYC 3803",
+          "PSYC 3873",
+          "PSYC 4010",
+          "PSYC 4050",
+          "PSYC 4090",
+          "PSYC 4100",
+          "PSYC 4200",
+          "PSYC 4260",
+          "PSYC 4270",
+          "PSYC 4600",
+          "PSYC 4690",
+          "PSYC 4695",
+          "PSYC 4697",
+          "PSYC 4699",
+          "PSYC 4740",
+          "PSYC 4745",
+          "PSYC 4803"
+        ]
+      }
+    ]
   }
 }
