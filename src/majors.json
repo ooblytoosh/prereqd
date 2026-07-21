@@ -7307,5 +7307,217 @@
         ]
       }
     ]
+  },
+  "Physics": {
+    "totalCredits": 92,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1301",
+          "CS 1371"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "PHYS 2211",
+          "PHYS 2231"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "PHYS 2212",
+          "PHYS 2232"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1553",
+          "MATH 1554",
+          "MATH 1564"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 2551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 2552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 1310",
+          "CHEM 1211K"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2303"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2304"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3122"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3123"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3141"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3143"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 3201"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 4142"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 4143"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 4321"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 4604"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 4605"
+      },
+      {
+        "type": "pool",
+        "name": "PHYS or Technical Electives",
+        "creditHours": 18,
+        "options": [
+          "PHYS 1111K",
+          "PHYS 11X2",
+          "PHYS 2021",
+          "PHYS 2022",
+          "PHYS 2210",
+          "PHYS 2213",
+          "PHYS 2698",
+          "PHYS 2699",
+          "PHYS 2750",
+          "PHYS 2802",
+          "PHYS 2803",
+          "PHYS 2901",
+          "PHYS 2902",
+          "PHYS 3022",
+          "PHYS 3120",
+          "PHYS 3151",
+          "PHYS 3202",
+          "PHYS 3207",
+          "PHYS 3208",
+          "PHYS 3209",
+          "PHYS 3210",
+          "PHYS 3232",
+          "PHYS 3250",
+          "PHYS 3806",
+          "PHYS 3807",
+          "PHYS 4147",
+          "PHYS 4206",
+          "PHYS 4247",
+          "PHYS 4250",
+          "PHYS 4251",
+          "PHYS 4260",
+          "PHYS 4261",
+          "PHYS 4262",
+          "PHYS 4263",
+          "PHYS 4267",
+          "PHYS 4301",
+          "PHYS 4322",
+          "PHYS 4347",
+          "PHYS 4421",
+          "PHYS 4698",
+          "PHYS 4699",
+          "PHYS 4740",
+          "PHYS 4745",
+          "PHYS 4751",
+          "PHYS 4760",
+          "PHYS 4782",
+          "PHYS 4801",
+          "PHYS 4802",
+          "PHYS 4803",
+          "PHYS 4813",
+          "PHYS 4823",
+          "PHYS 4833",
+          "PHYS 4854",
+          "CHEM 3411",
+          "CHEM 3412",
+          "CHEM 3511",
+          "EAS 2750",
+          "EAS 4300",
+          "EAS 4430",
+          "MATH 2106",
+          "MATH 3215",
+          "MATH 3235",
+          "MATH 4320",
+          "MATH 4347",
+          "MATH 4581",
+          "NRE 3301",
+          "NRE 4610"
+        ]
+      }
+    ]
   }
 }
