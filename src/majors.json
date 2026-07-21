@@ -8074,5 +8074,155 @@
         ]
       }
     ]
+  },
+  "Urban Planning and Spatial Analytics": {
+    "totalCredits": 69,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1301",
+          "CS 1315"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1712",
+          "MATH 1552"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Finite Math Requirement",
+        "creditHours": 4,
+        "options": [
+          "MATH 1711",
+          "MATH 1551",
+          "MATH 1553"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science Elective",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CP 2020"
+      },
+      {
+        "type": "single",
+        "course": "CP 2233"
+      },
+      {
+        "type": "single",
+        "course": "CP 2030"
+      },
+      {
+        "type": "single",
+        "course": "CP 2040"
+      },
+      {
+        "type": "single",
+        "course": "CP 3024"
+      },
+      {
+        "type": "single",
+        "course": "CP 3025"
+      },
+      {
+        "type": "single",
+        "course": "CP 4190"
+      },
+      {
+        "type": "single",
+        "course": "CP 4510"
+      },
+      {
+        "type": "single",
+        "course": "CP 4060"
+      },
+      {
+        "type": "single",
+        "course": "CP 4052"
+      },
+      {
+        "type": "pool",
+        "name": "CP Electives or Other Electives",
+        "creditHours": 9,
+        "options": [
+          "ARCH 4107",
+          "ARCH 4151",
+          "ARCH 4320",
+          "BC 4120",
+          "BC 4270",
+          "CEE 4160",
+          "CEE 4600",
+          "CEE 4610",
+          "CEE 4620",
+          "EAS 3110",
+          "EAS 4410",
+          "EAS 4480",
+          "ECON 4421",
+          "ECON 4440",
+          "HTS 3012",
+          "HTS 3011",
+          "HTS 3081",
+          "PUBP 4803",
+          "PUBP 3315",
+          "PUBP 3320",
+          "PUBP 3350",
+          "PUBP 3600",
+          "PUBP 4211"
+        ]
+      }
+    ]
   }
 }
