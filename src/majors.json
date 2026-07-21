@@ -7696,5 +7696,231 @@
         ]
       }
     ]
+  },
+  "Public Policy": {
+    "totalCredits": 84,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "CS 1315"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1712",
+          "MATH 1552"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "POL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Finite Math Requirement",
+        "creditHours": 4,
+        "options": [
+          "MATH 1711",
+          "MATH 1551",
+          "MATH 1553"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ECON 2106"
+      },
+      {
+        "type": "single",
+        "course": "PHIL 2025"
+      },
+      {
+        "type": "single",
+        "course": "PUBP 2010"
+      },
+      {
+        "type": "single",
+        "course": "PUBP 2030"
+      },
+      {
+        "type": "pool",
+        "name": "Science, Computing, or Engineering Elective",
+        "creditHours": 6,
+        "options": [
+          "ME 1770",
+          "BC 3630",
+          "BIOS 2300",
+          "BIOS 2600",
+          "CHEM 2211",
+          "CHEM 2311",
+          "CHEM 2312",
+          "CHEM 2380",
+          "CHEM 3380",
+          "CS 6764",
+          "CP 4510",
+          "CS 1171",
+          "CS 1331",
+          "CS 1332",
+          "ME 6754",
+          "EAS 2420",
+          "EAS 2600",
+          "EAS 2655",
+          "EAS 2750",
+          "EAS 4420",
+          "EAS 4430",
+          "EAS 4450",
+          "EAS 4602",
+          "ID 3103",
+          "ID 4103",
+          "LMC 6312",
+          "ME 2016",
+          "MGT 4058",
+          "MUSI 4630",
+          "PHYS 2213",
+          "PHYS 3123",
+          "PHYS 3141",
+          "PHYS 4142",
+          "PSYC 2020",
+          "PSYC 2270",
+          "PSYC 3020",
+          "PSYC 3031",
+          "PSYC 3040",
+          "PSYC 3790",
+          "PSYC 4010",
+          "PSYC 4031",
+          "PSYC 4050",
+          "PSYC 4090",
+          "PSYC 4100",
+          "PSYC 4270"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "PUBP 3020"
+      },
+      {
+        "type": "single",
+        "course": "PUBP 3030"
+      },
+      {
+        "type": "single",
+        "course": "PUBP 3120"
+      },
+      {
+        "type": "single",
+        "course": "PUBP 3130"
+      },
+      {
+        "type": "single",
+        "course": "PUBP 4010"
+      },
+      {
+        "type": "single",
+        "course": "PUBP 4020"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "PUBP 2651",
+          "PUBP 4651"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "BSPP Depth Electives",
+        "creditHours": 15,
+        "options": [
+          "PHIL 4176",
+          "PUBP 3315",
+          "PUBP 3320",
+          "PUBP 3350",
+          "PUBP 3600",
+          "PUBP 4440",
+          "PUBP 4620",
+          "PHIL 3127",
+          "PHIL 3180",
+          "PUBP 3230",
+          "PUBP 3244",
+          "PUBP 3502",
+          "PUBP 4111",
+          "PUBP 4214",
+          "PUBP 4410",
+          "PUBP 4414",
+          "PUBP 4501",
+          "PUBP 4640",
+          "PUBP 4650",
+          "PUBP 4725",
+          "PUBP 4756",
+          "PUBP 3201",
+          "PUBP 3210",
+          "PUBP 3214",
+          "PUBP 4200",
+          "PUBP 4211",
+          "PUBP 4212",
+          "PUBP 4630",
+          "PHIL 2010",
+          "PHIL 3050",
+          "PHIL 3102",
+          "PHIL 3103",
+          "PHIL 3105",
+          "PHIL 3109",
+          "PHIL 3113",
+          "PHIL 3115",
+          "PHIL 3135",
+          "PHIL 3140",
+          "PHIL 3790",
+          "PHIL 4110",
+          "POL 2101",
+          "PUBP 1142",
+          "PUBP 2142",
+          "PUBP 3000",
+          "PUBP 3016",
+          "PUBP 3141",
+          "PUBP 3510",
+          "PUBP 3520",
+          "PUBP 4140",
+          "PUBP 4226"
+        ]
+      }
+    ]
   }
 }
