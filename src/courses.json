@@ -6761,6 +6761,15 @@
     },
     "hours": 3
   },
+  "CS 4255": {
+    "name": "Intro-Network Management",
+    "prereqs": {
+      "and": [
+        "CS 3251"
+      ]
+    },
+    "hours": 3
+  },
   "CS 4261": {
     "name": "Mobile Apps & Svcs",
     "prereqs": {
@@ -6809,6 +6818,15 @@
   "CS 4267": {
     "name": "Critical Infrastructures",
     "prereqs": {},
+    "hours": 3
+  },
+  "CS 4270": {
+    "name": "Data Communications Lab",
+    "prereqs": {
+      "and": [
+        "CS 3251"
+      ]
+    },
     "hours": 3
   },
   "CS 4271": {
@@ -7508,12 +7526,36 @@
     "prereqs": {},
     "hours": 21
   },
+  "CX 4010": {
+    "name": "Computational Prob Solv",
+    "prereqs": {
+      "or": [
+        "CS 1371",
+        "CS 1301"
+      ]
+    },
+    "hours": 3
+  },
   "CX 4140": {
     "name": "Comp Model Algorithms",
     "prereqs": {
       "or": [
         "CS 1331",
         "CS 2316",
+        "ECE 2035",
+        "ECE 2036"
+      ]
+    },
+    "hours": 3
+  },
+  "CX 4220": {
+    "name": "Intro High Perf Comp",
+    "prereqs": {
+      "or": [
+        "CS 1331",
+        "CS 1372",
+        "CS 2316",
+        "CX 4010",
         "ECE 2035",
         "ECE 2036"
       ]

@@ -2221,8 +2221,6 @@
           "CHBE 4782",
           "CHBE 4791",
           "CHBE 4793",
-          "CHBE 6120",
-          "CHBE 6794",
           "COE 2001",
           "COE 3001",
           "COE 3002",
@@ -7077,6 +7075,236 @@
       {
         "type": "single",
         "course": "MUSI 4705"
+      }
+    ]
+  },
+  "Neuroscience": {
+    "totalCredits": 86,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1301",
+          "CS 1315",
+          "CS 1371"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "HIST 2111",
+          "HIST 2112",
+          "INTA 1200",
+          "POL 1101",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1551",
+          "MATH 1550"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "MATH 1553",
+          "MATH 1554",
+          "MATH 1564"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 1310",
+          "CHEM 1211K"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 1315",
+          "CHEM 2311"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "BIOS 1107",
+          "BIOS 1207"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "BIOS 1107L",
+          "BIOS 1207L"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "Principles in Neuroscience",
+        "creditHours": 4,
+        "options": [
+          "NEUR 2001",
+          "NEUR 2010",
+          "NEUR 2010L"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "BIOS 4401",
+          "BMED 2400",
+          "ISYE 3770",
+          "ECE 3077",
+          "PSYC 2020",
+          "MATH 3215",
+          "MATH 3670"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2211"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2212"
+      },
+      {
+        "type": "single",
+        "course": "NEUR 3001"
+      },
+      {
+        "type": "single",
+        "course": "NEUR 3002"
+      },
+      {
+        "type": "single",
+        "course": "NEUR 3003"
+      },
+      {
+        "type": "single",
+        "course": "NEUR 3010"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHEM 3511",
+          "CHEM 3521"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "NEUR 4001",
+          "NEUR 4601"
+        ]
+      },{
+        "type": "pool",
+        "name": "Neuroscience Electives",
+        "creditHours": 11,
+        "options": [
+          "BIOS 2600",
+          "BIOS 2610",
+          "BIOS 3450",
+          "BIOS 3451",
+          "BIOS 3753",
+          "BIOS 3754",
+          "BIOS 3755",
+          "BIOS 3756",
+          "BIOS 4200",
+          "BIOS 4238",
+          "BIOS 4400",
+          "BIOS 4464",
+          "BIOS 4471",
+          "BIOS 4480",
+          "BIOS 4651",
+          "BIOS 4746",
+          "CHEM 3522",
+          "CHEM 4803",
+          "MATH 4803",
+          "NEUR 2699",
+          "NEUR 2803",
+          "NEUR 3803",
+          "NEUR 4100",
+          "NEUR 4200",
+          "NEUR 4238",
+          "NEUR 4300",
+          "NEUR 4400",
+          "NEUR 4699",
+          "NEUR 4696",
+          "NEUR 4697",
+          "NEUR 4740",
+          "NEUR 4803",
+          "PHYS 3250",
+          "PHYS 4251",
+          "PSYC 2015",
+          "PSYC 2103",
+          "PSYC 2230",
+          "PSYC 3012",
+          "PSYC 3040",
+          "PSYC 4011",
+          "PSYC 4041",
+          "PSYC 4100",
+          "PSYC 4090",
+          "PSYC 4745",
+          "PSYC 4803"
+        ]
       }
     ]
   }
