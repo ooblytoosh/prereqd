@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useCourseTracker } from './useCourseTracker';
 import { CourseColumn } from './components/CourseColumn';
 import { PoolCard } from './components/PoolCard';
@@ -7,6 +7,20 @@ import COURSES from './courses.json'
 import MAJORS from './majors.json';
 import THREADS from './threads.json';
 import './App.css';
+
+function encodeShareData(major, threads, taken) {
+  const data = {major: major, threads: threads, taken: [...taken]};
+  return btoa(encodeURIComponent(JSON.stringify(data)));
+}
+
+function decodeShareData(encodedData) {
+  try {
+    const json = decodeURIComponent(atob(encodedData));
+    return JSON.parse(json)
+  } catch {
+    return null;
+  }
+}
 
 function filterCourses(courseIds, searchTerm) {
   if (!searchTerm.trim()) return courseIds;
@@ -34,6 +48,30 @@ function App() {
   const [takenSearch, setTakenSearch] = useState("");
   const [availableSearch, setAvailableSearch] = useState("");
   const [lockedSearch, setLockedSearch] = useState("");
+  const [linkCopied, setLinkCopied] = useState(false);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const encodedData = params.get("data");
+    if (!encodedData) return;
+
+    const parsed = decodeShareData(encodedData);
+    if (!parsed || !MAJORS[parsed.major]) return;
+
+    setSelectedMajor(parsed.major);
+    setSelectedThreads(parsed.threads);
+    localStorage.setItem(`takenCourses:${parsed.major}`, JSON.stringify(parsed.taken || []));
+    
+    window.history.replaceState({}, "", window.location.pathname);
+  }, []);
+
+  function copyShareLink() {
+    const encoded = encodeShareData(selectedMajor, selectedThreads, takenCourses);
+    const url = `${window.location.origin}${window.location.pathname}?data=${encoded}`;
+    navigator.clipboard.writeText(url);
+    setLinkCopied(true);
+    setTimeout(() => setLinkCopied(false), 2000);
+  }
 
   const majorData = selectedMajor ? MAJORS[selectedMajor] : null;
   const threadSlots = majorData?.threadSlots;
@@ -115,6 +153,7 @@ function App() {
         >
           Change Major
         </button>
+        <button onClick={copyShareLink}>{linkCopied ? "Link Copied!" : "Copy Share Link"}</button>
       </div>
 
       {allThreadsPicked && (
