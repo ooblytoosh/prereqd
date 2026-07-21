@@ -7922,5 +7922,157 @@
         ]
       }
     ]
+  },
+  "Solid Earth and Planetary Sciences": {
+    "totalCredits": 86,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "APPH 1040",
+          "APPH 1050",
+          "APPH 1060"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CS 1301",
+          "CS 1371"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1552"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "INTA 1200",
+          "POL 1101",
+          "HIST 2111",
+          "HIST 2112",
+          "PUBP 3000"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1101"
+      },
+      {
+        "type": "single",
+        "course": "ENGL 1102"
+      },
+      {
+        "type": "pool",
+        "name": "Lab Science",
+        "creditHours": 8,
+        "options": [
+          "CHEM 1211K",
+          "CHEM 1212K",
+          "CHEM 1310",
+          "BIOS 1220",
+          "BIOS 1107",
+          "BIOS 1107L",
+          "BIOS 1108",
+          "BIOS 1108L",
+          "EAS 1600",
+          "EAS 1601",
+          "EAS 2600",
+          "PHYS 1111K",
+          "PHYS 2211",
+          "PHYS 2212"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "MATH 1551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 1553"
+      },
+      {
+        "type": "single",
+        "course": "PHYS 2212"
+      },
+      {
+        "type": "single",
+        "course": "MATH 2551"
+      },
+      {
+        "type": "single",
+        "course": "MATH 2552"
+      },
+      {
+        "type": "single",
+        "course": "EAS 1601"
+      },
+      {
+        "type": "single",
+        "course": "EAS 2600"
+      },
+      {
+        "type": "single",
+        "course": "EAS 2655"
+      },
+      {
+        "type": "single",
+        "course": "EAS 3603"
+      },
+      {
+        "type": "single",
+        "course": "EAS 3610"
+      },
+      {
+        "type": "single",
+        "course": "EAS 4370"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "EAS 4200",
+          "EAS 4205",
+          "EAS 4380"
+        ]
+      },
+      {
+        "type": "single",
+        "course": "EAS 4801"
+      },
+      {
+        "type": "single",
+        "course": "EAS 4610"
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "EAS 4814",
+          "EAS 4420"
+        ]
+      },
+      {
+        "type": "pool",
+        "name": "SEP Technical Electives",
+        "creditHours": 12,
+        "options": [
+          "EAS 4312",
+          "EAS 4314",
+          "EAS 4316",
+          "EAS 4360",
+          "EAS 4375",
+          "EAS 4480",
+          "EAS 4520",
+          "EAS 4651",
+          "EAS 4699",
+          "EAS 4803"
+        ]
+      }
+    ]
   }
 }
