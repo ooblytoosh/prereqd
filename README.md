@@ -1,5 +1,7 @@
 # prereqd
 
+**[Live app →](https://prereqd.vercel.app)**
+
 A visual course-planning tool for Georgia Tech students. Pick your major
 (and threads, if applicable), and see which courses you can
 take right now, which are locked behind prerequisites, and how close you
